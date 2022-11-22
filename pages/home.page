@@ -1,1 +1,79 @@
-<h1>Home</h1>
+<section class="home-hero">
+  <div class="home-hero__row">
+    <div class="home-hero__column">
+      <div></div>
+      <div>
+        <img src="/assets/images/home/hero-L-2.png" alt="">
+      </div>
+    </div>
+    <div class="home-hero__column">
+      <div>
+        <img src="/assets/images/home/hero-L-3.png" alt="">
+      </div>
+      <div>
+        <img src="/assets/images/home/hero-L-4.png" alt="">
+      </div>
+    </div>
+    <div class="home-hero__column home-hero__column--center">
+      <div class="center">
+        <h1 class="red">Building trust through respect, transparency and access to transform organizations and maximize impact</h1>
+        <button type="button" class="button">Talk to us today</button>
+      </div>
+    </div>
+    <div class="home-hero__column">
+      <div>
+        <img src="/assets/images/home/hero-R-3.png" alt="">
+      </div>
+      <div>
+        <img src="/assets/images/home/hero-R-4.png" alt="">
+      </div>
+    </div>
+    <div class="home-hero__column">
+      <div>
+        <img src="/assets/images/home/hero-R-1.png" alt="">
+      </div>
+      <div>
+        <img src="/assets/images/home/hero-R-2.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-solutions">
+  <div class="container">
+    <div class="home-solutions__row">
+      <div>
+        <img src="/assets/images/home/solutions-workforce-success.png" alt="Workforce Success">
+        <h3>Workforce Success</h3>
+        <p>Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
+        <a href="#!">learn more</a>
+      </div>
+      <div>
+        <img src="/assets/images/home/solutions-learning-success.png" alt="Learning Success">
+        <h3>Learning Success</h3>
+        <p>Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
+        <a href="#!">learn more</a>
+      </div>
+      <div>
+        <img src="/assets/images/home/solutions-community-transformation.png" alt="Community Transformation">
+        <h3>Community Transformation</h3>
+        <p>Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
+        <a href="#!">learn more</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-who">
+  <div class="container">
+    <div class="home-who__row">
+      <div>
+        <img src="/assets/images/home/deo-who-we-are.png" alt="Who we are deo mwano">
+      </div>
+      <div>
+        <h2>Who we are</h2>
+        <p>Deo Mwano Consultancy provides sustainable solutions to the complex social issues that affect businesses, schools and nonprofits. DMC helps organizations maximize their reach and impact by providing human-centered solutions, which put our partners in advantageous positions within their appropriate field/market. DMC integrates itself into the client’s organization to better work through the challenges the organization can’t solve.</p>
+      </div>
+    </div>
+  </div>
+</section>

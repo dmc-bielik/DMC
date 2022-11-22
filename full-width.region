@@ -1,3 +1,3 @@
-<main role="main">
+<main role="main" data-content-field="main-content">
 {squarespace.main-content}
 </main>

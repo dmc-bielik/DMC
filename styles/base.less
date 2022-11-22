@@ -29,7 +29,7 @@
 
 // Animation keyframes
 
-.header-anim{
+.header-anim {
   0% {
     opacity: 0;
   }
@@ -40,6 +40,7 @@
     opacity: 1;
   }
 }
+
 @-webkit-keyframes header-anim {
   .header-anim;
 }
@@ -246,8 +247,6 @@ blockquote {
     padding: @sitePadding @sitePadding 0;
     text-align: center;
     margin:0;
-    blockquote {
-    }
   }
 
   blockquote {
@@ -506,6 +505,12 @@ body:not(.has-banner-image),
   h1,
   h2,
   h3 { color: @footerTextColor; }
+}
+
+.container {
+  max-width: 1118px;
+  width: auto;
+  margin: auto;
 }
 
 #page {
@@ -1028,7 +1033,8 @@ li.filter {
     .banner-text-font;
     color: @bannerTextColor;
     margin: 20px auto;
-    -webkit-transform:translatez(0);
+    -webkit-transform: translatez(0);
+    transform: translatez(0);
   }
   p a {
     color: @bannerTextColor;
@@ -1482,7 +1488,6 @@ body:not(.collection-type-gallery).banner-button-corner-style-pill {
     right: @headerVertPadding;
     margin-top: -8px;
     padding: 0;
-    vertical-align: middle;
     line-height: 16px;
     text-align: right;
     cursor: pointer;
@@ -1786,10 +1791,6 @@ body:not(.collection-type-gallery).banner-button-corner-style-pill {
     .sqs-ui-font(heart-2);
     // link color
 
-    &:hover {
-      // link hover color
-    }
-
     &:before {
       margin-right: 0.2em;
       position: relative;
@@ -1815,10 +1816,6 @@ body:not(.collection-type-gallery).banner-button-corner-style-pill {
 
   .sqs-ui-font(share);
   // link color
-
-  &:hover {
-    // link hover color
-  }
 
   &:before {
     margin-right: 0.4em;
@@ -1997,5 +1994,27 @@ html.touch {
   }
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Aleo', monospace;
+  font-weight: 400;
+}
 
+.center {
+  text-align: center;
+}
 
+.red {
+  color: @colorRed;
+}
+
+.button {
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 16px;
+  background-color: @colorRed;
+  border: 1px solid @colorRed;
+  font-weight: 500;
+}
