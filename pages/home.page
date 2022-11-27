@@ -45,19 +45,19 @@
   <div class="container">
     <div class="home-solutions__row">
       <div>
-        <img src="/assets/images/home/solutions-workforce-success.png" alt="Workforce Success">
+        <img src="/assets/images/home/solutions-workforce-success.jpg" alt="Workforce Success">
         <h3>Workforce Success</h3>
         <p class="body-paragraph">Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
         <a href="#!">learn more</a>
       </div>
       <div>
-        <img src="/assets/images/home/solutions-learning-success.png" alt="Learning Success">
+        <img src="/assets/images/home/solutions-learning-success.jpg" alt="Learning Success">
         <h3>Learning Success</h3>
         <p class="body-paragraph">Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
         <a href="#!">learn more</a>
       </div>
       <div>
-        <img src="/assets/images/home/solutions-community-transformation.png" alt="Community Transformation">
+        <img src="/assets/images/home/solutions-community-transformation.jpg" alt="Community Transformation">
         <h3>Community Transformation</h3>
         <p class="body-paragraph">Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
         <a href="#!">learn more</a>
@@ -181,6 +181,95 @@
       <div>
         <h4>Sarah Wraight</h4>
         <p class="body-paragraph">Two Rivers-Ottauquechee Regional Commission, Vermont, Senior Planner</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-action">
+  <span>Deo</span>
+  <span>In</span>
+  <span>Action</span>
+  <img src="/assets/images/home/deo-in-action.png" alt="deo mwano">
+</section>
+
+<section class="home-videos">
+  <div class="container">
+    <div class="home-videos__row">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wF_Zrg3irAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yLiWHy-yZ6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lURYVYU-X_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="home-videos__row">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a5iaSZJSHe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eX3ktD63BuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="center">
+  <div class="container">
+    <button type="button" class="button">Talk to us today</button>
+  </div>
+</section>
+
+<section class="home-team">
+  <div class="container">
+    <div class="home-team__row">
+      <div></div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Deo Mwano</h4>
+          <p>CEO, Founder and Managing Principal</p>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <div class="home-team__row">
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Millicent Alhamis</h4>
+          <p>Program/Project Manager</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Richard Feistman, Ph.D.</h4>
+          <p>Research and Data Analysis</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Andrea Bruneau</h4>
+          <p>Leaning Model and Organization Transformation Consultant</p>
+        </div>
+      </div>
+    </div>
+    <div class="home-team__row">
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Rakesh Khilare</h4>
+          <p>Lead Designer</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Allyson Ryder</h4>
+          <p>Organization Alignment Consultant</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Liam Ouellette</h4>
+          <p>Social Media & Content Strategist</p>
+        </div>
       </div>
     </div>
   </div>

@@ -432,8 +432,8 @@ body:not(.has-banner-image),
 }
 
 #preFooter {
-  background-color: @preFooterBgColor;
-  .font-smoothing(@preFooterBgColor);
+  background-color: @colorRed;
+  .font-smoothing(@colorRed);
 }
 #preFooter {
   color: @preFooterTextColor;
@@ -465,8 +465,8 @@ body:not(.has-banner-image),
 }
 
 #footer {
-  background-color: @footerBgColor;
-  .font-smoothing(@footerBgColor);
+  background-color: @colorRed;
+  .font-smoothing(@colorRed);
   .html-block{
     a,
     a:visited
@@ -505,16 +505,6 @@ body:not(.has-banner-image),
   h1,
   h2,
   h3 { color: @footerTextColor; }
-}
-
-.container {
-  max-width: 1118px;
-  width: auto;
-  margin: auto;
-
-  @media (max-width: 1140px) {
-    padding: 0 3%;
-  }
 }
 
 #page {
@@ -2027,13 +2017,47 @@ h4 {
 
 .heading-2 {
   color: @colorRed;
-  font-size: 40px;
+  font-size: 44px;
   margin-bottom: 20px;
 }
 
 .body-paragraph {
-  font-size: 12px;
+  font-size: 14px;
   color: @colorGrey;
   line-height: 1.8;
   margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  width: auto;
+  margin: auto;
+
+  @media (max-width: 1460px) {
+    padding: 0 3%;
+  }
+}
+
+.header {
+  padding: 44px 0;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-logo {
+    img {
+      width: 210px;
+    }
+  }
+
+  nav {
+    a {
+      padding: 0;
+      color: @colorGrey2;
+      font-size: 16px;
+    }
+  }
 }

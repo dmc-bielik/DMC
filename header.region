@@ -19,16 +19,18 @@
 
       <div class="sqs-cart-dropzone"></div>
 
-      <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
-        <div class="header-inner">
-          {.section website}<div id="{.if logoImageUrl}logoWrapper{.or}siteTitleWrapper{.end}" class="wrapper" data-content-field="site-title">
-            {.section logoImageUrl}
-              <h1 id="logoImage"><a href="/"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a></h1>
-            {.or}
-              <h1 id="siteTitle" class="site-title"><a href="/">{siteTitle}</a></h1>
-            {.end}
-          </div>{.end}<!--
-          --><div class="mobile-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><div class="mobile-nav-toggle fixed-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><!--
-          --><div id="headerNav"><squarespace:navigation navigationId="mainNav" template="navigation" /></div>
+      <header class="header" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
+        <div class="container">
+          <div class="header__row">
+            {.section website}<div id="{.if logoImageUrl}logoWrapper{.or}siteTitleWrapper{.end}" class="wrapper" data-content-field="site-title">
+              {.section logoImageUrl}
+                <a href="/" class="header-logo"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+              {.or}
+                <h1 id="siteTitle" class="site-title"><a href="/">{siteTitle}</a></h1>
+              {.end}
+            </div>{.end}<!--
+            --><div class="mobile-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><div class="mobile-nav-toggle fixed-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><!--
+            --><div><squarespace:navigation navigationId="mainNav" template="navigation" /></div>
+          </div>
         </div>
       </header>
