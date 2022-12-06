@@ -2005,6 +2005,10 @@ h4 {
   color: @colorRed;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .button {
   display: inline-block;
   padding: 10px 30px;
@@ -2013,11 +2017,45 @@ h4 {
   background-color: @colorRed;
   border: 1px solid @colorRed;
   font-weight: 500;
+  transition: all 0.2s;
+
+  &:hover {
+    filter: brightness(1.1);
+  }
+
+  &.button-outline {
+    background-color: transparent;
+    color: @colorRed;
+
+    &:hover {
+      background-color: @colorRed;
+      color: #fff;
+      filter: none;
+    }
+  }
+
+  &.button-outline-white {
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+
+    &:hover {
+      background-color: #fff;
+      color: @colorRed;
+      filter: none;
+    }
+  }
 }
 
 .heading-2 {
   color: @colorRed;
   font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.heading-3 {
+  color: @colorRed;
+  font-size: 38px;
   margin-bottom: 20px;
 }
 

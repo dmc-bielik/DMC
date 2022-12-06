@@ -4,3 +4,186 @@
   </div>
 </section>
 
+<section class="ws-fortune">
+  <div class="container">
+    <div class="ws-fortune__row">
+      <div>
+        <h4 class="uppercase">Fortune 500, Small Businesses, Start-ups, Chambers of Commerces</h4>
+      </div>
+      <div>
+        <p class="body-paragraph">DMC helps businesses with policies, strategies and resources to recruit and retain diverse talent and create a positive and inclusive work culture.</p>
+        <a href="#!" class="button button-outline">Talk to us today</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ws-model">
+  <div class="container">
+    <div class="ws-model__row">
+      <img src="/assets/images/workforce-success/people-centered-model.png" alt="">
+      <p>DMC’s<br>people-centered model is adaptable to virtually any industry. We have proven results with</p>
+    </div>
+    <div class="ws-model__cards">
+      <span>Property Management Companies</span>
+      <span>Banks</span>
+      <span>Real Estate Firms</span>
+      <span>Tech Startups</span>
+      <span>Healthcare</span>
+      <span>Educational Organisations</span>
+    </div>
+  </div>
+</section>
+
+<section class="ws-relationship">
+  <div class="container">
+    <div class="ws-relationship__content">
+      <p class="body-paragraph">Authentic relationship-building is at the heart of the work we do. We develop trust and honesty with employees to get to the root of issues and we include them in the design of solutions. DMC is an agile and responsive company with a track record that has produced better results for the clients that have also worked with major consulting firms.</p>
+      <a href="#!" class="button button-outline-white">Talk to us today</a>
+      <img src="/assets/images/workforce-success/deo-team-sofa.png" alt="" class="ws-relationship__content--img-1">
+      <img src="/assets/images/workforce-success/deo-talk.png" alt="" class="ws-relationship__content--img-2">
+    </div>
+  </div>
+</section>
+
+<section class="ws-strategies">
+  <div class="container">
+    <div class="ws-strategies__row">
+      <div>
+        <h2 class="heading-3">Design strategies and implementation tools to</h2>
+        <ul>
+          <li>Train and coach leaders to improve organizational climate and culture</li>
+          <li>Strengthen relationships between employees at all levels of a company with transparency and accessibility</li>
+          <li>Customize successful DEI policies, processes and competencies</li>
+          <li>Recruit and retain diverse employees with a supportive environment that celebrates differences and embraces unique identities</li>
+          <li>Increase social and emotional leadership skills to inspire and unify all employees with a shared vision</li>
+          <li>Integrate DEI into a company’s strategic goals with measurable outcomes</li>
+          <li>Assess organizational culture for baseline understanding of where a company is doing well and where they have gaps to improve</li>
+        </ul>
+      </div>
+      <div>
+        <img src="/assets/images/workforce-success/deo-speaker-2.jpg" alt="" width="330px">
+        <img src="/assets/images/workforce-success/strategies-gradient-1.jpg" alt=""width="120px">
+        <img src="/assets/images/workforce-success/deo-talk.jpg" alt="">
+        <img src="/assets/images/workforce-success/deo-speaker.jpg" alt="">
+        <img src="/assets/images/workforce-success/strategies-gradient-2.png" alt="" width="120px">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ws-who">
+  <div class="container">
+    <div class="ws-who__row">
+      <div>
+        <div>
+          <h2>Who we work with</h2>
+          <p class="body-paragraph">CEO, COO, Chief of Staff, VP of HR, VP of DEIJ, VP of People, Director of Culture and Climate, Director of Learning and Development, Director of Recruitment and Retention</p>
+          <img src="/assets/images/workforce-success/strategies-gradient-2.png" alt="" width="120px">
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/workforce-success/deo-work.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ws-clients">
+  <div class="container">
+    <div class="ws-clients__images">
+      <img src="/assets/images/clients/the-peabody-companies.png" alt="the peabody companies" width="120px">
+      <img src="/assets/images/clients/pinnacle-mortgage.png" alt="pinnacle mortgage" width="134px">
+      <img src="/assets/images/clients/greater-concord-chamber-of-commerce.png" alt="greater concord chamber of commerce" width="123px">
+      <img src="/assets/images/clients/new-hampshire-housing.png" alt="new hampshire housing" width="156px">
+      <img src="/assets/images/clients/co-op-food-stores.png" alt="co-op food stores" width="107px">
+      <img src="/assets/images/clients/capitol-center.png" alt="capitol center" width="121px">
+      <img src="/assets/images/clients/concord-hospital.png" alt="concord hospital" width="160px">
+      <img src="/assets/images/clients/waypoint.png" alt="waypoint" width="140px">
+      <img src="/assets/images/clients/dartmouth-1.png" alt="dartmouth" width="185px">
+      <img src="/assets/images/clients/delta-dental.png" alt="delta dental" width="165px">
+      <img src="/assets/images/clients/enterprise-bank.png" alt="enterprise bank" width="189px">
+    </div>
+  </div>
+</section>
+
+<section class="ws-partners">
+  <div class="container">
+    <h2 class="heading-3 uppercase center red">Current/Recent Partners</h2>
+  </div>
+  <div class="ws-partners__section">
+    <div class="container">
+      <div class="ws-partners__content">
+        <h3 class="heading-3">Dartmouth College Campus Services Division</h3>
+        <p class="body-paragraph">DMC has a multi-year partnership to help transform the culture of the largest division at Dartmouth College, with 550 employees and a $500 million annual operations budget. The engagement includes a climate assessment, strategy development, and new communication tools. DMC has worked to build trust and increase engagement from all employees covering different shifts and departments. DMC helped the division establish a structure to maintain and sustain the work by guiding the leadership team to invest for the long term with new approaches and inaugural positions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ws-engagements">
+  <div class="container">
+    <div class="ws-engagements__circles">
+      <div>DMC’s engagements are often 6 to 12 months or multi year partnerships</div>
+      <div></div>
+      <div>
+        <img src="/assets/images/workforce-success/deo-engagement-speaker.png" alt="deo">
+      </div>
+    </div>
+    <img src="/assets/images/workforce-success/deo-audience.png" alt="deo audience" class="ws-engagements__audience">
+  </div>
+</section>
+
+<section class="ws-reviews center">
+  <div class="container">
+    <div class="ws-reviews__cards">
+      <div>
+        <p class="body-paragraph">"It was a pleasure working with Deo Mwano. He has a true talent for group engagement and facilitating challenging discussions in a positive manner. It is clear that he is passionate about his work, and that passion is both inspiring and contagious. Deo helped to create a firm foundation on which our organization can build."</p>
+        <p class="ws-reviews__cards--meta body-paragraph">
+          <strong>Timothy G. Sink</strong>
+          <br>
+          <span>CCE, President Greater Concord Chamber of Commerce</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph">"He is an inspirational, engaging, and relatable advisor who ignites diverse audiences with his work. His expertise in helping people understand what impacts their behaviors and ability to work with diverse demographic groups make him the ideal individual to fill this new and important role within our organization; the entire Peabody team welcomes Deo."</p>
+        <p class="ws-reviews__cards--meta body-paragraph">
+          <strong>Karen Fish-Will</strong>
+          <br>
+          <span>CEO and principal of the Peabody Companies</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-team ws-team">
+  <div class="container">
+    <div class="center">
+      <a href="#!" class="button button-outline">Talk to us today</a>
+    </div>
+    <div class="home-team__row">
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Millicent Alhamis</h4>
+          <p>Program/Project Manager</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Richard Feistman, Ph.D. </h4>
+          <p>Research and Data Analysis</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Andrea Bruneau</h4>
+          <p>Leaning Model and Organization Transformation Consultant</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,9 +1,379 @@
 .ws {
   &-hero {
-    margin: 100px 0;
+    margin: 10px 0 100px;
 
     img {
+      width: 100%;
       border-radius: 13px;
+    }
+  }
+
+  &-fortune {
+    &__row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      h4 {
+        font-size: 26px;
+        max-width: 260px;
+        line-height: 1.4;
+        color: @colorRed;
+      }
+
+      p {
+        max-width: 410px;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+
+      & > div {
+        padding: 100px;
+        flex: 1;
+      }
+    }
+  }
+
+  &-model {
+    margin-bottom: 100px;
+
+    &__row {
+      display: flex;
+      align-items: flex-end;
+
+      img,
+      p {
+        display: inline-block;
+        margin: 0 25px;
+      }
+
+      img {
+        width: 55%;
+      }
+
+      p {
+        font-size: 42px;
+        font-weight: 700;
+        background-image: url('/assets/images/workforce-success/model-gradient.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 1.2;
+        margin-bottom: 30px;
+      }
+    }
+
+    &__cards {
+      display: flex;
+      align-items: stretch;
+      margin: 30px -8px;
+
+      span {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 170px;
+        background-color: @colorLightGrey;
+        padding: 22px;
+        border-radius: 13px;
+        margin: 8px;
+        width: 16.66%;
+      }
+    }
+  }
+
+  &-relationship {
+    margin-bottom: 100px;
+
+    &__content {
+      position: relative;
+      border-radius: 13px;
+      text-align: center;
+      padding: 100px 0 200px;
+      background-image: url('/assets/images/workforce-success/relationship-gradient.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .font-smoothing(#E38143);
+
+      p {
+        color: #fff;
+        font-size: 18px;
+        max-width: 680px;
+        margin: 0 auto 50px;
+      }
+
+      img {
+        position: absolute;
+        bottom: 0;
+      }
+
+      &--img-1 {
+        left: 0;
+        height: 70%;
+      }
+
+      &--img-2 {
+        right: 0;
+        height: 80%;
+      }
+    }
+  }
+
+  &-strategies {
+    h2 {
+      text-transform: uppercase;
+    }
+
+    &__row {
+      display: flex;
+      justify-content: space-between;
+
+      & > div {
+        &:first-child {
+          max-width: 55%;
+        }
+
+        &:last-child {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          max-width: 40%;
+
+          img {
+            margin: 15px;
+
+            &:nth-child(1) {
+              margin: 15px 100px;
+            }
+
+            &:nth-child(2) {
+              align-self: flex-start;
+            }
+
+            &:nth-child(3) {
+              margin-top: 30px;
+            }
+
+            &:nth-child(4) {
+              margin-top: 25px;
+            }
+
+            &:nth-child(5) {
+              align-self: flex-start;
+            }
+          }
+        }
+
+        ul {
+          margin-top: 50px;
+
+          li {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  &-who {
+    margin: 200px 0;
+
+    &__row {
+      display: flex;
+      margin: 0 -10px;
+
+      & > div {
+        flex: 1;
+        width: 50%;
+        margin: 0 10px;
+
+        &:first-child {
+          & > div {
+            position: relative;
+            background: linear-gradient(124.87deg, #E38143 3.96%, #0189C1 97.83%);
+            border-radius: 13px;
+            padding: 70px 50px;
+            max-width: 60%;
+            .font-smoothing(#E38143);
+            height: calc(~"100% - 140px");
+
+            h2 {
+              color: #fff;
+              font-family: @fontPoppins;
+              font-weight: 700;
+              font-size: 28px;
+            }
+
+            p {
+              color: #fff;
+              font-size: 16px;
+            }
+
+            img {
+              position: absolute;
+              bottom: -80px;
+              right: -80px;
+              transform: rotate(180deg);
+            }
+          }
+        }
+
+        &:last-child {
+          img {
+            border-radius: 13px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+
+  &-clients  {
+    padding-bottom: 150px;
+
+    &__images {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 900px;
+      margin: auto;
+
+      img {
+        margin: 20px 30px;
+      }
+    }
+  }
+
+  &-partners {
+    h2 {
+      margin-bottom: 50px;
+    }
+
+    &__section {
+      min-height: 600px;
+      height: 100vh;
+      background-image: url('/assets/images/workforce-success/dartmouth-college.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &__content {
+      background-color: #fff;
+      padding: 50px 100px 50px 50px;
+      border-radius: 0 0 13px 13px;
+      max-width: calc(~"50% - 150px");
+
+      h3 {
+        font-size: 34px;
+      }
+    }
+  }
+
+  &-engagements {
+    position: relative;
+    height: 100vh;
+    min-height: 1000px;
+
+    &__circles {
+      position: relative;
+
+      & > div {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-image: url('/assets/images/workforce-success/engagements-gradient.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        font-family: @fontAleo;
+        font-size: 40px;
+        line-height: 1.2;
+
+        &:nth-child(1) {
+          height: 400px;
+          width: 400px;
+          top: 100px;
+          left: calc(~"50% - 600px");
+          padding: 50px;
+        }
+        
+        &:nth-child(2) {
+          height: 250px;
+          width: 250px;
+          top: 100px;
+          left: calc(~"50% + 100px");
+          transform: rotate(130deg);
+        }
+        
+        &:nth-child(3) {
+          height: 400px;
+          width: 400px;
+          top: 500px;
+          left: calc(~"50% + 100px");
+
+          img {
+            width: 80%;
+          }
+        }
+      }
+    }
+
+    &__audience {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+    }
+  }
+
+  &-reviews {
+    background-image: url('/assets/images/workforce-success/reviews-gradient-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0;
+
+    &__cards {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      margin: 0 -10px;
+      
+      & > div {
+        background-color: #fff;
+        margin: 0 10px;
+        padding: 50px;
+        border-radius: 13px;
+      }
+
+      &--meta {
+        margin-top: 50px;
+
+        span {
+          font-size: 12px;
+          color: @colorGrey;
+        }
+      }
+    }
+  }
+
+  &-team {
+    margin: 150px 0;
+    
+    .home-team__row {
+      margin-top: 70px;
     }
   }
 }
