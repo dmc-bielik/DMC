@@ -24,13 +24,31 @@
       <img src="/assets/images/workforce-success/people-centered-model.png" alt="">
       <p>DMC’s<br>people-centered model is adaptable to virtually any industry. We have proven results with</p>
     </div>
-    <div class="ws-model__cards">
-      <span>Property Management Companies</span>
-      <span>Banks</span>
-      <span>Real Estate Firms</span>
-      <span>Tech Startups</span>
-      <span>Healthcare</span>
-      <span>Educational Organisations</span>
+    <div class="ws-model__cards center">
+      <span>
+        <img src="/assets/images/workforce-success/property.svg" alt="">
+        <span>Property Management Companies</span>
+      </span>
+      <span>
+        <img src="/assets/images/workforce-success/banks.svg" alt="">
+        <span>Banks</span>
+      </span>
+      <span>
+        <img src="/assets/images/workforce-success/real-estate-firms.svg" alt="">
+        <span>Real Estate Firms</span>
+      </span>
+      <span>
+        <img src="/assets/images/workforce-success/tech-startups.svg" alt="">
+        <span>Tech Startups</span>
+      </span>
+      <span>
+        <img src="/assets/images/workforce-success/healthcare.svg" alt="">
+        <span>Healthcare</span>
+      </span>
+      <span>
+        <img src="/assets/images/workforce-success/education.svg" alt="">
+        <span>Educational Organisations</span>
+      </span>
     </div>
   </div>
 </section>
@@ -83,7 +101,7 @@
         </div>
       </div>
       <div>
-        <img src="/assets/images/workforce-success/deo-work.jpg" alt="">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tXzF_E7FsHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>

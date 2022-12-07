@@ -1,6 +1,6 @@
 .ws {
   &-hero {
-    margin: 10px 0 100px;
+    margin: 10px 0 50px;
 
     img {
       width: 100%;
@@ -71,16 +71,22 @@
       align-items: stretch;
       margin: 30px -8px;
 
-      span {
+      & > span {
         display: flex;
-        align-items: flex-end;
-        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
         height: 170px;
         background-color: @colorLightGrey;
         padding: 22px;
         border-radius: 13px;
         margin: 8px;
         width: 16.66%;
+
+        img {
+          max-width: 70px;
+          max-height: 70px;
+        }
       }
     }
   }
@@ -225,7 +231,7 @@
         }
 
         &:last-child {
-          img {
+          iframe {
             border-radius: 13px;
             overflow: hidden;
           }
