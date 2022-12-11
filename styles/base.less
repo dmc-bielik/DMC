@@ -1997,6 +1997,17 @@ h4 {
   letter-spacing: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
+ul {
+  li {
+    line-height: 1.8;
+    margin-bottom: 0.5em;
+  }
+}
+
 .center {
   text-align: center;
 }
@@ -2047,16 +2058,29 @@ h4 {
   }
 }
 
-.heading-2 {
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4 {
   color: @colorRed;
-  font-size: 44px;
   margin-bottom: 20px;
+  font-family: @fontAleo;
+}
+
+.heading-1 {
+  font-size: 60px;
+}
+
+.heading-2 {
+  font-size: 44px;
 }
 
 .heading-3 {
-  color: @colorRed;
   font-size: 38px;
-  margin-bottom: 20px;
+}
+
+.heading-4 {
+  font-size: 32px;
 }
 
 .body-paragraph {

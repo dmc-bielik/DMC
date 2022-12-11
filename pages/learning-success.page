@@ -1,0 +1,245 @@
+<section class="ls-hero">
+  <div class="container">
+    <img src="/assets/images/learning-success/deo-hero-learning-success.jpg" alt="">
+  </div>
+</section>
+
+<section class="ls-title center">
+  <div class="container">
+    <p class="heading-3 uppercase">Ivy League Universities, Community Colleges, K-12 School, Boarding Schools, and School Boards</p>
+    <a href="#!" class="button button-outline">Talk to us today</a>
+  </div>
+</section>
+
+<section class="ls-strategies">
+  <div class="container">
+    <div class="ls-strategies__row">
+      <div>
+        <h2 class="heading-4 uppercase">Design strategies and implementation tools to</h2>
+        <ul>
+          <li>Improving school climate and culture in order to increase positive experience for all students</li>
+          <li>Unique student success competencies with policies and processes supported by school boards, school administrators, teachers and parents</li>
+          <li>Strengthening relationships between schools and parents</li>
+          <li>Strengthening relationships between historically marginalized communities and school officials</li>
+          <li>Integrating social and emotional learning in teaching and technology.</li>
+          <li>Improving learning outcomes for historically marginalized students with an approach designed to reflect the learner’s experience</li>
+        </ul>
+      </div>
+      <div class="ls-strategies__blocks">
+        <div>
+          <div></div>
+          <div>
+            <img src="/assets/images/learning-success/deo-school-1.jpg" alt="">
+          </div>
+          <div>
+            <img src="/assets/images/learning-success/deo-school-3.jpg" alt="">
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="/assets/images/learning-success/deo-school-2.jpg" alt="">
+          </div>
+          <div>
+            <span></span>
+            <img src="/assets/images/learning-success/deo-school-4.jpg" alt="">
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ls-k12">
+  <div class="container ls-container">
+    <h2 class="heading-2">K12</h2>
+    <div class="ls-k12__row">
+      <div class="ls-k12__row--1">
+        <p class="body-paragraph">Public School, Boarding School, Virtual Schools, Private School</p>
+      </div>
+      <div class="ls-k12__row--2">
+        <img src="/assets/images/learning-success/deo-k12-1.jpg" alt="">
+      </div>
+    </div>
+    <div class="ls-k12__row">
+      <div class="ls-k12__row--2">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-cW316cYXuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="ls-k12__row--1">
+        <p class="heading-4">We bring students, parents and community partners together to co-design just, accessible and inclusive solutions that drive positive results.</p>
+      </div>
+    </div>
+    <div class="ls-k12__row">
+      <div class="ls-k12__row--1">
+        <p class="body-paragraph"><strong>Who we work with</strong></p>
+        <p class="body-paragraph">Superintendent, School Board, School Principal, Department Leaders, School Council Group, Parent Groups, DEIJ Director, ESL Director, Director of Curriculum, Dean of Student Experience</p>
+      </div>
+      <div class="ls-k12__row--2">
+        <img src="/assets/images/learning-success/deo-k12-2.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ws-clients">
+  <div class="container">
+    <div class="ws-clients__images">
+      <img src="/assets/images/clients/phillips-exeter-academy-2.png" alt="phillips exeter academy" width="142px">
+      <img src="/assets/images/clients/new-hampton-school.png" alt="new hampton school" width="122px">
+      <img src="/assets/images/clients/new-hampshire-department-of-education.png" alt="new hampshire department of education" width="173px">
+      <img src="/assets/images/clients/lebanon-school-district.png" alt="lebanon school district" width="113px">
+      <img src="/assets/images/clients/manchester-memorial-high-school.png" alt="manchester memorial high school" width="75px">
+      <img src="/assets/images/clients/northfield-mount-hermon-2.png" alt="northfield mount hermon" width="90px">
+      <img src="/assets/images/clients/raymond-school-district.png" alt="raymond school district" width="157px">
+      <img src="/assets/images/clients/derryfield-school.png" alt="derryfield school" width="69px">
+      <img src="/assets/images/clients/pittsburgh-public-schools.png" alt="pittsburgh public schools" width="147px">
+      <img src="/assets/images/clients/sau56.png" alt="sau56" width="97px">
+      <img src="/assets/images/clients/tucson-unified.png" alt="tucson unified" width="150px">
+      <img src="/assets/images/clients/dover-high-school.png" alt="dover high school" width="90px">
+    </div>
+  </div>
+</section>
+
+<section class="ls-k12">
+  <div class="container ls-container">
+    <h2 class="heading-2 center uppercase">Colleges and Universities</h2>
+    <div class="ls-k12__row">
+      <div class="ls-k12__row--1">
+        <p class="body-paragraph">Community College, Ivy Leagues, Online Schools</p>
+      </div>
+      <div class="ls-k12__row--2">
+        <img src="/assets/images/learning-success/deo-colleges-1.jpg" alt="">
+      </div>
+    </div>
+    <div class="ls-k12__row">
+      <div class="ls-k12__row--2">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kUFadVsi0sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="ls-k12__row--1">
+        <p class="heading-4">DMC’s work helps administrators better understand the root cause preventing students from maximizing their learning engagement and the negative influences impacting retention.</p>
+      </div>
+    </div>
+    <div class="ls-k12__row">
+      <div class="ls-k12__row--1">
+        <p class="body-paragraph"><strong>Who we work with</strong></p>
+        <p class="body-paragraph">Dean of Students, VP of First Year Student, Director of Student Engagement, Director of Student Success, VP of DEIJ, Director of Learning Success, Director of Student Support, VP of Career Services</p>
+      </div>
+      <div class="ls-k12__row--2">
+        <img src="/assets/images/learning-success/deo-colleges-2.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ws-clients">
+  <div class="container">
+    <div class="ws-clients__images">
+      <img src="/assets/images/clients/southern-new-hampshire-university.png" alt="southern new hampshire university" width="142px">
+      <img src="/assets/images/clients/clark-university.png" alt="clark university" width="122px">
+      <img src="/assets/images/clients/yale-university.png" alt="yale university" width="146px">
+      <img src="/assets/images/clients/indiana-university.png" alt="indiana university" width="154px">
+      <img src="/assets/images/clients/dartmouth-1.png" alt="dartmouth" width="152px">
+      <img src="/assets/images/clients/penn-state.png" alt="penn state" width="117px">
+      <img src="/assets/images/clients/antioch-university.png" alt="antioch university" width="147px">
+      <img src="/assets/images/clients/university-of-new-hampshire.png" alt="university of new hampshire" width="85px">
+      <img src="/assets/images/clients/alcorn-state-university.png" alt="alcorn state university" width="88px">
+    </div>
+  </div>
+</section>
+
+<section class="ws-partners ls-partners">
+  <div class="container">
+    <h2 class="heading-3 uppercase center red">Current/Recent Partners</h2>
+  </div>
+  <div class="ws-partners__section ls-partners__section">
+    <div class="container">
+      <div class="ws-partners__content ls-partners__content">
+        <p class="body-paragraph">DMC has worked with the Lebanon School District, developing strategies on culture and climate through a DEI lens. After working with different stakeholders within the community, including students, teachers, parent groups, and administrators, DMC has provided guidance and direction for a 3 year strategic plan. Informed by a thorough assessment of community feedback, DMC has also provided consultation to the superintendent, Director of Curriculum and Student Learning as well as school leaders.</p>
+        <h3 class="heading-3">Lebanon School District,<br>Lebanon, NH</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ls-engagements center">
+  <div class="container">
+    <h2>DMC’s engagements are often 6 to 12 months or multi year partnerships</h2>
+  </div>
+  <span class="ls-engagements__visuals--1"></span>
+  <span class="ls-engagements__visuals--2"></span>
+  <span class="ls-engagements__visuals--3"></span>
+  <span class="ls-engagements__visuals--4"></span>
+  <span class="ls-engagements__visuals--5"></span>
+  <img src="/assets/images/learning-success/deo-teaching.png" class="ls-engagements__visuals--6" alt="">
+  <img src="/assets/images/learning-success/deo-students.png" class="ls-engagements__visuals--7" alt="">
+</section>
+
+<section class="ws-reviews ls-reviews center">
+  <div class="container">
+    <div class="ws-reviews__cards ls-reviews__cards">
+      <div>
+        <p class="body-paragraph ls-reviews__cards--review">"Deo brought an informative, high energy, and inspirational workshop to students during a critical time. We asked for an opportunity for students to learn more, reflect on their own experiences, and identify what they can do to positively impact the culture in their school. Deo did a great job and really engaged students."</p>
+        <p class="ws-reviews__cards--meta ls-reviews__cards--meta body-paragraph">
+          <strong>Michele Holt-Shannon</strong>
+          <br>
+          <span>Director of New Hampshire Listens, University of New Hampshire Carsey Center</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph ls-reviews__cards--review">"Deo worked with NH HOBY to facilitate a piece of our program where we work to introduce the topic of privilege to high-school sophomores, young leaders from the state of NH. After many years of not feeling like we hit the point home, we were so happy that Deo did this year. His energy, story and ability to engage was unparalleled to any of our internal resources and we were so glad to have brought him in to speak at our seminar."</p>
+        <p class="ws-reviews__cards--meta ls-reviews__cards--meta body-paragraph">
+          <strong>Kate Aiken</strong>
+          <br>
+          <span>Former Director of Program of HOBY NH</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph ls-reviews__cards--review">"Having Deo (Shaq & Martin, too) at NMH School was an amazing experience for our students and faculty. We appreciated hearing his personal story in the keynote address, as Deo raised important questions about identity, belonging, and living well in community together. Most impressive was his music & dance workshop with about 60 students; he was fired up; Deo was fired up, got them fired up, and a number of kids commented that it was the best workshop they had ever attended. Simply put, it was an awesome afternoon and we are thrilled Deo was able to share his talents with NMH School."</p>
+        <p class="ws-reviews__cards--meta ls-reviews__cards--meta body-paragraph">
+          <strong>Timothy G. Sink, CCE</strong>
+          <br>
+          <span>President Greater Concord Chamber of Commerce</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph ls-reviews__cards--review">"Deo Mwano has a magic of goodness. I think it comes from having such a powerful and generous heart. His energy inspires. The vitality that he brings to students, and what he gave to me as a colleague, generates tremendous goodwill and insight. He summons up and frees the creative spirit. That kind of innovation and connection is rare. Deo is himself a special source of light and a talented guide."</p>
+        <p class="ws-reviews__cards--meta ls-reviews__cards--meta body-paragraph">
+          <strong>RG Richards</strong>
+          <br>
+          <span>Phillips Exeter Academy Chair, Theatre Instructor</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-team ws-team">
+  <div class="container">
+    <div class="center">
+      <a href="#!" class="button button-outline">Talk to us today</a>
+    </div>
+    <div class="home-team__row">
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Millicent Alhamis</h4>
+          <p>Program/Project Manager</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Richard Feistman, Ph.D. </h4>
+          <p>Research and Data Analysis</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Andrea Bruneau</h4>
+          <p>Leaning Model and Organization Transformation Consultant</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
