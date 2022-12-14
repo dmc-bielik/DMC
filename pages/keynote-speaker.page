@@ -1,5 +1,111 @@
 <section class="ks-hero">
   <div class="container">
-    <h1>Keynote Speaker</h1>
+    <div class="ks-hero__banner">
+      <h1 class="heading-2">Keynote<br>Speaker</h1>
+    </div>
+    <div class="ks-hero__content center">
+      <p class="red">Deo Mwano is a captivating speaker with a compelling personal story as well as expertise in business, community-building and DEI.</p>
+      <a href="#!" class="button">Book Deo Today</a>
+    </div>
+  </div>
+</section>
+
+<section class="ks-story">
+  <div class="container">
+    <h2 class="uppercase center heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the US as a refugee.</h2>
+  </div>
+</section>
+
+<section class="ks-family">
+  <div class="container">
+    <div class="ks-family__content">
+      <div>
+        <p class="body-paragraph">His family history has been featured on Dancing with Stars, Tedx, The Moth, and Q Idea. Today he is a sought after presenter for conferences, expos, conventions and fundraisers with compelling messages for a variety of industries including banking, tech, healthcare, real estate, k-12 schools, universities and community colleges.</p>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H6tJ8xFt3TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ks-presentations">
+  <div class="container">
+    <p class="body-paragraph">Mwano’s presentations are inspiring, educational, thought-provoking and ignite action. He uses his performing background to keep audiences engaged and participating. His ice breakers are famous for getting everyone moving.</p>
+  </div>
+  <img src="/assets/images/keynote-speaker/deo-presentations.png" alt="">
+</section>
+
+<section class="ks-family">
+  <div class="container">
+    <div class="ks-family__content">
+      <div>
+        <p class="body-paragraph">His family history has been featured on Dancing with Stars, Tedx, The Moth, and Q Idea. Today he is a sought after presenter for conferences, expos, conventions and fundraisers with compelling messages for a variety of industries including banking, tech, healthcare, real estate, k-12 schools, universities and community colleges.</p>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wF_Zrg3irAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ks-presentation">
+  <span></span>
+  <span class="center">
+    <span>Mwano works closely with clients to design outstanding keynote presentation or workshops, aligning with conference, event or organizational messaging and themes.</span>
+  </span>
+  <img src="/assets/images/keynote-speaker/deo-stage-presentation.png" alt="">
+</section>
+
+<section class="ks-partners center">
+  <div class="container">
+    <h2 class="uppercase heading-4">Recent Partners</h2>
+    <p>Tuscan EDI conference, YALE African Student Conference, WISPAPALOOZA, Kelly Williams Metropolitan, Pinnacle Mortgage, Enterprise Bank, Penn State Student leadership, Concord Hospital Family Health Center.</p>
+    <a href="#!" class="button">Talk to DMC today</a>
+  </div>
+</section>
+
+<section class="ws-reviews ks-reviews center">
+  <div class="container">
+    <div class="ws-reviews__cards ks-reviews__cards">
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"When I served as president of the New England Chapter of the American Dance Therapy Association (NEADTA), we had the honor of hosting Deo Mwano as keynote speaker at our 2019 conference, "Dancing Along the Continuum: Dance/Movement Therapy and Social Action." Deo started our conference on the literal and figurative right foot with his engaging presentation, "Ignite Your Creativity and Trust the Process." Through movement and words, Deo shared his experiences with teaching dance in various communities and publicly telling his story as a refugee. Deo demonstrated the transformative power of dance as a communicative art form, and highlighted the importance of openness and trust throughout the creative process."</p>
+        <p class="ws-reviews__cards--meta body-paragraph">
+          <strong>Leah Mauren</strong>
+          <br>
+          <span>Former President of the New England Association of Dance Therapist</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"As a room of dance/movement therapists, many of us were accustomed to seeing clients in a clinical setting with the hope of meeting clients where they are in dance and movement, and supporting them in moving toward their goals without owning the outcome. Deo's work in the community very much parallels ours, and his emphasis on being open and transparent about shifts in leaders' ideas about the creative process allowed space for participants to consider ways to increase collaboration and creativity in the therapeutic process, as well as ways to expand the work beyond the walls of the therapy setting. Deo's presentation was a wonderful reminder of the importance of working from an embodied relationship with self as well as the infinite possibilities available when we lean into creativity and move in embodied relationships with the people we serve."</p>
+        <p class="ws-reviews__cards--meta body-paragraph">
+          <strong>Leah Brett</strong>
+          <br>
+          <span>LMHC, BC-DMT</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-team ks-team">
+  <div class="container">
+    <div class="home-team__row ks-team__row">
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Millicent Alhamis</h4>
+          <p>Program/Project Manager</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Richard Feistman, Ph.D. </h4>
+          <p>Research and Data Analysis</p>
+        </div>
+      </div>
+      </div>
+    </div>
   </div>
 </section>
