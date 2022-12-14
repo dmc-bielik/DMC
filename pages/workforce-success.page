@@ -156,7 +156,7 @@
   <div class="container">
     <div class="ws-reviews__cards">
       <div>
-        <p class="body-paragraph">"It was a pleasure working with Deo Mwano. He has a true talent for group engagement and facilitating challenging discussions in a positive manner. It is clear that he is passionate about his work, and that passion is both inspiring and contagious. Deo helped to create a firm foundation on which our organization can build."</p>
+        <p class="body-paragraph ws-reviews__cards--review">"It was a pleasure working with Deo Mwano. He has a true talent for group engagement and facilitating challenging discussions in a positive manner. It is clear that he is passionate about his work, and that passion is both inspiring and contagious. Deo helped to create a firm foundation on which our organization can build."</p>
         <p class="ws-reviews__cards--meta body-paragraph">
           <strong>Timothy G. Sink</strong>
           <br>
@@ -164,7 +164,7 @@
         </p>
       </div>
       <div>
-        <p class="body-paragraph">"He is an inspirational, engaging, and relatable advisor who ignites diverse audiences with his work. His expertise in helping people understand what impacts their behaviors and ability to work with diverse demographic groups make him the ideal individual to fill this new and important role within our organization; the entire Peabody team welcomes Deo."</p>
+        <p class="body-paragraph ws-reviews__cards--review">"He is an inspirational, engaging, and relatable advisor who ignites diverse audiences with his work. His expertise in helping people understand what impacts their behaviors and ability to work with diverse demographic groups make him the ideal individual to fill this new and important role within our organization; the entire Peabody team welcomes Deo."</p>
         <p class="ws-reviews__cards--meta body-paragraph">
           <strong>Karen Fish-Will</strong>
           <br>

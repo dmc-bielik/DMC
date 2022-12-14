@@ -356,6 +356,8 @@
       margin: 0 -10px;
       
       & > div {
+        position: relative;
+        flex: 1;
         background-color: #fff;
         margin: 0 10px;
         padding: 50px;
@@ -363,12 +365,19 @@
       }
 
       &--meta {
-        margin-top: 50px;
+        position: absolute;
+        top: calc(~"100% - 130px");
+        left: 30px;
+        right: 30px;
 
         span {
           font-size: 12px;
           color: @colorGrey;
         }
+      }
+
+      &--review {
+        padding-bottom: 75px;
       }
     }
   }

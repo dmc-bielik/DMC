@@ -1,5 +1,187 @@
 <section class="ct-hero">
   <div class="container">
-    <h1 class="heading-1 uppercase">Community Transformation</h1>
+    <div class="ct-hero__images">
+      <img src="/assets/images/community-transformation/community-transformation-1.jpg" alt="">
+      <img src="/assets/images/community-transformation/community-transformation-2.jpg" alt="">
+    </div>
+    <h1 class="heading-1 uppercase center">Community<br>Transformation</h1>
+    <div class="ct-hero__images">
+      <img src="/assets/images/community-transformation/community-transformation-3.jpg" alt="">
+      <img src="/assets/images/community-transformation/community-transformation-4.jpg" alt="">
+      <img src="/assets/images/community-transformation/community-transformation-5.jpg" alt="">
+      <img src="/assets/images/community-transformation/community-transformation-6.jpg" alt="">
+      <img src="/assets/images/community-transformation/community-transformation-7.jpg" alt="">
+    </div>
+    <div class="center ct-hero__cta">
+      <a href="#!" class="button">Talk to us today</a>
+    </div>
+  </div>
+</section>
+
+<section class="ct-community">
+  <div class="container ls-container">
+    <h2 class="uppercase center red heading-4">Non-profit Organizations, City & Towns, Foundations,<br>and Co-ops</h2>
+    <div class="ct-community__row">
+      <div>
+        <p class="body-paragraph">DMC identifies issues at the heart of an organization’s challenges and develops strategies to address them. The solutions help transform organizations’ priorities, policies and programing.</p>
+      </div>
+      <div>
+        <img src="/assets/images/community-transformation/deo-non-profits-1.jpg" alt="">
+      </div>
+      <div>
+        <img src="/assets/images/community-transformation/deo-non-profits-2.jpg" alt="">
+      </div>
+    </div>
+    <div class="ct-community__row">
+      <div>
+        <img src="/assets/images/community-transformation/deo-non-profits-3.jpg" alt="">
+      </div>
+      <div>
+        <p class="body-paragraph">Our work is grounded in helping organizations bring their missions to life and maximize their positive impact. DMC helps organizations build stronger relationships internally and externally, to create a more unified community that includes people with diverse backgrounds and identities.</p>
+      </div>
+    </div>
+    <div class="ct-community__row">
+      <div>
+        <h2 class="uppercase heading-4">Design strategies and implementation tools to</h2>
+        <ul class="body-paragraph">
+          <li>Train all stakeholders in communication skills to improve organizational climate and culture, increasing positive experiences for the community being served</li>
+          <li>Improve engagement and strengthen relationships between organizations and historically marginalized communities</li>
+          <li>Reevaluate the distribution of resources to maximize reach and access for historically marginalized communities</li>
+          <li>Coach board members on DEI issues and help design outcomes with actions</li>
+          <li>Customize successful DEI policies and processes supported by community stakeholders</li>
+          <li>Recruit, retain diverse stakeholders while creating a supportive environment that celebrates differences</li>
+          <li>Increase social and emotional leadership skills that inspire and unify all community members</li>
+          <li>Integrate DEI into the strategic goals of an organization with measurable outcomes</li>
+          <li>Develop a climate and culture assessment for a baseline understanding of where an organization is doing well and where they have gaps to improve.</li>
+        </ul>
+      </div>
+      <div class="ct-community__strategies">
+        <div class="center">
+          <img src="/assets/images/community-transformation/deo-strategies-1.jpg" alt="">
+        </div>
+        <div>
+          <span></span>
+          <img src="/assets/images/community-transformation/deo-strategies-2.jpg" alt="">
+        </div>
+        <div>
+          <img src="/assets/images/community-transformation/deo-strategies-3.jpg" alt=""> 
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ls-k12 ct-work">
+  <div class="container ls-container">
+    <div class="ls-k12__row ct-work__row">
+      <div class="ls-k12__row--1 ct-work__row--1">
+        <p class="body-paragraph"><strong>Who we work with</strong></p>
+        <p class="body-paragraph">Executive Directors, Board Chairs, Mayors, Police Chiefs, Planning Directors, Program Directors, Committee Chairs</p>
+      </div>
+      <div class="ls-k12__row--2">
+        <img src="/assets/images/community-transformation/deo-works-with.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-clients">
+  <div class="container">
+    <div class="home-clients__images" style="max-width: 1100px">
+      <img src="/assets/images/clients/city-of-manchester.png" alt="city of manchester" width="120px">
+      <img src="/assets/images/clients/refuge-point.png" alt="refuge point" width="170px">
+      <img src="/assets/images/clients/united-way-2.png" alt="united way" width="145px">
+      <img src="/assets/images/clients/capitol-center-for-the-arts.png" alt="capitol center for the arts" width="190px">
+      <img src="/assets/images/clients/community-loan-fund.png" alt="community loan fund" width="135px">
+      <img src="/assets/images/clients/new-futures.png" alt="new futures" width="180px">
+      <img src="/assets/images/clients/new-hampshire-housing.png" alt="new hampshire housing" width="180px">
+      <img src="/assets/images/clients/greater-concord-chamber-of-commerce.png" alt="greater concord chamber of commerce" width="130px">
+      <img src="/assets/images/clients/waypoint.png" alt="waypoint" width="100px">
+      <img src="/assets/images/clients/harbor-care.png" alt="harbor care" width="170px">
+    </div>
+  </div>
+</section>
+
+<section class="ct-partners-heading center">
+  <div class="container">
+    <h2 class="uppercase heading-3">Current/Recent Partners</h2>
+  </div>
+</section>
+
+<section class="ct-partners">
+  <div class="container">
+    <div class="ct-partners__content">
+      <h3 class="heading-4">City of Manchester</h3>
+      <p class="body-paragraph">DMC has supported the City of Manchester, NH to help BIPOC Small Businesses apply for and receive ARPA grants during the height of the COVID-19 pandemic. Assisted with the distribution of $500K in relief funds to BIPOC business owners by providing wrap-around services to close the barrier of access.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ct-engagements">
+  <div class="container">
+    <h2 class="heading-3 center uppercase">DMC’s engagements are often 6 to 12 months or multi year partnerships</h2>
+  </div>
+</section>
+
+<section class="ws-reviews ct-reviews center">
+  <div class="container">
+    <div class="ws-reviews__cards ct-reviews__cards">
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"Within the Institute, Mr. Mwano undertook major responsibilities to bridge multicultural issues and to ensure a safe, productive and respectful environment for the Delegation. In order to establish common discourse he brought a deep understanding and sensitivity to the complexities encountered by the delegates. His personal narrative and consummate professionalism also served as inspiration for educators when they returned to Pakistan to implement U.S. training amidst daily realities and challenges. That connectivity continues."</p>
+        <p class="ws-reviews__cards--meta ct-reviews__cards body-paragraph">
+          <strong>Allen Blakeman</strong>
+          <br>
+          <span>Director of Pakistani Educational Leadership Institute</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"There are rare persons who, when we meet them, bring light and energy to our lives; persons who show, almost without speaking, their deep commitment to others. Deo Mwano is such a person. While his personal story is one of strength gained through adversity, his enthusiasm for youth and its potential and for education and its empowering effect is a message he does not just talk about, but truly lives."</p>
+        <p class="ws-reviews__cards--meta body-paragraph">
+          <strong>Stephen Reno</strong>
+          <br>
+          <span>Executive Director Leadership New Hampshire</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"Deo was willing to work with the Currier Museum of Art on a new program and did so thoughtfully and with an open mind. Not only did Deo bring professionalism to the event, but a unique form of engagement that encouraged others to think deeper and more holistically."</p>
+        <p class="ws-reviews__cards--meta body-paragraph">
+          <strong>Lynn Thomson</strong>
+          <br>
+          <span>Assistant Director of Art Education/Community Engagement Currier Museum</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-team ws-team">
+  <div class="container">
+    <div class="center">
+      <a href="#!" class="button">Talk to us today</a>
+    </div>
+    <div class="home-team__row">
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Millicent Alhamis</h4>
+          <p>Program/Project Manager</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Richard Feistman, Ph.D. </h4>
+          <p>Research and Data Analysis</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <div>
+          <h4>Andrea Bruneau</h4>
+          <p>Leaning Model and Organization Transformation Consultant</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

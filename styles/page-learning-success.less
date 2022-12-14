@@ -2,32 +2,34 @@
 @colorLSBlue2: #0064a7;
 @colorLSBlue3: #0ac4e7;
 
-.button {
-  background-color: @colorLSBlue;
-  border: 1px solid @colorLSBlue;
-
-  &.button-outline {
-    color: @colorLSBlue;
-
-    &:hover {
+.ls {
+  &-main {
+    .button {
       background-color: @colorLSBlue;
+      border: 1px solid @colorLSBlue;
+    
+      &.button-outline {
+        color: @colorLSBlue;
+    
+        &:hover {
+          background-color: @colorLSBlue;
+        }
+      }
+    
+      &.button-outline-white {
+        &:hover {
+          color: @colorLSBlue;
+        }
+      }
     }
-  }
-
-  &.button-outline-white {
-    &:hover {
+    
+    .heading-2,
+    .heading-3,
+    .heading-4 {
       color: @colorLSBlue;
     }
   }
-}
 
-.heading-2,
-.heading-3,
-.heading-4 {
-  color: @colorLSBlue;
-}
-
-.ls {
   &-container {
     max-width: 1160px;
 
@@ -296,7 +298,7 @@
       &--3,
       &--4,
       &--5 {
-        background-color: #d9d9d9;
+        background-color: @colorLightGrey2;
         border-radius: 13px;
         width: 160px;
         height: 130px;
@@ -352,20 +354,11 @@
 
     &__cards {
       & > div {
-        position: relative;
-        flex: 1;
         padding: 30px;
-      }
 
-      &--review {
-        padding-bottom: 120px;
-      }
-
-      &--meta {
-        position: absolute;
-        bottom: 30px;
-        left: 30px;
-        right: 30px;
+        .ws-reviews__cards--review {
+          padding-bottom: 130px;
+        }
       }
     }
   }
