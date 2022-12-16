@@ -1,5 +1,133 @@
-<section>
-  <div class="container">
-    <h1 class="uppercase">Our Team</h1>
+<section class="team-hero">
+  <div class="container ls-container">
+    <div class="team-hero__content">
+      <div class="team-hero__content--heading">
+        <h1 class="uppercase">
+          <span>Our</span>
+          <br>
+          <span>Team</span>
+        </h1>
+      </div>
+      <p class="body-paragraph center">Deo Mwano Consultancy’s team features different creators with expertise in a variety of disciplines -- Data Analysis, Research, Videography/photography, Graphic Design, Dance, Storytelling and Community Advocacy. Through effective collaboration, the team pinpoints the root of an issue, solving problems by utilizing innovative tools to maximize engagement.</p>
+    </div>
+    <img src="/assets/images/team/deo-talk.jpg" alt="">
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-deo-mwano.jpg" alt="deo mwano">
+      </div>
+      <div>
+        <h3 class="uppercase">Deo Mwano</h3>
+        <p class="body-paragraph team-member__row--title">CEO, Founder and Managing Principal</p>
+        <p class="body-paragraph team-member__row--bio">As Deo Mwano Consultancy’s leader, Deo Mwano collaborates with different partners through program design. His aggressive approach to solution-finding produces positive and impactful results, which are grounded in relationship building and co-designing. His approach to problem-solving brings every stakeholder to the table to create solutions for individuals and organizations. What makes Deo unique is his ability to integrate storytelling and performing arts into his work. His improvisational skills with music and dance elevates his capacity to solve problems quickly, regardless of the challenges. An outside the box thinker, Deo connects people and helps them work together effectively by easing their fears and biases. Trust, Honesty and Accountability are his guiding leadership principles. Deo earned his BA in International Relations and History, and an MBA in Strategic Leadership. He has worked for the Federal Government, non-profits, educational institutions and tech startups. His honors include being named as an emerging leader to 40 Under 40 in New Hampshire in 2016 and being a graduating member of the Leadership New Hampshire Class of 2017. Working with organizations nationally and internationally, Deo is a sought-after speaker, program designer, community builder and performer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="millicent alhamis">
+      </div>
+      <div>
+        <h3 class="uppercase">Millicent Alhamis</h3>
+        <p class="body-paragraph team-member__row--title">Program/Project Manager</p>
+        <p class="body-paragraph team-member__row--bio">Milli has her MS in IT Project Management. She has a BA in Biology from St. John’s University. Mili is bilingual in Swahili and English. Milli has worked for different non-profits helping 4-12 grade students with community programming. She works diligently to ensure positive results. She has many talents in music, dance and even has her own line of beauty products. She is currently doing research on different narratives in the education space on DEI topics. Her special skills are her ability to relate to multicultural individuals and to organize and keep projects running smoothly by assuring that everyone stays on task and on track.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-richard-feistman.jpg" alt="richard feistman">
+      </div>
+      <div>
+        <h3 class="uppercase">Richard Feistman, Ph.D.</h3>
+        <p class="body-paragraph team-member__row--title">Research and Data Analysis</p>
+        <p class="body-paragraph team-member__row--bio">Dr. Richard Feistman, the co-founder of The REF Collaborative, specializes in program evaluation and educational leadership. He has supported State Agencies (Education and Health), Local Education Agencies, and nonprofits in implementing and evaluation of projects rvanging from statewide to individual programs. Dr. Feistman is an expert mixed-method evaluator who has assessed projects using a variety of techniques. The REF (Research on Education and Family) Collaborative envisions community programs are supported and enhanced by family and education science. The REF Collaborative achieves its vision by connecting researchers and practitioners in the family and educational sciences through research, rigorous evaluation, implementation support, and capacity building through professional development. It specializes in building partnerships, increasing program effectiveness, and sharing knowledge with stakeholders concerned with the health and well-being of students, families, schools and communities. The REF Collaborative has completed projects for the Robert Wood Johnson Foundation, New Hampshire Department of Education, the University of New Hampshire, the Center for Collaborative Education, and local school districts. Its work is strongly represented in the academic publication and conference circuit with nearly 80 appearances since.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="andrea bruneau">
+      </div>
+      <div>
+        <h3 class="uppercase">Andrea Bruneau</h3>
+        <p class="body-paragraph team-member__row--title">Leaning Model and OrganizationTransformation Consultant</p>
+        <p class="body-paragraph team-member__row--bio">Milli has her MS in IT Project Management. She has a BA in Biology from St. John’s University. Mili is bilingual in Swahili and English. Milli has worked for different non-profits helping 4-12 grade students with community programming. She works diligently to ensure positive results. She has many talents in music, dance and even has her own line of beauty products. She is currently doing research on different narratives in the education space on DEI topics. Her special skills are her ability to relate to multicultural individuals and to organize and keep projects running smoothly by assuring that everyone stays on task and on track.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-victoria-carrington.jpg" alt="victoria carrington">
+      </div>
+      <div>
+        <h3 class="uppercase">Victoria Carrington</h3>
+        <p class="body-paragraph team-member__row--title">Manager of Community Engagement and Communication</p>
+        <p class="body-paragraph team-member__row--bio">Victoria is responsible for DMC's engagement with diverse partner groups and communication with the community MC serves and collaborates with. She tells the stories of the work DMC is doing and engages with our partners to ensure success and make sure their stories are told to inspire positive changes and influence. In addition to experience working in education and non-profit organizations, Victoria earned her B.A. in Communications and Spanish from the University of Colorado at Boulder. As a Colorado native she adores the outdoors, hiking, climbing, and kayaking.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-liam-ouellette.jpg" alt="liam ouellette">
+      </div>
+      <div>
+        <h3 class="uppercase">Liam Ouellette</h3>
+        <p class="body-paragraph team-member__row--title">Social Media & Content Strategist</p>
+        <p class="body-paragraph team-member__row--bio">Milli has her MS in IT Project Management. She has a BA in Biology from St. John’s University. Mili is bilingual in Swahili and English. Milli has worked for different non-profits helping 4-12 grade students with community programming. She works diligently to ensure positive results. She has many talents in music, dance and even has her own line of beauty products. She is currently doing research on different narratives in the education space on DEI topics. Her special skills are her ability to relate to multicultural individuals and to organize and keep projects running smoothly by assuring that everyone stays on task and on track.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-deo-mwano.jpg" alt="rakesh khilare">
+      </div>
+      <div>
+        <h3 class="uppercase">Rakesh Khilare</h3>
+        <p class="body-paragraph team-member__row--title">Lead Designer</p>
+        <p class="body-paragraph team-member__row--bio">Rakesh manages all aspects of DMC visuals, from research and ideation, to creative conceptualisation and design. He is a talented graphic designer with many years of experience working in a variety of industries including IT, hospitality, education, healthcare, workforce, music and arts. Rakesh’s curiosity in the back story of every project allows him to bring difficult concepts to life by making them tangible and accessible through his designs. Rakesh believes that design tells a story that is louder than words, a story which helps to connect with the customers, users, and buyers emotionally, mentally, and physically.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-expertise">
+  <div class="container ls-container">
+    <div class="team-expertise__row">
+      <div>
+        <h2 class="heading-3">DMC Expertise &<br>Resources</h2>
+      </div>
+      <div>
+        <h3 class="heading-1">Data Research &<br>Analysis</h3>
+      </div>
+    </div>
   </div>
 </section>
