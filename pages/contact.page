@@ -3,3 +3,96 @@
     <img src="/assets/images/keynote-speaker/deo-keynote-speaker.jpg" alt="deo mwano stage">
   </div>
 </section>
+
+<section class="contact-form">
+  <div class="container ls-container">
+    <h1 class="heading-4 uppercase center">Work with DMC Today</h1>
+    <p class="center">FORM</p>
+  </div>
+</section>
+
+<section class="contact-testimonial">
+  <div class="container ls-container">
+    <div class="contact-testimonial__content center">
+      <p class="body-paragraph">“There are rare persons who, when we meet them, bring light and energy to our lives; persons who show, almost without speaking, their deep commitment to others. Deo Mwano is such a person. While his personal story is one of strength gained through adversity, his enthusiasm for youth and its potential and for education and its empowering effect is a message he does not just talk about, but truly lives.”</p>
+      <p>
+        <span>Stephen Reno</span>
+        <br>
+        <span>Executive Director Leadership New Hampshire, Former Chancellor of<br>University System of NH</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="home-clients">
+  <div class="container">
+    <h2 class="heading-2 uppercase">DMC has worked with</h2>
+    <div class="home-clients__images">
+      <img src="/assets/images/clients/gcir.png" alt="gcir" width="170px">
+      <img src="/assets/images/clients/community-loan-fund.png" alt="community loan fund" width="129px">
+      <img src="/assets/images/clients/pinnacle-mortgage.png" alt="pinnacle mortgage" width="134px">
+      <img src="/assets/images/clients/greater-concord-chamber-of-commerce.png" alt="greater concord chamber of commerce" width="123px">
+      <img src="/assets/images/clients/co-op-food-stores.png" alt="co-op food stores" width="107px">
+      <img src="/assets/images/clients/kw-metropolitan.png" alt="kw metropolitan" width="153px">
+      <img src="/assets/images/clients/ballentine-partners.png" alt="ballentine partners" width="158px">
+      <img src="/assets/images/clients/refuge-point.png" alt="refuge point" width="162px">
+      <img src="/assets/images/clients/northfield-mount-hermon.png" alt="northfield mount hermon" width="86px">
+      <img src="/assets/images/clients/phillips-exeter-academy.png" alt="phillips exeter academy" width="79px">
+      <img src="/assets/images/clients/dartmouth.png" alt="dartmouth" width="99px">
+      <img src="/assets/images/clients/yale.png" alt="yale" width="130px">
+      <img src="/assets/images/clients/city-of-manchester.png" alt="city of manchester" width="103px">
+      <img src="/assets/images/clients/easfaa.png" alt="easfaa" width="148px">
+      <img src="/assets/images/clients/new-hampshire-housing.png" alt="new hampshire housing" width="156px">
+      <img src="/assets/images/clients/enterprise-bank.png" alt="enterprise bank" width="189px">
+      <img src="/assets/images/clients/delta-dental.png" alt="delta dental" width="165px">
+      <img src="/assets/images/clients/harbor-care.png" alt="harbor care" width="258px">
+      <img src="/assets/images/clients/united-way.png" alt="united way" width="115px">
+    </div>
+  </div>
+</section>
+
+<section class="ks-family" style="margin-bottom: 0;">
+  <div class="container">
+    <div class="ks-family__content">
+      <div>
+        <p class="body-paragraph">Deo Mwano Consultancy (DMC) offers services for education and workforce success through diversity and inclusion strategies. Deo also offers community and alliance empowerment through keynote speaking, workshop training and live performance. DMC’s engaging approach connects organizations and individuals by utilizing different mediums to help immerse them in the process of finding solutions to their problems.</p>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4a92FkDvDDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ks-family">
+  <div class="container">
+    <div class="ks-family__content">
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7Yf7a9Fj0vI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+        <p class="body-paragraph">These mediums include interactive storytelling, creative arts, workshops, modeling and performing arts. This model hones the skills needed to build relationships and harvest the inner creativity in everyone. This leads to a competitive advantage for the services and products that businesses and organizations provide.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-book">
+  <div class="container ls-container">
+    <div class="contact-book__row">
+      <div>
+        <h2>NOW IS THE TIME TO BOOK DEO!</h2>
+        <p class="body-paragraph">Thousands of people have been transformed by Deo's story. It has brought hope, healing and restoration.</p>
+        <div class="contact-book__testimonial">
+          <p>“Working with Deo is always a pleasure. His deep knowledge of local needs and national education movements make him one of my favorite partners. My teams often focus on family and community engagement and the outcomes of Deo’s workshops have always included not only gains in participant knowledge, but deeper connections between participants and their community.”</p>
+          <p>
+            <span>Richard Feistman</span>
+            <br>
+            <span>Ph.D. Teach Plus National Director of Evaluation</span>
+          </p>
+        </div>
+      </div>
+      <div>FORM</div>
+    </div>
+  </div>
+</section>

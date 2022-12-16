@@ -1,0 +1,104 @@
+.contact {
+  &-hero {
+    img {
+      max-height: 440px;
+      width: 100%;
+      border-radius: 13px;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+  
+  &-form {
+    margin: 150px 0 100px;
+  }
+
+  &-testimonial {
+    margin: 150px 0;
+
+    &__content {
+      background-color: @colorLightGrey;
+      border-radius: 13px;
+      padding: 60px;
+
+      p {
+        max-width: 900px;
+        margin: 0 auto;
+        color: #000;
+
+        &:first-child {
+          margin-bottom: 60px;
+          font-size: 22px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        &:last-child {
+          line-height: 0.9;
+
+          span {
+            &:first-child {
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 1.6;
+            }
+
+            &:last-child {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-book {
+    margin-bottom: 150px;
+
+    &__row {
+      display: flex;
+
+      & > div {
+        flex: 1;
+
+        &:first-child {
+          & > * {
+            max-width: 450px;
+          }
+
+          h2 {
+            font-size: 20px;
+            font-family: @fontPoppins;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    &__testimonial {
+      margin-top: 80px;
+
+      p {
+        &:first-child {
+          font-size: 20px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        &:last-child {
+          line-height: 0.9;
+
+          span {
+            &:first-child {
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 1.6;
+            }
+
+            &:last-child {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
