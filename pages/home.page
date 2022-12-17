@@ -48,26 +48,26 @@
         <img src="/assets/images/home/solutions-workforce-success.jpg" alt="Workforce Success">
         <h3>Workforce Success</h3>
         <p class="body-paragraph">Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
-        <a href="#!">learn more</a>
+        <a href="/workforce-success">learn more</a>
       </div>
       <div>
         <img src="/assets/images/home/solutions-learning-success.jpg" alt="Learning Success">
         <h3>Learning Success</h3>
-        <p class="body-paragraph">Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
-        <a href="#!">learn more</a>
+        <p class="body-paragraph">Ivy League Universities, Community Colleges, K-12 Schools, Boarding Schools and School Boards</p>
+        <a href="/learning-success">learn more</a>
       </div>
       <div>
         <img src="/assets/images/home/solutions-community-transformation.jpg" alt="Community Transformation">
         <h3>Community Transformation</h3>
-        <p class="body-paragraph">Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
-        <a href="#!">learn more</a>
+        <p class="body-paragraph">Non-profit Organizations, City & Towns, Foundations and Co-ps</p>
+        <a href="/community-transformation">learn more</a>
       </div>
     </div>
   </div>
 </section>
 
 <section class="home-who">
-  <div class="container">
+  <div class="container ls-container">
     <div class="home-who__row">
       <div>
         <img src="/assets/images/home/deo-who-we-are.png" alt="Who we are deo mwano">
@@ -218,7 +218,7 @@
     <div class="home-team__row">
       <div></div>
       <div>
-        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <img src="/assets/images/team/team-deo-mwano.jpg" alt="deo mwano">
         <div>
           <h4>Deo Mwano</h4>
           <p>CEO, Founder and Managing Principal</p>
@@ -228,21 +228,21 @@
     </div>
     <div class="home-team__row">
       <div>
-        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="Millicent Alhamis">
         <div>
           <h4>Millicent Alhamis</h4>
           <p>Program/Project Manager</p>
         </div>
       </div>
       <div>
-        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <img src="/assets/images/team/team-richard-feistman.jpg" alt="Richard Feistman">
         <div>
           <h4>Richard Feistman, Ph.D.</h4>
           <p>Research and Data Analysis</p>
         </div>
       </div>
       <div>
-        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="Andrea Bruneau">
         <div>
           <h4>Andrea Bruneau</h4>
           <p>Leaning Model and Organization Transformation Consultant</p>
@@ -251,26 +251,37 @@
     </div>
     <div class="home-team__row">
       <div>
-        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <img src="/assets/images/team/team-victoria-carrington.jpg" alt="Victoria Carrington">
         <div>
-          <h4>Rakesh Khilare</h4>
-          <p>Lead Designer</p>
+          <h4>Victoria Carrington</h4>
+          <p>Manager of Community Engagement and Communication</p>
         </div>
       </div>
       <div>
-        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <img src="/assets/images/team/team-allyson-ryder.jpg" alt="Allyson Ryder">
         <div>
           <h4>Allyson Ryder</h4>
           <p>Organization Alignment Consultant</p>
         </div>
       </div>
       <div>
-        <img src="/assets/images/home/deo-mwano.png" alt="deo mwano">
+        <img src="/assets/images/team/team-liam-ouellette.jpg" alt="Liam Ouellette">
         <div>
           <h4>Liam Ouellette</h4>
           <p>Social Media & Content Strategist</p>
         </div>
       </div>
+    </div>
+    <div class="home-team__row">
+      <div></div>
+      <div>
+        <img src="/assets/images/home/deo-mwano.png" alt="Rakesh Khilare">
+        <div>
+          <h4>Rakesh Khilare</h4>
+          <p>Lead Designer</p>
+        </div>
+      </div>
+      <div></div>
     </div>
   </div>
 </section>

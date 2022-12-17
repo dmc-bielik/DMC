@@ -25,27 +25,27 @@
       <p>DMC’s<br>people-centered model is adaptable to virtually any industry. We have proven results with</p>
     </div>
     <div class="ws-model__cards center">
-      <span>
+      <span class="body-paragraph">
         <img src="/assets/images/workforce-success/property.svg" alt="">
         <span>Property Management Companies</span>
       </span>
-      <span>
+      <span class="body-paragraph">
         <img src="/assets/images/workforce-success/banks.svg" alt="">
         <span>Banks</span>
       </span>
-      <span>
+      <span class="body-paragraph">
         <img src="/assets/images/workforce-success/real-estate-firms.svg" alt="">
         <span>Real Estate Firms</span>
       </span>
-      <span>
+      <span class="body-paragraph">
         <img src="/assets/images/workforce-success/tech-startups.svg" alt="">
         <span>Tech Startups</span>
       </span>
-      <span>
+      <span class="body-paragraph">
         <img src="/assets/images/workforce-success/healthcare.svg" alt="">
         <span>Healthcare</span>
       </span>
-      <span>
+      <span class="body-paragraph">
         <img src="/assets/images/workforce-success/education.svg" alt="">
         <span>Educational Organisations</span>
       </span>
@@ -65,11 +65,11 @@
 </section>
 
 <section class="ws-strategies">
-  <div class="container">
+  <div class="container ls-container">
     <div class="ws-strategies__row">
       <div>
-        <h2 class="heading-3">Design strategies and implementation tools to</h2>
-        <ul>
+        <h2 class="heading-4">Design strategies and implementation tools to</h2>
+        <ul class="body-paragraph">
           <li>Train and coach leaders to improve organizational climate and culture</li>
           <li>Strengthen relationships between employees at all levels of a company with transparency and accessibility</li>
           <li>Customize successful DEI policies, processes and competencies</li>
@@ -91,7 +91,7 @@
 </section>
 
 <section class="ws-who">
-  <div class="container">
+  <div class="container ls-container">
     <div class="ws-who__row">
       <div>
         <div>
@@ -130,7 +130,7 @@
     <h2 class="heading-3 uppercase center red">Current/Recent Partners</h2>
   </div>
   <div class="ws-partners__section">
-    <div class="container">
+    <div class="container ls-container">
       <div class="ws-partners__content">
         <h3 class="heading-3">Dartmouth College Campus Services Division</h3>
         <p class="body-paragraph">DMC has a multi-year partnership to help transform the culture of the largest division at Dartmouth College, with 550 employees and a $500 million annual operations budget. The engagement includes a climate assessment, strategy development, and new communication tools. DMC has worked to build trust and increase engagement from all employees covering different shifts and departments. DMC helped the division establish a structure to maintain and sustain the work by guiding the leadership team to invest for the long term with new approaches and inaugural positions.</p>
@@ -142,7 +142,7 @@
 <section class="ws-engagements">
   <div class="container">
     <div class="ws-engagements__circles">
-      <div>DMC’s engagements are often 6 to 12 months or multi year partnerships</div>
+      <div class="center">DMC’s engagements are often 6 to 12 months or multi year partnerships</div>
       <div></div>
       <div>
         <img src="/assets/images/workforce-success/deo-engagement-speaker.png" alt="deo">

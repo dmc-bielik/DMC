@@ -2023,6 +2023,7 @@ ul {
 .button {
   display: inline-block;
   padding: 10px 30px;
+  padding: 10px 30px 8px;
   color: #fff;
   font-size: 16px;
   background-color: @colorRed;
@@ -2052,7 +2053,7 @@ ul {
 
     &:hover {
       background-color: #fff;
-      color: @colorRed;
+      color: @colorGrey;
       filter: none;
     }
   }
@@ -2065,6 +2066,7 @@ ul {
   color: @colorRed;
   margin-bottom: 20px;
   font-family: @fontAleo;
+  .font-smoothing(@colorRed);
 }
 
 .heading-1 {
@@ -2084,10 +2086,12 @@ ul {
 }
 
 .body-paragraph {
-  font-size: 16px;
+  font-size: 14px;
   color: @colorGrey;
-  line-height: 1.8;
+  line-height: 1.6;
   margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  .font-smoothing(@colorRed);
 }
 
 .container {
