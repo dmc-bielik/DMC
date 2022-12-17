@@ -32,11 +32,15 @@
   }
 
   &-community {
+    &__heading {
+      margin-bottom: 150px;
+    }
+
     &__row {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      margin: 150px -25px;
+      margin: 75px -25px;
 
       & > div {
         flex: 1;
@@ -45,14 +49,23 @@
 
       ul {
         li {
-          font-size: 20px;
+          font-size: 16px;
         }
       }
 
+      p {
+        max-width: 400px;
+      }
+
       &:last-of-type {
+        margin-top: 250px;
+        margin-bottom: 210px;
+
         & > div {
           &:first-child {
             flex: 2;
+            max-width: 600px;
+            margin-right: 150px;
           }
         }
       }
@@ -101,6 +114,8 @@
   }
 
   &-work {
+    margin: 50px 0 200px;
+
     &__row {
       &--1 {
         background: linear-gradient(135.79deg, #FC2A4F 15.64%, #1B4371 101.44%);
@@ -127,11 +142,11 @@
     background-size: cover;
     padding: 90px 0;
     min-height: 600px;
-    height: 100vh;
+    height: calc(~"100vh - 180px");
 
     &__content {
       background: linear-gradient(1.76deg, @colorRed 2.06%, #1B4371 92.45%);
-      border-radius: 0px 0px 13px 13px;
+      border-radius: 13px 13px;
       padding: 35px 80px 70px 40px;
       width: calc(~"50% - 120px");
 
@@ -149,7 +164,7 @@
     background-size: cover;
     padding: 170px 0;
     min-height: 500px;
-    height: 100vh;
+    height: calc(~"100vh - 340px");
 
     h2 {
       max-width: 540px;
@@ -161,6 +176,7 @@
 
   &-reviews {
     background: none;
+    padding-bottom: 0;
 
     &__cards {
       & > div {

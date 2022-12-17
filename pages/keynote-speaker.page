@@ -17,7 +17,7 @@
 </section>
 
 <section class="ks-family">
-  <div class="container">
+  <div class="container ls-container">
     <div class="ks-family__content">
       <div>
         <p class="body-paragraph">His family history has been featured on Dancing with Stars, Tedx, The Moth, and Q Idea. Today he is a sought after presenter for conferences, expos, conventions and fundraisers with compelling messages for a variety of industries including banking, tech, healthcare, real estate, k-12 schools, universities and community colleges.</p>
@@ -30,14 +30,14 @@
 </section>
 
 <section class="ks-presentations">
-  <div class="container">
+  <div class="container ls-container">
     <p class="body-paragraph">Mwano’s presentations are inspiring, educational, thought-provoking and ignite action. He uses his performing background to keep audiences engaged and participating. His ice breakers are famous for getting everyone moving.</p>
   </div>
   <img src="/assets/images/keynote-speaker/deo-presentations.png" alt="">
 </section>
 
 <section class="ks-family">
-  <div class="container">
+  <div class="container ls-container">
     <div class="ks-family__content">
       <div>
         <p class="body-paragraph">His family history has been featured on Dancing with Stars, Tedx, The Moth, and Q Idea. Today he is a sought after presenter for conferences, expos, conventions and fundraisers with compelling messages for a variety of industries including banking, tech, healthcare, real estate, k-12 schools, universities and community colleges.</p>

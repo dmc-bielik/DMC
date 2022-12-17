@@ -20,7 +20,7 @@
 
 <section class="ct-community">
   <div class="container ls-container">
-    <h2 class="uppercase center red heading-4">Non-profit Organizations, City & Towns, Foundations,<br>and Co-ops</h2>
+    <h2 class="uppercase center red heading-4 ct-community__heading">Non-profit Organizations, City & Towns, Foundations,<br>and Co-ops</h2>
     <div class="ct-community__row">
       <div>
         <p class="body-paragraph">DMC identifies issues at the heart of an organization’s challenges and develops strategies to address them. The solutions help transform organizations’ priorities, policies and programing.</p>
@@ -110,7 +110,7 @@
 </section>
 
 <section class="ct-partners">
-  <div class="container">
+  <div class="container ls-container">
     <div class="ct-partners__content">
       <h3 class="heading-4">City of Manchester</h3>
       <p class="body-paragraph">DMC has supported the City of Manchester, NH to help BIPOC Small Businesses apply for and receive ARPA grants during the height of the COVID-19 pandemic. Assisted with the distribution of $500K in relief funds to BIPOC business owners by providing wrap-around services to close the barrier of access.</p>

@@ -24,6 +24,7 @@
         <h3 class="uppercase">Deo Mwano</h3>
         <p class="body-paragraph team-member__row--title">CEO, Founder and Managing Principal</p>
         <p class="body-paragraph team-member__row--bio">As Deo Mwano Consultancy’s leader, Deo Mwano collaborates with different partners through program design. His aggressive approach to solution-finding produces positive and impactful results, which are grounded in relationship building and co-designing. His approach to problem-solving brings every stakeholder to the table to create solutions for individuals and organizations. What makes Deo unique is his ability to integrate storytelling and performing arts into his work. His improvisational skills with music and dance elevates his capacity to solve problems quickly, regardless of the challenges. An outside the box thinker, Deo connects people and helps them work together effectively by easing their fears and biases. Trust, Honesty and Accountability are his guiding leadership principles. Deo earned his BA in International Relations and History, and an MBA in Strategic Leadership. He has worked for the Federal Government, non-profits, educational institutions and tech startups. His honors include being named as an emerging leader to 40 Under 40 in New Hampshire in 2016 and being a graduating member of the Leadership New Hampshire Class of 2017. Working with organizations nationally and internationally, Deo is a sought-after speaker, program designer, community builder and performer.</p>
+        <a href="#!" class="body-paragraph">read more</a>
       </div>
     </div>
   </div>
@@ -140,7 +141,7 @@
       <div>
         <h2 class="heading-3">DMC Expertise &<br>Resources</h2>
       </div>
-      <div>
+      <div style="flex: 1;">
         <h3 class="heading-1">Data Research &<br>Analysis</h3>
       </div>
     </div>

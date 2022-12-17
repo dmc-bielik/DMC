@@ -8,7 +8,7 @@
   <section class="ls-title center">
     <div class="container">
       <p class="heading-3 uppercase">Ivy League Universities, Community Colleges, K-12 School, Boarding Schools, and School Boards</p>
-      <a href="#!" class="button button-outline">Talk to us today</a>
+      <a href="#!" class="button">Talk to us today</a>
     </div>
   </section>
 
@@ -17,7 +17,7 @@
       <div class="ls-strategies__row">
         <div>
           <h2 class="heading-4 uppercase">Design strategies and implementation tools to</h2>
-          <ul>
+          <ul class="body-paragraph">
             <li>Improving school climate and culture in order to increase positive experience for all students</li>
             <li>Unique student success competencies with policies and processes supported by school boards, school administrators, teachers and parents</li>
             <li>Strengthening relationships between schools and parents</li>
@@ -217,7 +217,7 @@
   <section class="home-team ws-team">
     <div class="container">
       <div class="center">
-        <a href="#!" class="button button-outline">Talk to us today</a>
+        <a href="#!" class="button">Talk to us today</a>
       </div>
       <div class="home-team__row">
         <div>
