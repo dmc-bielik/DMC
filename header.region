@@ -24,7 +24,17 @@
           <div class="header__row">
             {.section website}<div id="{.if logoImageUrl}logoWrapper{.or}siteTitleWrapper{.end}" class="wrapper" data-content-field="site-title">
               {.section logoImageUrl}
-                <a href="/" class="header-logo"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+                <a href="/" class="header-logo">
+                  {.equal? collection.fullUrl "/learning-success"}
+                  <img src="/assets/images/home/learning-success-logo.svg" alt="learning success" />
+                  {.or}
+                    {.equal? collection.fullUrl "/workforce-success"}
+                    <img src="/assets/images/home/workforce-success-logo.png" alt="workforce success" />
+                    {.or}
+                    <img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" />
+                    {.end}
+                  {.end}
+                </a>
               {.or}
                 <h1 id="siteTitle" class="site-title"><a href="/">{siteTitle}</a></h1>
               {.end}
