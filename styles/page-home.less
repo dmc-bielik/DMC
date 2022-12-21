@@ -17,6 +17,7 @@
         margin: 0 14px 16px;
         border-radius: 13px;
         background-color: @colorLightGrey;
+        overflow: hidden;
 
         img {
           vertical-align: bottom;
@@ -172,6 +173,11 @@
         flex: 1;
         margin: 0 17px;
 
+        &:first-child {
+          overflow: hidden;
+          border-radius: 13px;
+        }
+
         img {
           border-radius: 13px;
           width: 100%;
@@ -206,21 +212,23 @@
   }
 
   &-testimonials {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: nowrap;
-    overflow: auto;
+    // display: flex;
+    // justify-content: flex-start;
+    // align-items: stretch;
+    // flex-wrap: nowrap;
+    // overflow: hidden;
     background-color: @colorRed;
     padding: 75px 0;
 
     &__item {
+      // display: inline-block;
       position: relative;
       margin: 6.5px;
       border-radius: 13px;
       padding: 42px 23px;
       background-color: #fff;
-      min-width: 28vw;
+      // min-width: 28vw;
+      // max-width: 28vw;
 
       p {
         font-size: 11px;
@@ -260,6 +268,7 @@
         p {
           margin: 0;
           color: @colorGrey2;
+          max-width: 400px;
         }
       }
     }
