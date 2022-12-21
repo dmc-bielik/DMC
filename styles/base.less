@@ -2120,11 +2120,22 @@ ul {
   }
 
   nav {
-    a {
+    a,
+    .folder-toggle {
       padding: 0;
       color: @colorGrey2;
       font-size: 16px;
     }
+  }
+
+  a {
+    &:hover {
+      color: #000;
+    }
+  }
+
+  .subnav {
+    background-color: @colorLightGrey;
   }
 }
 

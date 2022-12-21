@@ -227,6 +227,7 @@
       border-radius: 13px;
       padding: 42px 23px;
       background-color: #fff;
+      min-height: 350px;
       // min-width: 28vw;
       // max-width: 28vw;
 
@@ -276,7 +277,13 @@
 
   &-action {
     position: relative;
-    min-height: 750px;
+    min-height: 550px;
+    padding: 100px 0;
+
+    // & > div {
+    //   position: relative;
+    //   height: 100vh;
+    // }
 
     img,
     span {
@@ -284,9 +291,9 @@
     }
 
     img {
-      top: 50%;
+      top: 250px;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, 0);
       width: 50%;
     }
 
