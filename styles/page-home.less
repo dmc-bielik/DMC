@@ -141,17 +141,26 @@
   }
 
   &-approach {
-    background-image: url('/assets/images/home/deo-speaker.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    min-height: 650px;
-
     &__content {
       padding: 60px 65px;
       background-color: @colorLightGrey;
       max-width: 500px;
+      
+      &-container {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        min-height: 650px;
+        
+        &-1 {
+          background-image: url('/assets/images/home/deo-speaker.png');
+        }
+
+        &-2 {
+          background-image: url('/assets/images/keynote-speaker/deo-keynote-speaker.jpg');
+        }
+      }
 
       .button {
         margin-top: 20px;
@@ -227,7 +236,7 @@
       border-radius: 13px;
       padding: 42px 23px;
       background-color: #fff;
-      min-height: 350px;
+      min-height: 410px;
       // min-width: 28vw;
       // max-width: 28vw;
 
@@ -279,11 +288,6 @@
     position: relative;
     min-height: 550px;
     padding: 100px 0;
-
-    // & > div {
-    //   position: relative;
-    //   height: 100vh;
-    // }
 
     img,
     span {

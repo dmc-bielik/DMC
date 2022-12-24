@@ -94,3 +94,20 @@ if (homeTestimonialsSlider) {
     items: 3,
   });
 }
+
+const fadeFullscreenSlider = document.querySelector(".fade-fullscreen-slider");
+
+if (fadeFullscreenSlider) {
+  window.tns({
+    container: fadeFullscreenSlider,
+    items: 1,
+    mode: "gallery",
+    swipeAngle: false,
+    speed: 2000,
+    autoplay: true,
+    autoplayButtonOutput: false,
+    autoplayHoverPause: true,
+    nav: false,
+    controls: false,
+  });
+}

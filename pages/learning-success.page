@@ -152,11 +152,37 @@
     <div class="container">
       <h2 class="heading-3 uppercase center red">Current/Recent Partners</h2>
     </div>
-    <div class="ws-partners__section ls-partners__section">
-      <div class="container">
-        <div class="ws-partners__content ls-partners__content">
-          <p class="body-paragraph">DMC has worked with the Lebanon School District, developing strategies on culture and climate through a DEI lens. After working with different stakeholders within the community, including students, teachers, parent groups, and administrators, DMC has provided guidance and direction for a 3 year strategic plan. Informed by a thorough assessment of community feedback, DMC has also provided consultation to the superintendent, Director of Curriculum and Student Learning as well as school leaders.</p>
-          <h3 class="heading-3">Lebanon School District,<br>Lebanon, NH</h3>
+    <div class="fade-fullscreen-slider">
+      <div class="ws-partners__section ls-partners__section ls-partners__section-1">
+        <div class="container">
+          <div class="ws-partners__content ls-partners__content">
+            <p class="body-paragraph">DMC has worked with the Lebanon School District, developing strategies on culture and climate through a DEI lens. After working with different stakeholders within the community, including students, teachers, parent groups, and administrators, DMC has provided guidance and direction for a 3 year strategic plan. Informed by a thorough assessment of community feedback, DMC has also provided consultation to the superintendent, Director of Curriculum and Student Learning as well as school leaders.</p>
+            <h3 class="heading-3">Lebanon School District,<br>Lebanon, NH</h3>
+          </div>
+        </div>
+      </div>
+      <div class="ws-partners__section ls-partners__section ls-partners__section-2">
+        <div class="container">
+          <div class="ws-partners__content ls-partners__content">
+            <p class="body-paragraph">DMC has collaborated with the staff and faculty of Phillips Exeter Academy in a number of ways over the years. DMC has served as a program partner to the Diversity, Equity and Inclusion Office and has also presented as a guest instructor in the Theater and Dance department, providing cultural understanding through movement and music and exploring Diversity, Equity and Inclusion through hip hop and Afrobeat.</p>
+            <h3 class="heading-3">Phillips Exeter Academy,<br>Exeter, NH</h3>
+          </div>
+        </div>
+      </div>
+      <div class="ws-partners__section ls-partners__section ls-partners__section-3">
+        <div class="container">
+          <div class="ws-partners__content ls-partners__content">
+            <p class="body-paragraph">DMC has worked with Manchester Memorial High School to develop climate alignment for students, teachers and administration. We have provided coaching for school leadership on culture and climate to help students and teachers maximize their positive impact.</p>
+            <h3 class="heading-3">Manchester School District,<br>Manchester, NH</h3>
+          </div>
+        </div>
+      </div>
+      <div class="ws-partners__section ls-partners__section ls-partners__section-4">
+        <div class="container">
+          <div class="ws-partners__content ls-partners__content">
+            <p class="body-paragraph">In visiting teacher roles, DMC explores culture alignment and inclusive leadership through equity utilizing experimental learning through role plays and creative art. DMC has also conducted student leadership workshops.</p>
+            <h3 class="heading-3">Derryfield School,<br>Manchester, NH</h3>
+          </div>
         </div>
       </div>
     </div>
