@@ -47,19 +47,19 @@
       <div class="appear-on-scroll-3">
         <img src="/assets/images/home/solutions-workforce-success.jpg" alt="Workforce Success">
         <h3>Workforce Success</h3>
-        <p class="body-paragraph">Fortune 500, Small Businesses, Start-Ups and Chambers of Commerces</p>
+        <p class="body-paragraph">Fortune 500, Small Businesses,<br>Start-Ups</p>
         <a href="/workforce-success">learn more</a>
       </div>
       <div class="appear-on-scroll-3">
         <img src="/assets/images/home/solutions-learning-success.jpg" alt="Learning Success">
         <h3>Learning Success</h3>
-        <p class="body-paragraph">Ivy League Universities, Community Colleges, K-12 Schools, Boarding Schools and School Boards</p>
+        <p class="body-paragraph">Ivy League Universities, Community Colleges, K-12 School, Boarding Schools, and School Boards</p>
         <a href="/learning-success">learn more</a>
       </div>
       <div class="appear-on-scroll-3">
         <img src="/assets/images/home/solutions-community-transformation.jpg" alt="Community Transformation">
         <h3>Community Transformation</h3>
-        <p class="body-paragraph">Non-profit Organizations, City & Towns, Foundations and Co-ps</p>
+        <p class="body-paragraph">Non-profit Organizations, City & Towns, Foundations, and Cooperatives</p>
         <a href="/community-transformation">learn more</a>
       </div>
     </div>
@@ -73,7 +73,7 @@
         <img src="/assets/images/home/deo-who-we-are.png" alt="Who we are deo mwano" class="zoom-image-on-scroll-2">
       </div>
       <div>
-        <h2 class="heading-2 appear-on-scroll-4">Who we are</h2>
+        <h2 class="heading-2 appear-on-scroll-4">Problem Solvers</h2>
         <p class="body-paragraph appear-on-scroll-4">Deo Mwano Consultancy provides sustainable solutions to the complex social issues that affect businesses, schools and nonprofits. DMC helps organizations maximize their reach and impact by providing human-centered solutions, which put our partners in advantageous positions within their appropriate field/market. DMC integrates itself into the client’s organization to better work through the challenges the organization can’t solve.</p>
       </div>
     </div>
@@ -84,7 +84,7 @@
   <div class="home-approach__content-container home-approach__content-container-1">
     <div class="container">
       <div class="home-approach__content">
-        <h2 class="heading-2">Our Unique Approach 1</h2>
+        <h2 class="heading-2">Our Unique Approach</h2>
         <p class="body-paragraph">Deo Mwano Consultancy’s(DMC) focus is helping businesses, schools and organizations maximize their positive impact by building authentic relationships and understanding. DMC’s process brings everyone to the table to co-design solutions through shared power.</p>
         <p class="body-paragraph">DMC's unique approach evokes vulnerability, honesty and transparency. DMC helps organizations break down old mindsets and systems and then provides solutions that help people feel accepted, respected and a new sense of belonging. This is a transformative process, improving engagement, productivity, satisfaction and retention.</p>
         <a href="#!" class="button">Talk to us today</a>
@@ -94,7 +94,7 @@
   <div class="home-approach__content-container home-approach__content-container-2">
     <div class="container">
       <div class="home-approach__content">
-        <h2 class="heading-2">Our Unique Approach 2</h2>
+        <h2 class="heading-2">Our Unique Approach</h2>
         <p class="body-paragraph">Deo Mwano Consultancy’s(DMC) focus is helping businesses, schools and organizations maximize their positive impact by building authentic relationships and understanding. DMC’s process brings everyone to the table to co-design solutions through shared power.</p>
         <p class="body-paragraph">DMC's unique approach evokes vulnerability, honesty and transparency. DMC helps organizations break down old mindsets and systems and then provides solutions that help people feel accepted, respected and a new sense of belonging. This is a transformative process, improving engagement, productivity, satisfaction and retention.</p>
         <a href="#!" class="button">Talk to us today</a>
@@ -149,7 +149,7 @@
   <div class="home-testimonials__item">
     <p class="body-paragraph">"It was a singular experience to welcome Deo Mwano and Martin ____________ to headline our school's Community Day in April of 2021. The students felt an instant connection with them, and within minutes we are all up and dancing and having fun. Deo's story is his alone, and yet it gave each of us a chance to reflect on the importance of courage and creativity as we find our own paths in the world. We were all captivated by Deo's charisma, his message, and his positive approach to life, and we are still talking about his visit many days later."</p>
     <div class="home-testimonials__item-meta">
-      <img src="/assets/images/home/hero-L-2.png" alt="">
+      {#  <img src="/assets/images/home/hero-L-2.png" alt="">  }
       <div>
         <h4>John Turner</h4>
         <p class="body-paragraph">Head of School, Heronfield Academy</p>
@@ -159,7 +159,7 @@
   <div class="home-testimonials__item">
     <p class="body-paragraph">Deo radiates positivity! His approachable style facilitates questions and dialogue. Our trustees and employees enjoyed consultations that inspired awareness and understanding as we explored the topics of diversity and inclusion. Informed by Deo’s insights, we have designed and launched a thoughtful plan to expand our commitment to equity, diversity, inclusion, and accessibility in our arts programming, operational policies, and bridge building to the extended community</p>
     <div class="home-testimonials__item-meta">
-      <img src="/assets/images/home/hero-L-2.png" alt="">
+      {#  <img src="/assets/images/home/hero-L-2.png" alt="">  }
       <div>
         <h4>Nicki Clarke</h4>
         <p class="body-paragraph">Executive Director, Capitol Center for the Arts</p>
@@ -169,7 +169,7 @@
   <div class="home-testimonials__item">
     <p class="body-paragraph">The goals were to reflect on individual leadership as well as the school’s leadership programming. This two day conference was kicked off with an amazing speaker, Deo Mwano. He helped all the student leadership to think about equity and inclusion in leadership. He brought a key understanding to all the students about making sure all have access and who the stakeholders and decision makers are and how to partner with them. He spent time asking students to think about their leadership style and how the “show up” as leaders. The experience with Deo was overwhelmingly positive for students and set the stage on day 2 to work with the Dean of Students and Leadership, Reina Stimpson, about using their skills to build up their team within their individual student life and government groups. Students used an Affirmative Inquiry approach to speak about what was working well and what they wanted to see more of and improve.</p>
     <div class="home-testimonials__item-meta">
-      <img src="/assets/images/home/hero-L-2.png" alt="">
+      {#  <img src="/assets/images/home/hero-L-2.png" alt="">  }
       <div>
         <h4>Reina Stimpson</h4>
         <p class="body-paragraph">Derryfield School Derryfield</p>
@@ -179,7 +179,7 @@
   <div class="home-testimonials__item">
     <p class="body-paragraph">Deo’s presentation to the student body was well received. His description of his story in relation to how to build community was directly on point. Our international summer program has a short time to build an inclusive, welcoming, and tolerant community. Deo’s was able to show these students that they can be far from home yet keep their own identity despite the surroundings. This presentation gave the students more tools to use to gel as advisee groups, dorms, classes, and a student body. Many came up to Deo afterward to thank him, share their stories, and get advice.</p>
     <div class="home-testimonials__item-meta">
-      <img src="/assets/images/home/hero-L-2.png" alt="">
+      {#  <img src="/assets/images/home/hero-L-2.png" alt="">  }
       <div>
         <h4>Jeffrey P. Ward.</h4>
         <p class="body-paragraph">Phillips Exeter Director of summer program</p>
@@ -189,7 +189,7 @@
   <div class="home-testimonials__item">
     <p class="body-paragraph">Deo Mwano masterfully led our Board through a tremendous amount of information, balancing the systemic and individual scales and grounding concepts in the specific kinds of work that we do and challenges we face. His training was engaging and compassionate and it continues to inspire important conversations in our organization</p>
     <div class="home-testimonials__item-meta">
-      <img src="/assets/images/home/hero-L-2.png" alt="">
+      {#  <img src="/assets/images/home/hero-L-2.png" alt="">  }
       <div>
         <h4>Sarah Wraight</h4>
         <p class="body-paragraph">Two Rivers-Ottauquechee Regional Commission, Vermont, Senior Planner</p>
@@ -208,13 +208,13 @@
 <section class="home-videos">
   <div class="container">
     <div class="home-videos__row">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wF_Zrg3irAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yLiWHy-yZ6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lURYVYU-X_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e_CMH1tUGLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s2APBney78A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/usksTbUIPLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="home-videos__row">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a5iaSZJSHe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eX3ktD63BuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XZ62E5077zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tXzF_E7FsHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -287,7 +287,7 @@
     <div class="home-team__row">
       <div></div>
       <div>
-        <img src="/assets/images/home/deo-mwano.png" alt="Rakesh Khilare">
+        <img src="/assets/images/team/team-rakesh-khilare.jpg" alt="Rakesh Khilare">
         <div>
           <h4>Rakesh Khilare</h4>
           <p>Lead Designer</p>

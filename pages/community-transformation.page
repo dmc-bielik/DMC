@@ -20,7 +20,7 @@
 
 <section class="ct-community">
   <div class="container ls-container">
-    <h2 class="uppercase center red heading-4 ct-community__heading">Non-profit Organizations, City & Towns, Foundations,<br>and Co-ops</h2>
+    <h2 class="uppercase center red heading-4 ct-community__heading">Non-profit Organizations, City & Towns, Foundations,<br>and Cooperatives</h2>
     <div class="ct-community__row">
       <div>
         <p class="body-paragraph">DMC identifies issues at the heart of an organization’s challenges and develops strategies to address them. The solutions help transform organizations’ priorities, policies and programing.</p>
@@ -164,11 +164,11 @@
         </p>
       </div>
       <div>
-        <p class="body-paragraph ws-reviews__cards--review">"There are rare persons who, when we meet them, bring light and energy to our lives; persons who show, almost without speaking, their deep commitment to others. Deo Mwano is such a person. While his personal story is one of strength gained through adversity, his enthusiasm for youth and its potential and for education and its empowering effect is a message he does not just talk about, but truly lives."</p>
+        <p class="body-paragraph ws-reviews__cards--review">"It was a pleasure working with Deo Mwano. He has a true talent for group engagement and facilitating challenging discussions in a positive manner. It is clear that he is passionate about his work, and that passion is both inspiring and contagious. Deo helped to create a firm foundation on which our organization can build."</p>
         <p class="ws-reviews__cards--meta body-paragraph">
-          <strong>Stephen Reno</strong>
+          <strong>Timothy G. Sink</strong>
           <br>
-          <span>Executive Director Leadership New Hampshire</span>
+          <span>CCE, President Greater Concord Chamber of Commerce</span>
         </p>
       </div>
       <div>
@@ -177,6 +177,14 @@
           <strong>Lynn Thomson</strong>
           <br>
           <span>Assistant Director of Art Education/Community Engagement Currier Museum</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"This is the testimonial for the education: Having Deo (Shaq & Martin, too) at NMH School was an amazing experience for our students and faculty. We appreciated hearing his personal story in the keynote address, as Deo raised important questions about identity, belonging, and living well in community together. Most impressive was his music & dance workshop with about 60 students; he was fired up; Deo was fired up, got them fired up, and a number of kids commented that it was the best workshop they had ever attended. Simply put, it was an awesome afternoon and we are thrilled Deo was able to share his talents with NMH School."</p>
+        <p class="ws-reviews__cards--meta body-paragraph">
+          <strong>Martha Neubert</strong>
+          <br>
+          <span>Dean of Diversity, Equity, and Social Justice, Northfield Mount Hermon</span>
         </p>
       </div>
     </div>

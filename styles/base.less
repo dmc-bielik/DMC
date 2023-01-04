@@ -2202,3 +2202,31 @@ ul {
     }
   }
 }
+
+.tns {
+  &-outer {
+    position: relative;
+  }
+
+  &-nav {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    button {
+      display: block;
+      height: 16px;
+      width: 16px;
+      border: 2px solid #fff;
+      background: transparent;
+      border-radius: 50%;
+      margin: 10px 0;
+
+      &.tns-nav-active {
+        background-color: #fff;
+      }
+    }
+  }
+}

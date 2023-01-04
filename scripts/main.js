@@ -107,7 +107,8 @@ if (fadeFullscreenSlider) {
     autoplay: true,
     autoplayButtonOutput: false,
     autoplayHoverPause: true,
-    nav: false,
+    // nav: false,
+    // navContainer: "",
     controls: false,
   });
 }
