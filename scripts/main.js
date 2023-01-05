@@ -87,12 +87,19 @@ if (homeTestimonialsSlider) {
   window.tns({
     ...marqueeSliderCommon,
     container: homeTestimonialsSlider,
-    // items: 3,
-    // slideBy: "page",
-    // autoplay: false,
-    // loop: false,
-    // autoWidth: true,
     items: 3,
+  });
+}
+
+const lsReviewsCards = document.querySelector(".ls-reviews__cards");
+
+if (lsReviewsCards) {
+  window.tns({
+    ...marqueeSliderCommon,
+    container: lsReviewsCards,
+    speed: 2000,
+    items: 4,
+    autoplayTimeout: 4000,
   });
 }
 
@@ -114,9 +121,13 @@ if (fadeFullscreenSlider) {
   });
 }
 
-/* Home */
+/* Images fade animation */
 
-const imagesFade = ["home-approach-background", "home-who-image"];
+const imagesFade = [
+  "home-approach-background",
+  "home-who-image",
+  "ls-hero-image",
+];
 
 imagesFade.forEach((i) => {
   const images = document.querySelectorAll(`.${i}`);

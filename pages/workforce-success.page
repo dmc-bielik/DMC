@@ -155,7 +155,7 @@
       <div class="center">DMC’s engagements are often 6 to 12 months or multi year partnerships</div>
       <div></div>
       <div>
-        <img src="/assets/images/workforce-success/deo-engagement-speaker.png" alt="deo">
+        {#  <img src="/assets/images/workforce-success/deo-engagement-speaker.png" alt="deo">  }
       </div>
     </div>
     <img src="/assets/images/workforce-success/deo-audience.png" alt="deo audience" class="ws-engagements__audience">
