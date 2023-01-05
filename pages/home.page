@@ -66,9 +66,9 @@
   </div>
 </section>
 
-<section class="home-who">
+<section class="home-problem">
   <div class="container ls-container">
-    <div class="home-who__row">
+    <div class="home-problem__row">
       <div>
         <img src="/assets/images/home/deo-who-we-are.png" alt="Who we are deo mwano" class="zoom-image-on-scroll-2">
       </div>
@@ -80,22 +80,33 @@
   </div>
 </section>
 
-<section class="home-approach fade-fullscreen-slider">
-  <div class="home-approach__content-container home-approach__content-container-1">
-    <div class="container">
-      <div class="home-approach__content">
-        <h2 class="heading-2">Our Unique Approach</h2>
-        <p class="body-paragraph">Deo Mwano Consultancy’s(DMC) focus is helping businesses, schools and organizations maximize their positive impact by building authentic relationships and understanding. DMC’s process brings everyone to the table to co-design solutions through shared power.</p>
-        <p class="body-paragraph">DMC's unique approach evokes vulnerability, honesty and transparency. DMC helps organizations break down old mindsets and systems and then provides solutions that help people feel accepted, respected and a new sense of belonging. This is a transformative process, improving engagement, productivity, satisfaction and retention.</p>
-        <a href="#!" class="button">Talk to us today</a>
+<section class="home-who">
+  <div class="container ls-container">
+    <div class="home-who__row">
+      <div>
+        <h2 class="heading-2 appear-on-scroll-5">Who we are</h2>
+        <p class="body-paragraph appear-on-scroll-5">The Deo Mwano Consultancy team features experts in a variety of disciplines, including Data Analysis, Research, DEIJ, Leadership/Management Development, Learning Success, Board Dynamics, Project and Program Management, Program and Project Development, Designing and Implementing Multi Stakeholders Alignment and Relationships, Videography/Photography, Graphic Design, Storytelling and Community Advocacy.</p>
+        <p class="body-paragraph appear-on-scroll-5"><strong>Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize engagement.</strong></p>
+      </div>
+      <div>
+        <img src="/assets/images/home/deo-who-1.jpg" class="home-who-image is-visible" alt="deo mwano who">
+        <img src="/assets/images/home/deo-who-2.jpg" class="home-who-image" alt="deo mwano who">
+        <img src="/assets/images/home/deo-who-3.jpg" class="home-who-image" alt="deo mwano who">
       </div>
     </div>
   </div>
-  <div class="home-approach__content-container home-approach__content-container-2">
+</section>
+
+<section class="home-approach">
+  <img src="/assets/images/home/deo-speaker-1.jpg" alt="deo mwano speaker" class="home-approach-background is-visible">
+  <img src="/assets/images/home/deo-speaker-2.jpg" alt="deo mwano speaker" class="home-approach-background">
+  <img src="/assets/images/home/deo-speaker-3.jpg" alt="deo mwano speaker" class="home-approach-background">
+  <img src="/assets/images/home/deo-speaker-4.jpg" alt="deo mwano speaker" class="home-approach-background">
+  <div class="home-approach__content-container">
     <div class="container">
       <div class="home-approach__content">
         <h2 class="heading-2">Our Unique Approach</h2>
-        <p class="body-paragraph">Deo Mwano Consultancy’s(DMC) focus is helping businesses, schools and organizations maximize their positive impact by building authentic relationships and understanding. DMC’s process brings everyone to the table to co-design solutions through shared power.</p>
+        <p class="body-paragraph">Deo Mwano Consultancy’s (DMC) focus is helping businesses, schools and organizations maximize their positive impact by building authentic relationships and understanding. DMC’s process brings everyone to the table to co-design solutions through shared power.</p>
         <p class="body-paragraph">DMC's unique approach evokes vulnerability, honesty and transparency. DMC helps organizations break down old mindsets and systems and then provides solutions that help people feel accepted, respected and a new sense of belonging. This is a transformative process, improving engagement, productivity, satisfaction and retention.</p>
         <a href="#!" class="button">Talk to us today</a>
       </div>
@@ -105,7 +116,7 @@
 
 <section class="home-speaker">
   <div class="container">
-    <div class="home-speaker__content appear-on-scroll-5">
+    <div class="home-speaker__content appear-on-scroll-6">
       <div>
         <img src="/assets/images/home/deo-speaker-audience.png" alt="deo mwano speaker" class="zoom-image-on-scroll-3">
       </div>
@@ -118,7 +129,7 @@
   </div>
 </section>
 
-<section class="home-clients appear-on-scroll-6">
+<section class="home-clients appear-on-scroll-7">
   <div class="container">
     <h2 class="heading-2">Trusted by</h2>
     <div class="home-clients__images">

@@ -9,6 +9,7 @@ const appearOnScroll = [
   window.gsap.utils.toArray(".appear-on-scroll-4"),
   window.gsap.utils.toArray(".appear-on-scroll-5"),
   window.gsap.utils.toArray(".appear-on-scroll-6"),
+  window.gsap.utils.toArray(".appear-on-scroll-7"),
 ];
 const zoomImageOnScroll = [
   window.gsap.utils.toArray(".zoom-image-on-scroll-1"),
@@ -112,3 +113,27 @@ if (fadeFullscreenSlider) {
     controls: false,
   });
 }
+
+/* Home */
+
+const imagesFade = ["home-approach-background", "home-who-image"];
+
+imagesFade.forEach((i) => {
+  const images = document.querySelectorAll(`.${i}`);
+
+  if (images) {
+    let activeIndex = 0;
+
+    window.setInterval(() => {
+      activeIndex = activeIndex + 1 === images.length ? 0 : activeIndex + 1;
+
+      Array.from(images).forEach((el, index) => {
+        if (activeIndex === index) {
+          el.classList.add("is-visible");
+        } else {
+          el.classList.remove("is-visible");
+        }
+      });
+    }, 4000);
+  }
+});
