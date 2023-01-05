@@ -65,6 +65,13 @@ window.gsap.to(".home-action img", {
 //   { y: -50, scrollTrigger: homeActionScrollTrigger }
 // );
 
+window.ScrollTrigger.create({
+  trigger: ".team-expertise",
+  start: "top 100px",
+  end: "bottom 290px",
+  pin: ".team-expertise__row-title",
+});
+
 /* Sliders */
 
 const marqueeSliderCommon = {

@@ -139,10 +139,16 @@
   <div class="container ls-container">
     <div class="team-expertise__row">
       <div>
-        <h2 class="heading-3">DMC Expertise &<br>Resources</h2>
+        <h2 class="heading-3 team-expertise__row-title">DMC Expertise &<br>Resources</h2>
       </div>
-      <div style="flex: 1;">
+      <div style="flex: 1;" class="team-expertise__row-right">
         <h3 class="heading-1">Data Research &<br>Analysis</h3>
+        <h3 class="heading-1">Organizational<br>Alignment</h3>
+        <h3 class="heading-1">Leadership<br>Success</h3>
+        <h3 class="heading-1">Community<br>Culture</h3>
+        <h3 class="heading-1">Program<br>Management</h3>
+        <h3 class="heading-1">Storytelling</h3>
+        <h3 class="heading-1">Videography</h3>
       </div>
     </div>
   </div>
