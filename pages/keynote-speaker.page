@@ -60,7 +60,16 @@
 <section class="ks-partners center">
   <div class="container">
     <h2 class="uppercase heading-4">Recent Partners</h2>
-    <p>Tuscan EDI conference, YALE African Student Conference, Eastern Association Student Financial Aid Administrators, Kelly Williams Metropolitan, Pinnacle Mortgage, Enterprise Bank, Penn State Student leadership, Concord Hospital Family Health Center.</p>
+    <div class="ks-partners__pills">
+      <span>Tuscan EDI conference</span>
+      <span>YALE African Student Conference</span>
+      <span>Eastern Association Student Financial Aid Administrators</span>
+      <span>Kelly Williams Metropolitan</span>
+      <span>Pinnacle Mortgage</span>
+      <span>Enterprise Bank</span>
+      <span>Penn State Student leadership</span>
+      <span>Concord Hospital Family Health Center</span>
+    </div>
     <a href="#!" class="button">Talk to DMC today</a>
   </div>
 </section>
