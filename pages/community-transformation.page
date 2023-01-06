@@ -163,14 +163,6 @@
           <span>Director of Pakistani Educational Leadership Institute</span>
         </p>
       </div>
-      {#  <div>
-        <p class="body-paragraph ws-reviews__cards--review">"It was a pleasure working with Deo Mwano. He has a true talent for group engagement and facilitating challenging discussions in a positive manner. It is clear that he is passionate about his work, and that passion is both inspiring and contagious. Deo helped to create a firm foundation on which our organization can build."</p>
-        <p class="ws-reviews__cards--meta body-paragraph">
-          <strong>Timothy G. Sink</strong>
-          <br>
-          <span>CCE, President Greater Concord Chamber of Commerce</span>
-        </p>
-      </div>  }
       <div>
         <p class="body-paragraph ws-reviews__cards--review">"Deo was willing to work with the Currier Museum of Art on a new program and did so thoughtfully and with an open mind. Not only did Deo bring professionalism to the event, but a unique form of engagement that encouraged others to think deeper and more holistically."</p>
         <p class="ws-reviews__cards--meta body-paragraph">
@@ -179,14 +171,14 @@
           <span>Assistant Director of Art Education/Community Engagement Currier Museum</span>
         </p>
       </div>
-      {#  <div>
-        <p class="body-paragraph ws-reviews__cards--review">"This is the testimonial for the education: Having Deo (Shaq & Martin, too) at NMH School was an amazing experience for our students and faculty. We appreciated hearing his personal story in the keynote address, as Deo raised important questions about identity, belonging, and living well in community together. Most impressive was his music & dance workshop with about 60 students; he was fired up; Deo was fired up, got them fired up, and a number of kids commented that it was the best workshop they had ever attended. Simply put, it was an awesome afternoon and we are thrilled Deo was able to share his talents with NMH School."</p>
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"Deo radiates positivity! His approachable style facilitates questions and dialogue. Our trustees and employees enjoyed consultations that inspired awareness and understanding as we explored the topics of diversity and inclusion. Informed by Deo’s insights, we have designed and launched a thoughtful plan to expand our commitment to equity, diversity, inclusion, and accessibility in our arts programming, operational policies, and bridge building to the extended community."</p>
         <p class="ws-reviews__cards--meta body-paragraph">
-          <strong>Martha Neubert</strong>
+          <strong>Nicki Clarke</strong>
           <br>
-          <span>Dean of Diversity, Equity, and Social Justice, Northfield Mount Hermon</span>
+          <span>Executive Director, Capitol Center for the Arts</span>
         </p>
-      </div>  }
+      </div>
     </div>
   </div>
 </section>
@@ -215,7 +207,7 @@
         <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="Andrea Bruneau">
         <div>
           <h4>Andrea Bruneau</h4>
-          <p>Leaning Model and Organization Transformation Consultant</p>
+          <p>Learning Model and Organization Transformation Consultant</p>
         </div>
       </div>
     </div>

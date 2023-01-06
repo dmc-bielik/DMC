@@ -10,13 +10,13 @@
   </div>
 </section>
 
-<section class="ks-story">
+{#  <section class="ks-story">
   <div class="container">
     <h2 class="uppercase center heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the US as a refugee.</h2>
   </div>
-</section>
+</section>  }
 
-<section class="ks-family">
+{#  <section class="ks-family">
   <div class="container ls-container">
     <div class="ks-family__content">
       <div>
@@ -27,7 +27,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>  }
 
 <section class="ks-presentations">
   <div class="container ls-container">

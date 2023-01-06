@@ -208,6 +208,14 @@
     <div class="container">
       <div class="ws-reviews__cards ls-reviews__cards">
         <div>
+          <p class="body-paragraph ws-reviews__cards--review">"Deo Mwano has a magic of goodness. I think it comes from having such a powerful and generous heart. His energy inspires. The vitality that he brings to students, and what he gave to me as a colleague, generates tremendous goodwill and insight. He summons up and frees the creative spirit. That kind of innovation and connection is rare. Deo is himself a special source of light and a talented guide."</p>
+          <p class="ws-reviews__cards--meta body-paragraph">
+            <strong>RG Richards</strong>
+            <br>
+            <span>Phillips Exeter Academy Chair, Theatre Instructor</span>
+          </p>
+        </div>
+        <div>
           <p class="body-paragraph ws-reviews__cards--review">"Deo brought an informative, high energy, and inspirational workshop to students during a critical time. We asked for an opportunity for students to learn more, reflect on their own experiences, and identify what they can do to positively impact the culture in their school. Deo did a great job and really engaged students."</p>
           <p class="ws-reviews__cards--meta body-paragraph">
             <strong>Michele Holt-Shannon</strong>
@@ -229,14 +237,6 @@
             <strong>Martha Neubert</strong>
             <br>
             <span>Dean of Diversity, Equity, and Social Justice, Northfield Mount Hermon</span>
-          </p>
-        </div>
-        <div>
-          <p class="body-paragraph ws-reviews__cards--review">"Deo Mwano has a magic of goodness. I think it comes from having such a powerful and generous heart. His energy inspires. The vitality that he brings to students, and what he gave to me as a colleague, generates tremendous goodwill and insight. He summons up and frees the creative spirit. That kind of innovation and connection is rare. Deo is himself a special source of light and a talented guide."</p>
-          <p class="ws-reviews__cards--meta body-paragraph">
-            <strong>RG Richards</strong>
-            <br>
-            <span>Phillips Exeter Academy Chair, Theatre Instructor</span>
           </p>
         </div>
         <div>
@@ -275,7 +275,7 @@
           <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="Andrea Bruneau">
           <div>
             <h4>Andrea Bruneau</h4>
-            <p>Leaning Model and Organization Transformation Consultant</p>
+            <p>Learning Model and Organization Transformation Consultant</p>
           </div>
         </div>
       </div>

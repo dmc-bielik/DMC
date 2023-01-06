@@ -7,6 +7,12 @@
   </div>
 </section>
 
+<section class="ks-story">
+  <div class="container">
+    {#  <h2 class="uppercase center heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the US as a refugee.</h2>  }
+  </div>
+</section>
+
 <section class="story-about">
   <div class="container ls-container">
     <div class="story-about__row">
