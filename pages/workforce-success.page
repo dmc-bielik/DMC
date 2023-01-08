@@ -1,7 +1,5 @@
 <section class="ws-hero">
-  <div class="container">
-    <img src="/assets/images/workforce-success/deo-success.jpg" alt="">
-  </div>
+  <img src="/assets/images/workforce-success/deo-success.jpg" alt="">
 </section>
 
 <section class="ws-fortune">

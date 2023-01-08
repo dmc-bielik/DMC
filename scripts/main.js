@@ -56,20 +56,32 @@ const homeActionScrollTrigger = {
 };
 
 window.gsap.to(".home-action img", {
-  y: -200,
+  y: -250,
   scrollTrigger: homeActionScrollTrigger,
 });
-
-// window.gsap.fromTo(
-//   ".home-action > div",
-//   { y: -50, scrollTrigger: homeActionScrollTrigger }
-// );
 
 window.ScrollTrigger.create({
   trigger: ".team-expertise",
   start: "top 100px",
   end: "bottom 290px",
   pin: ".team-expertise__row-title",
+});
+
+window.gsap.to(".ws-hero img", {
+  scrollTrigger: {
+    trigger: ".ws-hero",
+    start: "-148px top",
+    end: "top top",
+    scrub: true,
+    pin: ".header",
+    pinSpacing: false,
+  },
+  borderRadius: "13px",
+  width: "1400px",
+  left: `${(window.innerWidth - 1400) / 2}px`,
+  right: `${(window.innerWidth - 1400) / 2}px`,
+  top: "150px",
+  maxHeight: "700px",
 });
 
 /* Sliders */

@@ -1,10 +1,18 @@
 .ws {
   &-hero {
+    position: relative;
+    min-height: 800px;
     margin: 10px 0 50px;
 
     img {
+      position: absolute;
+      top: -148px;
+      left: 0;
+      right: 0;
       width: 100%;
-      border-radius: 13px;
+      height: 100vh;
+      max-height: 100vh;
+      object-fit: cover;
     }
   }
 
