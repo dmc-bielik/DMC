@@ -169,3 +169,31 @@ imagesFade.forEach((i) => {
     }, 4000);
   }
 });
+
+/* MISC */
+
+if (window.location.pathname.startsWith("/team")) {
+  const bioParagraphs = document.querySelectorAll(".team-member__row--bio");
+
+  Array.from(bioParagraphs || []).forEach((p) => {
+    if (p.scrollHeight > p.offsetHeight) {
+      const readMoreLink = document.createElement("a");
+
+      readMoreLink.className = "body-paragraph team-member__row--bio-read-more";
+      readMoreLink.href = "#!";
+      readMoreLink.innerHTML = "read more";
+      readMoreLink.onclick = (e) => {
+        e.preventDefault();
+
+        p.classList.add("is-expanded");
+        p.parentElement.querySelector(
+          ".team-member__row--bio-read-more"
+        ).style.display = "none";
+      };
+
+      p.parentElement.appendChild(readMoreLink);
+    } else {
+      p.classList.add("is-expanded");
+    }
+  });
+}

@@ -6,7 +6,7 @@
   <div class="container">
     <div class="ws-fortune__row">
       <div>
-        <h4 class="uppercase">Fortune 500, Small Businesses, Start-ups</h4>
+        <h4 class="uppercase">Fortune 500, Small Businesses, and Start-ups</h4>
       </div>
       <div>
         <p class="body-paragraph">DMC helps businesses with policies, strategies and resources to recruit and retain diverse talent and create a positive and inclusive work culture.</p>
@@ -20,7 +20,7 @@
   <div class="container">
     <div class="ws-model__row">
       <img src="/assets/images/workforce-success/people-centered-model.png" alt="">
-      <p>DMC’s<br>people-centered model is adaptable to virtually any industry. We have proven results with</p>
+      <p>DMC’s people-centered model is adaptable to virtually any industry. We have proven results with</p>
     </div>
     <div class="ws-model__cards center">
       <span class="body-paragraph">
@@ -45,7 +45,7 @@
       </span>
       <span class="body-paragraph">
         <img src="/assets/images/workforce-success/education.svg" alt="">
-        <span>Educational Organisations</span>
+        <span>Educational Organizations</span>
       </span>
     </div>
   </div>
@@ -54,7 +54,7 @@
 <section class="ws-relationship">
   <div class="container">
     <div class="ws-relationship__content">
-      <p class="body-paragraph">Authentic relationship-building is at the heart of the work we do. We develop trust and honesty with employees to get to the root of issues and we include them in the design of solutions. DMC is an agile and responsive company with a track record that has produced better results for the clients that have also worked with major consulting firms.</p>
+      <p class="body-paragraph">Authentic relationship-building is at the heart of the work we do. We develop trust and honesty with employees to get to the root of issues and we include them in the design of solutions. DMC is an agile and responsive company with a track record that has produced better results for clients that have also worked with major consulting firms.</p>
       <a href="#!" class="button button-outline-white">Talk to us today</a>
       <img src="/assets/images/workforce-success/deo-team-sofa.png" alt="" class="ws-relationship__content--img-1">
       <img src="/assets/images/workforce-success/deo-talk.png" alt="" class="ws-relationship__content--img-2">
@@ -66,7 +66,7 @@
   <div class="container ls-container">
     <div class="ws-strategies__row">
       <div>
-        <h2 class="heading-4">Design strategies and implementation tools to</h2>
+        <h2 class="heading-4">We design strategies and tools to:</h2>
         <ul class="body-paragraph">
           <li>Train and coach leaders to improve organizational climate and culture</li>
           <li>Strengthen relationships between employees at all levels of a company with transparency and accessibility</li>
@@ -74,7 +74,7 @@
           <li>Recruit and retain diverse employees with a supportive environment that celebrates differences and embraces unique identities</li>
           <li>Increase social and emotional leadership skills to inspire and unify all employees with a shared vision</li>
           <li>Integrate DEI into a company’s strategic goals with measurable outcomes</li>
-          <li>Assess organizational culture for baseline understanding of where a company is doing well and where they have gaps to improve</li>
+          <li>Assess organizational culture for baseline understanding of where a company is doing well and where they have opportunities to improve</li>
         </ul>
       </div>
       <div>
@@ -140,7 +140,7 @@
       <div class="container ls-container">
         <div class="ws-partners__content">
           <h3 class="heading-3">Peabody Properties</h3>
-          <p class="body-paragraph">DMC has guided Peabody Properties, a property management and real estate firm with 600 employees nationwide, through the process of identifying and disrupting patterns of inequality while improving workforce culture. DMC has developed training initiatives to create and foster an open and inclusive environment. DMC also conducted the company’s first DEI survey and established the inaugural DEI Council made up of 16 employees representing all departments and locations. The group and the company have been recognized for their DEI work, recently being awarded Diversity, Equity, and Inclusion Award by the Institute of Real Estate Management by Massachusett Real Estate Association.</p>
+          <p class="body-paragraph">DMC has guided Peabody Properties, a property management and real estate firm with 600 employees nationwide, through the process of identifying and disrupting patterns of inequality while improving workforce culture. DMC has developed training initiatives to create and foster an open and inclusive environment. DMC also conducted the company’s first DEI survey and established the inaugural DEI Council made up of 16 employees representing all departments and locations. The group and the company have been recognized for their DEI work with the recent Diversity, Equity, and Inclusion Award from the Institute of Real Estate Management by Massachusetts Real Estate Association.</p>
         </div>
       </div>
     </div>

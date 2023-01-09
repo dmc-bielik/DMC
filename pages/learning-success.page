@@ -10,7 +10,7 @@
 
   <section class="ls-title center">
     <div class="container">
-      <p class="heading-3 uppercase">Ivy League Universities, Community Colleges, K-12 School, Boarding Schools, and School Boards</p>
+      <p class="heading-3 uppercase">Ivy League Universities, Community Colleges, K-12 Schools, Boarding Schools, and School Boards</p>
       <a href="#!" class="button">Talk to us today</a>
     </div>
   </section>
@@ -19,14 +19,14 @@
     <div class="container">
       <div class="ls-strategies__row">
         <div>
-          <h2 class="heading-4 uppercase">Design strategies and implementation tools to</h2>
+          <h2 class="heading-4 uppercase">We design strategies and tools to:</h2>
           <ul class="body-paragraph">
-            <li>Improving school climate and culture in order to increase positive experience for all students</li>
-            <li>Unique student success competencies with policies and processes supported by school boards, school administrators, teachers and parents</li>
-            <li>Strengthening relationships between schools and parents</li>
-            <li>Strengthening relationships between historically marginalized communities and school officials</li>
-            <li>Integrating social and emotional learning in teaching and technology.</li>
-            <li>Improving learning outcomes for historically marginalized students with an approach designed to reflect the learner’s experience</li>
+            <li>Improve school climate and culture in order to increase positive experience for all students</li>
+            <li>Support unique student success competencies with policies and processes supported by school boards, school administrators, teachers and parents</li>
+            <li>Strengthen relationships between schools and parents</li>
+            <li>Strengthen relationships between historically marginalized communities and school officials</li>
+            <li>Integrate social and emotional learning in teaching and technology</li>
+            <li>Improve learning outcomes for historically marginalized students with an approach designed to reflect the learner’s experience</li>
           </ul>
         </div>
         <div class="ls-strategies__blocks">
@@ -56,10 +56,10 @@
 
   <section class="ls-k12">
     <div class="container ls-container">
-      <h2 class="heading-2">K12</h2>
+      <h2 class="heading-2">K-12</h2>
       <div class="ls-k12__row">
         <div class="ls-k12__row--1">
-          <p class="body-paragraph">Public School, Boarding School, Virtual Schools, Private School</p>
+          <p class="body-paragraph">Public Schools, Boarding Schools, Virtual Schools, Private Schools</p>
         </div>
         <div class="ls-k12__row--2">
           <img src="/assets/images/learning-success/deo-k12-1.jpg" alt="">
@@ -109,7 +109,7 @@
       <h2 class="heading-2 center uppercase">Colleges and Universities</h2>
       <div class="ls-k12__row">
         <div class="ls-k12__row--1">
-          <p class="body-paragraph">Community College, Ivy Leagues, Online Schools</p>
+          <p class="body-paragraph">Community Colleges, Ivy Leagues, Online Schools</p>
         </div>
         <div class="ls-k12__row--2">
           <img src="/assets/images/learning-success/deo-colleges-1.jpg" alt="">
