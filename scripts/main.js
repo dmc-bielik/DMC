@@ -67,7 +67,7 @@ window.ScrollTrigger.create({
   pin: ".team-expertise__row-title",
 });
 
-if (window.location.pathname.startsWith("/workspace-success")) {
+if (window.location.pathname.startsWith("/workforce-success")) {
   window.gsap.to(".ws-hero img", {
     scrollTrigger: {
       trigger: ".ws-hero",
