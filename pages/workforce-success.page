@@ -78,11 +78,11 @@
         </ul>
       </div>
       <div>
-        <img src="/assets/images/workforce-success/deo-speaker-2.jpg" alt="" width="330px">
-        <img src="/assets/images/workforce-success/strategies-gradient-1.jpg" alt=""width="120px">
-        <img src="/assets/images/workforce-success/deo-talk.jpg" alt="">
-        <img src="/assets/images/workforce-success/deo-speaker.jpg" alt="">
-        <img src="/assets/images/workforce-success/strategies-gradient-2.png" alt="" width="120px">
+        <img class="ws-strategies__row--img-1" src="/assets/images/workforce-success/deo-speaker-2.jpg" alt="" width="330px">
+        <img class="ws-strategies__row--img-2" src="/assets/images/workforce-success/strategies-gradient-1.jpg" alt=""width="120px">
+        <img class="ws-strategies__row--img-3" src="/assets/images/workforce-success/deo-talk.jpg" alt="">
+        <img class="ws-strategies__row--img-4" src="/assets/images/workforce-success/deo-speaker.jpg" alt="">
+        <img class="ws-strategies__row--img-5" src="/assets/images/workforce-success/strategies-gradient-2.png" alt="" width="120px">
       </div>
     </div>
   </div>
@@ -150,9 +150,9 @@
 <section class="ws-engagements">
   <div class="container">
     <div class="ws-engagements__circles">
-      <div class="center">DMC’s engagements are often 6 to 12 months or multi year partnerships</div>
-      <div></div>
-      <div>
+      <div class="center ws-engagements__circles-1">DMC’s engagements are often 6 to 12 months or multi year partnerships</div>
+      <div class="ws-engagements__circles-2"></div>
+      <div class="ws-engagements__circles-3">
         {#  <img src="/assets/images/workforce-success/deo-engagement-speaker.png" alt="deo">  }
       </div>
     </div>

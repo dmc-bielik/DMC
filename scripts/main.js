@@ -84,6 +84,7 @@ if (window.location.pathname.startsWith("/workforce-success")) {
     top: "150px",
     maxHeight: "700px",
   });
+
   window.gsap.fromTo(
     ".header",
     { opacity: 0 },
@@ -95,6 +96,162 @@ if (window.location.pathname.startsWith("/workforce-success")) {
         scrub: true,
       },
       opacity: 1,
+    }
+  );
+
+  window.gsap.to(".ws-relationship__content--img-1", {
+    scrollTrigger: {
+      trigger: ".ws-relationship__content",
+      start: "bottom bottom",
+      end: "+=270px",
+    },
+    opacity: 1,
+    left: 0,
+    duration: 2,
+    ease: "power2.out",
+  });
+
+  window.gsap.to(".ws-relationship__content--img-2", {
+    scrollTrigger: {
+      trigger: ".ws-relationship__content",
+      start: "bottom bottom",
+      end: "+=270px",
+    },
+    opacity: 1,
+    right: 0,
+    duration: 2,
+    ease: "power2.out",
+  });
+
+  const strategiesScrollTrigger = {
+    trigger: ".ws-strategies",
+    start: "top bottom",
+    end: "bottom top",
+    scrub: true,
+  };
+
+  window.gsap.fromTo(
+    ".ws-strategies__row--img-1",
+    { y: -150 },
+    {
+      scrollTrigger: strategiesScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ws-strategies__row--img-2",
+    { y: -80 },
+    {
+      scrollTrigger: strategiesScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ws-strategies__row--img-3",
+    { y: 30 },
+    {
+      scrollTrigger: strategiesScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ws-strategies__row--img-4",
+    { y: 150 },
+    {
+      scrollTrigger: strategiesScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ws-strategies__row--img-5",
+    { y: 90 },
+    {
+      scrollTrigger: strategiesScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ws-who__row img",
+    { y: 40 },
+    {
+      scrollTrigger: {
+        trigger: ".ws-who__row",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true,
+      },
+      y: -40,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ws-clients",
+    { opacity: 0 },
+    {
+      scrollTrigger: {
+        trigger: ".ws-clients",
+        start: "top center",
+      },
+      opacity: 1,
+      duration: 2,
+      ease: "power2.out",
+    }
+  );
+
+  const engagementsScrollTrigger = {
+    trigger: ".ws-engagements",
+    start: "top center",
+    end: "bottom top",
+    scrub: true,
+  };
+
+  window.gsap.fromTo(
+    ".ws-engagements__circles-1",
+    { y: -30 },
+    {
+      scrollTrigger: engagementsScrollTrigger,
+      y: 30,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ws-engagements__circles-2",
+    { rotate: "0deg" },
+    {
+      scrollTrigger: engagementsScrollTrigger,
+      rotate: "90deg",
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ws-engagements__circles-3",
+    { y: 20 },
+    {
+      scrollTrigger: engagementsScrollTrigger,
+      y: -40,
+      duration: 2,
+      ease: "linear",
     }
   );
 }
@@ -148,7 +305,11 @@ if (fadeFullscreenSlider) {
     speed: 2000,
     autoplay: true,
     autoplayButtonOutput: false,
-    autoplayHoverPause: true,
+    // autoplayHoverPause: true,
+    // animateDelay: 2000,
+    animateIn: "tns-fade-in",
+    animateOut: "tns-fade-out",
+    animateNormal: "tns-fade-out",
     // nav: false,
     // navContainer: "",
     controls: false,
@@ -161,6 +322,7 @@ const imagesFade = [
   "home-approach-background",
   "home-who-image",
   "ls-hero-image",
+  "",
 ];
 
 imagesFade.forEach((i) => {

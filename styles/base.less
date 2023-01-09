@@ -2205,6 +2205,26 @@ ul {
   }
 }
 
+@keyframes tnsFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes tnsFadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
 .tns {
   &-outer {
     position: relative;
@@ -2230,5 +2250,13 @@ ul {
         background-color: #fff;
       }
     }
+  }
+
+  &-fade-in {
+    animation-name: tnsFadeIn;
+  }
+  
+  &-fade-out {
+    animation-name: tnsFadeOut;
   }
 }
