@@ -67,22 +67,24 @@ window.ScrollTrigger.create({
   pin: ".team-expertise__row-title",
 });
 
-window.gsap.to(".ws-hero img", {
-  scrollTrigger: {
-    trigger: ".ws-hero",
-    start: "-148px top",
-    end: "top top",
-    scrub: true,
-    pin: ".header",
-    pinSpacing: false,
-  },
-  borderRadius: "13px",
-  width: "1400px",
-  left: `${(window.innerWidth - 1400) / 2}px`,
-  right: `${(window.innerWidth - 1400) / 2}px`,
-  top: "150px",
-  maxHeight: "700px",
-});
+if (window.location.pathname.startsWith("/workspace-success")) {
+  window.gsap.to(".ws-hero img", {
+    scrollTrigger: {
+      trigger: ".ws-hero",
+      start: "-148px top",
+      end: "top top",
+      scrub: true,
+      pin: ".header",
+      pinSpacing: false,
+    },
+    borderRadius: "13px",
+    width: "1400px",
+    left: `${(window.innerWidth - 1400) / 2}px`,
+    right: `${(window.innerWidth - 1400) / 2}px`,
+    top: "150px",
+    maxHeight: "700px",
+  });
+}
 
 /* Sliders */
 
