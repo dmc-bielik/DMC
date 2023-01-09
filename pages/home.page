@@ -116,7 +116,7 @@
 
 <section class="home-speaker">
   <div class="container">
-    <div class="home-speaker__content appear-on-scroll-6">
+    <div class="home-speaker__content">
       <div>
         <img src="/assets/images/home/deo-speaker-audience.png" alt="deo mwano speaker" class="zoom-image-on-scroll-3">
       </div>
@@ -129,7 +129,7 @@
   </div>
 </section>
 
-<section class="home-clients appear-on-scroll-7">
+<section class="home-clients">
   <div class="container">
     <h2 class="heading-2">Trusted by</h2>
     <div class="home-clients__images">

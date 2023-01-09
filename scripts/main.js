@@ -84,6 +84,19 @@ if (window.location.pathname.startsWith("/workforce-success")) {
     top: "150px",
     maxHeight: "700px",
   });
+  window.gsap.fromTo(
+    ".header",
+    { opacity: 0 },
+    {
+      scrollTrigger: {
+        trigger: ".ws-hero",
+        start: "-100px top",
+        end: "+=40px",
+        scrub: true,
+      },
+      opacity: 1,
+    }
+  );
 }
 
 /* Sliders */
@@ -166,7 +179,7 @@ imagesFade.forEach((i) => {
           el.classList.remove("is-visible");
         }
       });
-    }, 4000);
+    }, 5000);
   }
 });
 
