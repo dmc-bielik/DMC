@@ -30,20 +30,20 @@
         <div class="ls-strategies__blocks">
           <div>
             <div></div>
-            <div>
+            <div class="ls-strategies__blocks-2">
               <img src="/assets/images/learning-success/deo-school-1.jpg" alt="">
             </div>
-            <div>
+            <div class="ls-strategies__blocks-3">
               <img src="/assets/images/learning-success/deo-school-3.jpg" alt="">
             </div>
           </div>
           <div>
-            <div>
+            <div class="ls-strategies__blocks-4">
               <img src="/assets/images/learning-success/deo-school-2.jpg" alt="">
             </div>
             <div>
               <span></span>
-              <img src="/assets/images/learning-success/deo-school-4.jpg" alt="">
+              <img src="/assets/images/learning-success/deo-school-4.jpg" alt="" class="ls-strategies__blocks-6">
             </div>
             <div></div>
           </div>
@@ -52,38 +52,38 @@
     </div>
   </section>
 
-  <section class="ls-k12">
+  <section class="ls-k12" id="ls-k12-1">
     <div class="container ls-container">
       <h2 class="heading-2">K-12</h2>
       <div class="ls-k12__row">
-        <div class="ls-k12__row--1">
+        <div class="ls-k12__row--1 ls-k12__row--move-1">
           <p class="body-paragraph">Public Schools, Boarding Schools, Virtual Schools, Private Schools</p>
         </div>
-        <div class="ls-k12__row--2">
+        <div class="ls-k12__row--2 ls-k12__row--move-2">
           <img src="/assets/images/learning-success/deo-k12-1.jpg" alt="">
         </div>
       </div>
       <div class="ls-k12__row">
-        <div class="ls-k12__row--2">
+        <div class="ls-k12__row--2 ls-k12__row--move-3">
           <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-cW316cYXuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="ls-k12__row--1">
+        <div class="ls-k12__row--1 ls-k12__row--move-4">
           <p class="heading-4">We bring students, parents and community partners together to co-design just, accessible and inclusive solutions that drive positive results.</p>
         </div>
       </div>
       <div class="ls-k12__row">
-        <div class="ls-k12__row--1">
+        <div class="ls-k12__row--1 ls-k12__row--move-5">
           <p class="body-paragraph"><strong>Who we work with</strong></p>
           <p class="body-paragraph">Superintendent, School Board, School Principal, Department Leaders, School Council Group, Parent Groups, DEIJ Director, ESL Director, Director of Curriculum, Dean of Student Experience</p>
         </div>
-        <div class="ls-k12__row--2">
+        <div class="ls-k12__row--2 ls-k12__row--move-6">
           <img src="/assets/images/learning-success/deo-k12-2.jpg" alt="">
         </div>
       </div>
     </div>
   </section>
 
-  <section class="ws-clients">
+  <section class="ws-clients" id="ls-k12-clients">
     <div class="container">
       <div class="ws-clients__images">
         <img src="/assets/images/clients/phillips-exeter-academy-2.png" alt="phillips exeter academy" width="142px">
@@ -102,38 +102,38 @@
     </div>
   </section>
 
-  <section class="ls-k12">
+  <section class="ls-k12" id="ls-k12-2">
     <div class="container ls-container">
       <h2 class="heading-2 center uppercase">Colleges and Universities</h2>
       <div class="ls-k12__row">
-        <div class="ls-k12__row--1">
+        <div class="ls-k12__row--1 ls-k12__row--move-1">
           <p class="body-paragraph">Community Colleges, Ivy Leagues, Online Schools</p>
         </div>
-        <div class="ls-k12__row--2">
+        <div class="ls-k12__row--2 ls-k12__row--move-2">
           <img src="/assets/images/learning-success/deo-colleges-1.jpg" alt="">
         </div>
       </div>
       <div class="ls-k12__row">
-        <div class="ls-k12__row--2">
+        <div class="ls-k12__row--2 ls-k12__row--move-3">
           <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kUFadVsi0sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="ls-k12__row--1">
+        <div class="ls-k12__row--1 ls-k12__row--move-4">
           <p class="heading-4">DMC’s work helps administrators better understand the root cause preventing students from maximizing their learning engagement and the negative influences impacting retention.</p>
         </div>
       </div>
       <div class="ls-k12__row">
-        <div class="ls-k12__row--1">
+        <div class="ls-k12__row--1 ls-k12__row--move-5">
           <p class="body-paragraph"><strong>Who we work with</strong></p>
           <p class="body-paragraph">Dean of Students, VP of First Year Student, Director of Student Engagement, Director of Student Success, VP of DEIJ, Director of Learning Success, Director of Student Support, VP of Career Services</p>
         </div>
-        <div class="ls-k12__row--2">
+        <div class="ls-k12__row--2 ls-k12__row--move-6">
           <img src="/assets/images/learning-success/deo-colleges-2.jpg" alt="">
         </div>
       </div>
     </div>
   </section>
 
-  <section class="ws-clients">
+  <section class="ws-clients" id="ls-college-clients">
     <div class="container">
       <div class="ws-clients__images">
         <img src="/assets/images/clients/southern-new-hampshire-university.png" alt="southern new hampshire university" width="142px">

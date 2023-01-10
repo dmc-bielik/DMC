@@ -261,6 +261,203 @@ if (window.location.pathname.startsWith("/workforce-success")) {
   );
 }
 
+if (window.location.pathname.startsWith("/learning-success")) {
+  const lsStrategiesScrollTrigger = {
+    trigger: ".ls-strategies",
+    start: "top bottom",
+    end: "top 20%",
+    scrub: true,
+  };
+
+  window.gsap.fromTo(
+    ".ls-strategies__blocks-2",
+    { y: -50 },
+    {
+      scrollTrigger: lsStrategiesScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ls-strategies__blocks-3",
+    { y: 80 },
+    {
+      scrollTrigger: lsStrategiesScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ls-strategies__blocks-4",
+    { y: -120 },
+    {
+      scrollTrigger: lsStrategiesScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ls-strategies__blocks-6",
+    { x: 50 },
+    {
+      scrollTrigger: lsStrategiesScrollTrigger,
+      x: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  ["#ls-k12-1", "#ls-k12-2"].forEach((trigger) => {
+    window.gsap.fromTo(
+      ".ls-k12__row--move-1",
+      { y: -50 },
+      {
+        scrollTrigger: {
+          trigger,
+          start: "top bottom",
+          end: "top 20%",
+          scrub: true,
+        },
+        y: 0,
+        duration: 2,
+        ease: "linear",
+      }
+    );
+
+    window.gsap.fromTo(
+      ".ls-k12__row--move-2",
+      { y: -100 },
+      {
+        scrollTrigger: {
+          trigger,
+          start: "top bottom",
+          end: "top 20%",
+          scrub: true,
+        },
+        y: 0,
+        duration: 2,
+        ease: "linear",
+      }
+    );
+
+    window.gsap.fromTo(
+      ".ls-k12__row--move-4 p",
+      { y: 0 },
+      {
+        scrollTrigger: {
+          trigger: `${trigger} .ls-k12__row--move-3`,
+          start: "bottom bottom",
+          end: "bottom top",
+          scrub: true,
+        },
+        y: 100,
+        duration: 2,
+        ease: "linear",
+      }
+    );
+
+    window.gsap.fromTo(
+      ".ls-k12__row--move-5",
+      { x: -50 },
+      {
+        scrollTrigger: {
+          trigger,
+          start: "top center",
+          end: "bottom center",
+          scrub: true,
+        },
+        x: 0,
+        duration: 2,
+        ease: "linear",
+      }
+    );
+  });
+
+  ["#ls-k12-clients", "#ls-college-clients"].forEach((trigger) => {
+    window.gsap.fromTo(
+      trigger,
+      { opacity: 0 },
+      {
+        scrollTrigger: {
+          trigger,
+          start: "top center",
+        },
+        opacity: 1,
+        duration: 2,
+        ease: "power2.out",
+      }
+    );
+  });
+
+  const lsEngagementsScrollTrigger = {
+    trigger: ".ls-engagements",
+    start: "top bottom",
+    end: "bottom top",
+    scrub: true,
+  };
+
+  window.gsap.fromTo(
+    ".ls-engagements__visuals--1",
+    { y: 150 },
+    {
+      scrollTrigger: lsEngagementsScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ls-engagements__visuals--2",
+    { y: -50 },
+    {
+      scrollTrigger: lsEngagementsScrollTrigger,
+      y: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ls-engagements__visuals--3",
+    { x: -150 },
+    {
+      scrollTrigger: lsEngagementsScrollTrigger,
+      x: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ls-engagements__visuals--4",
+    { x: -60 },
+    {
+      scrollTrigger: lsEngagementsScrollTrigger,
+      x: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ls-engagements__visuals--5",
+    { x: -25 },
+    {
+      scrollTrigger: lsEngagementsScrollTrigger,
+      x: 25,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+}
+
 /* Sliders */
 
 const marqueeSliderCommon = {
