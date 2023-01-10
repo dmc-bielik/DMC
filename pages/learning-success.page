@@ -1,11 +1,9 @@
 <div class="ls-main">
-  <section class="ls-hero">
-    <div class="container">
-      <img src="/assets/images/learning-success/deo-hero-learning-success-1.jpg" class="ls-hero-image is-visible" alt="deo mwano learning success">
-      <img src="/assets/images/learning-success/deo-hero-learning-success-2.jpg" class="ls-hero-image" alt="deo mwano learning success">
-      <img src="/assets/images/learning-success/deo-hero-learning-success-3.jpg" class="ls-hero-image" alt="deo mwano learning success">
-      <img src="/assets/images/learning-success/deo-hero-learning-success-4.jpg" class="ls-hero-image" alt="deo mwano learning success">
-    </div>
+  <section class="ls-hero sticky-hero">
+    <img src="/assets/images/learning-success/deo-hero-learning-success-1.jpg" class="ls-hero-image is-visible" alt="deo mwano learning success">
+    <img src="/assets/images/learning-success/deo-hero-learning-success-2.jpg" class="ls-hero-image" alt="deo mwano learning success">
+    <img src="/assets/images/learning-success/deo-hero-learning-success-3.jpg" class="ls-hero-image" alt="deo mwano learning success">
+    <img src="/assets/images/learning-success/deo-hero-learning-success-4.jpg" class="ls-hero-image" alt="deo mwano learning success">
   </section>
 
   <section class="ls-title center">

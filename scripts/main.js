@@ -67,10 +67,13 @@ window.ScrollTrigger.create({
   pin: ".team-expertise__row-title",
 });
 
-if (window.location.pathname.startsWith("/workforce-success")) {
-  window.gsap.to(".ws-hero img", {
+if (
+  window.location.pathname.startsWith("/workforce-success") ||
+  window.location.pathname.startsWith("/learning-success")
+) {
+  window.gsap.to(".sticky-hero img", {
     scrollTrigger: {
-      trigger: ".ws-hero",
+      trigger: ".sticky-hero",
       start: "-148px top",
       end: "top top",
       scrub: true,
@@ -90,7 +93,7 @@ if (window.location.pathname.startsWith("/workforce-success")) {
     { opacity: 0 },
     {
       scrollTrigger: {
-        trigger: ".ws-hero",
+        trigger: ".sticky-hero",
         start: "-100px top",
         end: "+=40px",
         scrub: true,
@@ -98,7 +101,9 @@ if (window.location.pathname.startsWith("/workforce-success")) {
       opacity: 1,
     }
   );
+}
 
+if (window.location.pathname.startsWith("/workforce-success")) {
   window.gsap.to(".ws-relationship__content--img-1", {
     scrollTrigger: {
       trigger: ".ws-relationship__content",
@@ -322,7 +327,6 @@ const imagesFade = [
   "home-approach-background",
   "home-who-image",
   "ls-hero-image",
-  "",
 ];
 
 imagesFade.forEach((i) => {

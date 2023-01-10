@@ -35,27 +35,12 @@
   }
 
   &-hero {
-    .container {
-      position: relative;
-      height: 700px;
-      overflow: hidden;
-      border-radius: 13px;
+    img {
+      opacity: 0;
+      transition: opacity 1s;
 
-      img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        opacity: 0;
-        transition: opacity 1s;
-
-        &.is-visible {
-          opacity: 1;
-        }
+      &.is-visible {
+        opacity: 1;
       }
     }
   }

@@ -73,8 +73,8 @@
         <img src="/assets/images/home/deo-who-we-are.png" alt="Who we are deo mwano" class="zoom-image-on-scroll-2">
       </div>
       <div>
-        <h2 class="heading-2 appear-on-scroll-4">Problem Solvers</h2>
-        <p class="body-paragraph appear-on-scroll-4">Deo Mwano Consultancy provides sustainable solutions to the complex social issues that affect businesses, schools and nonprofits. DMC helps organizations maximize their reach and impact by providing human-centered solutions, which put our partners in advantageous positions within their appropriate field/market. DMC integrates itself into the client’s organization to better work through the challenges the organization can’t solve.</p>
+        <h2 class="heading-2">Problem Solvers</h2>
+        <p class="body-paragraph">Deo Mwano Consultancy provides sustainable solutions to the complex social issues that affect businesses, schools and nonprofits. DMC helps organizations maximize their reach and impact by providing human-centered solutions, which put our partners in advantageous positions within their appropriate field/market. DMC integrates itself into the client’s organization to better work through the challenges the organization can’t solve.</p>
       </div>
     </div>
   </div>
@@ -84,9 +84,9 @@
   <div class="container ls-container">
     <div class="home-who__row">
       <div>
-        <h2 class="heading-2 appear-on-scroll-5">Who we are</h2>
-        <p class="body-paragraph appear-on-scroll-5">The Deo Mwano Consultancy team features experts in a variety of disciplines, including Data Analysis, Research, DEIJ, Leadership/Management Development, Learning Success, Board Dynamics, Project and Program Management, Program and Project Development, Designing and Implementing Multi Stakeholders Alignment and Relationships, Videography/Photography, Graphic Design, Storytelling and Community Advocacy.</p>
-        <p class="body-paragraph appear-on-scroll-5"><strong>Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize engagement.</strong></p>
+        <h2 class="heading-2">Who we are</h2>
+        <p class="body-paragraph">The Deo Mwano Consultancy team features experts in a variety of disciplines, including Data Analysis, Research, DEIJ, Leadership/Management Development, Learning Success, Board Dynamics, Project and Program Management, Program and Project Development, Designing and Implementing Multi Stakeholders Alignment and Relationships, Videography/Photography, Graphic Design, Storytelling and Community Advocacy.</p>
+        <p class="body-paragraph"><strong>Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize engagement.</strong></p>
       </div>
       <div>
         <img src="/assets/images/home/deo-who-1.jpg" class="home-who-image is-visible" alt="deo mwano who">

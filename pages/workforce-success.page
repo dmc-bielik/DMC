@@ -1,5 +1,7 @@
-<section class="ws-hero">
-  <img src="/assets/images/workforce-success/deo-success.jpg" alt="">
+<section class="ws-hero sticky-hero">
+  <img src="/assets/images/workforce-success/deo-success.jpg" alt="" class="home-approach-background is-visible">
+  <img src="/assets/images/workforce-success/deo-success-2.jpg" alt="" class="home-approach-background">
+  <img src="/assets/images/workforce-success/deo-success-3.jpg" alt="" class="home-approach-background">
 </section>
 
 <section class="ws-fortune">

@@ -5,13 +5,14 @@
       <img src="/assets/images/story/story.svg" alt="story">
     </h1>
   </div>
+  <img src="/assets/images/story/deo-story-timeline.png" alt="deo-story" class="story-hero__timeline">
 </section>
 
-<section class="ks-story">
+{#  <section class="story-illustration">
   <div class="container">
-    {#  <h2 class="uppercase center heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the US as a refugee.</h2>  }
+    <h2 class="uppercase center heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the US as a refugee.</h2>
   </div>
-</section>
+</section>  }
 
 <section class="story-about">
   <div class="container ls-container">
