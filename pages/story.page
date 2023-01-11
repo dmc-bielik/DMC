@@ -1,8 +1,8 @@
 <section class="story-hero">
   <div class="container ls-container">
     <h1 class="center">
-      <span>DEO’S</span>
-      <img src="/assets/images/story/story.svg" alt="story">
+      DEO’S STORY
+      {#  <img src="/assets/images/story/story.svg" alt="story">  }
     </h1>
   </div>
   <img src="/assets/images/story/deo-story-timeline.png" alt="deo-story" class="story-hero__timeline">
@@ -23,6 +23,19 @@
       <div>
         <h2 class="heading-4">About Deo Mwano</h2>
         <p class="body-paragraph">Deo Mwano (DAY-oh MUH-wanno) is a nationally recognized speaker, program designer and transformational cultural change maker whose work focuses on helping organizations maximize their positive impact. Mwano is the founder of Deo Mwano Consultancy LLC (DMC), which helps businesses, organizations, and educational institutions build authentic relationships and understanding among all stakeholders. DMC’s process brings everyone to the table to co-design solutions through shared power, resulting in new vulnerability, honesty and trust. The strategy yields genuine interactions and diverse, inclusive and equitable results. DMC’s services are sought by K-12 school districts, as well as community colleges and top-tier universities. Mwano earned his BA in International Relations and History and holds an MBA in Strategic Leadership. He has worked for the federal government, non-profits, educational institutions and tech startups. He was recognized as an emerging leader in 2016 when he was included in 40 Under 40 in New Hampshire, he’s a graduate of Leadership New Hampshire and in 2021 he was named one of the top 200 leaders in NH by New Hampshire Business Review.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ks-family">
+  <div class="container ls-container">
+    <div class="ks-family__content">
+      <div>
+        <p class="body-paragraph">His family history has been featured on Dancing with Stars, Tedx, The Moth, and Q Idea. Today he is a sought after presenter for conferences, expos, conventions and fundraisers with compelling messages for a variety of industries including banking, tech, healthcare, real estate, k-12 schools, universities and community colleges.</p>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H6tJ8xFt3TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>

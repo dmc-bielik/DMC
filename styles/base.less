@@ -2229,6 +2229,16 @@ ul {
   }
 }
 
+@keyframes tnsTranslateOut {
+  from {
+    transform: translateY(0);
+  }
+  
+  to {
+    transform: translateY(-100%);
+  }
+}
+
 .tns {
   &-outer {
     position: relative;
@@ -2259,9 +2269,13 @@ ul {
   &-fade-in {
     animation-name: tnsFadeIn;
   }
-  
+
   &-fade-out {
     animation-name: tnsFadeOut;
+  }
+
+  &-translate-out {
+    animation-name: tnsTranslateOut;
   }
 }
 

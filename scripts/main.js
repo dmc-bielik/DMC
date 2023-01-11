@@ -63,7 +63,7 @@ window.gsap.to(".home-action img", {
 window.ScrollTrigger.create({
   trigger: ".team-expertise",
   start: "top 100px",
-  end: "bottom 290px",
+  end: "bottom 400px",
   pin: ".team-expertise__row-title",
 });
 
@@ -104,35 +104,40 @@ if (
 }
 
 if (window.location.pathname.startsWith("/workforce-success")) {
-  window.gsap.to(".ws-relationship__content--img-1", {
-    scrollTrigger: {
-      trigger: ".ws-relationship__content",
-      start: "bottom bottom",
-      end: "+=270px",
-    },
-    opacity: 1,
-    left: 0,
-    duration: 2,
-    ease: "power2.out",
-  });
+  const wsRelationshipScrollTrigger = {
+    trigger: ".ws-relationship__content",
+    start: "top bottom",
+    end: "top 100px",
+    scrub: 0.5,
+  };
 
-  window.gsap.to(".ws-relationship__content--img-2", {
-    scrollTrigger: {
-      trigger: ".ws-relationship__content",
-      start: "bottom bottom",
-      end: "+=270px",
-    },
-    opacity: 1,
-    right: 0,
-    duration: 2,
-    ease: "power2.out",
-  });
+  window.gsap.fromTo(
+    ".ws-relationship__content--img-1",
+    { left: -300 },
+    {
+      scrollTrigger: wsRelationshipScrollTrigger,
+      left: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ws-relationship__content--img-2",
+    { right: -300 },
+    {
+      scrollTrigger: wsRelationshipScrollTrigger,
+      right: 0,
+      duration: 2,
+      ease: "linear",
+    }
+  );
 
   const strategiesScrollTrigger = {
     trigger: ".ws-strategies",
     start: "top bottom",
     end: "bottom top",
-    scrub: true,
+    scrub: 1,
   };
 
   window.gsap.fromTo(
@@ -198,7 +203,7 @@ if (window.location.pathname.startsWith("/workforce-success")) {
         trigger: ".ws-who__row",
         start: "top bottom",
         end: "bottom top",
-        scrub: true,
+        scrub: 1,
       },
       y: -40,
       duration: 2,
@@ -224,30 +229,26 @@ if (window.location.pathname.startsWith("/workforce-success")) {
     trigger: ".ws-engagements",
     start: "top center",
     end: "bottom top",
-    scrub: true,
+    scrub: 1,
   };
 
   window.gsap.fromTo(
     ".ws-engagements__circles-1",
-    { y: -30 },
+    { y: -40 },
     {
       scrollTrigger: engagementsScrollTrigger,
-      y: 30,
+      y: 40,
       duration: 2,
       ease: "linear",
     }
   );
 
-  window.gsap.fromTo(
-    ".ws-engagements__circles-2",
-    { rotate: "0deg" },
-    {
-      scrollTrigger: engagementsScrollTrigger,
-      rotate: "90deg",
-      duration: 2,
-      ease: "linear",
-    }
-  );
+  window.gsap.to(".ws-engagements__circles-2", {
+    rotate: "360deg",
+    repeat: -1,
+    duration: 8,
+    ease: "linear",
+  });
 
   window.gsap.fromTo(
     ".ws-engagements__circles-3",
@@ -332,7 +333,7 @@ if (window.location.pathname.startsWith("/learning-success")) {
 
     window.gsap.fromTo(
       ".ls-k12__row--move-2",
-      { y: -100 },
+      { x: 50 },
       {
         scrollTrigger: {
           trigger,
@@ -340,7 +341,7 @@ if (window.location.pathname.startsWith("/learning-success")) {
           end: "top 20%",
           scrub: true,
         },
-        y: 0,
+        x: 0,
         duration: 2,
         ease: "linear",
       }
@@ -509,22 +510,19 @@ if (fadeFullscreenSlider) {
     autoplayButtonOutput: false,
     // autoplayHoverPause: true,
     // animateDelay: 2000,
-    animateIn: "tns-fade-in",
-    animateOut: "tns-fade-out",
-    animateNormal: "tns-fade-out",
-    // nav: false,
-    // navContainer: "",
+    // animateIn: "tns-fade-in",
+    // animateOut: "tns-fade-out",
+    // animateNormal: "tns-fade-out",
+    // animateIn: "tns-translate-in",
+    animateOut: "tns-translate-out",
+    // animateNormal: "tns-translate-out",
     controls: false,
   });
 }
 
 /* Images fade animation */
 
-const imagesFade = [
-  "home-approach-background",
-  "home-who-image",
-  "ls-hero-image",
-];
+const imagesFade = ["ls-hero-image", "team-hero__img--img"];
 
 imagesFade.forEach((i) => {
   const images = document.querySelectorAll(`.${i}`);

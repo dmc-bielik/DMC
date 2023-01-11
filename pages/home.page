@@ -2,18 +2,18 @@
   <div class="home-hero__row">
     <div class="home-hero__column">
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-L-1.png" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-L-1.jpg" alt="" class="zoom-image-on-scroll-1">
       </div>
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-L-2.png" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-L-2.jpg" alt="" class="zoom-image-on-scroll-1">
       </div>
     </div>
     <div class="home-hero__column">
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-L-3.png" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-L-3.jpg" alt="" class="zoom-image-on-scroll-1">
       </div>
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-L-4.png" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-L-4.jpg" alt="" class="zoom-image-on-scroll-1">
       </div>
     </div>
     <div class="home-hero__column home-hero__column--center">
@@ -24,18 +24,18 @@
     </div>
     <div class="home-hero__column">
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-R-3.png" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-R-3.jpg" alt="" class="zoom-image-on-scroll-1">
       </div>
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-R-4.png" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-R-4.jpg" alt="" class="zoom-image-on-scroll-1">
       </div>
     </div>
     <div class="home-hero__column">
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-R-1.png" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-R-1.jpg" alt="" class="zoom-image-on-scroll-1">
       </div>
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-R-2.png" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-R-2.jpg" alt="" class="zoom-image-on-scroll-1">
       </div>
     </div>
   </div>
@@ -89,19 +89,14 @@
         <p class="body-paragraph"><strong>Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize engagement.</strong></p>
       </div>
       <div>
-        <img src="/assets/images/home/deo-who-1.jpg" class="home-who-image is-visible" alt="deo mwano who">
-        <img src="/assets/images/home/deo-who-2.jpg" class="home-who-image" alt="deo mwano who">
-        <img src="/assets/images/home/deo-who-3.jpg" class="home-who-image" alt="deo mwano who">
+        <img src="/assets/images/home/deo-who-1.jpg" class="home-who-image" alt="deo mwano who">
       </div>
     </div>
   </div>
 </section>
 
 <section class="home-approach">
-  <img src="/assets/images/home/deo-speaker-1.jpg" alt="deo mwano speaker" class="home-approach-background is-visible">
-  <img src="/assets/images/home/deo-speaker-2.jpg" alt="deo mwano speaker" class="home-approach-background">
-  <img src="/assets/images/home/deo-speaker-3.jpg" alt="deo mwano speaker" class="home-approach-background">
-  <img src="/assets/images/home/deo-speaker-4.jpg" alt="deo mwano speaker" class="home-approach-background">
+  <img src="/assets/images/home/deo-speaker-1.jpg" alt="deo mwano speaker" class="home-approach-background">
   <div class="home-approach__content-container">
     <div class="container">
       <div class="home-approach__content">

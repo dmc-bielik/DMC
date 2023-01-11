@@ -1,16 +1,30 @@
 <section class="ct-hero">
   <div class="container">
     <div class="ct-hero__images">
-      <img src="/assets/images/community-transformation/community-transformation-1.jpg" alt="">
-      <img src="/assets/images/community-transformation/community-transformation-2.jpg" alt="">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-1.jpg" class="zoom-image-on-scroll-1" alt="">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-2.jpg" class="zoom-image-on-scroll-1" alt="">
+      </div>
     </div>
     <h1 class="heading-1 uppercase center">Community<br>Transformation</h1>
     <div class="ct-hero__images">
-      <img src="/assets/images/community-transformation/community-transformation-3.jpg" alt="">
-      <img src="/assets/images/community-transformation/community-transformation-4.jpg" alt="">
-      <img src="/assets/images/community-transformation/community-transformation-5.jpg" alt="">
-      <img src="/assets/images/community-transformation/community-transformation-6.jpg" alt="">
-      <img src="/assets/images/community-transformation/community-transformation-7.jpg" alt="">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-3.jpg" class="zoom-image-on-scroll-1" alt="">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-4.jpg" class="zoom-image-on-scroll-1" alt="">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-5.jpg" class="zoom-image-on-scroll-1" alt="">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-6.jpg" class="zoom-image-on-scroll-1" alt="">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-7.jpg" class="zoom-image-on-scroll-1" alt="">
+      </div>
     </div>
     <div class="center ct-hero__cta">
       <a href="#!" class="button">Talk to us today</a>
@@ -112,6 +126,7 @@
 <section class="ct-partners">
   <div class="fade-fullscreen-slider">
     <div class="ct-partners__content-container ct-partners__content-container-1">
+      <video src="/assets/images/community-transformation/manchester-at-night.mp4" autoplay muted playsinline></video>
       <div class="container ls-container">
         <div class="ct-partners__content">
           <h3 class="heading-4">City of Manchester</h3>

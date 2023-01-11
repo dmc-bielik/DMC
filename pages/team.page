@@ -10,7 +10,12 @@
       </div>
       <p class="body-paragraph center">The Deo Mwano Consultancy team features experts in a variety of disciplines, including Data Analysis, Research, DEIJ, Leadership/Management Development, Learning Success, Board Dynamics, Project and Program Management, Program and Project Development, Designing and Implementing Multi Stakeholders Alignment and Relationships, Videography/Photography, Graphic Design, Storytelling and Community Advocacy. Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize.</p>
     </div>
-    <img src="/assets/images/team/deo-talk.jpg" alt="">
+    <div class="team-hero__img">
+      <img src="/assets/images/team/deo-team-1.jpg" alt="deo mwano team" class="team-hero__img--img is-visible">
+      <img src="/assets/images/team/deo-team-2.jpg" alt="deo mwano team" class="team-hero__img--img">
+      <img src="/assets/images/team/deo-team-3.jpg" alt="deo mwano team" class="team-hero__img--img">
+      <img src="/assets/images/team/deo-team-4.jpg" alt="deo mwano team" class="team-hero__img--img">
+    </div>
   </div>
 </section>
 

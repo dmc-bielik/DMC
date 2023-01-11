@@ -151,27 +151,6 @@
       & > div {
         flex: 1;
         margin: 0 40px;
-
-        &:last-child {
-          position: relative;
-
-          img {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            transform: translate(0, -50%) scale(1, 1);
-            right: 0;
-            vertical-align: bottom;
-            opacity: 0;
-            transition: opacity 0s, transform 0s;
-
-            &.is-visible {
-              opacity: 1;
-              transition: opacity 1s, transform 7s;
-              transform: translate(0, -50%) scale(1.03, 1.03);
-            }
-          }
-        }
       }
     }
   }
@@ -188,14 +167,8 @@
       left: 0;
       object-fit: cover;
       z-index: 0;
-      opacity: 0;
       height: 100%;
       width: 100%;
-      transition: opacity 1s;
-
-      &.is-visible {
-        opacity: 1;
-      }
     }
 
     &__content {
