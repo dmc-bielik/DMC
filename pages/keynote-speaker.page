@@ -10,11 +10,12 @@
   </div>
 </section>
 
-{#  <section class="ks-story">
-  <div class="container">
-    <h2 class="uppercase center heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the US as a refugee.</h2>
+<section class="ks-illustration">
+  <div class="container center">
+    <h2 class="uppercase heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the US as a refugee.</h2>
+    <a href="/story" class="button">DEO'S STORY</a>
   </div>
-</section>  }
+</section>
 
 {#  <section class="ks-family">
   <div class="container ls-container">
@@ -35,10 +36,6 @@
   </div>
   <img src="/assets/images/keynote-speaker/deo-presentations.png" alt="">
 </section>
-
-<div class="container center" style="margin: 100px 0;">
-  <a href="/story" class="button">See Deo's Story</a>
-</div>
 
 <section class="ks-family">
   <div class="container ls-container">

@@ -69,9 +69,9 @@
 <section class="home-problem">
   <div class="container ls-container">
     <div class="home-problem__row">
-      <div>
-        <img src="/assets/images/home/deo-who-we-are.png" alt="Who we are deo mwano" class="zoom-image-on-scroll-2">
-      </div>
+      {#  <div>
+      </div>  }
+      <img src="/assets/images/home/deo-who-we-are.png" alt="Who we are deo mwano" class="">
       <div>
         <h2 class="heading-2">Problem Solvers</h2>
         <p class="body-paragraph">Deo Mwano Consultancy provides sustainable solutions to the complex social issues that affect businesses, schools and nonprofits. DMC helps organizations maximize their reach and impact by providing human-centered solutions, which put our partners in advantageous positions within their appropriate field/market. DMC integrates itself into the client’s organization to better work through the challenges the organization can’t solve.</p>
@@ -80,7 +80,22 @@
   </div>
 </section>
 
-<section class="home-who">
+<section class="home-problem">
+  <div class="container ls-container">
+    <div class="home-problem__row home-problem__row-reverse">
+      <img src="/assets/images/home/deo-mwano-who-we-are.jpg" class="home-who-image" alt="deo mwano who">
+      {#  <div>
+      </div>  }
+      <div>
+        <h2 class="heading-2">Who we are</h2>
+        <p class="body-paragraph">The Deo Mwano Consultancy team features experts in a variety of disciplines, including Data Analysis, Research, DEIJ, Leadership/Management Development, Learning Success, Board Dynamics, Project and Program Management, Program and Project Development, Designing and Implementing Multi Stakeholders Alignment and Relationships, Videography/Photography, Graphic Design, Storytelling and Community Advocacy.</p>
+        <p class="body-paragraph"><strong>Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize engagement.</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{#  <section class="home-who">
   <div class="container ls-container">
     <div class="home-who__row">
       <div>
@@ -93,7 +108,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>  }
 
 <section class="home-approach">
   <img src="/assets/images/home/deo-speaker-1.jpg" alt="deo mwano speaker" class="home-approach-background">

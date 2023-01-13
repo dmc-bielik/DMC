@@ -121,21 +121,46 @@
     &__row {
       display: flex;
       align-items: center;
-      justify-content: flex-start;
+      // justify-content: flex-start;
       background-color: @colorLightGrey;
       border-radius: 13px;
       overflow: hidden;
 
+      &-reverse {
+        flex-direction: row-reverse;
+      }
+
       & > div {
-        flex: 1;
+        // flex: 1;
 
-        &:last-child {
-          padding: 0px 5vw 0 0;
-        }
+        /* &:first-child {
+          position: relative;
 
-        img {
-          vertical-align: bottom;
+          img {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            transform: translateY(-50%);
+            object-fit: cover;
+          }
+        } */
+
+        padding: 50px;
+
+        p {
+          &:last-of-type {
+            margin-bottom: 0;
+          }
         }
+        // &:last-child {
+        // }
+      }
+
+      img {
+        vertical-align: bottom;
       }
     }
   }
