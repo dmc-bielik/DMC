@@ -1,4 +1,15 @@
 .ws {
+  &-hero {
+    img {
+      opacity: 0;
+      transition: opacity 1s;
+
+      &.is-visible {
+        opacity: 1;
+      }
+    }
+  }
+
   &-fortune {
     &__row {
       display: flex;
@@ -280,10 +291,6 @@
   &-partners {
     h2 {
       margin-bottom: 50px;
-    }
-
-    .tns-outer {
-      overflow: hidden;
     }
 
     &__section {

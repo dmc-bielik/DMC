@@ -1,28 +1,28 @@
 <section class="ct-hero">
   <div class="container">
     <div class="ct-hero__images">
-      <div class="appear-on-scroll-1">
+      <div>
         <img src="/assets/images/community-transformation/community-transformation-1.jpg" class="zoom-image-on-scroll-1" alt="">
       </div>
-      <div class="appear-on-scroll-1">
+      <div>
         <img src="/assets/images/community-transformation/community-transformation-2.jpg" class="zoom-image-on-scroll-1" alt="">
       </div>
     </div>
     <h1 class="heading-1 uppercase center">Community<br>Transformation</h1>
     <div class="ct-hero__images">
-      <div class="appear-on-scroll-1">
+      <div>
         <img src="/assets/images/community-transformation/community-transformation-3.jpg" class="zoom-image-on-scroll-1" alt="">
       </div>
-      <div class="appear-on-scroll-1">
+      <div>
         <img src="/assets/images/community-transformation/community-transformation-4.jpg" class="zoom-image-on-scroll-1" alt="">
       </div>
-      <div class="appear-on-scroll-1">
+      <div>
         <img src="/assets/images/community-transformation/community-transformation-5.jpg" class="zoom-image-on-scroll-1" alt="">
       </div>
-      <div class="appear-on-scroll-1">
+      <div>
         <img src="/assets/images/community-transformation/community-transformation-6.jpg" class="zoom-image-on-scroll-1" alt="">
       </div>
-      <div class="appear-on-scroll-1">
+      <div>
         <img src="/assets/images/community-transformation/community-transformation-7.jpg" class="zoom-image-on-scroll-1" alt="">
       </div>
     </div>
@@ -124,40 +124,52 @@
 </section>
 
 <section class="ct-partners">
-  <div class="fade-fullscreen-slider">
-    <div class="ct-partners__content-container ct-partners__content-container-1">
-      <video src="/assets/images/community-transformation/manchester-at-night.mp4" autoplay muted playsinline></video>
-      <div class="container ls-container">
-        <div class="ct-partners__content">
-          <h3 class="heading-4">City of Manchester</h3>
-          <p class="body-paragraph">DMC has supported the City of Manchester, NH to help BIPOC Small Businesses apply for and receive ARPA grants during the height of the COVID-19 pandemic. Assisted with the distribution of $500K in relief funds to BIPOC business owners by providing wrap-around services to close the barrier of access.</p>
+  <div class="swiper move-up-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="ct-partners__content-container ct-partners__content-container-1">
+          <video src="/assets/images/community-transformation/manchester-at-night.mp4" autoplay muted playsinline loop></video>
+          <div class="container ls-container">
+            <div class="ct-partners__content">
+              <h3 class="heading-4">City of Manchester</h3>
+              <p class="body-paragraph">DMC has supported the City of Manchester, NH to help BIPOC Small Businesses apply for and receive ARPA grants during the height of the COVID-19 pandemic. Assisted with the distribution of $500K in relief funds to BIPOC business owners by providing wrap-around services to close the barrier of access.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="ct-partners__content-container ct-partners__content-container-2">
+          <div class="container ls-container">
+            <div class="ct-partners__content">
+              <h3 class="heading-4">Co-op Food Stores</h3>
+              <p class="body-paragraph">DMC has consulted to improve employee culture and alignment through a DEI lens in order to strengthen the community for 400 employees, serving more than 20,000 member households with sales of over $70 million annually.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="ct-partners__content-container ct-partners__content-container-3">
+          <div class="container ls-container">
+            <div class="ct-partners__content">
+              <h3 class="heading-4">Public Health Network of NH</h3>
+              <p class="body-paragraph">DMC conducted statewide COVID-19 Substance Use Disorder Impact research to provide an understanding of the impact of COVID-19 with historically marginalized communities dealing with Substance Use Disorder.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="ct-partners__content-container ct-partners__content-container-4">
+          <div class="container ls-container">
+            <div class="ct-partners__content">
+              <h3 class="heading-4">NAACP Manchester NH with NH Community Loan Fund</h3>
+              <p class="body-paragraph">DMC served as designer and strategist for a program to support the growth of BIPOC owned businesses with capacity builders and financial capital for mobility.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="ct-partners__content-container ct-partners__content-container-2">
-      <div class="container ls-container">
-        <div class="ct-partners__content">
-          <h3 class="heading-4">Co-op Food Stores</h3>
-          <p class="body-paragraph">DMC has consulted to improve employee culture and alignment through a DEI lens in order to strengthen the community for 400 employees, serving more than 20,000 member households with sales of over $70 million annually.</p>
-        </div>
-      </div>
-    </div>
-    <div class="ct-partners__content-container ct-partners__content-container-3">
-      <div class="container ls-container">
-        <div class="ct-partners__content">
-          <h3 class="heading-4">Public Health Network of NH</h3>
-          <p class="body-paragraph">DMC conducted statewide COVID-19 Substance Use Disorder Impact research to provide an understanding of the impact of COVID-19 with historically marginalized communities dealing with Substance Use Disorder.</p>
-        </div>
-      </div>
-    </div>
-    <div class="ct-partners__content-container ct-partners__content-container-4">
-      <div class="container ls-container">
-        <div class="ct-partners__content">
-          <h3 class="heading-4">NAACP Manchester NH with NH Community Loan Fund</h3>
-          <p class="body-paragraph">DMC served as designer and strategist for a program to support the growth of BIPOC owned businesses with capacity builders and financial capital for mobility.</p>
-        </div>
-      </div>
-    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   </div>
 </section>
 

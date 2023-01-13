@@ -1,7 +1,7 @@
 <section class="ws-hero sticky-hero">
-  <img src="/assets/images/workforce-success/deo-success.jpg" alt="" class="home-approach-background is-visible">
-  <img src="/assets/images/workforce-success/deo-success-2.jpg" alt="" class="home-approach-background">
-  <img src="/assets/images/workforce-success/deo-success-3.jpg" alt="" class="home-approach-background">
+  <img src="/assets/images/workforce-success/deo-success.jpg" alt="" class="ws-hero-background is-visible">
+  <img src="/assets/images/workforce-success/deo-success-2.jpg" alt="" class="ws-hero-background">
+  <img src="/assets/images/workforce-success/deo-success-3.jpg" alt="" class="ws-hero-background">
 </section>
 
 <section class="ws-fortune">
@@ -129,23 +129,31 @@
   <div class="container">
     <h2 class="heading-3 uppercase center red">Current/Recent Partners</h2>
   </div>
-  <div class="fade-fullscreen-slider">
-    <div class="ws-partners__section ws-partners__section-1">
-      <div class="container ls-container">
-        <div class="ws-partners__content">
-          <h3 class="heading-3">Dartmouth College Campus Services Division</h3>
-          <p class="body-paragraph">DMC has a multi-year partnership to help transform the culture of the largest division at Dartmouth College, with 550 employees and a $500 million annual operations budget. The engagement includes a climate assessment, strategy development, and new communication tools. DMC has worked to build trust and increase engagement from all employees covering different shifts and departments. DMC helped the division establish a structure to maintain and sustain the work by guiding the leadership team to invest for the long term with new approaches and inaugural positions.</p>
+  <div class="swiper move-up-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="ws-partners__section ws-partners__section-1">
+          <div class="container ls-container">
+            <div class="ws-partners__content">
+              <h3 class="heading-3">Dartmouth College Campus Services Division</h3>
+              <p class="body-paragraph">DMC has a multi-year partnership to help transform the culture of the largest division at Dartmouth College, with 550 employees and a $500 million annual operations budget. The engagement includes a climate assessment, strategy development, and new communication tools. DMC has worked to build trust and increase engagement from all employees covering different shifts and departments. DMC helped the division establish a structure to maintain and sustain the work by guiding the leadership team to invest for the long term with new approaches and inaugural positions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="ws-partners__section ws-partners__section-2">
+          <div class="container ls-container">
+            <div class="ws-partners__content">
+              <h3 class="heading-3">Peabody Properties</h3>
+              <p class="body-paragraph">DMC has guided Peabody Properties, a property management and real estate firm with 600 employees nationwide, through the process of identifying and disrupting patterns of inequality while improving workforce culture. DMC has developed training initiatives to create and foster an open and inclusive environment. DMC also conducted the company’s first DEI survey and established the inaugural DEI Council made up of 16 employees representing all departments and locations. The group and the company have been recognized for their DEI work with the recent Diversity, Equity, and Inclusion Award from the Institute of Real Estate Management by Massachusetts Real Estate Association.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="ws-partners__section ws-partners__section-2">
-      <div class="container ls-container">
-        <div class="ws-partners__content">
-          <h3 class="heading-3">Peabody Properties</h3>
-          <p class="body-paragraph">DMC has guided Peabody Properties, a property management and real estate firm with 600 employees nationwide, through the process of identifying and disrupting patterns of inequality while improving workforce culture. DMC has developed training initiatives to create and foster an open and inclusive environment. DMC also conducted the company’s first DEI survey and established the inaugural DEI Council made up of 16 employees representing all departments and locations. The group and the company have been recognized for their DEI work with the recent Diversity, Equity, and Inclusion Award from the Institute of Real Estate Management by Massachusetts Real Estate Association.</p>
-        </div>
-      </div>
-    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   </div>
 </section>
 

@@ -2277,6 +2277,10 @@ ul {
   &-translate-out {
     animation-name: tnsTranslateOut;
   }
+
+  &-animate-normal {
+    animation-name: tnsFadeIn;
+  }
 }
 
 @keyframes animateGradient {
@@ -2308,5 +2312,19 @@ ul {
     height: 100vh;
     max-height: 100vh;
     object-fit: cover;
+  }
+}
+
+.move-up-swiper {
+  min-height: 600px;
+  height: 100vh;
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+
+    &::after {
+      font-size: 22px;
+    }
   }
 }

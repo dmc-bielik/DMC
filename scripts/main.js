@@ -463,13 +463,11 @@ if (window.location.pathname.startsWith("/learning-success")) {
 
 const marqueeSliderCommon = {
   autoplay: true,
-  preventActionWhenRunning: true,
-  autoplayTimeout: 0,
   autoplayButtonOutput: false,
   autoplayHoverPause: true,
-  mouseDrag: true,
+  // mouseDrag: true,
   loop: true,
-  speed: 4000,
+  speed: 1000,
   nav: false,
   controls: false,
   navPosition: "bottom",
@@ -481,7 +479,8 @@ if (homeTestimonialsSlider) {
   window.tns({
     ...marqueeSliderCommon,
     container: homeTestimonialsSlider,
-    items: 3,
+    items: 4,
+    center: true,
   });
 }
 
@@ -493,36 +492,29 @@ if (lsReviewsCards) {
     container: lsReviewsCards,
     speed: 2000,
     items: 4,
-    autoplayTimeout: 4000,
   });
 }
 
-const fadeFullscreenSlider = document.querySelector(".fade-fullscreen-slider");
-
-if (fadeFullscreenSlider) {
-  window.tns({
-    container: fadeFullscreenSlider,
-    items: 1,
-    mode: "gallery",
-    swipeAngle: false,
-    speed: 2000,
-    autoplay: true,
-    autoplayButtonOutput: false,
-    // autoplayHoverPause: true,
-    // animateDelay: 2000,
-    // animateIn: "tns-fade-in",
-    // animateOut: "tns-fade-out",
-    // animateNormal: "tns-fade-out",
-    // animateIn: "tns-translate-in",
-    animateOut: "tns-translate-out",
-    // animateNormal: "tns-translate-out",
-    controls: false,
-  });
-}
+const swiper = new window.Swiper(".move-up-swiper", {
+  direction: "vertical",
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  speed: 1000,
+});
 
 /* Images fade animation */
 
-const imagesFade = ["ls-hero-image", "team-hero__img--img"];
+const imagesFade = [
+  "ws-hero-background",
+  "ls-hero-image",
+  "team-hero__img--img",
+];
 
 imagesFade.forEach((i) => {
   const images = document.querySelectorAll(`.${i}`);
