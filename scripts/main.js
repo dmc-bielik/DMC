@@ -459,6 +459,61 @@ if (window.location.pathname.startsWith("/learning-success")) {
   );
 }
 
+if (window.location.pathname.startsWith("/keynote-speaker")) {
+  window.gsap.fromTo(
+    ".ks-presentations img",
+    { y: -150 },
+    {
+      y: 0,
+      ease: "linear",
+      scrollTrigger: {
+        trigger: ".ks-presentations",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: 1,
+      },
+    }
+  );
+
+  const presentationTl = window.gsap.timeline({
+    scrollTrigger: {
+      trigger: ".ks-presentation",
+      start: "top 100%+=150px",
+      end: "top top",
+      scrub: 0.1,
+    },
+    defaults: { ease: "linear" },
+  });
+
+  presentationTl
+    .to(".ks-presentation__circle--red", { y: -300, scale: 0.2 })
+    .to(".ks-presentation__circle--red", {
+      y: 0,
+      scale: 0.4,
+      duration: 2,
+    })
+    .to(".ks-presentation__circle--red", {
+      y: -30,
+      scale: 0.9,
+      duration: 0.3,
+    })
+    .to(".ks-presentation__circle--red", { scale: 1, duration: 1 });
+
+  window.gsap.fromTo(
+    ".ks-presentation__circle--blue",
+    { y: -10 },
+    {
+      y: 30,
+      scrollTrigger: {
+        trigger: ".ks-presentation",
+        start: "top center",
+        end: "bottom top",
+        scrub: 0.2,
+      },
+    }
+  );
+}
+
 /* Sliders */
 
 const marqueeSliderCommon = {

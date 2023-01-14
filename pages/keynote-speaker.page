@@ -2,15 +2,16 @@
   <div class="container">
     <div class="ks-hero__banner">
       <h1 class="heading-2">Keynote<br>Speaker</h1>
+      <img src="/assets/images/keynote-speaker/deo-keynote-speaker.jpg" alt="" class="zoom-image-on-scroll-1">
     </div>
-    <div class="ks-hero__content center">
+    <div class="ks-hero__content center appear-on-scroll-1">
       <p class="red">Deo Mwano is a captivating speaker with a compelling personal story as well as expertise in business, community-building and DEI.</p>
       <a href="#!" class="button">Book Deo Today</a>
     </div>
   </div>
 </section>
 
-<section class="ks-illustration">
+<section class="ks-illustration appear-on-scroll-2">
   <div class="container center">
     <h2 class="uppercase heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the US as a refugee.</h2>
     <a href="/story" class="button">DEO'S STORY</a>
@@ -37,7 +38,7 @@
   <img src="/assets/images/keynote-speaker/deo-presentations.png" alt="">
 </section>
 
-<section class="ks-family">
+<section class="ks-family appear-on-scroll-3">
   <div class="container ls-container">
     <div class="ks-family__content">
       <div>
@@ -51,8 +52,8 @@
 </section>
 
 <section class="ks-presentation">
-  <span></span>
-  <span class="center">
+  <span class="ks-presentation__circle--red"></span>
+  <span class="ks-presentation__circle--blue center">
     <span>Mwano works closely with clients to design outstanding keynote presentations or workshops, aligning with conference, event or organizational messaging and themes.</span>
   </span>
   <img src="/assets/images/keynote-speaker/deo-stage-presentation.png" alt="">
