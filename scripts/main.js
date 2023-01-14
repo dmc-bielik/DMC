@@ -542,7 +542,7 @@ if (window.location.pathname.startsWith("/team")) {
   const bioParagraphs = document.querySelectorAll(".team-member__row--bio");
 
   Array.from(bioParagraphs || []).forEach((p) => {
-    if (p.scrollHeight > p.offsetHeight) {
+    if (p.scrollHeight > p.offsetHeight + 1) {
       const readMoreLink = document.createElement("a");
 
       readMoreLink.className = "body-paragraph team-member__row--bio-read-more";
@@ -551,10 +551,14 @@ if (window.location.pathname.startsWith("/team")) {
       readMoreLink.onclick = (e) => {
         e.preventDefault();
 
-        p.classList.add("is-expanded");
+        p.classList.toggle("is-expanded");
         p.parentElement.querySelector(
           ".team-member__row--bio-read-more"
-        ).style.display = "none";
+        ).innerHTML =
+          p.parentElement.querySelector(".team-member__row--bio-read-more")
+            .innerHTML === "read more"
+            ? "collapse"
+            : "read more";
       };
 
       p.parentElement.appendChild(readMoreLink);
