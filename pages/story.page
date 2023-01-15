@@ -2,7 +2,6 @@
   <div class="container ls-container">
     <h1 class="center">
       DEO’S STORY
-      {#  <img src="/assets/images/story/story.svg" alt="story">  }
     </h1>
   </div>
   <img src="/assets/images/story/deo-story-timeline.png" alt="deo-story" class="story-hero__timeline">
@@ -22,7 +21,7 @@
   </div>
 </section>
 
-<section class="ks-family">
+<section class="ks-family appear-on-scroll-1">
   <div class="container ls-container">
     <div class="ks-family__content">
       <div>
@@ -49,90 +48,92 @@
         <p class="body-paragraph">A daring escape from the Democratic Republic of the Congo led Deo Mwano to a life of freedom, inspiration, appreciation, and the desire to persevere to excel.</p>
       </div>
       <div>
-        <img src="/assets/images/story/deo-mwano-child.jpg" alt="deo mwano">
+        <img src="/assets/images/story/deo-mwano-child.jpg" alt="deo mwano" class="zoom-image-on-scroll-1">
       </div>
     </div>
-    <div class="story-story__row">
-      <div>
-        <img src="/assets/images/story/deo-story-1.jpg" alt="" class="story-story__row--img story-story__row--img-1">
-        <img src="/assets/images/story/deo-story-2.jpg" alt="" class="story-story__row--img story-story__row--img-2">
-        <img src="/assets/images/story/deo-story-3.jpg" alt="" class="story-story__row--img story-story__row--img-3">
-        <img src="/assets/images/story/deo-story-4.jpg" alt="" class="story-story__row--img story-story__row--img-4">
-        <img src="/assets/images/story/deo-story-5.jpg" alt="" class="story-story__row--img story-story__row--img-5">
+    <div class="story-story__timeline">
+      <div class="story-story__row">
+        <div>
+          <img src="/assets/images/story/deo-story-1.jpg" alt="" class="story-story__row--img story-story__row--img-1">
+          <img src="/assets/images/story/deo-story-2.jpg" alt="" class="story-story__row--img story-story__row--img-2">
+          <img src="/assets/images/story/deo-story-3.jpg" alt="" class="story-story__row--img story-story__row--img-3">
+          <img src="/assets/images/story/deo-story-4.jpg" alt="" class="story-story__row--img story-story__row--img-4">
+          <img src="/assets/images/story/deo-story-5.jpg" alt="" class="story-story__row--img story-story__row--img-5">
+        </div>
+        <div>
+          <p class="body-paragraph">I was born in Zaire (present day Democratic Republic of Congo). My world was turned upside down when I was just seven years old. In the midst of a civil war, my father, an advisor to the country’s highest ranking army officer, was assassinated. Terrified, my family fled for safety. In doing so, we lost everything. We made our way to a refugee camp in Benin, West Africa. My mother’s courage, faith and stubbornness kept us alive. After two and a half years in the camp, we resettled in Manchester, New Hampshire on February 17, 2000. It was, as far as we knew, the coldest place on earth.</p>
+        </div>
       </div>
-      <div>
-        <p class="body-paragraph">I was born in Zaire (present day Democratic Republic of Congo). My world was turned upside down when I was just seven years old. In the midst of a civil war, my father, an advisor to the country’s highest ranking army officer, was assassinated. Terrified, my family fled for safety. In doing so, we lost everything. We made our way to a refugee camp in Benin, West Africa. My mother’s courage, faith and stubbornness kept us alive. After two and a half years in the camp, we resettled in Manchester, New Hampshire on February 17, 2000. It was, as far as we knew, the coldest place on earth.</p>
+      <div class="story-story__row">
+        <div>
+          <p class="body-paragraph" style="max-width: none;">At first, my family’s collective goal was modest: survival. Such a goal required letting go of the past and living in the present. My father’s death had made me the oldest male of the family. But it was clear to my brothers and me that my mother was in charge. My job was to help make sure my brothers stayed in line and were safe. I had no real authority, no voice of my own. But not long after resettling, I began to revisit the place that my family, out of necessity, had forsaken: my past. And when I started sharing my story, I found my own voice.</p>
+        </div>
+        <div>
+          <img src="/assets/images/story/deo-story-6.jpg" alt="" class="story-story__row--img story-story__row--img-6">
+        </div>
       </div>
-    </div>
-    <div class="story-story__row">
-      <div>
-        <p class="body-paragraph" style="max-width: none;">At first, my family’s collective goal was modest: survival. Such a goal required letting go of the past and living in the present. My father’s death had made me the oldest male of the family. But it was clear to my brothers and me that my mother was in charge. My job was to help make sure my brothers stayed in line and were safe. I had no real authority, no voice of my own. But not long after resettling, I began to revisit the place that my family, out of necessity, had forsaken: my past. And when I started sharing my story, I found my own voice.</p>
+      <div class="story-story__row">
+        <div>
+          <img src="/assets/images/story/deo-story-7.jpg" alt="" class="story-story__row--img story-story__row--img-7">
+          <img src="/assets/images/story/deo-story-8.jpg" alt="" class="story-story__row--img story-story__row--img-8">
+          <img src="/assets/images/story/deo-story-9.jpg" alt="" class="story-story__row--img story-story__row--img-9">
+          <img src="/assets/images/story/deo-story-10.jpg" alt="" class="story-story__row--img story-story__row--img-10">
+        </div>
+        <div>
+          <p class="body-paragraph" style="max-width: none;">At age 12, I began travelling across America every summer for a decade, working with inner city communities as part of a program called Joshua Generation. The experience ran counter to the safe life I lived in New Hampshire. It changed my perspective. I saw first-hand the harsh realities other people confronted everyday. I learned not to minimize their struggles by comparing them to my own. Above all, I learned a painful truth: Despite the blessings of my life in America as a former refugee from Congo, I, too, was marginalized because of the color of my skin. That important fact helped me develop empathy for the oppressed, but also forced me to contend with realities I had managed to ignore.</p>
+          <p class="body-paragraph" style="max-width: none;">Coming of age in a predominantly white community taught me a lot about differences. My family was welcomed by white families when we arrived in the country and they remained in our social circles for long after that. Their support was integral to my success and forward momentum. But I faced a lot of racism, too. I have been belittled, treated unjustly and persecuted. Navigating those challenges strengthened my ability to create ways to bring people together and move beyond what divides us. I have used my voice to advocate for others who are marginalized.</p>
+        </div>
       </div>
-      <div>
-        <img src="/assets/images/story/deo-story-6.jpg" alt="" class="story-story__row--img story-story__row--img-6">
+      <div class="story-story__row">
+        <div>
+          <p class="body-paragraph">As a teenager, I underwent a covert transformation. Externally, I looked fine because I was chasing possibility. I was involved in things that uplifted my spirit and pushed me forward. Internally, however, my past trauma was eating me up. I was bound by bitterness and anger. Depression and suicidal thoughts came frequently. Fortunately, I was able to filter my inner turmoil through my faith. I learned how to confront my demons. I came to value conscious living, a reflective process that helped me discover the root of my feelings, obsessions, decisions, passions, and compulsions.</p>
+        </div>
+        <div>
+          <img src="/assets/images/story/deo-story-11.jpg" alt="" class="story-story__row--img story-story__row--img-11">
+          <img src="/assets/images/story/deo-story-12.jpg" alt="" class="story-story__row--img story-story__row--img-12">
+        </div>
       </div>
-    </div>
-    <div class="story-story__row">
-      <div>
-        <img src="/assets/images/story/deo-story-7.jpg" alt="" class="story-story__row--img story-story__row--img-7">
-        <img src="/assets/images/story/deo-story-8.jpg" alt="" class="story-story__row--img story-story__row--img-8">
-        <img src="/assets/images/story/deo-story-9.jpg" alt="" class="story-story__row--img story-story__row--img-9">
-        <img src="/assets/images/story/deo-story-10.jpg" alt="" class="story-story__row--img story-story__row--img-10">
+      <div class="story-story__row">
+        <div>
+          <img src="/assets/images/story/deo-story-13.jpg" alt="" class="story-story__row--img story-story__row--img-13">
+          <img src="/assets/images/story/deo-story-14.jpg" alt="" class="story-story__row--img story-story__row--img-14">
+          <img src="/assets/images/story/deo-story-15.jpg" alt="" class="story-story__row--img story-story__row--img-15">
+        </div>
+        <div>
+          <p class="body-paragraph">My journey toward self-awareness continued after college when I landed a job at a university as a learning coach. I listened to countless stories from students, gaining insight into their different struggles. I helped design a coaching model with techniques aimed to help others understand the relationship between motivation and action. I used this coaching model to help students to recognize their intentions and initiate appropriate action to fulfill them. I then took what I learned and applied it to my own life - it was a way to communicate with the voice inside. I became more aware of what was driving me personally. I unpacked and dissected all of my trauma and saw how it impacted my perspectives and actions. The better I understood myself, the more open and honest I became about the actions I have taken to get where I am today.</p>
+        </div>
       </div>
-      <div>
-        <p class="body-paragraph" style="max-width: none;">At age 12, I began travelling across America every summer for a decade, working with inner city communities as part of a program called Joshua Generation. The experience ran counter to the safe life I lived in New Hampshire. It changed my perspective. I saw first-hand the harsh realities other people confronted everyday. I learned not to minimize their struggles by comparing them to my own. Above all, I learned a painful truth: Despite the blessings of my life in America as a former refugee from Congo, I, too, was marginalized because of the color of my skin. That important fact helped me develop empathy for the oppressed, but also forced me to contend with realities I had managed to ignore.</p>
-        <p class="body-paragraph" style="max-width: none;">Coming of age in a predominantly white community taught me a lot about differences. My family was welcomed by white families when we arrived in the country and they remained in our social circles for long after that. Their support was integral to my success and forward momentum. But I faced a lot of racism, too. I have been belittled, treated unjustly and persecuted. Navigating those challenges strengthened my ability to create ways to bring people together and move beyond what divides us. I have used my voice to advocate for others who are marginalized.</p>
+      <div class="story-story__img-row-1">
+        <img src="/assets/images/story/deo-story-16.jpg" alt="" class="story-story__row--img story-story__row--img-16">
+        <img src="/assets/images/story/deo-story-17.jpg" alt="" class="story-story__row--img story-story__row--img-17">
+        <img src="/assets/images/story/deo-story-18.jpg" alt="" class="story-story__row--img story-story__row--img-18">
+        <img src="/assets/images/story/deo-story-19.jpg" alt="" class="story-story__row--img story-story__row--img-19">
+        <img src="/assets/images/story/deo-story-20.jpg" alt="" class="story-story__row--img story-story__row--img-20">
+        <img src="/assets/images/story/deo-story-21.jpg" alt="" class="story-story__row--img story-story__row--img-21">
+        <img src="/assets/images/story/deo-story-22.jpg" alt="" class="story-story__row--img story-story__row--img-22">
+        <img src="/assets/images/story/deo-story-23.jpg" alt="" class="story-story__row--img story-story__row--img-23">
+        <img src="/assets/images/story/deo-story-24.jpg" alt="" class="story-story__row--img story-story__row--img-24">
+        <img src="/assets/images/story/deo-story-25.jpg" alt="" class="story-story__row--img story-story__row--img-25">
       </div>
-    </div>
-    <div class="story-story__row">
-      <div>
-        <p class="body-paragraph">As a teenager, I underwent a covert transformation. Externally, I looked fine because I was chasing possibility. I was involved in things that uplifted my spirit and pushed me forward. Internally, however, my past trauma was eating me up. I was bound by bitterness and anger. Depression and suicidal thoughts came frequently. Fortunately, I was able to filter my inner turmoil through my faith. I learned how to confront my demons. I came to value conscious living, a reflective process that helped me discover the root of my feelings, obsessions, decisions, passions, and compulsions.</p>
+      <div class="story-story__row" style="margin-bottom: 50px;">
+        <div>
+          <p class="body-paragraph">My own success and my approach to professional coaching is rooted in perseverance. Perseverance is often mistaken for “toughing it out.” But “toughing it out” is an adrenaline rush, good for a sprint, but not the long haul. “Toughing it out” is running on empty, which is not sustainable. Perseverance, on the other hand, is a renewable energy source. It is fueled through constant introspection and acquisition, by forces inside you and outside you. Only by identifying those forces is perseverance possible. And only with genuine perseverance is it possible to excel and thrive. So much of my motivation today comes from helping others gain the fortitude to persevere, chase their dreams and find their voice.</p>
+        </div>
+        <div>
+          <img src="/assets/images/story/deo-story-26.jpg" alt="" class="story-story__row--img story-story__row--img-26">
+        </div>
       </div>
-      <div>
-        <img src="/assets/images/story/deo-story-11.jpg" alt="" class="story-story__row--img story-story__row--img-11">
-        <img src="/assets/images/story/deo-story-12.jpg" alt="" class="story-story__row--img story-story__row--img-12">
+      <div class="story-story__img-row-2">
+        <img src="/assets/images/story/deo-story-27.jpg" alt="" class="story-story__row--img story-story__row--img-27">
+        <img src="/assets/images/story/deo-story-28.jpg" alt="" class="story-story__row--img story-story__row--img-28">
+        <img src="/assets/images/story/deo-story-29.jpg" alt="" class="story-story__row--img story-story__row--img-29">
+        <img src="/assets/images/story/deo-story-30.jpg" alt="" class="story-story__row--img story-story__row--img-30">
+        <img src="/assets/images/story/deo-story-31.jpg" alt="" class="story-story__row--img story-story__row--img-31">
+        <img src="/assets/images/story/deo-story-32.jpg" alt="" class="story-story__row--img story-story__row--img-32">
+        <img src="/assets/images/story/deo-story-33.jpg" alt="" class="story-story__row--img story-story__row--img-33">
+        <img src="/assets/images/story/deo-story-34.jpg" alt="" class="story-story__row--img story-story__row--img-34">
+        <img src="/assets/images/story/deo-story-35.jpg" alt="" class="story-story__row--img story-story__row--img-35">
       </div>
-    </div>
-    <div class="story-story__row">
-      <div>
-        <img src="/assets/images/story/deo-story-13.jpg" alt="" class="story-story__row--img story-story__row--img-13">
-        <img src="/assets/images/story/deo-story-14.jpg" alt="" class="story-story__row--img story-story__row--img-14">
-        <img src="/assets/images/story/deo-story-15.jpg" alt="" class="story-story__row--img story-story__row--img-15">
-      </div>
-      <div>
-        <p class="body-paragraph">My journey toward self-awareness continued after college when I landed a job at a university as a learning coach. I listened to countless stories from students, gaining insight into their different struggles. I helped design a coaching model with techniques aimed to help others understand the relationship between motivation and action. I used this coaching model to help students to recognize their intentions and initiate appropriate action to fulfill them. I then took what I learned and applied it to my own life - it was a way to communicate with the voice inside. I became more aware of what was driving me personally. I unpacked and dissected all of my trauma and saw how it impacted my perspectives and actions. The better I understood myself, the more open and honest I became about the actions I have taken to get where I am today.</p>
-      </div>
-    </div>
-    <div class="story-story__img-row-1">
-      <img src="/assets/images/story/deo-story-16.jpg" alt="" class="story-story__row--img story-story__row--img-16">
-      <img src="/assets/images/story/deo-story-17.jpg" alt="" class="story-story__row--img story-story__row--img-17">
-      <img src="/assets/images/story/deo-story-18.jpg" alt="" class="story-story__row--img story-story__row--img-18">
-      <img src="/assets/images/story/deo-story-19.jpg" alt="" class="story-story__row--img story-story__row--img-19">
-      <img src="/assets/images/story/deo-story-20.jpg" alt="" class="story-story__row--img story-story__row--img-20">
-      <img src="/assets/images/story/deo-story-21.jpg" alt="" class="story-story__row--img story-story__row--img-21">
-      <img src="/assets/images/story/deo-story-22.jpg" alt="" class="story-story__row--img story-story__row--img-22">
-      <img src="/assets/images/story/deo-story-23.jpg" alt="" class="story-story__row--img story-story__row--img-23">
-      <img src="/assets/images/story/deo-story-24.jpg" alt="" class="story-story__row--img story-story__row--img-24">
-      <img src="/assets/images/story/deo-story-25.jpg" alt="" class="story-story__row--img story-story__row--img-25">
-    </div>
-    <div class="story-story__row" style="margin-bottom: 50px;">
-      <div>
-        <p class="body-paragraph">My own success and my approach to professional coaching is rooted in perseverance. Perseverance is often mistaken for “toughing it out.” But “toughing it out” is an adrenaline rush, good for a sprint, but not the long haul. “Toughing it out” is running on empty, which is not sustainable. Perseverance, on the other hand, is a renewable energy source. It is fueled through constant introspection and acquisition, by forces inside you and outside you. Only by identifying those forces is perseverance possible. And only with genuine perseverance is it possible to excel and thrive. So much of my motivation today comes from helping others gain the fortitude to persevere, chase their dreams and find their voice.</p>
-      </div>
-      <div>
-        <img src="/assets/images/story/deo-story-26.jpg" alt="" class="story-story__row--img story-story__row--img-26">
-      </div>
-    </div>
-    <div class="story-story__img-row-2">
-      <img src="/assets/images/story/deo-story-27.jpg" alt="" class="story-story__row--img story-story__row--img-27">
-      <img src="/assets/images/story/deo-story-28.jpg" alt="" class="story-story__row--img story-story__row--img-28">
-      <img src="/assets/images/story/deo-story-29.jpg" alt="" class="story-story__row--img story-story__row--img-29">
-      <img src="/assets/images/story/deo-story-30.jpg" alt="" class="story-story__row--img story-story__row--img-30">
-      <img src="/assets/images/story/deo-story-31.jpg" alt="" class="story-story__row--img story-story__row--img-31">
-      <img src="/assets/images/story/deo-story-32.jpg" alt="" class="story-story__row--img story-story__row--img-32">
-      <img src="/assets/images/story/deo-story-33.jpg" alt="" class="story-story__row--img story-story__row--img-33">
-      <img src="/assets/images/story/deo-story-34.jpg" alt="" class="story-story__row--img story-story__row--img-34">
-      <img src="/assets/images/story/deo-story-35.jpg" alt="" class="story-story__row--img story-story__row--img-35">
     </div>
   </div>
 </section>
