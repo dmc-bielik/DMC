@@ -47,6 +47,8 @@
       & > div {
         flex: 1;
         margin: 0 25px;
+        overflow: hidden;
+        border-radius: 13px;
       }
 
       ul {
@@ -74,6 +76,8 @@
     }
 
     &__strategies {
+      overflow: initial !important;
+
       & > div {
         display: flex;
         align-items: flex-start;
@@ -88,7 +92,7 @@
         }
 
         &:nth-of-type(2) {
-          justify-content: space-between;
+          justify-content: flex-end;
 
           img {
             width: 53%;

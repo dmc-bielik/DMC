@@ -48,24 +48,28 @@ zoomImageOnScroll.forEach((group) => {
   });
 });
 
-const homeActionScrollTrigger = {
-  trigger: ".home-action",
-  start: "top bottom",
-  end: "bottom top",
-  scrub: true,
-};
+if (window.location.pathname === "/") {
+  const homeActionScrollTrigger = {
+    trigger: ".home-action",
+    start: "top bottom",
+    end: "bottom top",
+    scrub: true,
+  };
 
-window.gsap.to(".home-action img", {
-  y: -250,
-  scrollTrigger: homeActionScrollTrigger,
-});
+  window.gsap.to(".home-action img", {
+    y: -250,
+    scrollTrigger: homeActionScrollTrigger,
+  });
+}
 
-window.ScrollTrigger.create({
-  trigger: ".team-expertise",
-  start: "top 100px",
-  end: "bottom 400px",
-  pin: ".team-expertise__row-title",
-});
+if (window.location.pathname.startsWith("/team")) {
+  window.ScrollTrigger.create({
+    trigger: ".team-expertise",
+    start: "top 100px",
+    end: "bottom 400px",
+    pin: ".team-expertise__row-title",
+  });
+}
 
 if (
   window.location.pathname.startsWith("/workforce-success") ||
@@ -575,6 +579,63 @@ if (window.location.pathname.startsWith("/story")) {
     .to(".story-story__row--img-33", {})
     .to(".story-story__row--img-34", {})
     .to(".story-story__row--img-35", {});
+}
+
+if (window.location.pathname.startsWith("/community-transformation")) {
+  window.gsap.to(".ct-community__row-1 img", {
+    scale: 1.1,
+    scrollTrigger: {
+      trigger: ".ct-community__row-1",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: 1,
+    },
+    ease: "linear",
+  });
+
+  window.gsap.to(".ct-community__row-2 img", {
+    scale: 1.1,
+    scrollTrigger: {
+      trigger: ".ct-community__row-2",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: 1,
+    },
+    ease: "linear",
+  });
+
+  window.gsap.to(".ct-community__strategies--block-1", {
+    x: -70,
+    scrollTrigger: {
+      trigger: ".ct-community__row-3",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: 1,
+    },
+    ease: "linear",
+  });
+
+  window.gsap.to(".ct-community__strategies--block-2", {
+    y: 100,
+    scrollTrigger: {
+      trigger: ".ct-community__row-3",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: 1,
+    },
+    ease: "linear",
+  });
+
+  window.gsap.from(".ct-work img", {
+    y: -70,
+    scrollTrigger: {
+      trigger: ".ct-work",
+      start: "top bottom",
+      end: "bottom center",
+      scrub: 1,
+    },
+    ease: "linear",
+  });
 }
 
 /* Sliders */

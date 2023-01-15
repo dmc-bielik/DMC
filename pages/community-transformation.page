@@ -1,29 +1,29 @@
 <section class="ct-hero">
   <div class="container">
     <div class="ct-hero__images">
-      <div>
-        <img src="/assets/images/community-transformation/community-transformation-1.jpg" class="zoom-image-on-scroll-1" alt="">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-1.jpg" class="" alt="">
       </div>
-      <div>
-        <img src="/assets/images/community-transformation/community-transformation-2.jpg" class="zoom-image-on-scroll-1" alt="">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-2.jpg" class="" alt="">
       </div>
     </div>
-    <h1 class="heading-1 uppercase center">Community<br>Transformation</h1>
+    <h1 class="heading-1 uppercase center appear-on-scroll-1">Community<br>Transformation</h1>
     <div class="ct-hero__images">
-      <div>
-        <img src="/assets/images/community-transformation/community-transformation-3.jpg" class="zoom-image-on-scroll-1" alt="">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-3.jpg" class="" alt="">
       </div>
-      <div>
-        <img src="/assets/images/community-transformation/community-transformation-4.jpg" class="zoom-image-on-scroll-1" alt="">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-4.jpg" class="" alt="">
       </div>
-      <div>
-        <img src="/assets/images/community-transformation/community-transformation-5.jpg" class="zoom-image-on-scroll-1" alt="">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-5.jpg" class="" alt="">
       </div>
-      <div>
-        <img src="/assets/images/community-transformation/community-transformation-6.jpg" class="zoom-image-on-scroll-1" alt="">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-6.jpg" class="" alt="">
       </div>
-      <div>
-        <img src="/assets/images/community-transformation/community-transformation-7.jpg" class="zoom-image-on-scroll-1" alt="">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/community-transformation/community-transformation-7.jpg" class="" alt="">
       </div>
     </div>
     <div class="center ct-hero__cta">
@@ -35,7 +35,7 @@
 <section class="ct-community">
   <div class="container ls-container">
     <h2 class="uppercase center red heading-4 ct-community__heading">Non-profit Organizations, City & Towns, Foundations,<br>and Cooperatives</h2>
-    <div class="ct-community__row">
+    <div class="ct-community__row ct-community__row-1">
       <div>
         <p class="body-paragraph">DMC identifies issues at the heart of an organization’s challenges and develops strategies to address them. The solutions help transform organizations’ priorities, policies and programming.</p>
       </div>
@@ -46,7 +46,7 @@
         <img src="/assets/images/community-transformation/deo-non-profits-2.jpg" alt="">
       </div>
     </div>
-    <div class="ct-community__row">
+    <div class="ct-community__row ct-community__row-2">
       <div>
         <img src="/assets/images/community-transformation/deo-non-profits-3.jpg" alt="">
       </div>
@@ -54,7 +54,7 @@
         <p class="body-paragraph">Our work is grounded in helping organizations bring their missions to life and maximize their positive impact. DMC helps organizations build stronger relationships internally and externally, to create a more unified community that includes people with diverse backgrounds and identities.</p>
       </div>
     </div>
-    <div class="ct-community__row">
+    <div class="ct-community__row ct-community__row-3">
       <div>
         <h2 class="uppercase heading-4">We design strategies and tools to:</h2>
         <ul class="body-paragraph">
@@ -74,12 +74,12 @@
           <img src="/assets/images/community-transformation/deo-strategies-1.jpg" alt="">
         </div>
         <div>
-          <span></span>
+          <span class="ct-community__strategies--block-1"></span>
           <img src="/assets/images/community-transformation/deo-strategies-2.jpg" alt="">
         </div>
         <div>
           <img src="/assets/images/community-transformation/deo-strategies-3.jpg" alt=""> 
-          <span></span>
+          <span class="ct-community__strategies--block-2"></span>
         </div>
       </div>
     </div>
@@ -100,7 +100,7 @@
   </div>
 </section>
 
-<section class="home-clients">
+<section class="home-clients appear-on-scroll-2">
   <div class="container">
     <div class="home-clients__images" style="max-width: 1100px">
       <img src="/assets/images/clients/city-of-manchester.png" alt="city of manchester" width="120px">
