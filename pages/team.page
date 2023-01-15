@@ -5,7 +5,7 @@
         <h1 class="uppercase">
           <span>Our</span>
           <br>
-          <span>Team</span>
+          <span class="team-hero__content--heading-team">Team</span>
         </h1>
       </div>
       <p class="body-paragraph center">The Deo Mwano Consultancy team features experts in a variety of disciplines, including Data Analysis, Research, DEIJ, Leadership/Management Development, Learning Success, Board Dynamics, Project and Program Management, Program and Project Development, Designing and Implementing Multi Stakeholders Alignment and Relationships, Videography/Photography, Graphic Design, Storytelling and Community Advocacy. Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize.</p>
