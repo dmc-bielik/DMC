@@ -165,50 +165,55 @@
 </section>
 
 <section class="home-testimonials">
-  <div class="home-testimonials__item">
-    <p class="body-paragraph">"It was a singular experience to welcome Deo Mwano and Martin ____________ to headline our school's Community Day in April of 2021. The students felt an instant connection with them, and within minutes we are all up and dancing and having fun. Deo's story is his alone, and yet it gave each of us a chance to reflect on the importance of courage and creativity as we find our own paths in the world. We were all captivated by Deo's charisma, his message, and his positive approach to life, and we are still talking about his visit many days later."</p>
-    <div class="home-testimonials__item-meta">
-      <div>
-        <h4>John Turner</h4>
-        <p class="body-paragraph">Head of School, Heronfield Academy</p>
+  <div class="swiper home-testimonials__slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide home-testimonials__item">
+        <p class="body-paragraph">"It was a singular experience to welcome Deo Mwano and Martin ____________ to headline our school's Community Day in April of 2021. The students felt an instant connection with them, and within minutes we are all up and dancing and having fun. Deo's story is his alone, and yet it gave each of us a chance to reflect on the importance of courage and creativity as we find our own paths in the world. We were all captivated by Deo's charisma, his message, and his positive approach to life, and we are still talking about his visit many days later."</p>
+        <div class="home-testimonials__item-meta">
+          <div>
+            <h4>John Turner</h4>
+            <p class="body-paragraph">Head of School, Heronfield Academy</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide home-testimonials__item">
+        <p class="body-paragraph">Deo radiates positivity! His approachable style facilitates questions and dialogue. Our trustees and employees enjoyed consultations that inspired awareness and understanding as we explored the topics of diversity and inclusion. Informed by Deo’s insights, we have designed and launched a thoughtful plan to expand our commitment to equity, diversity, inclusion, and accessibility in our arts programming, operational policies, and bridge building to the extended community</p>
+        <div class="home-testimonials__item-meta">
+          <div>
+            <h4>Nicki Clarke</h4>
+            <p class="body-paragraph">Executive Director, Capitol Center for the Arts</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide home-testimonials__item">
+        <p class="body-paragraph">The goals were to reflect on individual leadership as well as the school’s leadership programming. This two day conference was kicked off with an amazing speaker, Deo Mwano. He helped all the student leadership to think about equity and inclusion in leadership. He brought a key understanding to all the students about making sure all have access and who the stakeholders and decision makers are and how to partner with them. He spent time asking students to think about their leadership style and how the “show up” as leaders. The experience with Deo was overwhelmingly positive for students and set the stage on day 2 to work with the Dean of Students and Leadership, Reina Stimpson, about using their skills to build up their team within their individual student life and government groups. Students used an Affirmative Inquiry approach to speak about what was working well and what they wanted to see more of and improve.</p>
+        <div class="home-testimonials__item-meta">
+          <div>
+            <h4>Reina Stimpson</h4>
+            <p class="body-paragraph">Derryfield School Derryfield</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide home-testimonials__item">
+        <p class="body-paragraph">Deo’s presentation to the student body was well received. His description of his story in relation to how to build community was directly on point. Our international summer program has a short time to build an inclusive, welcoming, and tolerant community. Deo’s was able to show these students that they can be far from home yet keep their own identity despite the surroundings. This presentation gave the students more tools to use to gel as advisee groups, dorms, classes, and a student body. Many came up to Deo afterward to thank him, share their stories, and get advice.</p>
+        <div class="home-testimonials__item-meta">
+          <div>
+            <h4>Jeffrey P. Ward.</h4>
+            <p class="body-paragraph">Phillips Exeter Director of summer program</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide home-testimonials__item">
+        <p class="body-paragraph">Deo Mwano masterfully led our Board through a tremendous amount of information, balancing the systemic and individual scales and grounding concepts in the specific kinds of work that we do and challenges we face. His training was engaging and compassionate and it continues to inspire important conversations in our organization</p>
+        <div class="home-testimonials__item-meta">
+          <div>
+            <h4>Sarah Wraight</h4>
+            <p class="body-paragraph">Two Rivers-Ottauquechee Regional Commission, Vermont, Senior Planner</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="home-testimonials__item">
-    <p class="body-paragraph">Deo radiates positivity! His approachable style facilitates questions and dialogue. Our trustees and employees enjoyed consultations that inspired awareness and understanding as we explored the topics of diversity and inclusion. Informed by Deo’s insights, we have designed and launched a thoughtful plan to expand our commitment to equity, diversity, inclusion, and accessibility in our arts programming, operational policies, and bridge building to the extended community</p>
-    <div class="home-testimonials__item-meta">
-      <div>
-        <h4>Nicki Clarke</h4>
-        <p class="body-paragraph">Executive Director, Capitol Center for the Arts</p>
-      </div>
-    </div>
-  </div>
-  <div class="home-testimonials__item">
-    <p class="body-paragraph">The goals were to reflect on individual leadership as well as the school’s leadership programming. This two day conference was kicked off with an amazing speaker, Deo Mwano. He helped all the student leadership to think about equity and inclusion in leadership. He brought a key understanding to all the students about making sure all have access and who the stakeholders and decision makers are and how to partner with them. He spent time asking students to think about their leadership style and how the “show up” as leaders. The experience with Deo was overwhelmingly positive for students and set the stage on day 2 to work with the Dean of Students and Leadership, Reina Stimpson, about using their skills to build up their team within their individual student life and government groups. Students used an Affirmative Inquiry approach to speak about what was working well and what they wanted to see more of and improve.</p>
-    <div class="home-testimonials__item-meta">
-      <div>
-        <h4>Reina Stimpson</h4>
-        <p class="body-paragraph">Derryfield School Derryfield</p>
-      </div>
-    </div>
-  </div>
-  <div class="home-testimonials__item">
-    <p class="body-paragraph">Deo’s presentation to the student body was well received. His description of his story in relation to how to build community was directly on point. Our international summer program has a short time to build an inclusive, welcoming, and tolerant community. Deo’s was able to show these students that they can be far from home yet keep their own identity despite the surroundings. This presentation gave the students more tools to use to gel as advisee groups, dorms, classes, and a student body. Many came up to Deo afterward to thank him, share their stories, and get advice.</p>
-    <div class="home-testimonials__item-meta">
-      <div>
-        <h4>Jeffrey P. Ward.</h4>
-        <p class="body-paragraph">Phillips Exeter Director of summer program</p>
-      </div>
-    </div>
-  </div>
-  <div class="home-testimonials__item">
-    <p class="body-paragraph">Deo Mwano masterfully led our Board through a tremendous amount of information, balancing the systemic and individual scales and grounding concepts in the specific kinds of work that we do and challenges we face. His training was engaging and compassionate and it continues to inspire important conversations in our organization</p>
-    <div class="home-testimonials__item-meta">
-      <div>
-        <h4>Sarah Wraight</h4>
-        <p class="body-paragraph">Two Rivers-Ottauquechee Regional Commission, Vermont, Senior Planner</p>
-      </div>
-    </div>
+    <div class="swiper-pagination"></div>
   </div>
 </section>
 

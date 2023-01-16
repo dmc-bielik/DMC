@@ -104,6 +104,7 @@
           font-weight: 500;
           padding: 9px 36px;
           border: 1px solid #fff;
+          border-radius: 4px;
           transition: all 0.2s;
 
           &:hover {
@@ -261,6 +262,14 @@
     background-color: @colorRed;
     padding: 75px 0;
 
+    &__slider {
+      padding-bottom: 50px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #fff;
+    }
+
     &__item {
       // display: inline-block;
       position: relative;
@@ -287,7 +296,6 @@
         bottom: 35px;
         left: 23px;
         right: 23px;
-        width: 100%;
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;

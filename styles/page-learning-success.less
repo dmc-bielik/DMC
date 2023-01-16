@@ -391,9 +391,19 @@
     background-color: @colorLSBlue3;
     background-image: none;
 
+    .swiper-pagination-bullet-active {
+      background-color: #fff;
+    }
+
     &__cards {
+      align-items: baseline;
+      justify-content: initial;
+      padding-bottom: 80px !important;
+
       & > div {
+        flex: none;
         padding: 30px;
+        min-height: 400px;
 
         .ws-reviews__cards--review {
           padding-bottom: 130px;

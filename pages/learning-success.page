@@ -215,9 +215,9 @@
   </section>
 
   <section class="ws-reviews ls-reviews center">
-    <div class="container">
-      <div class="ws-reviews__cards ls-reviews__cards">
-        <div>
+    <div class="swiper ls-reviews__slider">
+      <div class="swiper-wrapper ws-reviews__cards ls-reviews__cards">
+        <div class="swiper-slide">
           <p class="body-paragraph ws-reviews__cards--review">"Deo Mwano has a magic of goodness. I think it comes from having such a powerful and generous heart. His energy inspires. The vitality that he brings to students, and what he gave to me as a colleague, generates tremendous goodwill and insight. He summons up and frees the creative spirit. That kind of innovation and connection is rare. Deo is himself a special source of light and a talented guide."</p>
           <p class="ws-reviews__cards--meta body-paragraph">
             <strong>RG Richards</strong>
@@ -225,7 +225,7 @@
             <span>Phillips Exeter Academy Chair, Theatre Instructor</span>
           </p>
         </div>
-        <div>
+        <div class="swiper-slide">
           <p class="body-paragraph ws-reviews__cards--review">"Deo brought an informative, high energy, and inspirational workshop to students during a critical time. We asked for an opportunity for students to learn more, reflect on their own experiences, and identify what they can do to positively impact the culture in their school. Deo did a great job and really engaged students."</p>
           <p class="ws-reviews__cards--meta body-paragraph">
             <strong>Michele Holt-Shannon</strong>
@@ -233,7 +233,7 @@
             <span>Director of New Hampshire Listens, University of New Hampshire Carsey Center</span>
           </p>
         </div>
-        <div>
+        <div class="swiper-slide">
           <p class="body-paragraph ws-reviews__cards--review">"Deo worked with NH HOBY to facilitate a piece of our program where we work to introduce the topic of privilege to high-school sophomores, young leaders from the state of NH. After many years of not feeling like we hit the point home, we were so happy that Deo did this year. His energy, story and ability to engage was unparalleled to any of our internal resources and we were so glad to have brought him in to speak at our seminar."</p>
           <p class="ws-reviews__cards--meta body-paragraph">
             <strong>Kate Aiken</strong>
@@ -241,7 +241,7 @@
             <span>Former Director of Program of HOBY NH</span>
           </p>
         </div>
-        <div>
+        <div class="swiper-slide">
           <p class="body-paragraph ws-reviews__cards--review">"Having Deo (Shaq & Martin, too) at NMH School was an amazing experience for our students and faculty. We appreciated hearing his personal story in the keynote address, as Deo raised important questions about identity, belonging, and living well in community together. Most impressive was his music & dance workshop with about 60 students; he was fired up; Deo was fired up, got them fired up, and a number of kids commented that it was the best workshop they had ever attended. Simply put, it was an awesome afternoon and we are thrilled Deo was able to share his talents with NMH School."</p>
           <p class="ws-reviews__cards--meta body-paragraph">
             <strong>Martha Neubert</strong>
@@ -249,7 +249,7 @@
             <span>Dean of Diversity, Equity, and Social Justice, Northfield Mount Hermon</span>
           </p>
         </div>
-        <div>
+        <div class="swiper-slide">
           <p class="body-paragraph ws-reviews__cards--review">"There are rare persons who, when we meet them, bring light and energy to our lives; persons who show, almost without speaking, their deep commitment to others.  Deo Mwano is such a person.  While his personal story is one of strength gained through adversity, his enthusiasm for youth and its potential and for education and its empowering effect is a message he does not just talk about, but truly lives."</p>
           <p class="ws-reviews__cards--meta body-paragraph">
             <strong>Stephen Reno</strong>
@@ -258,6 +258,7 @@
           </p>
         </div>
       </div>
+      <div class="swiper-pagination"></div>
     </div>
   </section>
 

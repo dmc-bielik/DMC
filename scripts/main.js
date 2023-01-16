@@ -669,29 +669,35 @@ const marqueeSliderCommon = {
   navPosition: "bottom",
 };
 
-const homeTestimonialsSlider = document.querySelector(".home-testimonials");
+new window.Swiper(".home-testimonials__slider", {
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "bullets",
+    clickable: true,
+  },
+  slidesPerView: 4,
+  speed: 1000,
+});
 
-if (homeTestimonialsSlider) {
-  window.tns({
-    ...marqueeSliderCommon,
-    container: homeTestimonialsSlider,
-    items: 4,
-    center: true,
-  });
-}
+new window.Swiper(".ls-reviews__slider", {
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "bullets",
+    clickable: true,
+  },
+  slidesPerView: 4,
+  speed: 1000,
+});
 
-const lsReviewsCards = document.querySelector(".ls-reviews__cards");
-
-if (lsReviewsCards) {
-  window.tns({
-    ...marqueeSliderCommon,
-    container: lsReviewsCards,
-    speed: 2000,
-    items: 4,
-  });
-}
-
-const swiper = new window.Swiper(".move-up-swiper", {
+new window.Swiper(".move-up-swiper", {
   direction: "vertical",
   loop: true,
   autoplay: {

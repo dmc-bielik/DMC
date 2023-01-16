@@ -73,22 +73,22 @@
               <p>Follow us on</p>
               <ul class="footer__social">
                 <li>
-                  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/deomwanoconsultancy/" target="_blank" rel="noopener noreferrer">
                     <img src="/assets/images/home/instagram.svg" alt="instagram">
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.facebook.com/DeoMwanoConsultancy" target="_blank" rel="noopener noreferrer">
                     <img src="/assets/images/home/facebook.svg" alt="facebook">
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/company/deo-mwano-consultancy/" target="_blank" rel="noopener noreferrer">
                     <img src="/assets/images/home/linkedin.svg" alt="linkedin">
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.youtube.com/@DeoMwanoConsultancy" target="_blank" rel="noopener noreferrer">
                     <img src="/assets/images/home/youtube.svg" alt="youtube">
                   </a>
                 </li>
@@ -102,7 +102,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <squarespace:script src="main.js" combo="false" />
     <squarespace:script src="site-bundle.js" combo="false" />
