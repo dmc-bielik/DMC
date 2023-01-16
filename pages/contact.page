@@ -7,7 +7,7 @@
 <section class="contact-form">
   <div class="container ls-container">
     <h1 class="heading-4 uppercase center">Work with DMC Today</h1>
-    <p class="center">{squarespace.main-content}</p>
+    <div data-content-field="main-content">{squarespace.main-content}</div>
   </div>
 </section>
 
@@ -92,7 +92,7 @@
           </p>
         </div>
       </div>
-      <div>{squarespace.main-content}</div>
+      <div data-content-field="main-content">{squarespace.main-content}</div>
     </div>
   </div>
 </section>
