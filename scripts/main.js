@@ -679,8 +679,16 @@ new window.Swiper(".home-testimonials__slider", {
     type: "bullets",
     clickable: true,
   },
-  slidesPerView: 4,
+  slidesPerView: 2,
   speed: 1000,
+  breakpoints: {
+    767: {
+      slidesPerView: 3,
+    },
+    979: {
+      slidesPerView: 4,
+    },
+  },
 });
 
 new window.Swiper(".ls-reviews__slider", {
