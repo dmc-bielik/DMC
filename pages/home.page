@@ -308,11 +308,5 @@
       </div>
       <div class="home-team__row--empty"></div>
     </div>
-    {#  <div class="home-team__row">
-    </div>
-    <div class="home-team__row">
-    </div>
-    <div class="home-team__row">
-    </div>  }
   </div>
 </section>

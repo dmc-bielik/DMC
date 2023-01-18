@@ -70,11 +70,6 @@
         overflow: hidden;
         .font-smoothing(@colorRed);
 
-        @media (max-width: 767px) {
-          width: 100%;
-          margin-bottom: 30px;
-        }
-
         &:nth-child(2) {
           background-color: @colorBlue;
 
@@ -125,6 +120,20 @@
             color: @colorRed;
           }
         }
+
+        @media (max-width: 767px) {
+          width: calc(~"100% - 12px");
+          margin-bottom: 30px;
+
+          p {
+            min-height: auto;
+          }
+
+          img {
+            max-height: 240px;
+            object-fit: cover;
+          }
+        }
       }
     }
   }
@@ -143,12 +152,22 @@
       border-radius: 13px;
       overflow: hidden;
 
+      @media (max-width: 979px) {
+        flex-direction: column !important;
+      }
+
       &-reverse {
         flex-direction: row-reverse;
         padding: 0 25px;
 
         & > div {
           padding: 50px 25px !important;
+
+          @media (max-width: 979px) {
+            &:first-child {
+              padding: 0px !important;
+            }
+          }
         }
       }
 
@@ -214,6 +233,10 @@
       .button {
         margin-top: 20px;
       }
+
+      @media (max-width: 767px) {
+        padding: 35px;
+      }
     }
   }
 
@@ -245,6 +268,16 @@
           margin-top: 20px;
         }
       }
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+
+        & > div {
+          &:first-child {
+            margin-bottom: 30px;
+          }
+        }
+      }
     }
   }
 
@@ -270,11 +303,6 @@
   }
 
   &-testimonials {
-    // display: flex;
-    // justify-content: flex-start;
-    // align-items: stretch;
-    // flex-wrap: nowrap;
-    // overflow: hidden;
     background-color: @colorRed;
     padding: 75px 0;
 
@@ -287,15 +315,12 @@
     }
 
     &__item {
-      // display: inline-block;
       position: relative;
       margin: 6.5px;
       border-radius: 13px;
       padding: 42px 23px;
       background-color: #fff;
       min-height: 410px;
-      // min-width: 28vw;
-      // max-width: 28vw;
 
       p {
         font-size: 11px;
@@ -342,9 +367,14 @@
 
   &-action {
     position: relative;
-    min-height: 550px;
+    min-height: 30vw;
     padding: 100px 0;
     margin: 100px 0 200px;
+
+    @media (max-width: 480px) {
+      min-height: 25vw;
+      margin: 50px 0 100px;
+    }
 
     img,
     span {

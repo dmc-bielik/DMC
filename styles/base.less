@@ -370,7 +370,7 @@ blockquote {
 .pre-footer-inner { max-width: @pageWidth; }
 
 #header {
-  padding: 0 @headerVertPadding;
+  // padding: 0 @headerVertPadding;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -388,6 +388,12 @@ blockquote {
   #siteTitle {
     position: relative;
     z-index: 1000;
+  }
+
+  @media only screen and (max-width: 640px) {
+    .nav-wrapper {
+      display: none;
+    }
   }
 }
 
@@ -2076,18 +2082,34 @@ ul {
 
 .heading-1 {
   font-size: 60px;
+
+  @media (max-width: 767px) {
+    font-size: 38px;
+  }
 }
 
 .heading-2 {
   font-size: 44px;
+
+  @media (max-width: 767px) {
+    font-size: 32px;
+  }
 }
 
 .heading-3 {
   font-size: 38px;
+
+  @media (max-width: 767px) {
+    font-size: 26px;
+  }
 }
 
 .heading-4 {
   font-size: 32px;
+
+  @media (max-width: 767px) {
+    font-size: 20px;
+  }
 }
 
 .body-paragraph {
@@ -2157,6 +2179,10 @@ ul {
       flex: 1;
       min-width: 200px;
       margin-bottom: 30px;
+
+      @media (max-width: 480px) {
+        margin-bottom: 0;
+      }
 
       p,
       a {
