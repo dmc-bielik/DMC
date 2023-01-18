@@ -46,11 +46,19 @@
 
   &-solutions {
     margin: 50px 0 160px;
+    
+    @media (max-width: 767px) {
+      margin: 50px 0;
+    }
 
     &__row {
       display: flex;
       align-items: stretch;
       margin: 0 -6px;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
 
       & > div {
         margin: 0 6px;
@@ -61,6 +69,11 @@
         width: 33.33%;
         overflow: hidden;
         .font-smoothing(@colorRed);
+
+        @media (max-width: 767px) {
+          width: 100%;
+          margin-bottom: 30px;
+        }
 
         &:nth-child(2) {
           background-color: @colorBlue;
@@ -119,10 +132,13 @@
   &-problem {
     margin: 0 0 150px;
 
+    @media (max-width: 767px) {
+      margin: 50px 0;
+    }
+
     &__row {
       display: flex;
       align-items: center;
-      // justify-content: flex-start;
       background-color: @colorLightGrey;
       border-radius: 13px;
       overflow: hidden;
@@ -373,6 +389,12 @@
       display: flex;
       margin: 0 -16px;
 
+      @media (max-width: 979px) {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+      }
+
       iframe {
         margin: 16px;
         border-radius: 13px;
@@ -380,28 +402,30 @@
         max-width: 100%;
       }
 
-      &:first-child {
-        iframe {
-          &:nth-child(1),
-          &:nth-child(3) {
-            width: 30%;
-            height: 230px;
-          }
-
-          &:nth-child(2) {
-            margin-top: 100px;
-            width: 40%;
+      @media (min-width: 980px) {
+        &:first-child {
+          iframe {
+            &:nth-child(1),
+            &:nth-child(3) {
+              width: 30%;
+              height: 230px;
+            }
+  
+            &:nth-child(2) {
+              margin-top: 100px;
+              width: 40%;
+            }
           }
         }
-      }
 
-      &:last-child {
-        justify-content: center;
-
-        iframe {
-          &:nth-child(2) {
-            width: 35%;
-            height: 280px;
+        &:last-child {
+          justify-content: center;
+  
+          iframe {
+            &:nth-child(2) {
+              width: 35%;
+              height: 280px;
+            }
           }
         }
       }
@@ -415,13 +439,31 @@
       display: flex;
       align-items: flex-start;
       justify-content: center;
+      flex-wrap: wrap;
+
+      @media (max-width: 1200px) {
+        &--empty {
+          display: none !important;
+        }
+      }
 
       & > div {
-        flex: 1;
+        min-width: calc(~"33.33% - 46px");
+        max-width: calc(~"33.33% - 46px");
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding: 23px;
+        margin: 23px;
+
+        @media (max-width: 1200px) {
+          min-width: calc(~"50% - 46px");
+          max-width: calc(~"50% - 46px");
+        }
+
+        @media (max-width: 767px) {
+          min-width: calc(~"100% - 46px");
+          max-width: calc(~"100% - 46px");
+        }
 
         img {
           width: 90px;

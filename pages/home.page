@@ -247,7 +247,7 @@
 <section class="home-team">
   <div class="container">
     <div class="home-team__row">
-      <div></div>
+      <div class="home-team__row--empty"></div>
       <div>
         <img src="/assets/images/team/team-deo-mwano.jpg" alt="deo mwano">
         <div>
@@ -255,9 +255,7 @@
           <p>CEO, Founder and Managing Principal</p>
         </div>
       </div>
-      <div></div>
-    </div>
-    <div class="home-team__row">
+      <div class="home-team__row--empty"></div>
       <div>
         <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="Millicent Alhamis">
         <div>
@@ -279,8 +277,6 @@
           <p>Learning Model and Organization Transformation Consultant</p>
         </div>
       </div>
-    </div>
-    <div class="home-team__row">
       <div>
         <img src="/assets/images/team/team-victoria-carrington.jpg" alt="Victoria Carrington">
         <div>
@@ -302,9 +298,7 @@
           <p>Social Media & Content Strategist</p>
         </div>
       </div>
-    </div>
-    <div class="home-team__row">
-      <div></div>
+      <div class="home-team__row--empty"></div>
       <div>
         <img src="/assets/images/team/team-rakesh-khilare.jpg" alt="Rakesh Khilare">
         <div>
@@ -312,7 +306,13 @@
           <p>Lead Designer</p>
         </div>
       </div>
-      <div></div>
+      <div class="home-team__row--empty"></div>
     </div>
+    {#  <div class="home-team__row">
+    </div>
+    <div class="home-team__row">
+    </div>
+    <div class="home-team__row">
+    </div>  }
   </div>
 </section>

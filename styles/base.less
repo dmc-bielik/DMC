@@ -2147,13 +2147,16 @@ ul {
 }
 
 .footer {
-  padding: 100px 0;
+  padding: 100px 0 70px;
 
   &__row {
     display: flex;
+    flex-wrap: wrap;
 
     & > div {
       flex: 1;
+      min-width: 200px;
+      margin-bottom: 30px;
 
       p,
       a {
