@@ -723,7 +723,8 @@ new window.Swiper(".move-up-swiper", {
 const imagesFade = [
   "ws-hero-background",
   "ls-hero-image",
-  "team-hero__img--img",
+  "ks-hero__img--img",
+  // "team-hero__img--img",
 ];
 
 imagesFade.forEach((i) => {

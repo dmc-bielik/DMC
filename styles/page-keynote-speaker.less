@@ -9,6 +9,28 @@
       border-radius: 13px;
       height: 470px;
 
+      h1 {
+        position: relative;
+        z-index: 2;
+        color: #fff;
+        font-family: @fontPoppins;
+        font-weight: 600;
+        line-height: 1;
+        text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+        .font-smoothing(@colorRed);
+      }
+    }
+
+    &__img {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+
       img {
         position: absolute;
         z-index: 1;
@@ -18,16 +40,13 @@
         bottom: 0;
         height: 100%;
         width: 100%;
-      }
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 1s;
 
-      h1 {
-        position: relative;
-        z-index: 2;
-        color: #fff;
-        font-family: @fontPoppins;
-        font-weight: 600;
-        line-height: 1;
-        .font-smoothing(@colorRed);
+        &.is-visible {
+          opacity: 1;
+        }
       }
     }
 

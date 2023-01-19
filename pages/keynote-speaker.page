@@ -1,8 +1,18 @@
 <section class="ks-hero">
   <div class="container">
-    <div class="ks-hero__banner">
+    <div class="ks-hero__banner appear-on-scroll-1">
       <h1 class="heading-2">Keynote<br>Speaker</h1>
-      <img src="/assets/images/keynote-speaker/deo-keynote-speaker.jpg" alt="" class="zoom-image-on-scroll-1">
+      <div class="ks-hero__img">
+        <img src="/assets/images/keynote-speaker/deo-hero-keynote-speaker-1.jpg" alt="deo keynote speaker" class="ks-hero__img--img is-visible">
+        <img src="/assets/images/keynote-speaker/deo-hero-keynote-speaker-2.jpg" alt="deo keynote speaker" class="ks-hero__img--img">
+        <img src="/assets/images/keynote-speaker/deo-hero-keynote-speaker-3.jpg" alt="deo keynote speaker" class="ks-hero__img--img">
+        <img src="/assets/images/keynote-speaker/deo-hero-keynote-speaker-4.jpg" alt="deo keynote speaker" class="ks-hero__img--img">
+        <img src="/assets/images/keynote-speaker/deo-hero-keynote-speaker-5.jpg" alt="deo keynote speaker" class="ks-hero__img--img">
+        <img src="/assets/images/keynote-speaker/deo-hero-keynote-speaker-6.jpg" alt="deo keynote speaker" class="ks-hero__img--img">
+        <img src="/assets/images/keynote-speaker/deo-hero-keynote-speaker-7.jpg" alt="deo keynote speaker" class="ks-hero__img--img">
+        <img src="/assets/images/keynote-speaker/deo-hero-keynote-speaker-8.jpg" alt="deo keynote speaker" class="ks-hero__img--img">
+        <img src="/assets/images/keynote-speaker/deo-hero-keynote-speaker-9.jpg" alt="deo keynote speaker" class="ks-hero__img--img">
+      </div>
     </div>
     <div class="ks-hero__content center appear-on-scroll-1">
       <p class="red">Deo Mwano is a captivating speaker with a compelling personal story as well as expertise in business, community-building and DEI.</p>
@@ -13,7 +23,7 @@
 
 <section class="ks-illustration appear-on-scroll-2">
   <div class="container center">
-    <h2 class="uppercase heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the US as a refugee.</h2>
+    <h2 class="uppercase heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the USA as a refugee.</h2>
     <a href="/story" class="button">DEO'S STORY</a>
   </div>
 </section>
