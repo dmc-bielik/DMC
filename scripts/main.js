@@ -450,17 +450,6 @@ if (window.location.pathname.startsWith("/learning-success")) {
       ease: "linear",
     }
   );
-
-  window.gsap.fromTo(
-    ".ls-engagements__visuals--5",
-    { x: -25 },
-    {
-      scrollTrigger: lsEngagementsScrollTrigger,
-      x: 25,
-      duration: 2,
-      ease: "linear",
-    }
-  );
 }
 
 if (window.location.pathname.startsWith("/keynote-speaker")) {
