@@ -71,6 +71,13 @@ if (window.location.pathname.startsWith("/team")) {
   });
 }
 
+const getContainerWidth = () => {
+  if (window.innerWidth < 1460)
+    return window.innerWidth - window.innerWidth * 0.06;
+
+  return 1400;
+};
+
 if (
   window.location.pathname.startsWith("/workforce-success") ||
   window.location.pathname.startsWith("/learning-success")
@@ -78,16 +85,16 @@ if (
   window.gsap.to(".sticky-hero img", {
     scrollTrigger: {
       trigger: ".sticky-hero",
-      start: "-148px top",
+      start: "-142px top",
       end: "top top",
       scrub: true,
       pin: ".header",
       pinSpacing: false,
     },
     borderRadius: "13px",
-    width: "1400px",
-    left: `${(window.innerWidth - 1400) / 2}px`,
-    right: `${(window.innerWidth - 1400) / 2}px`,
+    width: `${getContainerWidth()}px`,
+    left: `${(window.innerWidth - getContainerWidth()) / 2}px`,
+    right: `${(window.innerWidth - getContainerWidth()) / 2}px`,
     top: "150px",
     maxHeight: "700px",
   });
