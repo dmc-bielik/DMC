@@ -10,7 +10,7 @@
 <section class="story-about">
   <div class="container ls-container">
     <div class="story-about__row">
-      <div class="center">
+      <div>
         <img src="/assets/images/story/deo-mwano.jpg" alt="deo mwano">
       </div>
       <div>
@@ -21,7 +21,7 @@
   </div>
 </section>
 
-<section class="ks-family appear-on-scroll-1">
+<section class="ks-family story-family appear-on-scroll-1">
   <div class="container ls-container">
     <div class="ks-family__content">
       <div>

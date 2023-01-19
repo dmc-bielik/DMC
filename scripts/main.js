@@ -528,53 +528,75 @@ if (window.location.pathname.startsWith("/story")) {
     duration: 1,
   });
 
-  const storyTl = window.gsap.timeline({
-    scrollTrigger: {
-      trigger: ".story-story__timeline",
-      start: "top bottom",
-      end: "bottom bottom",
-      scrub: 0.1,
-    },
-    defaults: { ease: "linear", opacity: 1, y: 0 },
-  });
+  if (window.innerWidth > 767) {
+    const storyTl = window.gsap.timeline({
+      scrollTrigger: {
+        trigger: ".story-story__timeline",
+        start: "top bottom",
+        end: "bottom bottom",
+        scrub: 0.1,
+      },
+      defaults: { ease: "linear", opacity: 1, y: 0 },
+    });
 
-  storyTl
-    .to(".story-story__row--img-1", {})
-    .to(".story-story__row--img-2", {})
-    .to(".story-story__row--img-3", {})
-    .to(".story-story__row--img-4", {})
-    .to(".story-story__row--img-5", {})
-    .to(".story-story__row--img-6", {})
-    .to(".story-story__row--img-7", { delay: 1 })
-    .to(".story-story__row--img-8", {})
-    .to(".story-story__row--img-8", {})
-    .to(".story-story__row--img-9", {})
-    .to(".story-story__row--img-10", {})
-    .to(".story-story__row--img-11", {})
-    .to(".story-story__row--img-12", {})
-    .to(".story-story__row--img-13", { delay: 1 })
-    .to(".story-story__row--img-14", {})
-    .to(".story-story__row--img-15", {})
-    .to(".story-story__row--img-16", {})
-    .to(".story-story__row--img-17", {})
-    .to(".story-story__row--img-18", {})
-    .to(".story-story__row--img-19", {})
-    .to(".story-story__row--img-20", {})
-    .to(".story-story__row--img-21", {})
-    .to(".story-story__row--img-22", {})
-    .to(".story-story__row--img-23", {})
-    .to(".story-story__row--img-24", {})
-    .to(".story-story__row--img-25", {})
-    .to(".story-story__row--img-26", {})
-    .to(".story-story__row--img-27", {})
-    .to(".story-story__row--img-28", {})
-    .to(".story-story__row--img-29", {})
-    .to(".story-story__row--img-30", {})
-    .to(".story-story__row--img-31", {})
-    .to(".story-story__row--img-32", {})
-    .to(".story-story__row--img-33", {})
-    .to(".story-story__row--img-34", {})
-    .to(".story-story__row--img-35", {});
+    storyTl
+      .to(".story-story__row--img-1", {})
+      .to(".story-story__row--img-2", {})
+      .to(".story-story__row--img-3", {})
+      .to(".story-story__row--img-4", {})
+      .to(".story-story__row--img-5", {})
+      .to(".story-story__row--img-6", {})
+      .to(".story-story__row--img-7", { delay: 1 })
+      .to(".story-story__row--img-8", {})
+      .to(".story-story__row--img-8", {})
+      .to(".story-story__row--img-9", {})
+      .to(".story-story__row--img-10", {})
+      .to(".story-story__row--img-11", {})
+      .to(".story-story__row--img-12", {})
+      .to(".story-story__row--img-13", { delay: 1 })
+      .to(".story-story__row--img-14", {})
+      .to(".story-story__row--img-15", {})
+      .to(".story-story__row--img-16", {})
+      .to(".story-story__row--img-17", {})
+      .to(".story-story__row--img-18", {})
+      .to(".story-story__row--img-19", {})
+      .to(".story-story__row--img-20", {})
+      .to(".story-story__row--img-21", {})
+      .to(".story-story__row--img-22", {})
+      .to(".story-story__row--img-23", {})
+      .to(".story-story__row--img-24", {})
+      .to(".story-story__row--img-25", {})
+      .to(".story-story__row--img-26", {})
+      .to(".story-story__row--img-27", {})
+      .to(".story-story__row--img-28", {})
+      .to(".story-story__row--img-29", {})
+      .to(".story-story__row--img-30", {})
+      .to(".story-story__row--img-31", {})
+      .to(".story-story__row--img-32", {})
+      .to(".story-story__row--img-33", {})
+      .to(".story-story__row--img-34", {})
+      .to(".story-story__row--img-35", {});
+  } else {
+    const storyImages = window.gsap.utils.toArray(".story-story__row--img");
+
+    storyImages.forEach((trigger) => {
+      window.gsap.fromTo(
+        trigger,
+        { opacity: 0, y: 50 },
+        {
+          opacity: 1,
+          y: 0,
+          ease: "linear",
+          scrollTrigger: {
+            trigger,
+            start: "top 70%",
+            end: "+=300px",
+            scrub: true,
+          },
+        }
+      );
+    });
+  }
 }
 
 if (window.location.pathname.startsWith("/community-transformation")) {
