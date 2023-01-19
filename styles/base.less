@@ -2048,11 +2048,11 @@ ul {
   }
 
   &.button-outline {
-    background-color: transparent;
+    background-color: transparent !important;
     color: @colorRed;
 
     &:hover {
-      background-color: @colorRed;
+      background-color: @colorRed !important;
       color: #fff;
       filter: none;
     }
@@ -2060,11 +2060,11 @@ ul {
 
   &.button-outline-white {
     border-color: #fff;
-    background-color: transparent;
+    background-color: transparent !important;
     color: #fff;
 
     &:hover {
-      background-color: #fff;
+      background-color: #fff !important;
       color: @colorGrey;
       filter: none;
     }
@@ -2141,6 +2141,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 44px;
   }
 
   &-logo {
@@ -2358,4 +2359,8 @@ ul {
       font-size: 22px;
     }
   }
+}
+
+#mainNavigation {
+  white-space: nowrap;
 }
