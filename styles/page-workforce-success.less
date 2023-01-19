@@ -35,6 +35,22 @@
         padding: 100px;
         flex: 1;
       }
+
+      @media (max-width: 979px) {
+        flex-direction: column;
+
+        & > div {
+          padding: 50px 0;
+
+          &:first-child {
+            padding-bottom: 0;
+          }
+
+          &:last-child {
+            padding-top: 0;
+          }
+        }
+      }
     }
   }
 
@@ -71,6 +87,21 @@
         animation-name: animateGradient;
         animation-duration: 10s;
         animation-iteration-count: infinite;
+      }
+
+      @media (max-width: 979px) {
+        flex-direction: column;
+        align-items: center;
+
+        img,
+        p {
+          margin: 0;
+        }
+
+        p {
+          margin-top: 30px;
+          font-size: 4vw;
+        }
       }
     }
 
@@ -110,6 +141,15 @@
           opacity: 0.7;
         }
       }
+
+      @media (max-width: 979px) {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        span {
+          min-width: 120px;
+        }
+      }
     }
   }
 
@@ -135,11 +175,17 @@
         font-size: 18px;
         max-width: 680px;
         margin: 0 auto 50px;
+        padding: 0 15px;
+
+        @media (max-width: 480px) {
+          font-size: 16px;
+        }
       }
 
       img {
         position: absolute;
         bottom: 0;
+        max-height: 30vw;
       }
 
       &--img-1 {
@@ -214,11 +260,27 @@
           }
         }
       }
+
+      @media (max-width: 979px) {
+        flex-direction: column;
+
+        & > div {
+          max-width: 100% !important;
+
+          &:last-child {
+            margin-top: 100px;
+          }
+        }
+      }
     }
   }
 
   &-who {
     margin: 200px 0;
+
+    @media (max-width: 767px) {
+      margin: 100px 0;
+    }
 
     &__row {
       display: flex;
@@ -268,11 +330,27 @@
           }
         }
       }
+
+      @media (max-width: 979px) {
+        flex-direction: column-reverse;
+
+        & > div {
+          width: calc(~"100% - 20px");
+
+          &:first-child {
+            margin-bottom: 30px;
+          }
+        }
+      }
     }
   }
 
   &-clients  {
     padding-bottom: 150px;
+
+    @media (max-width: 767px) {
+      padding-bottom: 100px;
+    }
 
     &__images {
       display: flex;
@@ -318,13 +396,21 @@
       h3 {
         font-size: 34px;
       }
+
+      @media (max-width: 979px) {
+        max-width: 100%;
+        padding: 30px;
+      }
     }
   }
 
   &-engagements {
     position: relative;
-    height: 80vw;
-    min-height: 1000px;
+    height: 90vw;
+
+    @media (max-width: 767px) {
+      height: 115vw;
+    }
 
     &__circles {
       position: relative;
@@ -341,33 +427,53 @@
         background-repeat: no-repeat;
         color: #fff;
         font-family: @fontAleo;
-        font-size: 40px;
+        font-size: 2.6vw;
         line-height: 1.2;
 
         &:nth-child(1) {
-          height: 400px;
-          width: 400px;
+          height: 27vw;
+          width: 27vw;
           top: 100px;
           left: calc(~"50% - 600px");
           padding: 50px;
         }
         
         &:nth-child(2) {
-          height: 250px;
-          width: 250px;
+          height: 17vw;
+          width: 17vw;
           top: 100px;
           left: calc(~"50% + 100px");
           transform: rotate(0deg);
         }
         
         &:nth-child(3) {
-          height: 400px;
-          width: 400px;
-          top: 560px;
-          left: calc(~"50% - 170px");
+          height: 27vw;
+          width: 27vw;
+          top: 41vw;
+          left: calc(~"50% - 12vw");
 
           img {
             width: 80%;
+          }
+        }
+
+        @media (max-width: 1200px) {
+          font-size: 2.5vw;
+
+          &:nth-child(1) {
+            left: 0;
+          }
+
+          &:nth-child(2) {
+            left: 60%;
+          }
+        }
+
+        @media (max-width: 767px) {
+          font-size: 4vw;
+
+          &:nth-child(3) {
+            top: 68vw;
           }
         }
       }
@@ -391,6 +497,10 @@
     animation-name: animateGradient;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+
+    @media (max-width: 767px) {
+      padding: 50px 0;
+    }
 
     &__cards {
       display: flex;
@@ -423,6 +533,14 @@
       &--review {
         padding-bottom: 75px;
         font-size: 12px;
+      }
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+
+        & > div {
+          margin-bottom: 30px;
+        }
       }
     }
   }
