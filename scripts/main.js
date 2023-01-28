@@ -645,7 +645,7 @@ if (window.location.pathname.startsWith("/community-transformation")) {
   });
 
   window.gsap.from(".ct-work img", {
-    y: -70,
+    y: window.innerWidth > 767 ? -70 : 140,
     scrollTrigger: {
       trigger: ".ct-work",
       start: "top bottom",

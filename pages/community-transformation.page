@@ -1,29 +1,29 @@
 <section class="ct-hero">
   <div class="container">
-    <div class="ct-hero__images">
+    <div class="ct-hero__images ct-hero__images--1">
       <div class="appear-on-scroll-1">
-        <img src="/assets/images/community-transformation/community-transformation-1.jpg" class="" alt="">
+        <img src="/assets/images/community-transformation/community-transformation-1.jpg" alt="">
       </div>
       <div class="appear-on-scroll-1">
-        <img src="/assets/images/community-transformation/community-transformation-2.jpg" class="" alt="">
+        <img src="/assets/images/community-transformation/community-transformation-2.jpg" alt="">
       </div>
     </div>
     <h1 class="heading-1 uppercase center appear-on-scroll-1">Community<br>Transformation</h1>
-    <div class="ct-hero__images">
+    <div class="ct-hero__images ct-hero__images--2">
       <div class="appear-on-scroll-1">
-        <img src="/assets/images/community-transformation/community-transformation-3.jpg" class="" alt="">
+        <img src="/assets/images/community-transformation/community-transformation-3.jpg" alt="">
       </div>
       <div class="appear-on-scroll-1">
-        <img src="/assets/images/community-transformation/community-transformation-4.jpg" class="" alt="">
+        <img src="/assets/images/community-transformation/community-transformation-4.jpg" alt="">
       </div>
       <div class="appear-on-scroll-1">
-        <img src="/assets/images/community-transformation/community-transformation-5.jpg" class="" alt="">
+        <img src="/assets/images/community-transformation/community-transformation-5.jpg" alt="">
       </div>
       <div class="appear-on-scroll-1">
-        <img src="/assets/images/community-transformation/community-transformation-6.jpg" class="" alt="">
+        <img src="/assets/images/community-transformation/community-transformation-6.jpg" alt="">
       </div>
       <div class="appear-on-scroll-1">
-        <img src="/assets/images/community-transformation/community-transformation-7.jpg" class="" alt="">
+        <img src="/assets/images/community-transformation/community-transformation-7.jpg" alt="">
       </div>
     </div>
     <div class="center ct-hero__cta">
