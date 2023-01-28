@@ -84,21 +84,6 @@
   <div class="container ls-container">
     <div class="team-member__row">
       <div>
-        <img src="/assets/images/team/team-allyson-ryder.jpg" alt="Allyson Ryder">
-      </div>
-      <div>
-        <h3 class="uppercase">Allyson Ryder</h3>
-        <p class="body-paragraph team-member__row--title">Organizational Alignment Consultant</p>
-        <p class="body-paragraph team-member__row--bio">Allyson helps clients to identify gaps and opportunities around programming and culture. She brings nearly two decades of experience in program design and assessment, organizational leadership, and group facilitation to DMC.  Allyson has served in a variety of capacities, particularly in the nonprofit and education sectors, that explore issues related to racial equity, gender equality and LGBTQIA+ rights.<br>Allyson holds a Masters in Public Policy from the University of Southern Maine with a Graduate Certificate in Applied Research and Evaluation Methods, and a Bachelor’s Degree in Business Administration from Southern NH University’s 3-Year Honors Program.  She serves on several community boards and committees across the region.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="team-member">
-  <div class="container ls-container">
-    <div class="team-member__row">
-      <div>
         <img src="/assets/images/team/team-victoria-carrington.jpg" alt="victoria carrington">
       </div>
       <div>

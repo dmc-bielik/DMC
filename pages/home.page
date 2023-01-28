@@ -177,6 +177,15 @@
         </div>
       </div>
       <div class="swiper-slide home-testimonials__item">
+        <p class="body-paragraph">"After meeting Deo Mwano, I recognized immediately the value DMC could bring to Campus Services at Dartmouth College. We have worked with him and his team to change our culture, create a sense of belonging and to integrate Diversity, Equity and Inclusion principles into our operations. DMC has been an invaluable partner on our journey. They have been with us every step of the way as we tackled both difficult conversations and celebrated many successes. One huge success was hiring our first Director of Culture and Employee Belonging and Deo worked directly with us to find the perfect candidate. DMC has also coached and mentored our leadership team to develop DEI principles which we have all adopted and reference daily. These same principles are beginning to spread throughout our division and have become part of the conversation! Deo is always there for us; he goes above and beyond and has been an amazing resource for all 500 employees in our division. Thank you to DMC!"</p>
+        <div class="home-testimonials__item-meta">
+          <div>
+            <h4>Julie Findley</h4>
+            <p class="body-paragraph">COO Campus Services Dartmouth College</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide home-testimonials__item">
         <p class="body-paragraph">Deo radiates positivity! His approachable style facilitates questions and dialogue. Our trustees and employees enjoyed consultations that inspired awareness and understanding as we explored the topics of diversity and inclusion. Informed by Deo’s insights, we have designed and launched a thoughtful plan to expand our commitment to equity, diversity, inclusion, and accessibility in our arts programming, operational policies, and bridge building to the extended community</p>
         <div class="home-testimonials__item-meta">
           <div>
@@ -285,10 +294,10 @@
         </div>
       </div>
       <div>
-        <img src="/assets/images/team/team-allyson-ryder.jpg" alt="Allyson Ryder">
+        <img src="/assets/images/team/team-rakesh-khilare.jpg" alt="Rakesh Khilare">
         <div>
-          <h4>Allyson Ryder</h4>
-          <p>Organization Alignment Consultant</p>
+          <h4>Rakesh Khilare</h4>
+          <p>Lead Designer</p>
         </div>
       </div>
       <div>
@@ -298,15 +307,6 @@
           <p>Social Media & Content Strategist</p>
         </div>
       </div>
-      <div class="home-team__row--empty"></div>
-      <div>
-        <img src="/assets/images/team/team-rakesh-khilare.jpg" alt="Rakesh Khilare">
-        <div>
-          <h4>Rakesh Khilare</h4>
-          <p>Lead Designer</p>
-        </div>
-      </div>
-      <div class="home-team__row--empty"></div>
     </div>
   </div>
 </section>
