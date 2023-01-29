@@ -1,1 +1,132 @@
-<h1>Podcast</h1>
+<section class="podcast-hero center">
+  <div class="container">
+    <h1 class="heading-1 uppercase">
+      <img src="/assets/images/podcast/perservere-to-excel-podcast.svg" title="PERSEVERE TO EXCEL PODCAST" alt="perservere to excel podcast">
+    </h1>
+    <p class="body-paragraph">
+      These mediums include interactive storytelling, creative arts, workshops, modeling and performing arts. This model hones the skills needed to build relationships and Persevere to Excel, is self-explanatory. Exceeding the average takes sustained effort. But what is perseverance? Where does it come from? What fuels it?
+      <br>
+      Perseverance is often mistaken for “toughing it out.” But toughing it out is an adrenaline rush, good for the short run but not the long haul. Toughing it out is running on empty, which is not sustainable.
+    </p>
+    <p class="body-paragraph">Perseverance, on the other hand, is a renewable energy source. It is fueled through constant introspection and acquisition, by forces inside you and outside you. Only by identifying those forces is perseverance possible. And only with genuine perseverance is it possible to excel. the inner creativity in everyone. This leads to a competitive advantage for the services and products that businesses and organizations provide.</p>
+  </div>
+</section>
+
+<section class="podcast-list">
+  <div class="container ls-container">
+    <div class="podcast-list__row">
+      <div>
+        <button type="button" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-martin-toe.png" alt="martin toe">
+        </div>
+        <h2 class="center">Podcast 1: Martin Toe</h2>
+        <p class="body-paragraph">Creative Process around song writing and producing original music. Martin Toe is a Spoken Word Artist, Rapper, Producer and Community Advocate/Organizer.</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP01</span>
+      </div>
+      <div>
+        <button type="button" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-martin-toe.png" alt="martin toe">
+        </div>
+        <h2 class="center">Podcast 1: Martin Toe</h2>
+        <p class="body-paragraph">Creative Process around song writing and producing original music. Martin Toe is a Spoken Word Artist, Rapper, Producer and Community Advocate/Organizer.</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP01</span>
+      </div>
+      <div>
+        <button type="button" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-martin-toe.png" alt="martin toe">
+        </div>
+        <h2 class="center">Podcast 1: Martin Toe</h2>
+        <p class="body-paragraph">Creative Process around song writing and producing original music. Martin Toe is a Spoken Word Artist, Rapper, Producer and Community Advocate/Organizer.</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP01</span>
+      </div>
+      <div>
+        <button type="button" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-martin-toe.png" alt="martin toe">
+        </div>
+        <h2 class="center">Podcast 1: Martin Toe</h2>
+        <p class="body-paragraph">Creative Process around song writing and producing original music. Martin Toe is a Spoken Word Artist, Rapper, Producer and Community Advocate/Organizer.</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP01</span>
+      </div>
+    </div>
+  </div>
+</section>
