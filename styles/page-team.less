@@ -1,85 +1,31 @@
 .team {
   &-hero {
     p {
-      margin: 0 auto 60px;
+      margin: 60px auto;
       max-width: 800px;
     }
 
-    &__content {
-      max-width: 1000px;
-      margin: auto;
+    h1 {
+      font-family: @fontPoppins;
+      font-weight: bold;
+      line-height: 1;
+      font-size: 90px;
+      color: #000;
+      margin: 50px 0;
+    }
 
-      &--heading {
-        display: flex;
-        justify-content: center;
+    &__img {
+      display: flex;
+      margin: 0 -9px;
 
-        h1 {
-          display: inline-block;
-          max-width: 720px;
-          font-family: @fontPoppins;
-          font-weight: bold;
-          line-height: 1;
-          color: #000;
-    
-          span {
-            &:first-child {
-              font-size: 90px;
-            }
-    
-            &:last-child {
-              font-size: 300px;
-              -webkit-background-clip: text;
-              background-clip: text;
-              -webkit-text-fill-color: transparent;
-              background-image: url('/assets/images/team/title-pattern.jpg');
-              background-position: center 40%;
-              background-repeat: no-repeat;
-              background-size: contain;
-              letter-spacing: -.12em;
-              padding-right: 195px;
-            }
-          }
+      & > div {
+        margin: 0 9px;
 
-          @media (max-width: 767px) {
-            span {
-              &:first-child {
-                font-size: 10vw;
-              }
-      
-              &:last-child {
-                font-size: 34vw;
-                padding-right: 19vw;
-                margin-right: -17vw;
-              }
-            }
-          }
+        img {
+          border-radius: 13px;
         }
       }
     }
-
-    /* &__img {
-      position: relative;
-      height: 700px;
-      margin-bottom: 100px;
-
-      img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        border-radius: 13px;
-        object-fit: cover;
-        opacity: 0;
-        transition: opacity 1s;
-  
-        &.is-visible {
-          opacity: 1;
-        }
-      }
-    } */
   }
 
   &-member {

@@ -1,21 +1,38 @@
 <section class="team-hero">
   <div class="container ls-container">
-    <div class="team-hero__content">
-      <div class="team-hero__content--heading">
-        <h1 class="uppercase">
-          <span>Our</span>
-          <br>
-          <span class="team-hero__content--heading-team">Team</span>
-        </h1>
+    <div class="team-hero__img">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/team/deo-team-1.jpg" alt="deo mwano team">
       </div>
-      <p class="body-paragraph center">The Deo Mwano Consultancy team features experts in a variety of disciplines, including Data Analysis, Research, DEIJ, Leadership/Management Development, Learning Success, Board Dynamics, Project and Program Management, Program and Project Development, Designing and Implementing Multi Stakeholders Alignment and Relationships, Videography/Photography, Graphic Design, Storytelling and Community Advocacy. Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize.</p>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/team/deo-team-2.jpg" alt="deo mwano team">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/team/deo-team-3.jpg" alt="deo mwano team">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/team/deo-team-4.jpg" alt="deo mwano team">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/team/deo-team-5.jpg" alt="deo mwano team">
+      </div>
     </div>
-    {#  <div class="team-hero__img">
-      <img src="/assets/images/team/deo-team-1.jpg" alt="deo mwano team" class="team-hero__img--img is-visible">
-      <img src="/assets/images/team/deo-team-2.jpg" alt="deo mwano team" class="team-hero__img--img">
-      <img src="/assets/images/team/deo-team-3.jpg" alt="deo mwano team" class="team-hero__img--img">
-      <img src="/assets/images/team/deo-team-4.jpg" alt="deo mwano team" class="team-hero__img--img">
-    </div>  }
+    <h1 class="uppercase center appear-on-scroll-1">Our Team</h1>
+    <div class="team-hero__img">
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/team/deo-team-6.jpg" alt="deo mwano team">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/team/deo-team-7.jpg" alt="deo mwano team">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/team/deo-team-8.jpg" alt="deo mwano team">
+      </div>
+      <div class="appear-on-scroll-1">
+        <img src="/assets/images/team/deo-team-9.jpg" alt="deo mwano team">
+      </div>
+    </div>
+    <p class="body-paragraph center">The Deo Mwano Consultancy team features experts in a variety of disciplines, including Data Analysis, Research, DEIJ, Leadership/Management Development, Learning Success, Board Dynamics, Project and Program Management, Program and Project Development, Designing and Implementing Multi Stakeholders Alignment and Relationships, Videography/Photography, Graphic Design, Storytelling and Community Advocacy. Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize.</p>
   </div>
 </section>
 
@@ -137,8 +154,6 @@
         <h3 class="heading-1">Leadership<br>Success</h3>
         <h3 class="heading-1">Community<br>Culture</h3>
         <h3 class="heading-1">Program<br>Management</h3>
-        <h3 class="heading-1">Storytelling</h3>
-        <h3 class="heading-1">Videography</h3>
       </div>
     </div>
   </div>

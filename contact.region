@@ -83,14 +83,14 @@
       <div>
         <h2>NOW IS THE TIME TO BOOK DEO!</h2>
         <p class="body-paragraph">Thousands of people have been transformed by Deo's story. It has brought hope, healing and restoration.</p>
-        <div class="contact-book__testimonial">
+        {#  <div class="contact-book__testimonial">
           <p>“Working with Deo is always a pleasure. His deep knowledge of local needs and national education movements make him one of my favorite partners. My teams often focus on family and community engagement and the outcomes of Deo’s workshops have always included not only gains in participant knowledge, but deeper connections between participants and their community.”</p>
           <p>
             <span>Richard Feistman</span>
             <br>
             <span>Ph.D. Teach Plus National Director of Evaluation</span>
           </p>
-        </div>
+        </div>  }
       </div>
       <div data-content-field="main-content">{squarespace.main-content}</div>
     </div>

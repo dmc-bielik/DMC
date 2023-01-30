@@ -656,23 +656,6 @@ if (window.location.pathname.startsWith("/community-transformation")) {
   });
 }
 
-if (window.location.pathname.startsWith("/team")) {
-  window.gsap.fromTo(
-    ".team-hero__content--heading-team",
-    { backgroundPosition: "center 40%" },
-    {
-      backgroundPosition: "center 60%",
-      scrollTrigger: {
-        trigger: ".team-hero__content--heading",
-        start: "top-=138px top",
-        end: "bottom top",
-        scrub: 1,
-      },
-      ease: "linear",
-    }
-  );
-}
-
 /* Sliders */
 
 const marqueeSliderCommon = {
@@ -738,12 +721,7 @@ new window.Swiper(".move-up-swiper", {
 
 /* Images fade animation */
 
-const imagesFade = [
-  "ws-hero-background",
-  "ls-hero-image",
-  "ks-hero__img--img",
-  // "team-hero__img--img",
-];
+const imagesFade = ["ws-hero-background", "ls-hero-image", "ks-hero__img--img"];
 
 imagesFade.forEach((i) => {
   const images = document.querySelectorAll(`.${i}`);
