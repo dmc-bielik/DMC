@@ -12,18 +12,20 @@
   </div>
 </section>
 
+<div id="player"></div>
+
 <section class="podcast-list">
   <div class="container ls-container">
     <div class="podcast-list__row">
       <div>
-        <button type="button" class="button-unstyled podcast-list__row--play">
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
-          <img src="/assets/images/podcast/podcast-martin-toe.png" alt="martin toe">
+          <img src="/assets/images/podcast/podcast-deo-mwano.png" alt="Deo Mwano">
         </div>
-        <h2 class="center">Podcast 1: Martin Toe</h2>
-        <p class="body-paragraph">Creative Process around song writing and producing original music. Martin Toe is a Spoken Word Artist, Rapper, Producer and Community Advocate/Organizer.</p>
+        <h2 class="center">Being let go by your employer Unexpectedly</h2>
+        <p class="body-paragraph">Persevere To Excel Podcast- The Impact of Being Fired(Episode 10). In this podcast episode, Deo talks about his experience of unexpectedly getting let go from his job while in the process of buying a house. Learn more about Deo and his work at deomwano.com Music by Martin Toe-Spotify or iTunes</p>
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
@@ -41,17 +43,18 @@
         <button type="button" class="button-unstyled podcast-list__row--expand">
           <img src="/assets/images/podcast/play.svg" alt="play">
         </button>
-        <span class="podcast-list__row--ep">EP01</span>
+        <span class="podcast-list__row--ep">EP11</span>
       </div>
+
       <div>
-        <button type="button" class="button-unstyled podcast-list__row--play">
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
-          <img src="/assets/images/podcast/podcast-martin-toe.png" alt="martin toe">
+          <img src="/assets/images/podcast/podcast-steve-reno.png" alt="Steve Reno">
         </div>
-        <h2 class="center">Podcast 1: Martin Toe</h2>
-        <p class="body-paragraph">Creative Process around song writing and producing original music. Martin Toe is a Spoken Word Artist, Rapper, Producer and Community Advocate/Organizer.</p>
+        <h2 class="center">Steve Reno</h2>
+        <p class="body-paragraph">Interview with Dr.Stephen J.Reno(Steve Reno). Steve is currently the Executive Director of Leadership New Hampshire. In this interview we discussed decision making, career path and community engagement. Steve has an impresive resume working in Higher Education. Steve was the Chancellor Emeritus of the University System of New Hampshire for 9 years. He was also the president of Southern Oregon University for 6 six years.</p>
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
@@ -69,17 +72,18 @@
         <button type="button" class="button-unstyled podcast-list__row--expand">
           <img src="/assets/images/podcast/play.svg" alt="play">
         </button>
-        <span class="podcast-list__row--ep">EP01</span>
+        <span class="podcast-list__row--ep">EP10</span>
       </div>
+
       <div>
-        <button type="button" class="button-unstyled podcast-list__row--play">
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
-          <img src="/assets/images/podcast/podcast-martin-toe.png" alt="martin toe">
+          <img src="/assets/images/podcast/podcast-deo-mwano.png" alt="Keating Tufts">
         </div>
-        <h2 class="center">Podcast 1: Martin Toe</h2>
-        <p class="body-paragraph">Creative Process around song writing and producing original music. Martin Toe is a Spoken Word Artist, Rapper, Producer and Community Advocate/Organizer.</p>
+        <h2 class="center">Keating Tufts</h2>
+        <p class="body-paragraph">Interview with Keating Tufts Boards and Brews. Keating Tufts is the founder of Boards and Brews in Manchester NH. In this interview he talks about his experience as a young entrepreneur bringing his idea to life after overcoming many obstacles. Boards & Brews is a board game cafe, which is pretty much what it sounds like - a cafe where people come together to play board games. We like to think we're a whole lot more than just a place to play games though. We're committed to creating a fun community space in downtown Manchester that offers a refreshing alternative to more traditional bars, dining, and nightlife. Learn more at www.boardsandbrewsnh.com/about</p>
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
@@ -97,8 +101,212 @@
         <button type="button" class="button-unstyled podcast-list__row--expand">
           <img src="/assets/images/podcast/play.svg" alt="play">
         </button>
-        <span class="podcast-list__row--ep">EP01</span>
+        <span class="podcast-list__row--ep">EP09</span>
       </div>
+
+      <div>
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-deo-mwano.png" alt="Deo Mwano">
+        </div>
+        <h2 class="center">Deo’s Presentation on Relationship Building</h2>
+        <p class="body-paragraph">Deo's story during a workshop training on “Building Authentic Relationships for Authentic Referrals”. Deo opened his training by connecting with the audience with his personal story of escaping the Congo's civil war after his father was assassinated. To learn more about Deo visit; deomwano.com/refugeestory</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP08</span>
+      </div>
+
+      <div>
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-lydia-foley.png" alt="Lydia Foley">
+        </div>
+        <h2 class="center">Lydia Foley</h2>
+        <p class="body-paragraph">Interview with Lydia Foley on leadership, entrepreneur, realtor, working in high technology industry, education and community involvement. Lydia Foley has deep roots in Southern New Hampshire, to her it is home. Lydia founded Purple Finch Properties in 2015 and in two years built a firm with several agents and management positions. Lydia built her real estate business through relationships within the community and former clients. To learn more about Lydia visit her website https://www.purplefinchprop.com/our-story</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP07</span>
+      </div>
+
+      <div>
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-komot-gabriel.png" alt="Komot Gabriel">
+        </div>
+        <h2 class="center">Komot Gabriel</h2>
+        <p class="body-paragraph">Interview with Komot Gabriel on family, responsibilities, community, private school, affording college and career pathway. Komot is the eldest of 7. He migrated to Manchester NH with his family after fleeing the civil war of Sudan in 1990's. Komot is current Market Development Manager at E. & J. Gallo Winery overseeing a team of 15-20 people.</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP06</span>
+      </div>
+
+      <div>
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-basra-mohamed.png" alt="Basra Mohamed">
+        </div>
+        <h2 class="center">Basra Mohamed</h2>
+        <p class="body-paragraph">Interview with Basra Mohamed on education, board involvement, career path and finding a new home in New Hampshire. Basra is an immigration attorney. Basra migrated to Nashville Tennessee with her family after fleeing Somalia. She ended up in New Hampshire for law school and decided to stick around. Basra shares her unique experiences and the importance of being grateful and allocating time to reflect.</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP05</span>
+      </div>
+
+      <div>
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-deo-mwano.png" alt="Jim Terror and Chris Ramirez">
+        </div>
+        <h2 class="center">Jim Terror and Chris Ramirez</h2>
+        <p class="body-paragraph">Interview with Jim Terror (Fire Fighter) and Chris Ramiz (Marine Veteran). Jim and Chris grew up in New Hampshire with Deo after migrating to Manchester, NH. They all had to start from scratch but eventually they were able to find their voice. Today Jim is a Firefighter and Chris is a Marine Veteran currently enrolled in film school at Emerson College. In this interview they unpacked the different things that contributed to their success and allowed them to persevere. Deomwano.com</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP04</span>
+      </div>
+
+      <div>
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-joe-whitten.png" alt="Joe Whitten">
+        </div>
+        <h2 class="center">Joe Whitten</h2>
+        <p class="body-paragraph">Interview with Joe Whitten, CEO and Founder of Apparel Impact. Joe has always been an entrepreneur. He started when he was 12 years old helping with his family business selling products door to door through Amway multi-level marketing company. Today Joe has a mission to keep textiles out of landfills and serve local communities by supplying clothing to the less fortunate . To learn more about Joe's company visit Apparelimpact.com.</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP03</span>
+      </div>
+
+      <div>
+        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="/assets/images/podcast/podcast-fred-bramante.png" alt="Fred Bramante">
+        </div>
+        <h2 class="center">Fred Bramante</h2>
+        <p class="body-paragraph">Interview with Fred Bramante, former CEO and Founder of Daddy's Junky Music. Fred talks about his experience of growing his company, meeting Deo and loosing what he built after decades of growing his business to be the 15th largest music store in America. Today Fred is very involved with the education system in NH. He is the godfather of NH competency education. He served as the chair of board of education for NHDOE. Fred is the founder and chairman of the National Center of Competency Based Education(501c3). He is a proud father of 4 children and a very involved and engaged citizen in NH.</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="#!">
+              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            </a>
+            <a href="#!">
+              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            </a>
+          </span>
+        </div>
+        <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>
+        <span class="podcast-list__row--ep">EP02</span>
+      </div>
+
       <div>
         <button type="button" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
@@ -106,7 +314,7 @@
         <div class="podcast-list__row--cover center">
           <img src="/assets/images/podcast/podcast-martin-toe.png" alt="martin toe">
         </div>
-        <h2 class="center">Podcast 1: Martin Toe</h2>
+        <h2 class="center">Martin Toe</h2>
         <p class="body-paragraph">Creative Process around song writing and producing original music. Martin Toe is a Spoken Word Artist, Rapper, Producer and Community Advocate/Organizer.</p>
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
