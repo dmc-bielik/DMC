@@ -18,7 +18,7 @@
   <div class="container ls-container">
     <div class="podcast-list__row">
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -29,14 +29,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/persevere-to-excel-podcast-the-impact-of-being-fired-episode-10" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/6Gr6kh18warVHsNriGLgro?si=tICBV2wWTH2njoeMWL1t1w" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-the-impact-of-being/id1490529308?i=1000467655208" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -47,7 +47,7 @@
       </div>
 
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -58,14 +58,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/persevere-to-excel-podcast-dr-stephen-j-renoepisode-10" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/0Z7wD78ed8yDfciJbN8WZs?si=tSPsPRKNQdWmCJv0RPnUOw" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-dr-stephen-j-reno-episode-9/id1490529308?i=1000466207069" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -76,7 +76,7 @@
       </div>
 
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -87,14 +87,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/persevere-to-excel-podcast-keating-boards-and-brewsepisode-8" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/09s6Y6fk1A0cIgtxOZf73d?si=DDdZH-mCRLyGP4vPACilfg" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-keating-tufts-episode-8/id1490529308?i=1000465646451" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -105,7 +105,7 @@
       </div>
 
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -116,14 +116,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/persevere-to-excel-podcast-deos-story-in-front-of-an-audienceepisode-7" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/19mCQMVBMyi8wO0hKNIjgy?si=Z2W61FAGSBmT2kuadGrugg" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-deos-story-in-front-of/id1490529308?i=1000464954540" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -134,7 +134,7 @@
       </div>
 
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -145,14 +145,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/persevere-to-excel-podcast-lydia-foley-real-estate-entrepreneur-episode-6" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/0hEtrdAQFiCHQHzzq9JhhT?si=ZAvAPG4ZTxSYD7d0Z4hqhw" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-lydia-foley-real-estate/id1490529308?i=1000463515289" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -163,7 +163,7 @@
       </div>
 
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -174,14 +174,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/persevere-to-excel-podcast-komot-gabriel-episode-5" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/347tFGE4EmOvr8mknJrgQP?si=XAbcWkyyQlalTBzG6H036A" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-komot-gabriel-episode-5/id1490529308?i=1000460548891" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -192,7 +192,7 @@
       </div>
 
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -203,14 +203,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/persevere-to-excel-podcast-basra-mohamed-episode-4" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/7uiVBfHItDkFU2xPDMSDne?si=GWfKFGTqSpOHUqkPUlz49A" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-basra-mohamed-episode-4/id1490529308?i=1000460504194" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -221,7 +221,7 @@
       </div>
 
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -232,14 +232,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/persevere-to-excel-podcast-growing-up-as-immigrants-jim-terror-and-chris-ramiresepisode-3" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/1iCNz08GZ2Bpa12VIl5IhV?si=ADVjYNeQTYuvirMPLZkFLw" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-growing-up-as-immigrants/id1490529308?i=1000460262752" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -250,7 +250,7 @@
       </div>
 
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -261,14 +261,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/persevere-to-excel-podcast-joe-whittenepisode-1" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/3ToCBzFnqHnVVKmZb7AsGs?si=53iFsmomRpiQXcjcJ1OLNw" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-joe-whitten-episode-2/id1490529308?i=1000459235616" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -279,7 +279,7 @@
       </div>
 
       <div>
-        <button type="button" id="trigger-play" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="-nIxnXFzbzo" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -290,14 +290,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/deo-mwano-persevere-to-excel-podcastfred-bramante" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/53xzKejAtCIBkcdsELgOIt?si=rbdK8IolSh-dPswrb1et-A" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-fred-bramante-episode-1/id1490529308?i=1000458814747" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
@@ -308,7 +308,7 @@
       </div>
 
       <div>
-        <button type="button" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="GrlfKISTEQU" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -319,14 +319,14 @@
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="#!">
-              <img src="/assets/images/podcast/soundcloud.png" alt="soundcloud" width="26px">
+            <a href="https://soundcloud.com/deo-mwano-41275254/deo-mwano-persevere-to-excel-podcastmartin-toe-long" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/spotify.png" alt="spotify" width="40px">
+            <a href="https://open.spotify.com/episode/28zN9ltAd3vu9gnMyJWSMu?si=fTInz5iLQJyxyIb73ac9Aw" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="#!">
-              <img src="/assets/images/podcast/apple-podcast.png" alt="apple-podcast" width="18px">
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-martin-toe-episode-0/id1490529308?i=1000458814746" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
