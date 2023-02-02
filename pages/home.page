@@ -82,7 +82,7 @@
   <div class="container ls-container">
     <div class="home-problem__row home-problem__row-reverse">
       <div>
-        <img src="/assets/images/home/deo-mwano-who-we-are.jpg" class="home-who-image" alt="deo mwano who">
+        <img src="/assets/images/home/deo-mwano-who.jpg" class="home-who-image" alt="deo mwano who">
       </div>
       <div>
         <h2 class="heading-2">Who we are</h2>

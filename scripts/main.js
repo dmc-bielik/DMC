@@ -358,21 +358,23 @@ if (window.location.pathname.startsWith("/learning-success")) {
       }
     );
 
-    window.gsap.fromTo(
-      ".ls-k12__row--move-4 p",
-      { y: 0 },
-      {
-        scrollTrigger: {
-          trigger: `${trigger} .ls-k12__row--move-3`,
-          start: "bottom bottom",
-          end: "bottom top",
-          scrub: true,
-        },
-        y: 100,
-        duration: 2,
-        ease: "linear",
-      }
-    );
+    if (window.innerWidth > 767) {
+      window.gsap.fromTo(
+        ".ls-k12__row--move-4 p",
+        { y: 0 },
+        {
+          scrollTrigger: {
+            trigger: `${trigger} .ls-k12__row--move-3`,
+            start: "bottom bottom",
+            end: "bottom top",
+            scrub: true,
+          },
+          y: 100,
+          duration: 2,
+          ease: "linear",
+        }
+      );
+    }
 
     window.gsap.fromTo(
       ".ls-k12__row--move-5",
@@ -702,8 +704,16 @@ new window.Swiper(".ls-reviews__slider", {
     type: "bullets",
     clickable: true,
   },
-  slidesPerView: 4,
+  slidesPerView: 2,
   speed: 1000,
+  breakpoints: {
+    767: {
+      slidesPerView: 3,
+    },
+    979: {
+      slidesPerView: 4,
+    },
+  },
 });
 
 new window.Swiper(".move-up-swiper", {

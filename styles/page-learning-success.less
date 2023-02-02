@@ -1,7 +1,7 @@
 .ls {
   &-main {
     .button {
-      background-color: @colorLSBlue;
+      background-color: @colorLSBlue !important;
       border: 1px solid @colorLSBlue;
     
       &.button-outline {
@@ -81,6 +81,24 @@
         &:last-child {
           max-width: 60%;
         }
+
+        @media (max-width: 1200px) {
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+
+        @media (max-width: 979px) {
+          &:first-child,
+          &:last-child {
+            max-width: 100%;
+          }
+        }
+      }
+
+      @media (max-width: 979px) {
+        margin: 0;
+        flex-direction: column;
       }
     }
 
@@ -137,6 +155,10 @@
                 background-color: @colorLSBlue3;
                 border-radius: 13px;
                 margin-right: 10px;
+
+                @media (max-width: 767px) {
+                  display: none;
+                }
               }
 
               img {
@@ -152,6 +174,10 @@
               width: 80px;
               margin-top: -50px;
               margin-left: 75px;
+
+              @media (max-width: 767px) {
+                display: none;
+              }
             }
           }
         }
@@ -203,6 +229,7 @@
         @media (max-width: 767px) {
           min-width: auto;
           max-width: none;
+          margin-top: 60px;
         }
       }
 
@@ -237,13 +264,18 @@
         p {
           font-size: 24px;
           line-height: 1.2;
+
+          @media (max-width: 767px) {
+            font-size: 20px;
+            margin-bottom: 50px;
+          }
         }
 
         .ls-k12__row--2 {
           iframe {
             width: 100%;
             border-radius: 13px;
-            height: 380px;
+            aspect-ratio: 16 / 9;
           }
         }
       }
@@ -310,10 +342,22 @@
 
       h3 {
         margin-bottom: 0;
+
+        @media (max-width: 767px) {
+          font-size: 22px;
+        }
       }
 
       p {
         margin-top: 0;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .swiper-button-prev, .swiper-rtl .swiper-button-next,
+      .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        top: 50px;
+        transform: scale(0.7);
       }
     }
   }
@@ -321,6 +365,10 @@
   &-engagements {
     position: relative;
     min-height: 65vw;
+
+    @media (max-width: 480px) {
+      min-height: 300px;
+    }
 
     .container {
       display: flex;
@@ -333,6 +381,11 @@
         color: @colorLSBlue2;
         margin-top: 110px;
         .font-smoothing(@colorLSBlue2);
+
+        @media (max-width: 767px) {
+          margin-top: 40px;
+          font-size: 22px;
+        }
       }
     }
 
@@ -353,6 +406,10 @@
         border-radius: 13px;
         width: 160px;
         height: 130px;
+
+        @media (max-width: 767px) {
+          display: none;
+        }
       }
 
       &--1 {
