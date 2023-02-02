@@ -18,14 +18,14 @@
   <div class="container ls-container">
     <div class="podcast-list__row">
       <div>
-        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="95vgMZOxGIs" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
           <img src="/assets/images/podcast/podcast-deo-mwano.png" alt="Deo Mwano">
         </div>
         <h2 class="center">Being let go by your employer Unexpectedly</h2>
-        <p class="body-paragraph">Persevere To Excel Podcast- The Impact of Being Fired(Episode 10). In this podcast episode, Deo talks about his experience of unexpectedly getting let go from his job while in the process of buying a house. Learn more about Deo and his work at deomwano.com Music by Martin Toe-Spotify or iTunes</p>
+        <p class="body-paragraph">Persevere To Excel Podcast - The Impact of Being Fired (Episode 10). In this podcast episode, Deo talks about his experience of unexpectedly getting let go from his job while in the process of buying a house. Learn more about Deo and his work at deomwano.com Music by Martin Toe-Spotify or iTunes</p>
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
@@ -47,14 +47,14 @@
       </div>
 
       <div>
-        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="QHyywi-CUOc" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
           <img src="/assets/images/podcast/podcast-steve-reno.png" alt="Steve Reno">
         </div>
         <h2 class="center">Steve Reno</h2>
-        <p class="body-paragraph">Interview with Dr.Stephen J.Reno(Steve Reno). Steve is currently the Executive Director of Leadership New Hampshire. In this interview we discussed decision making, career path and community engagement. Steve has an impresive resume working in Higher Education. Steve was the Chancellor Emeritus of the University System of New Hampshire for 9 years. He was also the president of Southern Oregon University for 6 six years.</p>
+        <p class="body-paragraph">Interview with Dr. Stephen J.Reno (Steve Reno). Steve is currently the Executive Director of Leadership New Hampshire. In this interview we discussed decision making, career path and community engagement. Steve has an impresive resume working in Higher Education. Steve was the Chancellor Emeritus of the University System of New Hampshire for 9 years. He was also the president of Southern Oregon University for 6 six years.</p>
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
@@ -76,7 +76,7 @@
       </div>
 
       <div>
-        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="DHZLb5zPaiQ" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -134,7 +134,7 @@
       </div>
 
       <div>
-        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="ew_XKUx-Sgk" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -163,7 +163,7 @@
       </div>
 
       <div>
-        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="wFkfnPg19DI" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -192,7 +192,7 @@
       </div>
 
       <div>
-        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="z3VrHyngtq4" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -221,7 +221,7 @@
       </div>
 
       <div>
-        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="MZKh1uKXCP4" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -250,7 +250,7 @@
       </div>
 
       <div>
-        <button type="button" data-id="" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="-nIxnXFzbzo" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">
@@ -279,7 +279,7 @@
       </div>
 
       <div>
-        <button type="button" data-id="-nIxnXFzbzo" class="button-unstyled podcast-list__row--play">
+        <button type="button" data-id="MhCLtkXIWwQ" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
         <div class="podcast-list__row--cover center">

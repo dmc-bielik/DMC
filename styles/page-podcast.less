@@ -7,11 +7,33 @@
     background-position: center -45px;
     overflow: hidden;
 
+    @media (min-width: 1850px) {
+      background-size: 1850px;
+    }
+
+    @media (max-width: 1200px) {
+      background-size: 1400px;
+    }
+
+    @media (max-width: 767px) {
+      padding: 0 0 20px;
+      background-image: none;
+    }
+
     h1 {
       margin-bottom: 200px;
 
       img {
         width: 700px;
+      }
+
+      @media (max-width: 767px) {
+        margin-bottom: 30px;
+
+        img {
+          max-width: 400px;
+          width: 90%;
+        }
       }
     }
 
@@ -32,14 +54,20 @@
         background-color: @colorLightGrey;
         padding: 30px;
         width: calc(~"33.33% - 80px");
+        min-width: 270px;
         margin: 10px;
         border-radius: 13px;
+
+        @media (max-width: 767px) {
+          width: 100%;
+        }
 
         h2 {
           font-size: 15px;
           font-family: @fontPoppins;
           font-weight: 600;
           color: #000;
+          line-height: 1.4;
         }
 
         p {
