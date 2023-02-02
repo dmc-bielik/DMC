@@ -96,7 +96,7 @@ if (
     left: `${(window.innerWidth - getContainerWidth()) / 2}px`,
     right: `${(window.innerWidth - getContainerWidth()) / 2}px`,
     top: "150px",
-    maxHeight: "700px",
+    maxHeight: window.innerWidth > 767 ? "700px" : "400px",
   });
 
   window.gsap.fromTo(

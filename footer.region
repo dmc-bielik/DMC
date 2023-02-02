@@ -52,7 +52,7 @@
                   <a href="#!">Blueprint</a>
                 </li>
                 <li>
-                  <a href="#!">Podcast</a>
+                  <a href="/podcast/">Podcast</a>
                 </li>
                 <li>
                   <a href="#!">Blog</a>
@@ -63,7 +63,7 @@
               </ul>
             </div>
             <div>
-              <a href="#!" class="button button-outline-white">Book Deo</a>
+              <a href="/contact/" class="button button-outline-white">Book Deo</a>
               <p>
                 Contact us
                 <br>
