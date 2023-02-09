@@ -577,7 +577,11 @@ if (window.location.pathname.startsWith("/story")) {
       .to(".story-story__row--img-32", {})
       .to(".story-story__row--img-33", {})
       .to(".story-story__row--img-34", {})
-      .to(".story-story__row--img-35", {});
+      .to(".story-story__row--img-35", {})
+      .to(".story-story__row--img-36", {})
+      .to(".story-story__row--img-37", {})
+      .to(".story-story__row--img-38", {})
+      .to(".story-story__row--img-39", {});
   } else {
     const storyImages = window.gsap.utils.toArray(".story-story__row--img");
 
