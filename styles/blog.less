@@ -26,7 +26,51 @@
 
 .view-list {
 
-  .blog-list { }
+  .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+    & > article {
+      max-width: calc(~"50% - 30px");
+      min-width: calc(~"50% - 30px");
+      margin: 15px 15px 40px !important;
+
+      .e-content {
+        max-height: 100px;
+        overflow: hidden;
+      }
+
+      .entry-header {
+        margin: 20px 0 0;
+      }
+
+      .meta-above-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      h2 {
+        font-weight: bold;
+        font-size: 32px;
+
+        a {
+          color: black;
+        }
+      }
+    }
+
+    &__item {
+      &--thumbnail {
+        img {
+          height: 240px;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
 
   .filter-heading {
     .border-box;
@@ -76,12 +120,31 @@
 .view-item {
 
   .blog-item {
-    article.has-main-image {
-      .meta-above-title,
-      .entry-title,
-      .entry-title-passthrough { display: none; }
-    }
+    // article.has-main-image {
+    //   .meta-above-title,
+    //   .entry-title,
+    //   .entry-title-passthrough { display: none; }
+    // }
     .entry-footer { margin-top: 2em; }
+
+    .e-content {
+      max-width: 670px;
+      margin: auto;
+    }
+
+    .entry-title {
+      font-size: 60px;
+      font-weight: 600;
+      color: #000;
+      max-width: 670px;
+      margin: auto;
+      line-height: 1;
+    }
+
+    .entry-byline,
+    .entry-dateline {
+      color: rgba(0, 0, 0, 0.55);
+    }
   }
 
 }
@@ -172,8 +235,7 @@
 // Blog next and previous navigation
 
 .pagination {
-
-  margin-top: 6em;
+  margin: 50px 0 100px;
 
   > div {
 
@@ -655,5 +717,62 @@
 //   }
 // }
 
+.blog-header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
 
+  & > div {
+    &:last-child {
+      margin-left: 60px;
+      padding-bottom: 20px;
+    }
+  }
 
+  p {
+    margin: 0;
+    color: @colorGrey2;
+    font-weight: 500;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0 -20px;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 20px;
+      padding: 0;
+
+      &:first-child {
+        display: none;
+      }
+      
+      a {
+        text-decoration: underline;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      &.is-active-category {
+        a {
+          color: @colorRed;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+.blog-heading {
+  font-size: 120px;
+  font-weight: bold;
+  background: url('/assets/images/blog/blog-gradient.svg');
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: @fontPoppins;
+  margin: 0;
+}
