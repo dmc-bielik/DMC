@@ -5,49 +5,49 @@
             <div>
               <ul>
                 <li>
-                  <a href="#!">About</a>
+                  <a href="/">About</a>
                 </li>
                 <li>
-                  <a href="/team">Our Team</a>
+                  <a href="/team/">Our Team</a>
                 </li>
-                <li>
+                {#  <li>
                   <a href="#!">References</a>
+                </li>  }
+                <li>
+                  <a href="/contact/">Contact</a>
                 </li>
                 <li>
-                  <a href="/contact">Contact</a>
-                </li>
-                <li>
-                  <a href="#!">Shop</a>
+                  <a href="https://www.perseveretoexcel.com/">Shop</a>
                 </li>
               </ul>
             </div>
             <div>
               <ul>
                 <li>
-                  <a href="/workforce-success">Workforce Success</a>
+                  <a href="/workforce-success/">Workforce Success</a>
                 </li>
                 <li>
-                  <a href="/learning-success">Learning Success</a>
+                  <a href="/learning-success/">Learning Success</a>
                 </li>
                 <li>
-                  <a href="/community-transformation">Community Transformation</a>
+                  <a href="/community-transformation/">Community Transformation</a>
                 </li>
                 <li>
-                  <a href="/keynote-speaker">Keynote Speaker</a>
+                  <a href="/keynote-speaker/">Keynote Speaker</a>
                 </li>
-                <li>
+                {#  <li>
                   <a href="#!">Performer</a>
-                </li>
+                </li>  }
                 <li>
-                  <a href="/story">Deo's Story</a>
+                  <a href="/story/">Deo's Story</a>
                 </li>
               </ul>
             </div>
             <div>
               <ul>
-                <li>
+                {#  <li>
                   <a href="#!">Testimonials</a>
-                </li>
+                </li>  }
                 <li>
                   <a href="#!">Blueprint</a>
                 </li>
@@ -57,9 +57,9 @@
                 <li>
                   <a href="/blog/">Blog</a>
                 </li>
-                <li>
+                {#  <li>
                   <a href="#!">Speaker</a>
-                </li>
+                </li>  }
               </ul>
             </div>
             <div>
