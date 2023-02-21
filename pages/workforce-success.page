@@ -26,28 +26,32 @@
     </div>
     <div class="ws-model__cards center">
       <span class="body-paragraph">
-        <img src="/assets/images/workforce-success/property.svg" alt="">
+        <img src="/assets/images/workforce-success/property.svg" alt="Property Management Companies">
         <span>Property Management Companies</span>
       </span>
       <span class="body-paragraph">
-        <img src="/assets/images/workforce-success/banks.svg" alt="">
+        <img src="/assets/images/workforce-success/banks.svg" alt="Banks">
         <span>Banks</span>
       </span>
       <span class="body-paragraph">
-        <img src="/assets/images/workforce-success/real-estate-firms.svg" alt="">
+        <img src="/assets/images/workforce-success/real-estate-firms.svg" alt="Real Estate Firms">
         <span>Real Estate Firms</span>
       </span>
       <span class="body-paragraph">
-        <img src="/assets/images/workforce-success/tech-startups.svg" alt="">
+        <img src="/assets/images/workforce-success/tech-startups.svg" alt="Tech Startups">
         <span>Tech Startups</span>
       </span>
       <span class="body-paragraph">
-        <img src="/assets/images/workforce-success/healthcare.svg" alt="">
+        <img src="/assets/images/workforce-success/healthcare.svg" alt="Healthcare">
         <span>Healthcare</span>
       </span>
       <span class="body-paragraph">
-        <img src="/assets/images/workforce-success/education.svg" alt="">
+        <img src="/assets/images/workforce-success/education.svg" alt="Educational Organizations">
         <span>Educational Organizations</span>
+      </span>
+      <span class="body-paragraph">
+        <img src="/assets/images/workforce-success/helmet.svg" alt="Union Employees/Organizations">
+        <span>Union Employees/<br />Organizations</span>
       </span>
     </div>
   </div>
