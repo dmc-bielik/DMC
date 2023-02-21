@@ -840,9 +840,19 @@
   grid-template-columns: 3fr 2fr;
   gap: 20px;
 
+  &__recent {
+    border-bottom: 0 !important;
+    padding: 0 !important;
+
+    h2 {
+      margin: 0 !important;
+      color: #000;
+    }
+  }
+
   & > div {
     &:first-child {
-      grid-row: ~"1 / 6";
+      grid-row: ~"1 / 7";
 
       h3 {
         font-size: 32px;
@@ -853,6 +863,7 @@
       display: flex;
       align-items: center;
       border-bottom: 1px solid @colorLightGrey2;
+      padding: 20px 0;
 
       img {
         width: 110px;
@@ -862,7 +873,6 @@
 
       & > div {
         margin-left: 12px;
-        padding: 20px 0;
       }
 
       h3 {

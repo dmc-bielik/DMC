@@ -87,6 +87,11 @@
             <div class="body-paragraph">{excerpt}</div>
           </div>
         {.or}
+          {.equal? @index 2}
+          <div class="blog-root-grid__recent">
+            <h2>Recent Stories</h2>
+          </div>
+          {.end}
           <div>
             <img src="{assetUrl}" alt="{title}">
             <div>
