@@ -33,6 +33,7 @@
     gap: 20px;
     grid-template-columns: 1fr 1fr;
     // margin: 0 -15px;
+    margin-bottom: 100px;
 
     & > article {
       // max-width: calc(~"50% - 30px");
@@ -190,10 +191,33 @@
 
     .entry-byline,
     .entry-dateline {
-      color: rgba(0, 0, 0, 0.55);
+      color: rgba(0, 0, 0, 0.4);
     }
   }
 
+}
+
+.blog-item {
+  margin-bottom: 100px;
+
+  .blog-item-entry-image {
+    margin-top: 40px;
+
+    img {
+      border-radius: 13px;
+      overflow: hidden;
+      vertical-align: middle;
+    }
+  }
+  
+  .entry-byline {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .meta-above-title {
+    margin-top: 10px;
+  }
 }
 
 

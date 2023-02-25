@@ -63,7 +63,6 @@
                 <div class="e-content body-paragraph">{@|safe}</div>
               {.end}
             {.end}
-            <p><a href="{fullUrl}">Read more</a></p>
           </div>
         </div>
 
