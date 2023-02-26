@@ -29,9 +29,9 @@
       {.repeated section items}
       <article class="entry h-entry {@|item-classes}" id="article-{id}" data-item-id="{id}">
 
-        <div class="blog-list__item--thumbnail">
+        <a href="{fullUrl}" class="blog-list__item--thumbnail">
           <img src="{assetUrl}" alt="{title}">
-        </div>
+        </a>
 
         <div>
           <header class="entry-header">
@@ -77,7 +77,9 @@
 
         {.equal? @index 1}
           <div>
-            <img src="{assetUrl}" alt="{title}">
+            <a href="{fullUrl}">
+              <img src="{assetUrl}" alt="{title}">
+            </a>
             <div class="entry-dateline">
               <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate><a href="{fullUrl}" class="entry-dateline-link">{addedOn|datetime date:long}</a></time>
               {.if updatedOn}<time class="dt-updated updated" datetime="{updatedOn|date %F}"></time>{.end}
@@ -92,7 +94,9 @@
           </div>
           {.end}
           <div>
-            <img src="{assetUrl}" alt="{title}">
+            <a href="{fullUrl}">
+              <img src="{assetUrl}" alt="{title}">
+            </a>
             <div>
               <div class="entry-dateline">
                 <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate><a href="{fullUrl}" class="entry-dateline-link">{addedOn|datetime date:long}</a></time>
