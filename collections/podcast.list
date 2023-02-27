@@ -1,0 +1,50 @@
+<section class="podcast-hero center">
+  <div class="container">
+    <h1 class="heading-1 uppercase">
+      <img src="/assets/images/podcast/perservere-to-excel-podcast.svg" title="PERSEVERE TO EXCEL PODCAST" alt="perservere to excel podcast">
+    </h1>
+    <p class="body-paragraph">
+      These mediums include interactive storytelling, creative arts, workshops, modeling and performing arts. This model hones the skills needed to build relationships and Persevere to Excel, is self-explanatory. Exceeding the average takes sustained effort. But what is perseverance? Where does it come from? What fuels it?
+      <br>
+      Perseverance is often mistaken for “toughing it out.” But toughing it out is an adrenaline rush, good for the short run but not the long haul. Toughing it out is running on empty, which is not sustainable.
+    </p>
+    <p class="body-paragraph">Perseverance, on the other hand, is a renewable energy source. It is fueled through constant introspection and acquisition, by forces inside you and outside you. Only by identifying those forces is perseverance possible. And only with genuine perseverance is it possible to excel. the inner creativity in everyone. This leads to a competitive advantage for the services and products that businesses and organizations provide.</p>
+  </div>
+</section>
+
+<section class="podcast-list">
+  <div class="container ls-container">
+    <div class="podcast-list__row">
+      {.repeated section items}
+      <div class="{@|item-classes}" id="podcast-{id}">
+        <button type="button" data-id="GrlfKISTEQU" class="button-unstyled podcast-list__row--play">
+          <img src="/assets/images/podcast/play-circle.svg" alt="play">
+        </button>
+        <div class="podcast-list__row--cover center">
+          <img src="{assetUrl}" alt="{title}">
+        </div>
+        <h2 class="center">{title}</h2>
+        <p class="body-paragraph">{excerpt|safe}</p>
+        <div class="podcast-list__listen-row">
+          <span class="body-paragraph">Listen Now On</span>
+          <span>
+            <a href="https://soundcloud.com/deo-mwano-41275254/deo-mwano-persevere-to-excel-podcastmartin-toe-long" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
+            </a>
+            <a href="https://open.spotify.com/episode/28zN9ltAd3vu9gnMyJWSMu?si=fTInz5iLQJyxyIb73ac9Aw" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
+            </a>
+            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-martin-toe-episode-0/id1490529308?i=1000458814746" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
+            </a>
+          </span>
+        </div>
+        {#  <button type="button" class="button-unstyled podcast-list__row--expand">
+          <img src="/assets/images/podcast/play.svg" alt="play">
+        </button>  }
+        <span class="podcast-list__row--ep">EP{@index}</span>
+      </div>
+      {.end}
+    </div>
+  </div>
+</section>
