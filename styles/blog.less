@@ -827,6 +827,8 @@
   }
 
   ul {
+    display: flex;
+    flex-direction: row-reverse;
     list-style: none;
     margin: 0 -20px;
     padding: 0;
@@ -872,6 +874,12 @@
   margin: 50px 0;
   padding: 50px 0;
   border-bottom: 1px solid @colorLightGrey2;
+
+  h2,
+  h3 {
+    font-family: @fontPoppins;
+    font-weight: 500;
+  }
 
   &:last-child {
     border-bottom: 0;
