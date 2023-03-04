@@ -23,7 +23,7 @@ appearOnScroll.forEach((group) => {
       delay: 0.1 * index,
       duration: 2,
       opacity: 0,
-      y: 150,
+      y: 100,
       ease: "power2.out",
       scrollTrigger: {
         trigger,
