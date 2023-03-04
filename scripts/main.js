@@ -676,7 +676,7 @@ const marqueeSliderCommon = {
   navPosition: "bottom",
 };
 
-new window.Swiper(".home-testimonials__slider", {
+const homeTestimonialsSlider = new window.Swiper(".home-testimonials__slider", {
   loop: true,
   autoplay: {
     delay: 5000,
@@ -696,6 +696,16 @@ new window.Swiper(".home-testimonials__slider", {
       slidesPerView: 4,
     },
   },
+});
+
+window.addEventListener("click", (e) => {
+  const { target } = e;
+
+  if (target.classList.contains("home-testimonials__item--read-more")) {
+    target.parentElement.children[0].classList.add("expanded");
+    target.remove();
+    homeTestimonialsSlider.updateSize();
+  }
 });
 
 new window.Swiper(".ls-reviews__slider", {
