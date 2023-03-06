@@ -16,7 +16,7 @@
   <div class="container ls-container">
     <div class="podcast-list__row">
       {.repeated section items}
-      <div class="{@|item-classes}" id="podcast-{id}">
+      <div class="{@|item-classes}" id="podcast-{id}" data-youtube="{excerpt|safe}">
         <button type="button" data-id="GrlfKISTEQU" class="button-unstyled podcast-list__row--play">
           <img src="/assets/images/podcast/play-circle.svg" alt="play">
         </button>
@@ -24,25 +24,25 @@
           <img src="{assetUrl}" alt="{title}">
         </div>
         <h2 class="center">{title}</h2>
-        <p class="body-paragraph">{excerpt|safe}</p>
+        <p class="body-paragraph">{body|safe}</p>
         <div class="podcast-list__listen-row">
           <span class="body-paragraph">Listen Now On</span>
           <span>
-            <a href="https://soundcloud.com/deo-mwano-41275254/deo-mwano-persevere-to-excel-podcastmartin-toe-long" target="_blank" rel="noopener noreferrer">
+            <a href="https://soundcloud.com/deo-mwano-41275254" target="_blank" rel="noopener noreferrer">
               <img src="/assets/images/podcast/soundcloud.svg" alt="soundcloud" height="20px">
             </a>
-            <a href="https://open.spotify.com/episode/28zN9ltAd3vu9gnMyJWSMu?si=fTInz5iLQJyxyIb73ac9Aw" target="_blank" rel="noopener noreferrer">
+            <a href="https://open.spotify.com/show/4ScmM9VZ6kmVglbKWLBznA" target="_blank" rel="noopener noreferrer">
               <img src="/assets/images/podcast/spotify.svg" alt="spotify" height="20px">
             </a>
-            <a href="https://podcasts.apple.com/za/podcast/persevere-to-excel-podcast-martin-toe-episode-0/id1490529308?i=1000458814746" target="_blank" rel="noopener noreferrer">
+            <a href="https://podcasts.apple.com/in/podcast/persevere-to-excel/id1490529308" target="_blank" rel="noopener noreferrer">
               <img src="/assets/images/podcast/apple-podcast.svg" alt="apple podcast" height="20px">
             </a>
           </span>
         </div>
-        {#  <button type="button" class="button-unstyled podcast-list__row--expand">
+        <button type="button" class="button-unstyled podcast-list__row--expand">
           <img src="/assets/images/podcast/play.svg" alt="play">
-        </button>  }
-        <span class="podcast-list__row--ep">EP{@index}</span>
+        </button>
+        <span class="podcast-list__row--ep"></span>
       </div>
       {.end}
     </div>

@@ -799,6 +799,20 @@ if (window.location.pathname.startsWith("/team")) {
   });
 }
 
+const podcastListRow = document.querySelector(".podcast-list__row");
+
+if (podcastListRow) {
+  const totalPodcasts = podcastListRow.children.length;
+
+  Array.from(podcastListRow.children).forEach((p, index) => {
+    const reversedIndex = totalPodcasts - index;
+
+    p.querySelector(".podcast-list__row--ep").innerHTML = `EP${
+      reversedIndex < 10 ? `0${reversedIndex}` : reversedIndex
+    }`;
+  });
+}
+
 /* Podcast */
 
 document.querySelector("#trigger-play").addEventListener("click", () => {
