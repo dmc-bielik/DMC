@@ -799,34 +799,133 @@ if (window.location.pathname.startsWith("/team")) {
   });
 }
 
+/* Podcast */
+
 const podcastListRow = document.querySelector(".podcast-list__row");
 
 if (podcastListRow) {
+  let activePlayer = null;
+
   const totalPodcasts = podcastListRow.children.length;
 
   Array.from(podcastListRow.children).forEach((p, index) => {
     const reversedIndex = totalPodcasts - index;
 
-    p.querySelector(".podcast-list__row--ep").innerHTML = `EP${
+    p.querySelector(".podcast-list__content--ep").innerHTML = `EP${
       reversedIndex < 10 ? `0${reversedIndex}` : reversedIndex
     }`;
+
+    p.querySelector(".podcast-list__content--play").addEventListener(
+      "click",
+      (e) => {
+        const img = e.target.closest("button").children[0];
+
+        const youtubeURL = new URL(p.dataset.youtube);
+
+        const videoId = youtubeURL.searchParams.get("v");
+
+        if (!activePlayer) {
+          const videoIframe = e.target
+            .closest(".podcast-list__item")
+            .querySelector(".podcast-list__youtube");
+
+          activePlayer = new YT.Player(videoIframe, {
+            height: "390",
+            width: "640",
+            videoId,
+            playerVars: {
+              playsinline: 1,
+            },
+            events: {
+              onReady: (event) => {
+                event.target.playVideo();
+                img.src = "/assets/images/podcast/pause-circle.svg";
+              },
+            },
+          });
+        } else {
+          const videoUrl = activePlayer.getVideoUrl();
+          const activeVideoId = new URL(videoUrl).searchParams.get("v");
+
+          if (activeVideoId === videoId) {
+            /*
+             * -1 – unstarted
+             *  0 – ended
+             *  1 – playing
+             *  2 – paused
+             *  3 – buffering
+             *  5 – video cued
+             */
+
+            switch (activePlayer.getPlayerState()) {
+              case 1:
+                activePlayer.pauseVideo();
+                img.src = "/assets/images/podcast/play-circle.svg";
+
+                break;
+
+              case 2:
+                activePlayer.playVideo();
+                img.src = "/assets/images/podcast/pause-circle.svg";
+
+                break;
+
+              default:
+                break;
+            }
+          } else {
+            activePlayer.destroy();
+            document.querySelector(".podcast-list__youtube").remove();
+
+            document
+              .querySelectorAll(".podcast-list__content--play > img")
+              .forEach((el) => {
+                el.src = "/assets/images/podcast/play-circle.svg";
+              });
+
+            const videoIframe = e.target
+              .closest(".podcast-list__item")
+              .querySelector(".podcast-list__youtube");
+
+            p.appendChild(videoIframe);
+
+            activePlayer = new YT.Player(videoIframe, {
+              height: "390",
+              width: "640",
+              videoId,
+              playerVars: {
+                playsinline: 1,
+              },
+              events: {
+                onReady: (event) => {
+                  event.target.playVideo();
+                  img.src = "/assets/images/podcast/pause-circle.svg";
+                },
+              },
+            });
+          }
+        }
+      }
+    );
+  });
+
+  document.querySelectorAll(".podcast-list__content--expand").forEach((el) => {
+    el.addEventListener("click", (e) => {
+      const toggleButton = e.target.closest(".podcast-list__content--expand");
+      const toggleButtonImg = toggleButton.children[0];
+      const listItem = e.target.closest(".podcast-list__item");
+
+      if (listItem.classList.contains("expanded")) {
+        listItem.classList.remove("expanded");
+        toggleButtonImg.style.transform = null;
+        listItem.style.height = null;
+        listItem.children[0].style.width = null;
+      } else {
+        listItem.style.height = `${listItem.offsetHeight}px`;
+        listItem.children[0].style.width = `${listItem.offsetWidth - 60}px`;
+        listItem.classList.add("expanded");
+        toggleButtonImg.style.transform = "rotate(180deg)";
+      }
+    });
   });
 }
-
-/* Podcast */
-
-document.querySelector("#trigger-play").addEventListener("click", () => {
-  new YT.Player("player", {
-    height: "390",
-    width: "640",
-    videoId: "M7lc1UVf-VE",
-    playerVars: {
-      playsinline: 1,
-    },
-    events: {
-      onReady: (event) => {
-        event.target.playVideo();
-      },
-    },
-  });
-});
