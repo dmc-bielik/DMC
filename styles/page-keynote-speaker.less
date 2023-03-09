@@ -244,11 +244,57 @@
 
   &-reviews {
     background: none;
+    padding-top: 130px;
     padding-bottom: 0;
 
     &__cards {
+      display: flex;
+      align-items: stretch;
+      justify-content: initial;
+      margin: 0 -10px;
+      padding-bottom: 80px !important;
+
       & > div {
+        position: relative;
+        flex: none;
+        background-color: #fff;
+        margin: 0 10px;
+        padding: 50px;
+        border-radius: 13px;
+        min-height: 400px;
+        height: auto;
         background-color: @colorLightGrey;
+        width: calc(~"50% - 120px");
+
+        @media (max-width: 767px) {
+          padding: 10px;
+        }
+      }
+
+      &--meta {
+        position: absolute;
+        top: calc(~"100% - 130px");
+        left: 30px;
+        right: 30px;
+        line-height: 1.4;
+
+        span {
+          font-size: 12px;
+          color: @colorGrey;
+        }
+      }
+
+      &--review {
+        font-size: 13px;
+        padding-bottom: 130px;
+      }
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+
+        & > div {
+          margin-bottom: 30px;
+        }
       }
     }
   }

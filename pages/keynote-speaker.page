@@ -85,20 +85,20 @@
   </div>
 </section>
 
-<section class="ws-reviews ks-reviews center">
+<section class="ks-reviews center">
   <div class="container">
-    <div class="ws-reviews__cards ks-reviews__cards">
+    <div class="ks-reviews__cards">
       <div>
-        <p class="body-paragraph ws-reviews__cards--review">"When I served as president of the New England Chapter of the American Dance Therapy Association (NEADTA), we had the honor of hosting Deo Mwano as keynote speaker at our 2019 conference, "Dancing Along the Continuum: Dance/Movement Therapy and Social Action." Deo started our conference on the literal and figurative right foot with his engaging presentation, "Ignite Your Creativity and Trust the Process." Through movement and words, Deo shared his experiences with teaching dance in various communities and publicly telling his story as a refugee. Deo demonstrated the transformative power of dance as a communicative art form, and highlighted the importance of openness and trust throughout the creative process."</p>
-        <p class="ws-reviews__cards--meta body-paragraph">
+        <p class="body-paragraph ks-reviews__cards--review">"When I served as president of the New England Chapter of the American Dance Therapy Association (NEADTA), we had the honor of hosting Deo Mwano as keynote speaker at our 2019 conference, "Dancing Along the Continuum: Dance/Movement Therapy and Social Action." Deo started our conference on the literal and figurative right foot with his engaging presentation, "Ignite Your Creativity and Trust the Process." Through movement and words, Deo shared his experiences with teaching dance in various communities and publicly telling his story as a refugee. Deo demonstrated the transformative power of dance as a communicative art form, and highlighted the importance of openness and trust throughout the creative process."</p>
+        <p class="ks-reviews__cards--meta body-paragraph">
           <strong>Leah Mauren</strong>
           <br>
           <span>Former President of the New England Association of Dance Therapist</span>
         </p>
       </div>
       <div>
-        <p class="body-paragraph ws-reviews__cards--review">"As a room of dance/movement therapists, many of us were accustomed to seeing clients in a clinical setting with the hope of meeting clients where they are in dance and movement, and supporting them in moving toward their goals without owning the outcome. Deo's work in the community very much parallels ours, and his emphasis on being open and transparent about shifts in leaders' ideas about the creative process allowed space for participants to consider ways to increase collaboration and creativity in the therapeutic process, as well as ways to expand the work beyond the walls of the therapy setting. Deo's presentation was a wonderful reminder of the importance of working from an embodied relationship with self as well as the infinite possibilities available when we lean into creativity and move in embodied relationships with the people we serve."</p>
-        <p class="ws-reviews__cards--meta body-paragraph">
+        <p class="body-paragraph ks-reviews__cards--review">"As a room of dance/movement therapists, many of us were accustomed to seeing clients in a clinical setting with the hope of meeting clients where they are in dance and movement, and supporting them in moving toward their goals without owning the outcome. Deo's work in the community very much parallels ours, and his emphasis on being open and transparent about shifts in leaders' ideas about the creative process allowed space for participants to consider ways to increase collaboration and creativity in the therapeutic process, as well as ways to expand the work beyond the walls of the therapy setting. Deo's presentation was a wonderful reminder of the importance of working from an embodied relationship with self as well as the infinite possibilities available when we lean into creativity and move in embodied relationships with the people we serve."</p>
+        <p class="ks-reviews__cards--meta body-paragraph">
           <strong>Leah Brett</strong>
           <br>
           <span>LMHC, BC-DMT</span>
