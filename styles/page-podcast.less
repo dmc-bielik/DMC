@@ -45,20 +45,34 @@
 
   &-list {
     &__row {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0 -10px 100px;
+      position: relative;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: 0 0 100px;
 
       & > div {
-        width: calc(~"33.33% - 20px");
         min-width: 270px;
-        margin: 10px;
+      }
+
+      @media (max-width: 979px) {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+        gap: 20px 0;
       }
     }
 
     &__item {
+      transition: all 0.4s;
+
       &.expanded {
         position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -66,6 +80,7 @@
         z-index: 1;
         background: black;
         border-radius: 13px;
+        overflow: hidden;
 
         .podcast-list__content {
           width: 310px;
@@ -92,10 +107,6 @@
       padding: 30px;
       border-radius: 13px;
       height: calc(~"100% - 60px");
-
-      @media (max-width: 767px) {
-        width: 100%;
-      }
 
       h2 {
         font-size: 15px;

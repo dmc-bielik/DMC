@@ -804,7 +804,73 @@ if (window.location.pathname.startsWith("/team")) {
 const podcastListRow = document.querySelector(".podcast-list__row");
 
 if (podcastListRow) {
-  let activePlayer = null;
+  let videoPlayers = [];
+
+  const startYouTubePlayer = (podcastListItem, reset = false) => {
+    if (reset) {
+      // Reset play icons.
+
+      document
+        .querySelectorAll(".podcast-list__content--play > img")
+        .forEach((el) => {
+          el.src = "/assets/images/podcast/play-circle.svg";
+        });
+
+      // Destroy player.
+
+      // if (activePlayer) activePlayer.destroy();
+    }
+
+    // Start player.
+
+    const videoIframe = podcastListItem.querySelector(".podcast-list__youtube");
+    const playButton = podcastListItem.querySelector(
+      ".podcast-list__content--play"
+    );
+    const playButtonIcon = playButton.children[0];
+    const youtubeURL = new URL(podcastListItem.dataset.youtube);
+    const videoId = youtubeURL.searchParams.get("v");
+
+    videoPlayers.push(
+      new YT.Player(videoIframe, {
+        height: "390",
+        width: "640",
+        videoId,
+        playerVars: {
+          playsinline: 1,
+        },
+        events: {
+          onReady: (event) => {
+            event.target.playVideo();
+          },
+          onStateChange: (state) => {
+            switch (state.data) {
+              case -1: // Unstarted
+                break;
+
+              case 0: // Ended
+              case 2: // Paused
+                playButtonIcon.src = "/assets/images/podcast/play-circle.svg";
+                break;
+
+              case 1: // Playing
+                playButtonIcon.src = "/assets/images/podcast/pause-circle.svg";
+                break;
+
+              case 3: // Buffering
+                break;
+
+              case 5: // Video cued
+                break;
+
+              default:
+                break;
+            }
+          },
+        },
+      })
+    );
+  };
 
   const totalPodcasts = podcastListRow.children.length;
 
@@ -818,93 +884,28 @@ if (podcastListRow) {
     p.querySelector(".podcast-list__content--play").addEventListener(
       "click",
       (e) => {
-        const img = e.target.closest("button").children[0];
-
         const youtubeURL = new URL(p.dataset.youtube);
 
         const videoId = youtubeURL.searchParams.get("v");
 
-        if (!activePlayer) {
-          const videoIframe = e.target
-            .closest(".podcast-list__item")
-            .querySelector(".podcast-list__youtube");
+        videoPlayers.forEach((player) => {
+          const videoUrl = player.getVideoUrl();
 
-          activePlayer = new YT.Player(videoIframe, {
-            height: "390",
-            width: "640",
-            videoId,
-            playerVars: {
-              playsinline: 1,
-            },
-            events: {
-              onReady: (event) => {
-                event.target.playVideo();
-                img.src = "/assets/images/podcast/pause-circle.svg";
-              },
-            },
-          });
-        } else {
-          const videoUrl = activePlayer.getVideoUrl();
-          const activeVideoId = new URL(videoUrl).searchParams.get("v");
-
-          if (activeVideoId === videoId) {
-            /*
-             * -1 – unstarted
-             *  0 – ended
-             *  1 – playing
-             *  2 – paused
-             *  3 – buffering
-             *  5 – video cued
-             */
-
-            switch (activePlayer.getPlayerState()) {
-              case 1:
-                activePlayer.pauseVideo();
-                img.src = "/assets/images/podcast/play-circle.svg";
-
-                break;
-
-              case 2:
-                activePlayer.playVideo();
-                img.src = "/assets/images/podcast/pause-circle.svg";
-
-                break;
-
-              default:
-                break;
-            }
+          if (new URL(videoUrl).searchParams.get("v") === videoId) {
+            if (player.getPlayerState() === 1) player.pauseVideo();
+            if (player.getPlayerState() === 2) player.playVideo();
           } else {
-            activePlayer.destroy();
-            document.querySelector(".podcast-list__youtube").remove();
-
-            document
-              .querySelectorAll(".podcast-list__content--play > img")
-              .forEach((el) => {
-                el.src = "/assets/images/podcast/play-circle.svg";
-              });
-
-            const videoIframe = e.target
-              .closest(".podcast-list__item")
-              .querySelector(".podcast-list__youtube");
-
-            p.appendChild(videoIframe);
-
-            activePlayer = new YT.Player(videoIframe, {
-              height: "390",
-              width: "640",
-              videoId,
-              playerVars: {
-                playsinline: 1,
-              },
-              events: {
-                onReady: (event) => {
-                  event.target.playVideo();
-                  img.src = "/assets/images/podcast/pause-circle.svg";
-                },
-              },
-            });
+            player.pauseVideo();
           }
-        }
+        });
+
+        if (
+          !videoPlayers.some(
+            (player) =>
+              new URL(player.getVideoUrl()).searchParams.get("v") === videoId
+          )
+        )
+          startYouTubePlayer(p, false);
       }
     );
   });
@@ -912,19 +913,32 @@ if (podcastListRow) {
   document.querySelectorAll(".podcast-list__content--expand").forEach((el) => {
     el.addEventListener("click", (e) => {
       const toggleButton = e.target.closest(".podcast-list__content--expand");
+
       const toggleButtonImg = toggleButton.children[0];
+
       const listItem = e.target.closest(".podcast-list__item");
 
       if (listItem.classList.contains("expanded")) {
         listItem.classList.remove("expanded");
         toggleButtonImg.style.transform = null;
         listItem.style.height = null;
+        listItem.style.top = null;
         listItem.children[0].style.width = null;
       } else {
         listItem.style.height = `${listItem.offsetHeight}px`;
+        listItem.style.top = `${listItem.offsetTop}px`;
         listItem.children[0].style.width = `${listItem.offsetWidth - 60}px`;
         listItem.classList.add("expanded");
         toggleButtonImg.style.transform = "rotate(180deg)";
+
+        if (
+          !videoPlayers.some(
+            (player) =>
+              new URL(player.getVideoUrl()).searchParams.get("v") ===
+              new URL(listItem.dataset.youtube).searchParams.get("v")
+          )
+        )
+          startYouTubePlayer(listItem, false);
       }
     });
   });
