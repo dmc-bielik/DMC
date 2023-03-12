@@ -25,7 +25,9 @@
             <img src="{assetUrl}" alt="{title}">
           </div>
           <h2 class="center">{title}</h2>
-          <p class="body-paragraph">{body|safe}</p>
+          <div class="podcast-list__content--excerpt">
+            <p class="body-paragraph">{body|safe}</p>
+          </div>
           <div class="podcast-list__listen-row">
             <span class="body-paragraph">Listen Now On</span>
             <span>

@@ -806,23 +806,7 @@ const podcastListRow = document.querySelector(".podcast-list__row");
 if (podcastListRow) {
   let videoPlayers = [];
 
-  const startYouTubePlayer = (podcastListItem, reset = false) => {
-    if (reset) {
-      // Reset play icons.
-
-      document
-        .querySelectorAll(".podcast-list__content--play > img")
-        .forEach((el) => {
-          el.src = "/assets/images/podcast/play-circle.svg";
-        });
-
-      // Destroy player.
-
-      // if (activePlayer) activePlayer.destroy();
-    }
-
-    // Start player.
-
+  const startYouTubePlayer = (podcastListItem) => {
     const videoIframe = podcastListItem.querySelector(".podcast-list__youtube");
     const playButton = podcastListItem.querySelector(
       ".podcast-list__content--play"
@@ -881,6 +865,34 @@ if (podcastListRow) {
       reversedIndex < 10 ? `0${reversedIndex}` : reversedIndex
     }`;
 
+    const excerpt = p.querySelector(".podcast-list__content--excerpt");
+    const excerptContent = excerpt.querySelector("p");
+
+    if (excerptContent.scrollHeight > excerptContent.offsetHeight + 1) {
+      const readMoreLink = document.createElement("a");
+
+      readMoreLink.className =
+        "body-paragraph podcast-list__content--excerpt-read-more";
+      readMoreLink.href = "#!";
+      readMoreLink.innerHTML = "read more";
+      readMoreLink.onclick = (e) => {
+        e.preventDefault();
+
+        excerpt.classList.toggle("is-expanded");
+        excerpt.querySelector(
+          ".podcast-list__content--excerpt-read-more"
+        ).innerHTML =
+          excerpt.querySelector(".podcast-list__content--excerpt-read-more")
+            .innerHTML === "read more"
+            ? "collapse"
+            : "read more";
+      };
+
+      excerpt.appendChild(readMoreLink);
+    } else {
+      excerpt.classList.add("is-expanded");
+    }
+
     p.querySelector(".podcast-list__content--play").addEventListener(
       "click",
       (e) => {
@@ -905,7 +917,7 @@ if (podcastListRow) {
               new URL(player.getVideoUrl()).searchParams.get("v") === videoId
           )
         )
-          startYouTubePlayer(p, false);
+          startYouTubePlayer(p);
       }
     );
   });
@@ -938,7 +950,7 @@ if (podcastListRow) {
               new URL(listItem.dataset.youtube).searchParams.get("v")
           )
         )
-          startYouTubePlayer(listItem, false);
+          startYouTubePlayer(listItem);
       }
     });
   });

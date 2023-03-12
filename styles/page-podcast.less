@@ -104,9 +104,9 @@
     &__content {
       position: relative;
       background-color: @colorLightGrey;
-      padding: 30px;
+      padding: 30px 30px 80px;
       border-radius: 13px;
-      height: calc(~"100% - 60px");
+      height: calc(~"100% - 110px");
 
       h2 {
         font-size: 15px;
@@ -116,10 +116,27 @@
         line-height: 1.4;
       }
 
-      p {
-        font-size: 12px;
-        height: 96px;
-        overflow: hidden;
+      &--excerpt {
+        p {
+          font-size: 12px;
+          height: 96px;
+          overflow: hidden;
+          margin-bottom: 0px;
+        }
+
+        &-read-more {
+          font-size: 12px;
+          text-decoration: underline;
+          font-weight: 500;
+          color: black;
+        }
+
+        &.is-expanded {
+          p {
+            height: auto;
+            overflow: initial;
+          }
+        }
       }
 
       &--cover {
@@ -166,6 +183,10 @@
     }
 
     &__listen-row {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      right: 30px;
       display: flex;
       justify-content: space-between;
       align-items: center;
