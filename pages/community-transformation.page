@@ -184,6 +184,7 @@
     <div class="ws-reviews__cards ct-reviews__cards">
       <div>
         <p class="body-paragraph ws-reviews__cards--review">"Within the Institute, Mr. Mwano undertook major responsibilities to bridge multicultural issues and to ensure a safe, productive and respectful environment for the Delegation. In order to establish common discourse he brought a deep understanding and sensitivity to the complexities encountered by the delegates. His personal narrative and consummate professionalism also served as inspiration for educators when they returned to Pakistan to implement U.S. training amidst daily realities and challenges. That connectivity continues."</p>
+        <button type="button" class="button-unstyled ws-reviews__cards--read-more">read more</button>
         <p class="ws-reviews__cards--meta ct-reviews__cards body-paragraph">
           <strong>Allen Blakeman</strong>
           <br>
@@ -192,6 +193,7 @@
       </div>
       <div>
         <p class="body-paragraph ws-reviews__cards--review">"Deo was willing to work with the Currier Museum of Art on a new program and did so thoughtfully and with an open mind. Not only did Deo bring professionalism to the event, but a unique form of engagement that encouraged others to think deeper and more holistically."</p>
+        <button type="button" class="button-unstyled ws-reviews__cards--read-more">read more</button>
         <p class="ws-reviews__cards--meta body-paragraph">
           <strong>Lynn Thomson</strong>
           <br>
@@ -200,6 +202,7 @@
       </div>
       <div>
         <p class="body-paragraph ws-reviews__cards--review">"Deo radiates positivity! His approachable style facilitates questions and dialogue. Our trustees and employees enjoyed consultations that inspired awareness and understanding as we explored the topics of diversity and inclusion. Informed by Deo’s insights, we have designed and launched a thoughtful plan to expand our commitment to equity, diversity, inclusion, and accessibility in our arts programming, operational policies, and bridge building to the extended community."</p>
+        <button type="button" class="button-unstyled ws-reviews__cards--read-more">read more</button>
         <p class="ws-reviews__cards--meta body-paragraph">
           <strong>Nicki Clarke</strong>
           <br>

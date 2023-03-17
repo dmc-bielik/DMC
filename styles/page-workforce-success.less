@@ -548,9 +548,8 @@
         flex: none;
         background-color: #fff;
         margin: 0 10px;
-        padding: 50px;
+        padding: 50px 50px 150px;
         border-radius: 13px;
-        min-height: 400px;
         height: auto;
 
         @media (max-width: 767px) {
@@ -572,8 +571,37 @@
       }
 
       &--review {
-        font-size: 12px;
-        padding-bottom: 130px;
+        position: relative;
+        font-size: 13px;
+        max-height: 80px;
+        overflow: hidden;
+        margin-bottom: 8px;
+
+        &::before {
+          content: '';
+          position: absolute;
+          height: 41px;
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-image: linear-gradient(121deg, transparent, #fff);
+        }
+
+        &.expanded {
+          max-height: max-content;
+          padding-bottom: 0;
+
+          &::before {
+            content: none;
+          }
+        }
+      }
+
+      button {
+        font-size: 13px;
+        text-decoration: underline;
+        color: @colorRed;
       }
 
       @media (max-width: 767px) {

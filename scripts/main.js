@@ -23,7 +23,7 @@ appearOnScroll.forEach((group) => {
       delay: 0.1 * index,
       duration: 2,
       opacity: 0,
-      y: 100,
+      y: 60,
       ease: "power2.out",
       scrollTrigger: {
         trigger,
@@ -698,17 +698,7 @@ const homeTestimonialsSlider = new window.Swiper(".home-testimonials__slider", {
   },
 });
 
-window.addEventListener("click", (e) => {
-  const { target } = e;
-
-  if (target.classList.contains("home-testimonials__item--read-more")) {
-    target.parentElement.children[0].classList.add("expanded");
-    target.remove();
-    homeTestimonialsSlider.updateSize();
-  }
-});
-
-new window.Swiper(".ls-reviews__slider", {
+const lsReviewsSlider = new window.Swiper(".ls-reviews__slider", {
   loop: true,
   autoplay: {
     delay: 5000,
@@ -728,6 +718,38 @@ new window.Swiper(".ls-reviews__slider", {
       slidesPerView: 4,
     },
   },
+});
+
+window.addEventListener("click", (e) => {
+  const { target } = e;
+
+  if (target.classList.contains("home-testimonials__item--read-more")) {
+    const itemContent = target.parentElement.children[0];
+
+    if (itemContent.classList.contains("expanded")) {
+      itemContent.classList.remove("expanded");
+      target.innerHTML = "read more";
+    } else {
+      itemContent.classList.add("expanded");
+      target.innerHTML = "collapse";
+    }
+
+    homeTestimonialsSlider.updateSize();
+  }
+
+  if (target.classList.contains("ws-reviews__cards--read-more")) {
+    const itemContent = target.parentElement.children[0];
+
+    if (itemContent.classList.contains("expanded")) {
+      itemContent.classList.remove("expanded");
+      target.innerHTML = "read more";
+    } else {
+      itemContent.classList.add("expanded");
+      target.innerHTML = "collapse";
+    }
+
+    lsReviewsSlider.updateSize();
+  }
 });
 
 new window.Swiper(".move-up-swiper", {
