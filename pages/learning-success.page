@@ -216,6 +216,15 @@
     <div class="swiper ls-reviews__slider">
       <div class="swiper-wrapper ws-reviews__cards ls-reviews__cards">
         <div class="swiper-slide">
+          <p class="body-paragraph ws-reviews__cards--review">"I had the pleasure of working with Deo over the course of several years. He first sought to understand the needs of our school community by reaching out to key stakeholders including Board members, parents, students, school administrators, and staff members. Deo and his team accomplished this through individual and group in-person meetings as well as through multiple surveys that we developed together. After analysis of the information from the conversations and surveys, Deo presented the findings back to the stakeholder groups to make sure what was summarized truly represented their thoughts. Throughout the process, Deo was helpful and came from a place of providing opportunities for everyone not only to be heard but to be understood. We then partnered together with our school leadership team members to use the information gleaned to create meaningful, strategic, actionable goals for the School District's Three-Year Strategic Plan. Deo assisted me with determining the need for a District Director of Equity, Curriculum, Instruction, and Assessment position which we now have in place. I invited Deo to attend our annual school administrator leadership team Fall Momentum Meeting and he did a fabulous job of summarizing the steps we had taken and getting everyone excited about the direction we are heading to support all staff members, students, and families in the District. I am grateful for Deo's thoughtful approach while also holding everyone accountable and providing suggestions for ways we can continue improving the educational experience for all involved. Thank you, Deo!"</p>
+          <button type="button" class="button-unstyled ws-reviews__cards--read-more">read more</button>
+          <p class="ws-reviews__cards--meta body-paragraph">
+            <strong>Dr. Joanne Roberts</strong>
+            <br>
+            <span>Superintendent of the Lebanon School District, Lebanon, New Hampshire</span>
+          </p>
+        </div>
+        <div class="swiper-slide">
           <p class="body-paragraph ws-reviews__cards--review">"Deo Mwano has a magic of goodness. I think it comes from having such a powerful and generous heart. His energy inspires. The vitality that he brings to students, and what he gave to me as a colleague, generates tremendous goodwill and insight. He summons up and frees the creative spirit. That kind of innovation and connection is rare. Deo is himself a special source of light and a talented guide."</p>
           <button type="button" class="button-unstyled ws-reviews__cards--read-more">read more</button>
           <p class="ws-reviews__cards--meta body-paragraph">
