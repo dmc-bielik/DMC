@@ -46,7 +46,7 @@
         <h3 class="uppercase">Deo Mwano</h3>
         <p class="body-paragraph team-member__row--title">CEO, Founder and Managing Principal</p>
         <p class="body-paragraph team-member__row--bio">Deo Mwano (DAY-oh MUH-wanno) is a nationally recognized speaker, program designer and transformational cultural change maker whose work focuses on helping organizations maximize their positive impact. Mwano is the founder of Deo Mwano Consultancy LLC (DMC), which helps businesses, organizations, and educational institutions build authentic relationships and understanding among all stakeholders. DMC’s process brings everyone to the table to co-design solutions through shared power, resulting in new vulnerability, honesty and trust. The strategy yields genuine interactions and diverse, inclusive and equitable results. Deo earned his BA in International Relations and History and holds an MBA in Strategic Leadership. He has worked for the federal government, non-profits, universities and tech startups. He was recognized as an emerging leader in 2016 when he was included in 40 Under 40 in New Hampshire, he’s a graduate of Leadership New Hampshire and in 2021 he was named one of the top 200 leaders in NH by New Hampshire Business Review. Deo is a gifted storyteller and performer. His family’s story was featured on Dancing With the Stars, ABC nationally syndicated TV show and Deo and his brothers performed live on the show.</p>
-        {#  <a href="#!" class="body-paragraph">read more</a>  }
+        {#  <a href="/contact/" class="body-paragraph">read more</a>  }
       </div>
     </div>
   </div>

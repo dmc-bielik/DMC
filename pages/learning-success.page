@@ -9,7 +9,7 @@
   <section class="ls-title center">
     <div class="container">
       <p class="heading-3 uppercase">Ivy League Universities, Community Colleges, K-12 Schools, Boarding Schools, and School Boards</p>
-      <a href="#!" class="button">Talk to us today</a>
+      <a href="/contact/" class="button">Talk to us today</a>
     </div>
   </section>
 
@@ -269,15 +269,6 @@
             <span>Executive Director, Leadership New Hampshire</span>
           </p>
         </div>
-        <div class="swiper-slide">
-          <p class="body-paragraph ws-reviews__cards--review">"I had the pleasure of working with Deo over the course of several years. He first sought to understand the needs of our school community by reaching out to key stakeholders including Board members, parents, students, school administrators, and staff members. Deo and his team accomplished this through individual and group in-person meetings as well as through multiple surveys that we developed together. After analysis of the information from the conversations and surveys, Deo presented the findings back to the stakeholder groups to make sure what was summarized truly represented their thoughts. Throughout the process, Deo was helpful and came from a place of providing opportunities for everyone not only to be heard but to be understood. We then partnered together with our school leadership team members to use the information gleaned to create meaningful, strategic, actionable goals for the School District's Three-Year Strategic Plan. Deo assisted me with determining the need for a District Director of Equity, Curriculum, Instruction, and Assessment position which we now have in place. I invited Deo to attend our annual school administrator leadership team Fall Momentum Meeting and he did a fabulous job of summarizing the steps we had taken and getting everyone excited about the direction we are heading to support all staff members, students, and families in the District. I am grateful for Deo's thoughtful approach while also holding everyone accountable and providing suggestions for ways we can continue improving the educational experience for all involved. Thank you, Deo!"</p>
-          <button type="button" class="button-unstyled ws-reviews__cards--read-more">read more</button>
-          <p class="ws-reviews__cards--meta body-paragraph">
-            <strong>Dr. Joanne Roberts</strong>
-            <br>
-            <span>Superintendent of the Lebanon School District, Lebanon, New Hampshire</span>
-          </p>
-        </div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
@@ -286,7 +277,7 @@
   <section class="home-team ws-team">
     <div class="container">
       <div class="center">
-        <a href="#!" class="button">Talk to us today</a>
+        <a href="/contact/" class="button">Talk to us today</a>
       </div>
       <div class="home-team__row">
         <div>

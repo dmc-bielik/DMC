@@ -131,7 +131,7 @@
       <div>
         <h2 class="heading-2">Keynote Speaker</h2>
         <p class="body-paragraph">Workforce Success, Tech-Conference, HealthCare, College Conference, Banking Enterprise, K-12 conferences</p>
-        <a href="/contact/" class="button">Talk to us today</a>
+        <a href="/keynote-speaker/" class="button">Learn more</a>
       </div>
     </div>
   </div>
@@ -167,6 +167,16 @@
 <section class="home-testimonials">
   <div class="swiper home-testimonials__slider">
     <div class="swiper-wrapper">
+      <div class="swiper-slide home-testimonials__item">
+        <p class="body-paragraph">"I had the pleasure of working with Deo over the course of several years. He first sought to understand the needs of our school community by reaching out to key stakeholders including Board members, parents, students, school administrators, and staff members. Deo and his team accomplished this through individual and group in-person meetings as well as through multiple surveys that we developed together. After analysis of the information from the conversations and surveys, Deo presented the findings back to the stakeholder groups to make sure what was summarized truly represented their thoughts. Throughout the process, Deo was helpful and came from a place of providing opportunities for everyone not only to be heard but to be understood. We then partnered together with our school leadership team members to use the information gleaned to create meaningful, strategic, actionable goals for the School District's Three-Year Strategic Plan. Deo assisted me with determining the need for a District Director of Equity, Curriculum, Instruction, and Assessment position which we now have in place. I invited Deo to attend our annual school administrator leadership team Fall Momentum Meeting and he did a fabulous job of summarizing the steps we had taken and getting everyone excited about the direction we are heading to support all staff members, students, and families in the District. I am grateful for Deo's thoughtful approach while also holding everyone accountable and providing suggestions for ways we can continue improving the educational experience for all involved. Thank you, Deo!"</p>
+        <button type="button" class="button-unstyled home-testimonials__item--read-more">read more</button>
+        <div class="home-testimonials__item-meta">
+          <div>
+            <h4>Dr. Joanne Roberts</h4>
+            <p class="body-paragraph">Superintendent of the Lebanon School District, Lebanon, New Hampshire</p>
+          </div>
+        </div>
+      </div>
       <div class="swiper-slide home-testimonials__item">
         <p class="body-paragraph">"It was a singular experience to welcome Deo Mwano and Martin ____________ to headline our school's Community Day in April of 2021. The students felt an instant connection with them, and within minutes we are all up and dancing and having fun. Deo's story is his alone, and yet it gave each of us a chance to reflect on the importance of courage and creativity as we find our own paths in the world. We were all captivated by Deo's charisma, his message, and his positive approach to life, and we are still talking about his visit many days later."</p>
         <button type="button" class="button-unstyled home-testimonials__item--read-more">read more</button>
@@ -242,12 +252,12 @@
 <section class="home-videos">
   <div class="container">
     <div class="home-videos__row">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e_CMH1tUGLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9CHdqpc1vh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s2APBney78A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/usksTbUIPLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="home-videos__row">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XZ62E5077zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QQJmHdeeBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tXzF_E7FsHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
