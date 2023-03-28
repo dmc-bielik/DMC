@@ -463,8 +463,8 @@ if (window.location.pathname.startsWith("/learning-success")) {
 
 if (window.location.pathname.startsWith("/keynote-speaker")) {
   window.gsap.fromTo(
-    ".ks-presentations img",
-    { y: -150 },
+    ".ks-presentations__cards--block-1, .ks-presentations__cards--block-2, .ks-presentations__cards--block-5",
+    { y: -50 },
     {
       y: 0,
       ease: "linear",
@@ -473,6 +473,21 @@ if (window.location.pathname.startsWith("/keynote-speaker")) {
         start: "top bottom",
         end: "bottom top",
         scrub: 1,
+      },
+    }
+  );
+
+  window.gsap.fromTo(
+    ".ks-presentations__cards--block-3, .ks-presentations__cards--block-4, .ks-presentations__cards--block-6",
+    { x: 0 },
+    {
+      x: 20,
+      ease: "linear",
+      scrollTrigger: {
+        trigger: ".ks-presentations",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: 0.6,
       },
     }
   );

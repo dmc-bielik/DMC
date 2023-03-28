@@ -21,10 +21,38 @@
 </section>
 
 <section class="ks-presentations">
-  <div class="container ls-container">
-    <p class="body-paragraph">Mwano’s presentations are inspiring, educational, thought-provoking and ignite action. He uses his background as a performer to keep audiences engaged and participating. His ice breakers are famous for getting everyone moving.</p>
+  <div class="container">
+    <div class="ks-presentations__cards">
+      <div>
+        <div class="ks-presentations__cards--block ks-presentations__cards--block-1"></div>
+        <div class="ks-presentations__cards--row-4">
+          <p class="body-paragraph">Mwano’s presentations are inspiring, educational, thought-provoking and ignite action. He uses his background as a performer to keep audiences engaged and participating. His ice breakers are famous for getting everyone moving.</p>
+          <img class="ks-presentations__cards--media-1" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-2.jpg" alt="">
+        </div>
+        <div class="ks-presentations__cards--row-1">
+          <div class="ks-presentations__cards--block ks-presentations__cards--block-2"></div>
+          <iframe class="ks-presentations__cards--media-2" width="560" height="315" src="https://www.youtube-nocookie.com/embed/I0Mw1DbSjKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div>
+            <img class="ks-presentations__cards--media-3" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-3.jpg" alt="">
+            <div class="ks-presentations__cards--block ks-presentations__cards--block-3"></div>
+          </div>
+        </div>
+        <img class="ks-presentations__cards--media-4" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-5.jpg" alt="">
+      </div>
+      <div>
+        <img class="ks-presentations__cards--media-5" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-1.jpg" alt="">
+        <div class="ks-presentations__cards--row-2">
+          <iframe class="ks-presentations__cards--media-6" width="560" height="315" src="https://www.youtube-nocookie.com/embed/zNfRzESyN10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="ks-presentations__cards--block ks-presentations__cards--block-4"></div>
+        </div>
+        <div class="ks-presentations__cards--row-3">
+          <img class="ks-presentations__cards--media-7" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-4.jpg" alt="">
+          <div class="ks-presentations__cards--block ks-presentations__cards--block-5"></div>
+        </div>
+        <div class="ks-presentations__cards--block ks-presentations__cards--block-6"></div>
+      </div>
+    </div>
   </div>
-  <img src="/assets/images/keynote-speaker/deo-presentations.png" alt="">
 </section>
 
 <section class="ks-illustration appear-on-scroll-2">
@@ -69,7 +97,7 @@
 </section>
 
 <section class="ks-partners center">
-  <div class="container">
+  <div class="container ls-container">
     <h2 class="uppercase heading-4">Recent Partners</h2>
     <div class="ks-partners__img">
       <div>
@@ -122,7 +150,7 @@
 </section>
 
 <section class="ks-reviews center">
-  <div class="container">
+  <div class="container ls-container">
     <div class="ks-reviews__cards">
       <div>
         <p class="body-paragraph ks-reviews__cards--review">"When I served as president of the New England Chapter of the American Dance Therapy Association (NEADTA), we had the honor of hosting Deo Mwano as keynote speaker at our 2019 conference, "Dancing Along the Continuum: Dance/Movement Therapy and Social Action." Deo started our conference on the literal and figurative right foot with his engaging presentation, "Ignite Your Creativity and Trust the Process." Through movement and words, Deo shared his experiences with teaching dance in various communities and publicly telling his story as a refugee. Deo demonstrated the transformative power of dance as a communicative art form, and highlighted the importance of openness and trust throughout the creative process."</p>
@@ -145,7 +173,7 @@
 </section>
 
 <section class="ks-video">
-  <div class="container">
+  <div class="container ls-container">
     <div class="ks-video__row">
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kM6JqIR8bFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UZBnnTMUey0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,6 +1,10 @@
 .ks {
   &-hero {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+
+    @media (max-width: 480px) {
+      margin-bottom: 70px;
+    }
 
     &__banner {
       position: relative;
@@ -86,7 +90,7 @@
     }
 
     @media (max-width: 767px) {
-      margin: 100px 0 200px;
+      margin: 100px 0;
       min-height: 300px;
     }
 
@@ -113,6 +117,8 @@
 
         iframe {
           width: 100%;
+          height: auto;
+          aspect-ratio: ~"16 / 9";
         }
       }
 
@@ -138,24 +144,162 @@
 
   &-presentations {
     position: relative;
-    min-height: 55vw;
+    margin-bottom: 200px;
 
-    p {
-      max-width: 400px;
-      padding-top: 100px;
+    @media (max-width: 480px) {
+      margin-bottom: 100px;
     }
 
-    img {
-      position: absolute;
-      top: 0;
-      width: 90%;
-      left: 6%;
-      right: 4%;
-    }
+    &__cards {
+      display: flex;
+      align-items: center;
+      gap: 25px;
 
-    @media (max-width: 979px) {
-      p {
-        padding-top: 60vw;
+      @media (max-width: 979px) {
+        flex-direction: column;
+        align-items: normal;
+      }
+
+      & > div {
+        flex: 1;
+
+        &:first-child {
+          text-align: right;
+        }
+
+        & > div {
+          display: flex;
+        }
+      }
+
+      img,
+      iframe,
+      &--block {
+        border-radius: 13px;
+        vertical-align: bottom;
+      }
+
+      &--block {
+        &-1 {
+          width: 45px;
+          height: 45px;
+          background-color: @colorRed;
+          margin: 0 30px 45px auto;
+        }
+
+        &-2 {
+          width: 55px;
+          height: 55px;
+          background-color: @colorRed;
+          align-self: flex-start;
+        }
+
+        &-3 {
+          width: 70px;
+          height: 80px;
+          background-color: @colorLSBlue2;
+          margin: 0 0 0 20px;
+        }
+
+        &-4 {
+          width: 125px;
+          height: 125px;
+          background-color: @colorLSBlue2;
+          margin-top: -20px;
+
+          @media (max-width: 1200px) and (min-width: 980px) {
+            width: 10vw;
+            height: 10vw;
+          }
+        }
+
+        &-5,
+        &-6 {
+          width: 65px;
+          height: 65px;
+          background-color: @colorRed;
+        }
+
+        &-5 {
+          margin: 100px 0 0 20px;
+        }
+
+        &-6 {
+          margin: 30px 0 0 20px;
+        }
+      }
+
+      &--media {
+        &-1 {
+          width: 170px;
+        }
+
+        &-2 {
+          width: 350px;
+        }
+
+        &-3 {
+          width: 255px;
+          margin: 0 0 30px 0;
+        }
+
+        &-4 {
+          width: 340px;
+        }
+
+        &-5 {
+          display: block;
+          width: 255px;
+          margin: 0 auto 20px;
+        }
+
+        &-6 {
+          width: 450px;
+          margin-right: 25px;
+
+          @media (max-width: 1200px) and (min-width: 980px) {
+            width: 30vw;
+          }
+        }
+
+        &-7 {
+          width: 285px;
+
+          @media (max-width: 1200px) and (min-width: 980px) {
+            width: 22vw;
+          }
+        }
+      }
+
+      &--row {
+        &-1 {
+          margin: 25px 0;
+          align-items: flex-end;
+          gap: 20px;
+
+          @media (max-width: 480px) {
+            flex-direction: column;
+          }
+        }
+
+        &-2 {
+          margin: 25px 0;
+        }
+
+        &-4 {
+          justify-content: space-between;
+
+          p {
+            max-width: 360px;
+            text-align: left;
+            margin: auto;
+          }
+        }
+      }
+
+      iframe {
+        height: auto;
+        aspect-ratio: ~"16 / 9";
       }
     }
   }
