@@ -1,6 +1,6 @@
 .ks {
   &-hero {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 
     &__banner {
       position: relative;
@@ -78,7 +78,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
-    margin: 200px 0;
+    margin: 100px 0 200px;
 
     @media (max-width: 979px) {
       height: 50vw;
@@ -221,22 +221,37 @@
   &-partners {
     margin-top: 100px;
 
-    &__pills {
-      margin: 50px auto;
+    &__img {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 50px 0;
 
-      span {
-        display: inline-block;
-        padding: 13px 26px;
-        border-radius: 40px;
-        background-color: @colorLightGrey;
-        color: #858795;
-        font-size: 20px;
-        margin: 7px 3.5px;
-        line-height: 1;
-        .font-smoothing(@colorRed);
+      img {
+        max-width: 240px;
+        max-height: 100px;
+      }
 
-        @media (max-width: 767px) {
-          font-size: 16px;
+      @media (max-width: 979px) {
+        grid-template-columns: 1fr 1fr 1fr;
+
+        img {
+          max-width: 180px;
+        }
+
+        &--empty {
+          display: none;
+        }
+      }
+
+      @media (max-width: 767px) {
+        grid-template-columns: 1fr 1fr;
+
+        img {
+          max-width: 140px;
         }
       }
     }
@@ -261,7 +276,7 @@
         margin: 0 10px;
         padding: 50px;
         border-radius: 13px;
-        min-height: 400px;
+        // min-height: 400px;
         height: auto;
         background-color: @colorLightGrey;
         width: calc(~"50% - 120px");
@@ -294,7 +309,28 @@
 
         & > div {
           margin-bottom: 30px;
+          width: calc(~"100% - 40px");
         }
+      }
+    }
+  }
+
+  &-video {
+    margin: 50px 0 100px 0;
+
+    &__row {
+      display: flex;
+      gap: 20px;
+
+      iframe {
+        height: auto;
+        width: 100%;
+        aspect-ratio: ~"16 / 9";
+        border-radius: 13px;
+      }
+
+      @media (max-width: 979px) {
+        flex-wrap: wrap;
       }
     }
   }

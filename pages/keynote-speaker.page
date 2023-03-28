@@ -20,6 +20,13 @@
   </div>
 </section>
 
+<section class="ks-presentations">
+  <div class="container ls-container">
+    <p class="body-paragraph">Mwano’s presentations are inspiring, educational, thought-provoking and ignite action. He uses his background as a performer to keep audiences engaged and participating. His ice breakers are famous for getting everyone moving.</p>
+  </div>
+  <img src="/assets/images/keynote-speaker/deo-presentations.png" alt="">
+</section>
+
 <section class="ks-illustration appear-on-scroll-2">
   <div class="container center">
     <h2 class="uppercase heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the USA as a refugee.</h2>
@@ -39,13 +46,6 @@
     </div>
   </div>
 </section>  }
-
-<section class="ks-presentations">
-  <div class="container ls-container">
-    <p class="body-paragraph">Mwano’s presentations are inspiring, educational, thought-provoking and ignite action. He uses his background as a performer to keep audiences engaged and participating. His ice breakers are famous for getting everyone moving.</p>
-  </div>
-  <img src="/assets/images/keynote-speaker/deo-presentations.png" alt="">
-</section>
 
 <section class="ks-family appear-on-scroll-3">
   <div class="container ls-container">
@@ -71,15 +71,51 @@
 <section class="ks-partners center">
   <div class="container">
     <h2 class="uppercase heading-4">Recent Partners</h2>
-    <div class="ks-partners__pills">
-      <span>Tuscan EDI conference</span>
-      <span>YALE African Student Conference</span>
-      <span>Eastern Association Student Financial Aid Administrators</span>
-      <span>Kelly Williams Metropolitan</span>
-      <span>Pinnacle Mortgage</span>
-      <span>Enterprise Bank</span>
-      <span>Penn State Student leadership</span>
-      <span>Concord Hospital Family Health Center</span>
+    <div class="ks-partners__img">
+      <div>
+        <img src="/assets/images/clients/phillips-exeter-academy-2.png" alt="phillips exeter academy">
+      </div>
+      <div>
+        <img src="/assets/images/clients/new-hampshire-department-of-education.png" alt="new hampshire department of education">
+      </div>
+      <div>
+        <img src="/assets/images/clients/clark-university.png" alt="clark university" width="170px">
+      </div>
+      <div>
+        <img src="/assets/images/clients/pinnacle-mortgage.png" alt="pinnacle mortgage" width="190px">
+      </div>
+      <div>
+        <img src="/assets/images/clients/yasa.png" alt="yasa">
+      </div>
+      <div>
+        <img src="/assets/images/clients/wispapalooza.png" alt="wispapalooza">
+      </div>
+      <div>
+        <img src="/assets/images/clients/kw-metropolitan.png" alt="kw metropolitan">
+      </div>
+      <div>
+        <img src="/assets/images/clients/concord-hospital.png" alt="concord hospital" width="190px">
+      </div>
+      <div>
+        <img src="/assets/images/clients/penn-state-student-affairs.png" alt="penn state student affairs" width="190px">
+      </div>
+      <div>
+        <img src="/assets/images/clients/delta-dental.png" alt="delta dental">
+      </div>
+      <div>
+        <img src="/assets/images/clients/enterprise-bank.png" alt="enterprise bank">
+      </div>
+      <div>
+        <img src="/assets/images/clients/brown-advisory.png" alt="brown advisory">
+      </div>
+      <div class="ks-partners__img--empty"></div>
+      <div>
+        <img src="/assets/images/clients/tucson-unified.png" alt="tucson-unified">
+      </div>
+      <div>
+        <img src="/assets/images/clients/easfaa.png" alt="easfaa" width="160px">
+      </div>
+      <div class="ks-partners__img--empty"></div>
     </div>
     <a href="/contact/" class="button">Talk to DMC today</a>
   </div>
@@ -104,6 +140,16 @@
           <span>Two Rivers-Ottauquechee Regional Commission, Vermont, Senior Planner</span>
         </p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="ks-video">
+  <div class="container">
+    <div class="ks-video__row">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kM6JqIR8bFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UZBnnTMUey0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9CHdqpc1vh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </section>
