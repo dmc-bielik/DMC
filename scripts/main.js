@@ -546,7 +546,40 @@ if (window.location.pathname.startsWith("/story")) {
   });
 
   if (window.innerWidth > 767) {
-    const storyTl = window.gsap.timeline({
+    const timelineEl = document.querySelector(".story-story__timeline");
+
+    window.addEventListener("load", () => {
+      window.gsap.to(".story-story__timeline", {
+        x: -(timelineEl.scrollWidth - timelineEl.offsetWidth),
+        ease: "linear",
+        scrollTrigger: {
+          trigger: ".story-story__timeline",
+          start: "top top",
+          end: "+=10000",
+          scrub: 0.1,
+          pin: true,
+        },
+      });
+    });
+
+    /* Array.from(timelineEl.children).forEach((el) => {
+      window.gsap.fromTo(
+        el,
+        { opacity: 0 },
+        {
+          opacity: 1,
+          scrollTrigger: {
+            trigger: el,
+            start: "left right",
+            end: "left center",
+            // horizontal: true,
+            // markers: true,
+          },
+        }
+      );
+    }); */
+
+    /* const storyTl = window.gsap.timeline({
       scrollTrigger: {
         trigger: ".story-story__timeline",
         start: "top bottom",
@@ -596,7 +629,7 @@ if (window.location.pathname.startsWith("/story")) {
       .to(".story-story__row--img-36", {})
       .to(".story-story__row--img-37", {})
       .to(".story-story__row--img-38", {})
-      .to(".story-story__row--img-39", {});
+      .to(".story-story__row--img-39", {}); */
   } else {
     const storyImages = window.gsap.utils.toArray(".story-story__row--img");
 
