@@ -19,7 +19,7 @@
     <div class="home-hero__column home-hero__column--center">
       <div class="center appear-on-scroll-1">
         <h1 class="red">Building trust through respect, transparency and access to transform organizations and maximize impact</h1>
-        <button type="button" class="button">Talk to us today</button>
+        <a href="/contact/" class="button">Talk to us today</a>
       </div>
     </div>
     <div class="home-hero__column">
@@ -265,7 +265,7 @@
 
 <section class="center">
   <div class="container">
-    <button type="button" class="button">Talk to us today</button>
+    <a href="/contact/" class="button">Talk to us today</a>
   </div>
 </section>
 
