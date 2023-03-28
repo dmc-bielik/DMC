@@ -98,6 +98,15 @@
   <div class="container ls-container">
     <div class="ws-who__row">
       <div>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kGWWszkJ7BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+        <img src="/assets/images/workforce-success/strategies-gradient-2.png" alt="" width="120px">
+        <div></div>
+      </div>
+    </div>
+    <div class="ws-who__row">
+      <div>
         <div>
           <h2>Who we work with</h2>
           <p class="body-paragraph">CEO, COO, Chief of Staff, VP of HR, VP of DEIJ, VP of People, Director of Culture and Climate, Director of Learning and Development, Director of Recruitment and Retention</p>
@@ -105,7 +114,7 @@
         </div>
       </div>
       <div>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kGWWszkJ7BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QQJmHdeeBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
