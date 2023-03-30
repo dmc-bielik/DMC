@@ -11,18 +11,28 @@
       line-height: 1;
       font-size: 90px;
       color: #000;
-      margin: 50px 0;
+      margin: 0;
     }
 
     &__img {
       display: flex;
-      margin: 0 -9px;
+      justify-content: space-between;
+      margin: 0 -9px 10px;
 
       & > div {
         margin: 0 9px;
 
         img {
           border-radius: 13px;
+          width: 290px;
+        }
+      }
+
+      &:nth-child(2) {
+        & > div {
+          &:nth-child(2) {
+            align-self: center;
+          }
         }
       }
     }
