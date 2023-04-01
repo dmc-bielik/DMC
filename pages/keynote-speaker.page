@@ -37,12 +37,12 @@
             <div class="ks-presentations__cards--block ks-presentations__cards--block-3"></div>
           </div>
         </div>
-        <img class="ks-presentations__cards--media-4" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-5.jpg" alt="">
+        <iframe class="ks-presentations__cards--media-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/zNfRzESyN10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div>
         <img class="ks-presentations__cards--media-5" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-1.jpg" alt="">
         <div class="ks-presentations__cards--row-2">
-          <iframe class="ks-presentations__cards--media-6" width="560" height="315" src="https://www.youtube-nocookie.com/embed/zNfRzESyN10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="ks-presentations__cards--media-6" width="560" height="315" src="https://www.youtube-nocookie.com/embed/dN2FoDN5gYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div class="ks-presentations__cards--block ks-presentations__cards--block-4"></div>
         </div>
         <div class="ks-presentations__cards--row-3">
@@ -116,7 +116,7 @@
         <img src="/assets/images/clients/yasa.png" alt="yasa">
       </div>
       <div>
-        <img src="/assets/images/clients/wispapalooza.png" alt="wispapalooza">
+        <img src="/assets/images/clients/new-hampshire-school-administrators-association.png" alt="new hampshire school administrators association">
       </div>
       <div>
         <img src="/assets/images/clients/kw-metropolitan.png" alt="kw metropolitan">
