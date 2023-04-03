@@ -4,7 +4,7 @@
     overflow: hidden;
 
     @media (max-width: 767px) {
-      padding-top: 0;
+      padding: 0;
     }
 
     &__row {
@@ -61,7 +61,7 @@
           @media (max-width: 767px) {
             max-width: 100%;
             width: 100%;
-            padding: 40px;
+            padding: 40px 0;
             height: auto;
             
             h1 {
@@ -76,7 +76,7 @@
 
   &-solutions {
     margin: 50px 0 160px;
-    
+
     @media (max-width: 767px) {
       margin: 50px 0;
     }
@@ -153,7 +153,7 @@
 
         @media (max-width: 767px) {
           width: calc(~"100% - 12px");
-          margin-bottom: 30px;
+          margin-bottom: 20px;
 
           p {
             min-height: auto;
@@ -199,11 +199,19 @@
             }
           }
         }
+
+        @media (max-width: 767px) {
+          padding: 0;
+        }
       }
 
       & > div {
         flex: 1;
         padding: 50px;
+
+        @media (max-width: 767px) {
+          padding: 30px 25px;
+        }
 
         p {
           &:last-of-type {
@@ -248,6 +256,11 @@
       z-index: 0;
       height: 100%;
       width: 100%;
+
+      @media (max-width: 480px) {
+        top: auto;
+        height: 260px;
+      }
     }
 
     &__content {
@@ -259,6 +272,11 @@
       &-container {
         height: 100vh;
         min-height: 650px;
+
+        @media (max-width: 480px) {
+          height: auto;
+          padding-bottom: 205px;
+        }
       }
 
       .button {
@@ -266,13 +284,17 @@
       }
 
       @media (max-width: 767px) {
-        padding: 35px;
+        padding: 30px 25px;
       }
     }
   }
 
   &-speaker {
     margin: 100px 0;
+    
+    @media (max-width: 767px) {
+      margin: 50px 0;
+    }
 
     &__content {
       display: flex;
@@ -302,8 +324,11 @@
 
       @media (max-width: 767px) {
         flex-direction: column;
+        padding: 20px;
 
         & > div {
+          margin: 0;
+
           &:first-child {
             margin-bottom: 30px;
           }
@@ -475,6 +500,10 @@
     position: relative;
     margin: 100px 0;
 
+    @media (max-width: 480px) {
+      margin: 100px 0 40px;
+    }
+
     &__row {
       display: flex;
       margin: 0 -16px;
@@ -490,6 +519,11 @@
         border-radius: 13px;
         overflow: hidden;
         max-width: 100%;
+
+        @media (max-width: 767px) {
+          aspect-ratio: ~"16 / 9";
+          height: auto;
+        }
       }
 
       @media (min-width: 980px) {
