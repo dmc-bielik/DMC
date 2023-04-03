@@ -11,15 +11,27 @@
   
   &-form {
     margin: 150px 0 100px;
+
+    @media (max-width: 767px) {
+      margin: 50px 0;
+    }
   }
 
   &-testimonial {
     margin: 150px 0;
 
+    @media (max-width: 767px) {
+      margin: 50px 0 100px;
+    }
+
     &__content {
       background-color: @colorLightGrey;
       border-radius: 13px;
       padding: 60px;
+
+      @media (max-width: 767px) {
+        padding: 50px 30px;
+      }
 
       p {
         max-width: 900px;
@@ -56,6 +68,10 @@
 
   &-book {
     margin-bottom: 150px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 0;
+    }
 
     &__row {
       display: flex;
@@ -111,5 +127,20 @@
         }
       }
     } */
+  }
+
+  &-clients {
+    margin-bottom: 0;
+  }
+
+  &-family {
+    &__content {
+      @media (max-width: 767px) {
+        &--p {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+      }
+    }
   }
 }

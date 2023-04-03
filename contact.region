@@ -24,7 +24,7 @@
   </div>
 </section>
 
-<section class="home-clients">
+<section class="home-clients contact-clients">
   <div class="container">
     <h2 class="heading-2 uppercase">DMC has worked with</h2>
     <div class="home-clients__images">
@@ -64,14 +64,14 @@
   </div>
 </section>
 
-<section class="ks-family">
+<section class="ks-family contact-family">
   <div class="container ls-container">
     <div class="ks-family__content">
       <div>
         <iframe width="560" height="280" src="https://www.youtube-nocookie.com/embed/7Yf7a9Fj0vI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div>
-        <p class="body-paragraph">These mediums include interactive storytelling, creative arts, workshops, modeling and performing arts. This model hones the skills needed to build relationships and harvest the inner creativity in everyone. This leads to a competitive advantage for the services and products that businesses and organizations provide.</p>
+        <p class="body-paragraph contact-family__content--p">These mediums include interactive storytelling, creative arts, workshops, modeling and performing arts. This model hones the skills needed to build relationships and harvest the inner creativity in everyone. This leads to a competitive advantage for the services and products that businesses and organizations provide.</p>
       </div>
     </div>
   </div>
