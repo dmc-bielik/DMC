@@ -516,19 +516,21 @@ if (window.location.pathname.startsWith("/keynote-speaker")) {
     })
     .to(".ks-presentation__circle--red", { scale: 1, duration: 1 });
 
-  window.gsap.fromTo(
-    ".ks-presentation__circle--blue",
-    { y: -10 },
-    {
-      y: 30,
-      scrollTrigger: {
-        trigger: ".ks-presentation",
-        start: "top center",
-        end: "bottom top",
-        scrub: 0.2,
-      },
-    }
-  );
+  if (window.innerWidth > 767) {
+    window.gsap.fromTo(
+      ".ks-presentation__circle--blue",
+      { y: -10 },
+      {
+        y: 30,
+        scrollTrigger: {
+          trigger: ".ks-presentation",
+          start: "top center",
+          end: "bottom top",
+          scrub: 0.2,
+        },
+      }
+    );
+  }
 }
 
 if (window.location.pathname.startsWith("/story")) {
