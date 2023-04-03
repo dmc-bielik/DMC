@@ -82,36 +82,38 @@ if (
   window.location.pathname.startsWith("/workforce-success") ||
   window.location.pathname.startsWith("/learning-success")
 ) {
-  window.gsap.to(".sticky-hero img", {
-    scrollTrigger: {
-      trigger: ".sticky-hero",
-      start: "-142px top",
-      end: "top top",
-      scrub: true,
-      pin: ".header",
-      pinSpacing: false,
-    },
-    borderRadius: "13px",
-    width: `${getContainerWidth()}px`,
-    left: `${(window.innerWidth - getContainerWidth()) / 2}px`,
-    right: `${(window.innerWidth - getContainerWidth()) / 2}px`,
-    top: "150px",
-    maxHeight: window.innerWidth > 767 ? "700px" : "400px",
-  });
-
-  window.gsap.fromTo(
-    ".header",
-    { opacity: 0 },
-    {
+  if (window.innerWidth > 767) {
+    window.gsap.to(".sticky-hero img", {
       scrollTrigger: {
         trigger: ".sticky-hero",
-        start: "-100px top",
-        end: "+=40px",
+        start: "-142px top",
+        end: "top top",
         scrub: true,
+        pin: ".header",
+        pinSpacing: false,
       },
-      opacity: 1,
-    }
-  );
+      borderRadius: "13px",
+      width: `${getContainerWidth()}px`,
+      left: `${(window.innerWidth - getContainerWidth()) / 2}px`,
+      right: `${(window.innerWidth - getContainerWidth()) / 2}px`,
+      top: "150px",
+      maxHeight: window.innerWidth > 767 ? "700px" : "400px",
+    });
+
+    window.gsap.fromTo(
+      ".header",
+      { opacity: 0 },
+      {
+        scrollTrigger: {
+          trigger: ".sticky-hero",
+          start: "-100px top",
+          end: "+=40px",
+          scrub: true,
+        },
+        opacity: 1,
+      }
+    );
+  }
 }
 
 if (window.location.pathname.startsWith("/workforce-success")) {
