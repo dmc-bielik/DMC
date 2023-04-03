@@ -314,6 +314,10 @@
     padding-bottom: 0;
 
     &__cards {
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+
       & > div {
         flex: 1;
         background: linear-gradient(180deg, #1F4371 0%, @colorRed 100%);
@@ -331,5 +335,9 @@
         }
       }
     }
+  }
+
+  &-team {
+    margin: 0 0 70px;
   }
 }
