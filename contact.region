@@ -51,7 +51,7 @@
   </div>
 </section>
 
-<section class="ks-family" style="margin-bottom: 0;">
+{#  <section class="ks-family" style="margin-bottom: 0;">
   <div class="container ls-container">
     <div class="ks-family__content">
       <div>
@@ -62,7 +62,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>  }
 
 <section class="ks-family contact-family">
   <div class="container ls-container">
