@@ -69,7 +69,7 @@
 <section class="home-problem">
   <div class="container ls-container">
     <div class="home-problem__row">
-      <img src="/assets/images/home/deo-who-we-are-2.png" alt="Who we are deo mwano" class="">
+      <img src="/assets/images/home/deo-who-we-are-3.jpg" alt="Who we are deo mwano">
       <div>
         <h2 class="heading-2">Problem Solvers</h2>
         <p class="body-paragraph">Deo Mwano Consultancy provides sustainable solutions to the complex social issues that affect businesses, schools and nonprofits. DMC helps organizations maximize their reach and impact by providing human-centered solutions, which put our partners in advantageous positions within their appropriate field/market. DMC integrates itself into the client’s organization to better work through the challenges the organization can’t solve.</p>
@@ -82,7 +82,7 @@
   <div class="container ls-container">
     <div class="home-problem__row home-problem__row-reverse">
       <div>
-        <img src="/assets/images/home/deo-mwano-who.png" class="home-who-image" alt="deo mwano who">
+        <img src="/assets/images/home/deo-mwano-who-1.jpg" class="home-who-image" alt="deo mwano who">
       </div>
       <div>
         <h2 class="heading-2">Who we are</h2>
@@ -300,13 +300,6 @@
         <div>
           <h4>Andrea Bruneau</h4>
           <p>Learning Model and Organization Transformation Consultant</p>
-        </div>
-      </div>
-      <div>
-        <img src="/assets/images/team/team-victoria-carrington-1.jpg" alt="Victoria Carrington">
-        <div>
-          <h4>Victoria Carrington</h4>
-          <p>Manager of Community Engagement and Communication</p>
         </div>
       </div>
       <div>

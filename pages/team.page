@@ -111,21 +111,6 @@
   <div class="container ls-container">
     <div class="team-member__row">
       <div>
-        <img src="/assets/images/team/team-victoria-carrington-1.jpg" alt="victoria carrington">
-      </div>
-      <div>
-        <h3 class="uppercase">Victoria Carrington</h3>
-        <p class="body-paragraph team-member__row--title">Manager of Community Engagement and Communication</p>
-        <p class="body-paragraph team-member__row--bio">Victoria is responsible for DMC's engagement with diverse partner groups and communication with the community DMC serves and collaborates with. She tells the stories of the work DMC is doing and engages with our partners to make sure their stories are told to inspire positive changes and influence. In addition to experience working in education and non-profit organizations, Victoria earned her B.A. in Communications and Spanish from the University of Colorado at Boulder. As a Colorado native she adores the outdoors, hiking, climbing, and kayaking.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="team-member">
-  <div class="container ls-container">
-    <div class="team-member__row">
-      <div>
         <img src="/assets/images/team/team-rakesh-khilare.jpg" alt="rakesh khilare">
       </div>
       <div>
