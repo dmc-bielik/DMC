@@ -1,46 +1,19 @@
 <section class="team-hero">
   <div class="container ls-container">
     <div class="team-hero__img">
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-1.jpg" alt="deo mwano team">
-      </div>
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-2.jpg" alt="deo mwano team">
-      </div>
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-3.jpg" alt="deo mwano team">
-      </div>
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-4.jpg" alt="deo mwano team">
-      </div>
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-5.jpg" alt="deo mwano team">
-      </div>
+      <img src="/assets/images/team/deo-team-1.jpg" alt="deo mwano team" class="appear-on-scroll-1">
+      <img src="/assets/images/team/deo-team-3.jpg" alt="deo mwano team" class="appear-on-scroll-1">
+      <img src="/assets/images/team/deo-team-5.jpg" alt="deo mwano team" class="appear-on-scroll-1">
+      <img src="/assets/images/team/deo-team-11.jpg" alt="deo mwano team" class="appear-on-scroll-1">
     </div>
     <div class="team-hero__img">
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-10.jpg" alt="deo mwano team">
-      </div>
-      <div class="appear-on-scroll-1">
-        <h1 class="uppercase center appear-on-scroll-1">Our Team</h1>
-      </div>
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-11.jpg" alt="deo mwano team">
-      </div>
+      <h1 class="uppercase center appear-on-scroll-1">Our Team</h1>
     </div>
     <div class="team-hero__img">
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-6.jpg" alt="deo mwano team">
-      </div>
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-7.jpg" alt="deo mwano team">
-      </div>
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-8.jpg" alt="deo mwano team">
-      </div>
-      <div class="appear-on-scroll-1">
-        <img src="/assets/images/team/deo-team-9.jpg" alt="deo mwano team">
-      </div>
+      <img src="/assets/images/team/deo-team-10.jpg" alt="deo mwano team" class="appear-on-scroll-1">
+      <img src="/assets/images/team/deo-team-4.jpg" alt="deo mwano team" class="appear-on-scroll-1">
+      <img src="/assets/images/team/deo-team-2.jpg" alt="deo mwano team" class="appear-on-scroll-1">
+    </div>
     </div>
     <p class="body-paragraph center">The Deo Mwano Consultancy team features experts in a variety of disciplines, including Data Analysis, Research, DEIJ, Leadership/Management Development, Learning Success, Board Dynamics, Project and Program Management, Program and Project Development, Designing and Implementing Multi Stakeholders Alignment and Relationships, Videography/Photography, Graphic Design, Storytelling and Community Advocacy. Working collaboratively, the team pinpoints the root of an issue, and solves problems by utilizing innovative tools to maximize.</p>
   </div>
