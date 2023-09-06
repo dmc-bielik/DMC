@@ -109,6 +109,21 @@
   </div>
 </section>
 
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-david-bielik.jpg" alt="David Bielik">
+      </div>
+      <div>
+        <h3 class="uppercase">David Bielik</h3>
+        <p class="body-paragraph team-member__row--title">Solution Architect</p>
+        <p class="body-paragraph team-member__row--bio">David is a creative problem solver, skilled at finding solutions to complex issues and effectively communicating technical information to others in understandable ways. He uses a wide variety of tools, including building web applications and analyzing data, to enhance understanding and improve quality and efficiency. David has over a decade of experience teaching high school mathematics and has an Master's of Art in Teaching (MAT) in Mathematics from Rivier University. He has coached high school sports, provided academic support to students in Manchester at an after school program, and served in the Peace Corps in the city of Quito, Ecuador as an education volunteer. He enjoys ice fishing, playing music (drums and guitar), and spending time with his wife and cat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="team-expertise">
   <div class="container ls-container">
     <div class="team-expertise__row">
