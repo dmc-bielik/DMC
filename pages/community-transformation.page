@@ -213,11 +213,17 @@
   </div>
 </section>
 
+<section class="ls-subscribe">
+  <div class="container">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cPGx_VihRQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="center ls-subscribe-cta">
+      <a href="/podcast/" class="button button-outline">Subscribe Our Podcast</a>
+    </div>
+  </div>
+</section>
+
 <section class="home-team ws-team ct-team">
   <div class="container">
-    <div class="center">
-      <a href="/contact/" class="button">Talk to us today</a>
-    </div>
     <div class="home-team__row">
       <div>
         <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="Millicent Alhamis">
@@ -230,7 +236,7 @@
         <img src="/assets/images/team/team-richard-feistman.jpg" alt="Richard Feistman">
         <div>
           <h4>Richard Feistman, Ph.D.</h4>
-          <p>Chief Strategy and Impact Officer</p>
+          <p>Senior Advisor</p>
         </div>
       </div>
       <div>

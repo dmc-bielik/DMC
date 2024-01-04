@@ -6,9 +6,11 @@
     
       &.button-outline {
         color: @colorLSBlue;
+        background-color: transparent !important;
     
         &:hover {
-          background-color: @colorLSBlue;
+          background-color: @colorLSBlue !important;
+          color: #fff;
         }
       }
     
@@ -480,6 +482,21 @@
         flex: none;
         padding: 30px 30px 150px;
       }
+    }
+  }
+
+  &-subscribe {
+    padding-top: 70px;
+
+    iframe {
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    &-cta {
+      margin-top: 50px;
     }
   }
 }
