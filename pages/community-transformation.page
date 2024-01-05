@@ -217,7 +217,7 @@
   <div class="container">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cPGx_VihRQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="center ls-subscribe-cta">
-      <a href="/podcast/" class="button button-outline">Subscribe Our Podcast</a>
+      <a href="https://www.buzzsprout.com/2170272" class="button button-outline" target="_blank" rel="noopener noreferrer">Subscribe Our Podcast</a>
     </div>
   </div>
 </section>
