@@ -232,13 +232,13 @@
           <p>Program/Project Manager</p>
         </div>
       </div>
-      <div>
+      {#  <div>
         <img src="/assets/images/team/team-richard-feistman.jpg" alt="Richard Feistman">
         <div>
           <h4>Richard Feistman, Ph.D.</h4>
           <p>Senior Advisor</p>
         </div>
-      </div>
+      </div>  }
       <div>
         <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="Andrea Bruneau">
         <div>

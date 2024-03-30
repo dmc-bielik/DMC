@@ -49,7 +49,7 @@
   </div>
 </section>
 
-<section class="team-member">
+{#  <section class="team-member">
   <div class="container ls-container">
     <div class="team-member__row">
       <div>
@@ -62,7 +62,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>  }
 
 <section class="team-member">
   <div class="container ls-container">
@@ -119,6 +119,36 @@
         <h3 class="uppercase">David Bielik</h3>
         <p class="body-paragraph team-member__row--title">Solution Architect</p>
         <p class="body-paragraph team-member__row--bio">David is a creative problem solver, skilled at finding solutions to complex issues and effectively communicating technical information to others in understandable ways. He uses a wide variety of tools, including building web applications and analyzing data, to enhance understanding and improve quality and efficiency. David has over a decade of experience teaching high school mathematics and has an Master's of Art in Teaching (MAT) in Mathematics from Rivier University. He has coached high school sports, provided academic support to students in Manchester at an after school program, and served in the Peace Corps in the city of Quito, Ecuador as an education volunteer. He enjoys ice fishing, playing music (drums and guitar), and spending time with his wife and cat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-ashley-seddon.png" alt="Ashley Seddon">
+      </div>
+      <div>
+        <h3 class="uppercase">Ashley Seddon</h3>
+        <p class="body-paragraph team-member__row--title">Marketing Manager</p>
+        <p class="body-paragraph team-member__row--bio">Ashley is the Marketing Manager at Deo Mwano Consultancy (DMC). She leads the effort to build DMC's community through its vision and mission of empowering organizations to maximize their positive impact in workforce success, learning success, and community transformation through inclusive and equitable strategies and practices. With extensive experience in marketing, Ashley has helped numerous brands achieve their goals by fostering authentic connections. At DMC, Ashley is responsible for showcasing the impact of DMC's work with various partners, ensuring that current and potential partners understand the transformative initiatives supporting diverse communities in achieving their positive outcomes. Outside of work, Ashley enjoys spending time with her dogs and listening to folk and country music. She holds a bachelor's degree in Marketing from Southern New Hampshire University.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-chris-ramirez.png" alt="Chris Ramirez">
+      </div>
+      <div>
+        <h3 class="uppercase">Chris Ramirez</h3>
+        <p class="body-paragraph team-member__row--title">Digital Media Manager</p>
+        <p class="body-paragraph team-member__row--bio">Chris Ramirez oversees all digital media management at Deo Mwano Consultancy (DMC). He collaborates with various teams within DMC on video and audio projects, both for internal use and with partners. Chris ensures that DMC's work translates effectively into video and audio formats, enhancing engagement and clarity about DMC's mission and partnerships, leading to increased understanding and positive action. He holds a Bachelor's degree in Visual Media Arts from Emerson College. Outside of work, Chris is a husband and father of two, enjoying activities such as watching movies with his family and participating in sports together. He is also a fan of anime and enjoys doing photography in his spare time.</p>
       </div>
     </div>
   </div>
