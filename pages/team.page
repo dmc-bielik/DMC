@@ -83,42 +83,27 @@
   <div class="container ls-container">
     <div class="team-member__row">
       <div>
-        <img src="/assets/images/team/team-rakesh-khilare.jpg" alt="rakesh khilare">
-      </div>
-      <div>
-        <h3 class="uppercase">Rakesh Khilare</h3>
-        <p class="body-paragraph team-member__row--title">Lead Designer</p>
-        <p class="body-paragraph team-member__row--bio">Rakesh manages all aspects of DMC visuals, from research and ideation, to creative conceptualization and design. He is a talented graphic designer with many years of experience working in a variety of industries including IT, hospitality, education, healthcare, workforce, music and arts. Rakesh’s curiosity in the backstory of every project allows him to bring difficult concepts to life by making them tangible and accessible through his designs. Rakesh believes that design tells a story that is louder than words, a story which helps to connect with the customers, users, and buyers emotionally, mentally, and physically.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="team-member">
-  <div class="container ls-container">
-    <div class="team-member__row">
-      <div>
-        <img src="/assets/images/team/team-liam-ouellette.jpg" alt="liam ouellette">
-      </div>
-      <div>
-        <h3 class="uppercase">Liam Ouellette</h3>
-        <p class="body-paragraph team-member__row--title">Social Media & Content Strategist</p>
-        <p class="body-paragraph team-member__row--bio">Liam manages DMC’s online brand through video content. He is focused on highlighting and optimizing the skills, knowledge, & experience of the DMC team to grow brand awareness, value, and trust. Liam focuses on telling stories about DMC’s unique strengths and authentic approach.<br>Liam is the Founder of Bellerose Digital, a digital media agency that helps business leaders, industry experts, and brands. Liam has also built his own multi-platform influencer brand that has received millions of views across Youtube, TikTok and other platforms.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="team-member">
-  <div class="container ls-container">
-    <div class="team-member__row">
-      <div>
         <img src="/assets/images/team/team-david-bielik.jpg" alt="David Bielik">
       </div>
       <div>
         <h3 class="uppercase">David Bielik</h3>
         <p class="body-paragraph team-member__row--title">Solution Architect</p>
         <p class="body-paragraph team-member__row--bio">David is a creative problem solver, skilled at finding solutions to complex issues and effectively communicating technical information to others in understandable ways. He uses a wide variety of tools, including building web applications and analyzing data, to enhance understanding and improve quality and efficiency. David has over a decade of experience teaching high school mathematics and has an Master's of Art in Teaching (MAT) in Mathematics from Rivier University. He has coached high school sports, provided academic support to students in Manchester at an after school program, and served in the Peace Corps in the city of Quito, Ecuador as an education volunteer. He enjoys ice fishing, playing music (drums and guitar), and spending time with his wife and cat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-chris-ramirez.png" alt="Chris Ramirez">
+      </div>
+      <div>
+        <h3 class="uppercase">Chris Ramirez</h3>
+        <p class="body-paragraph team-member__row--title">Digital Media Manager</p>
+        <p class="body-paragraph team-member__row--bio">Chris Ramirez oversees all digital media management at Deo Mwano Consultancy (DMC). He collaborates with various teams within DMC on video and audio projects, both for internal use and with partners. Chris ensures that DMC's work translates effectively into video and audio formats, enhancing engagement and clarity about DMC's mission and partnerships, leading to increased understanding and positive action. He holds a Bachelor's degree in Visual Media Arts from Emerson College. Outside of work, Chris is a husband and father of two, enjoying activities such as watching movies with his family and participating in sports together. He is also a fan of anime and enjoys doing photography in his spare time.</p>
       </div>
     </div>
   </div>
@@ -143,12 +128,27 @@
   <div class="container ls-container">
     <div class="team-member__row">
       <div>
-        <img src="/assets/images/team/team-chris-ramirez.png" alt="Chris Ramirez">
+        <img src="/assets/images/team/team-rakesh-khilare.jpg" alt="rakesh khilare">
       </div>
       <div>
-        <h3 class="uppercase">Chris Ramirez</h3>
-        <p class="body-paragraph team-member__row--title">Digital Media Manager</p>
-        <p class="body-paragraph team-member__row--bio">Chris Ramirez oversees all digital media management at Deo Mwano Consultancy (DMC). He collaborates with various teams within DMC on video and audio projects, both for internal use and with partners. Chris ensures that DMC's work translates effectively into video and audio formats, enhancing engagement and clarity about DMC's mission and partnerships, leading to increased understanding and positive action. He holds a Bachelor's degree in Visual Media Arts from Emerson College. Outside of work, Chris is a husband and father of two, enjoying activities such as watching movies with his family and participating in sports together. He is also a fan of anime and enjoys doing photography in his spare time.</p>
+        <h3 class="uppercase">Rakesh Khilare</h3>
+        <p class="body-paragraph team-member__row--title">Lead Designer</p>
+        <p class="body-paragraph team-member__row--bio">Rakesh manages all aspects of DMC visuals, from research and ideation, to creative conceptualization and design. He is a talented graphic designer with many years of experience working in a variety of industries including IT, hospitality, education, healthcare, workforce, music and arts. Rakesh’s curiosity in the backstory of every project allows him to bring difficult concepts to life by making them tangible and accessible through his designs. Rakesh believes that design tells a story that is louder than words, a story which helps to connect with the customers, users, and buyers emotionally, mentally, and physically.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-member">
+  <div class="container ls-container">
+    <div class="team-member__row">
+      <div>
+        <img src="/assets/images/team/team-liam-ouellette.jpg" alt="liam ouellette">
+      </div>
+      <div>
+        <h3 class="uppercase">Liam Ouellette</h3>
+        <p class="body-paragraph team-member__row--title">Social Media & Content Strategist</p>
+        <p class="body-paragraph team-member__row--bio">Liam manages DMC’s online brand through video content. He is focused on highlighting and optimizing the skills, knowledge, & experience of the DMC team to grow brand awareness, value, and trust. Liam focuses on telling stories about DMC’s unique strengths and authentic approach.<br>Liam is the Founder of Bellerose Digital, a digital media agency that helps business leaders, industry experts, and brands. Liam has also built his own multi-platform influencer brand that has received millions of views across Youtube, TikTok and other platforms.</p>
       </div>
     </div>
   </div>
