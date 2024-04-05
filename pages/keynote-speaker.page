@@ -31,7 +31,8 @@
         </div>
         <div class="ks-presentations__cards--row-1">
           <div class="ks-presentations__cards--block ks-presentations__cards--block-2"></div>
-          <iframe class="ks-presentations__cards--media-2" width="560" height="315" src="https://www.youtube-nocookie.com/embed/I0Mw1DbSjKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          {#  <iframe class="ks-presentations__cards--media-2" width="560" height="315" src="https://www.youtube-nocookie.com/embed/I0Mw1DbSjKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  }
+          <img class="ks-presentations__cards--media-2" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-6.png" alt="">
           <div>
             <img class="ks-presentations__cards--media-3" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-3.jpg" alt="">
             <div class="ks-presentations__cards--block ks-presentations__cards--block-3"></div>

@@ -2,7 +2,7 @@
   <div class="home-hero__row">
     <div class="home-hero__column">
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-L-1.jpg" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-L-1.png" alt="" class="zoom-image-on-scroll-1">
       </div>
       <div class="appear-on-scroll-2">
         <img src="/assets/images/home/hero-L-2.jpg" alt="" class="zoom-image-on-scroll-1">
@@ -13,7 +13,7 @@
         <img src="/assets/images/home/hero-L-3.jpg" alt="" class="zoom-image-on-scroll-1">
       </div>
       <div class="appear-on-scroll-2">
-        <img src="/assets/images/home/hero-L-4.jpg" alt="" class="zoom-image-on-scroll-1">
+        <img src="/assets/images/home/hero-L-4.png" alt="" class="zoom-image-on-scroll-1">
       </div>
     </div>
     <div class="home-hero__column home-hero__column--center">
