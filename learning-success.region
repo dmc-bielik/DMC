@@ -133,6 +133,12 @@
     </div>
   </section>
 
+  <section class="ws-form">
+    <div class="container">
+      <div data-content-field="main-content">{squarespace.main-content}</div>
+    </div>
+  </section>
+
   <section class="ws-clients" id="ls-college-clients">
     <div class="container">
       <div class="ws-clients__images">
