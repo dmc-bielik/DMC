@@ -34,11 +34,11 @@
   </div>
 </section>
 
-<section class="story-video">
+{#  <section class="story-video">
   <div class="container ls-container">
     <iframe width="560" height="280" src="https://www.youtube-nocookie.com/embed/YZpFnnyQpPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-</section>
+</section>  }
 
 <section class="story-story">
   <div class="container ls-container">
