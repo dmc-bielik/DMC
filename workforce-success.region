@@ -70,6 +70,30 @@
   </div>
 </section>
 
+<section class="ws-results">
+  <div class="container">
+    <h2 class="heading-4 uppercase center">Deo Mwano Consultancy delivers positive results for our partners, including:</h2>
+    <div class="ws-results__row center">
+      <div>
+        <h3>Improvement of Communication among Employees and Departments</h3>
+        <p>Fostering better communication within and between teams.</p>
+      </div>
+      <div>
+        <h3>Enhanced Employee Belonging and Purpose</h3>
+        <p>Establishing employee groups, organizing culture events and activities to help employees feel a greater sense of belonging and purpose within the organization.</p>
+      </div>
+      <div>
+        <h3>Establishing Culture and Climate Departments</h3>
+        <p>Assisting with hiring the right individuals for leadership positions, coaching, and orienting them to accomplish established goals.</p>
+      </div>
+      <div>
+        <h3>Equipping Leadership</h3>
+        <p>Leadership becomes more capable of driving a positive environment for all employees, thereby improving retention and productivity. This includes frequent coaching to address issues in real time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="ws-strategies">
   <div class="container ls-container">
     <div class="ws-strategies__row">
