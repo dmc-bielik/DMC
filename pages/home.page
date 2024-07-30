@@ -325,13 +325,13 @@
           <p>Solution Architect</p>
         </div>
       </div>
-      <div>
+      {#  <div>
         <img src="/assets/images/team/team-ashley-seddon.png" alt="Ashley Seddon">
         <div>
           <h4>Ashley Seddon</h4>
           <p>Marketing Manager</p>
         </div>
-      </div>
+      </div>  }
       <div>
         <img src="/assets/images/team/team-chris-ramirez.png" alt="Chris Ramirez">
         <div>

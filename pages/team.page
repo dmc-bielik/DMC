@@ -109,7 +109,7 @@
   </div>
 </section>
 
-<section class="team-member">
+{#  <section class="team-member">
   <div class="container ls-container">
     <div class="team-member__row">
       <div>
@@ -122,7 +122,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>  }
 
 <section class="team-member">
   <div class="container ls-container">
