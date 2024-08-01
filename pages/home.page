@@ -82,7 +82,7 @@
   <div class="container ls-container">
     <div class="home-problem__row home-problem__row-reverse">
       <div>
-        <img src="/assets/images/home/deo-mwano-who-4.jpg" class="home-who-image" alt="deo mwano who">
+        <img src="/assets/images/home/deo-mwano-who.png" class="home-who-image" alt="deo mwano who">
       </div>
       <div>
         <h2 class="heading-2">Who we are</h2>
@@ -274,7 +274,7 @@
 <section class="home-team">
   <div class="container">
     <div class="home-team__row">
-      <div class="home-team__row--empty"></div>
+      {#  <div class="home-team__row--empty"></div>  }
       <div>
         <img src="/assets/images/team/team-deo-mwano.jpg" alt="deo mwano">
         <div>
@@ -282,7 +282,7 @@
           <p>CEO, Founder and Managing Principal</p>
         </div>
       </div>
-      <div class="home-team__row--empty"></div>
+      {#  <div class="home-team__row--empty"></div>  }
       <div>
         <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="Millicent Alhamis">
         <div>
@@ -290,13 +290,6 @@
           <p>Program/Project Manager</p>
         </div>
       </div>
-      {#  <div>
-        <img src="/assets/images/team/team-richard-feistman.jpg" alt="Richard Feistman">
-        <div>
-          <h4>Richard Feistman, Ph.D.</h4>
-          <p>Senior Advisor</p>
-        </div>
-      </div>  }
       <div>
         <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="Andrea Bruneau">
         <div>
@@ -311,13 +304,6 @@
           <p>Lead Designer</p>
         </div>
       </div>
-      {#  <div>
-        <img src="/assets/images/team/team-liam-ouellette.jpg" alt="Liam Ouellette">
-        <div>
-          <h4>Liam Ouellette</h4>
-          <p>Social Media & Content Strategist</p>
-        </div>
-      </div>  }
       <div>
         <img src="/assets/images/team/team-david-bielik.jpg" alt="David Bielik">
         <div>
@@ -325,13 +311,6 @@
           <p>Solution Architect</p>
         </div>
       </div>
-      {#  <div>
-        <img src="/assets/images/team/team-ashley-seddon.png" alt="Ashley Seddon">
-        <div>
-          <h4>Ashley Seddon</h4>
-          <p>Marketing Manager</p>
-        </div>
-      </div>  }
       <div>
         <img src="/assets/images/team/team-chris-ramirez.png" alt="Chris Ramirez">
         <div>
