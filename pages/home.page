@@ -82,7 +82,7 @@
   <div class="container ls-container">
     <div class="home-problem__row home-problem__row-reverse">
       <div>
-        <img src="/assets/images/home/deo-mwano-who.png" class="home-who-image" alt="deo mwano who">
+        <img src="/assets/images/home/deo-mwano-who-1.png" class="home-who-image" alt="deo mwano who">
       </div>
       <div>
         <h2 class="heading-2">Who we are</h2>
@@ -311,13 +311,13 @@
           <p>Solution Architect</p>
         </div>
       </div>
-      <div>
+      {#  <div>
         <img src="/assets/images/team/team-chris-ramirez.png" alt="Chris Ramirez">
         <div>
           <h4>Chris Ramirez</h4>
           <p>Digital Media Manager</p>
         </div>
-      </div>
+      </div>  }
     </div>
   </div>
 </section>
