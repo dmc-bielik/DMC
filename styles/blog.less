@@ -31,7 +31,6 @@
     gap: 20px;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 100px;
-
     @media (max-width: 767px) {
       grid-template-columns: 1fr;
     }
@@ -223,7 +222,9 @@
 
 }
 
+// This adjusts the individual view for each blog
 .blog-item {
+  margin-top: 100px;
   margin-bottom: 100px;
 
   .blog-item-entry-image {
@@ -815,11 +816,13 @@
 //   }
 // }
 
+
+// Controls the actual word BLOG at the top
 .blog-header {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 50px;
-
+  
+  margin-top: 70px;
   @media (max-width: 767px) {
     flex-direction: column;
     align-items: flex-start;
@@ -896,11 +899,9 @@
   -webkit-text-fill-color: transparent;
   font-family: @fontPoppins;
   margin: 0;
-
   @media (max-width: 979px) {
     font-size: 84px;
   }
-
   @media (max-width: 480px) {
     font-size: 60px;
   }

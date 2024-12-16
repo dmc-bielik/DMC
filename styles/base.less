@@ -393,6 +393,7 @@ blockquote {
   @media only screen and (max-width: 640px) {
     .nav-wrapper {
       display: none;
+    
     }
   }
 }
@@ -587,7 +588,7 @@ li.filter {
 
 @media only screen and (min-width: 641px) {
   #header {
-
+    
     width: 100%;
 
     #logoWrapper,
@@ -596,15 +597,18 @@ li.filter {
       .border-box;
       display: table-cell;
       vertical-align: middle;
+      
     }
 
     #mainNavWrapper {
       position: relative;
       z-index: 1000;
+      
     }
 
     #headerNav {
       text-align: right;
+      
     }
 
     #logoWrapper,
@@ -652,6 +656,7 @@ li.filter {
 }
 
 .hide-page-sidebar {
+  
   #folderNav { display: none; }
   #folderNav + #content {
     display: block;
@@ -1128,16 +1133,19 @@ body:not(.collection-type-gallery).banner-button-corner-style-pill {
 }
 
 
-// MAIN NAVIGATION
+// MAIN NAVIGATION 
 
+    //THIS CONTROLS THE MOBILE NAVBAR
 #headerNav nav,
 #sidecarNav nav {
+  
   a,
   a:visited,
   .folder-toggle {
     .nav-font;
     line-height: 1em;
-    color: @navColor;
+    // this was set to @navColor but was not displaying correctly
+    color: black;
     &:hover {
       color: @navActiveColor;
     }
@@ -1184,6 +1192,7 @@ body:not(.collection-type-gallery).banner-button-corner-style-pill {
       white-space: nowrap;
     }
     .nav-wrapper {
+      
       position: relative;
       nav > div {
         display: inline-block;
