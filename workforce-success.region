@@ -24,7 +24,7 @@
   <div class="container">
     <div class="ws-model__row">
       <img src="/assets/images/workforce-success/people-centered-model.png" alt="">
-      <p>DMC’s people-centered model is adaptable to virtually any industry. We have proven results with</p>
+      <p>DMC's people-centered model is adaptable to virtually any industry. We have proven results with</p>
     </div>
     <div class="ws-model__cards center">
       <span class="body-paragraph">
@@ -102,10 +102,14 @@
         <ul class="body-paragraph">
           <li>Train and coach leaders to improve organizational climate and culture</li>
           <li>Strengthen relationships between employees at all levels of a company with transparency and accessibility</li>
+          <!--
           <li>Customize successful DEI policies, processes and competencies</li>
+          -->
           <li>Recruit and retain diverse employees with a supportive environment that celebrates differences and embraces unique identities</li>
           <li>Increase social and emotional leadership skills to inspire and unify all employees with a shared vision</li>
-          <li>Integrate DEI into a company’s strategic goals with measurable outcomes</li>
+          <!--
+          <li>Integrate DEI into a company's strategic goals with measurable outcomes</li>
+          -->
           <li>Assess organizational culture for baseline understanding of where a company is doing well and where they have opportunities to improve</li>
         </ul>
       </div>
@@ -135,7 +139,7 @@
       <div>
         <div>
           <h2>Who we work with</h2>
-          <p class="body-paragraph">CEO, COO, Chief of Staff, VP of HR, VP of DEIJ, VP of People, Director of Culture and Climate, Director of Learning and Development, Director of Recruitment and Retention</p>
+          <p class="body-paragraph">CEO, COO, Chief of Staff, VP of HR, VP of People, Director of Culture and Climate, Director of Learning and Development, Director of Recruitment and Retention</p>
           <img src="/assets/images/workforce-success/strategies-gradient-2.png" alt="" width="120px">
         </div>
       </div>
@@ -205,7 +209,7 @@
 <section class="ws-engagements">
   <div class="container">
     <div class="ws-engagements__circles">
-      <div class="center ws-engagements__circles-1">DMC’s engagements are often 6 to 12 months or multi year partnerships</div>
+      <div class="center ws-engagements__circles-1">DMC's engagements are often 6 to 12 months or multi year partnerships</div>
       <div class="ws-engagements__circles-2"></div>
       <div class="ws-engagements__circles-3">
         {#  <img src="/assets/images/workforce-success/deo-engagement-speaker.png" alt="deo">  }
