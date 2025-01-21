@@ -195,7 +195,24 @@
           <div class="container ls-container">
             <div class="ws-partners__content">
               <h3 class="heading-3">Peabody Properties</h3>
-              <p class="body-paragraph">DMC has guided Peabody Properties, a property management and real estate firm with 600 employees nationwide, through the process of identifying and disrupting patterns of inequality while improving workforce culture. DMC has developed training initiatives to create and foster an open and inclusive environment. DMC also conducted the company’s first DEI survey and established the inaugural DEI Council made up of 16 employees representing all departments and locations. The group and the company have been recognized for their DEI work with the recent Diversity, Equity, and Inclusion Award from the Institute of Real Estate Management by Massachusetts Real Estate Association.</p>
+              <p class="body-paragraph">DMC has guided Peabody Properties, 
+              a property management and real estate firm with 600 employees 
+              nationwide, through the process of identifying and disrupting 
+              patterns of inequality while improving workforce culture. 
+              DMC has developed training initiatives to create and foster an 
+              open and inclusive environment. DMC also established an 
+              inaugural Council made up of 16 employees representing all departments and locations. 
+              The group and the company have been recognized for their work 
+              with an Award from the Institute of Real Estate Management by Massachusetts 
+              Real Estate Association.
+        
+              <!-- **OLD DESCRIPTION** DMC also conducted the company's 
+              first DEI survey and established the inaugural DEI Council made 
+              up of 16 employees representing all departments and locations. 
+              The group and the company have been recognized for their DEI 
+              work with the recent Diversity, Equity, and Inclusion Award 
+              from the Institute of Real Estate Management by Massachusetts 
+              Real Estate Association.--></p>
             </div>
           </div>
         </div>
