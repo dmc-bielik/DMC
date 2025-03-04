@@ -2,16 +2,10 @@
 <div class="container" >
   <div class="blog-header">
     <div>
-    
       <h1 class="blog-heading">
-      
         <a href="/blog/">Blog</a>
-    
       </h1>
-     
     </div>
-
-
     <!--
     <div>
       <p class="body-paragraph">Filters</p>
@@ -26,23 +20,18 @@
       {.end}
     </div>
     -->
-
-
   </div>
 </div>
 {.end}
 
 <div class="container">
   {.if categoryFilter}
-
     <div class="blog-list">
       {.repeated section items}
       <article class="entry h-entry {@|item-classes}" id="article-{id}" data-item-id="{id}">
-
         <a href="{fullUrl}" class="blog-list__item--thumbnail">
           <img src="{assetUrl}" alt="{title}">
         </a>
-
         <div>
           <header class="entry-header">
             <div class="meta-above-title body-paragraph">

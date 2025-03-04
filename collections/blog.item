@@ -23,9 +23,11 @@
         </div>
         <h1 data-content-field="title" class="entry-title p-name">{title}</h1>
         {.section author}
+        <!--
         <div class="entry-byline body-paragraph">
           <span>By {displayName}</span>
         </div>
+        -->
         {.end}
 
         <div class="blog-item-entry-image">
