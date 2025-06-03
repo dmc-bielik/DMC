@@ -371,6 +371,7 @@ blockquote {
 
 #header {
   // padding: 0 @headerVertPadding;
+  padding: 20px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -2042,12 +2043,13 @@ ul {
 
 .button {
   display: inline-block;
+  
   padding: 10px 30px 8px;
   color: #fff;
   font-size: 16px !important;
   background-color: @colorRed !important;
   border: 1px solid @colorRed;
-  border-radius: 4px !important;
+  border-radius: 30px !important;
   font-weight: 500 !important;
   letter-spacing: 0 !important;
   text-transform: none !important;
@@ -2072,6 +2074,7 @@ ul {
     border-color: #fff;
     background-color: transparent !important;
     color: #fff;
+   
 
     &:hover {
       background-color: #fff !important;
@@ -2408,4 +2411,10 @@ ul {
 .newsletter-style-light .newsletter-block .newsletter-form-footnote p,
 .newsletter-style-light .newsletter-block .form-submission-text p {
   color: @colorGrey !important;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  // Previous shadow that was too dark
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
