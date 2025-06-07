@@ -5,14 +5,16 @@
         <h1>Strengthen human connections and collaboration to improve productivity and success</h1>
         <a href="/contact/" class="button">Talk to us today</a>
       </div>
-      <img class="deo-1" src="/assets/images/home/home-deo-1.png">
-      <img class="deo-2" src="/assets/images/home/home-deo-2.png">
-      <img class="andrea-3" src="/assets/images/home/home-andrea-3.png">
-      <img class="deo-4" src="/assets/images/home/home-deo-4.png">
-      <img class="david-5" src="/assets/images/home/home-david-5.png">
-      <img class="milli-6" src="/assets/images/home/home-milli-6.png">
-      <img class="deo-7" src="/assets/images/home/home-deo-7.png">
-      <img class="deo-8" src="/assets/images/home/home-deo-8.png">
+      
+        <img class="deo-1" src="/assets/images/home/home-deo-1.png">
+        <img class="deo-2" src="/assets/images/home/home-deo-2.png">
+        <img class="andrea-3" src="/assets/images/home/home-andrea-3.png">
+        <img class="deo-4" src="/assets/images/home/home-deo-4.png">
+        <img class="david-5" src="/assets/images/home/home-david-5.png">
+        <img class="milli-6" src="/assets/images/home/home-milli-6.png">
+        <img class="deo-7" src="/assets/images/home/home-deo-7.png">
+        <img class="deo-8" src="/assets/images/home/home-deo-8.png">
+      
     </div>
   </div>
 </section>

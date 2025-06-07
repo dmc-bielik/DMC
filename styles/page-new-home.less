@@ -7,6 +7,8 @@
       background-color: @colorRed;
       padding-bottom: 40px;
       margin-bottom: 40px;
+      margin-left: -20px;
+      margin-right: -20px;
 
       img {
         border-radius: 10px;
@@ -16,6 +18,8 @@
 
       .deo-1 {
         grid-area: deo-1;
+
+        
        
       }
 
@@ -29,6 +33,8 @@
 
       .deo-4 {
         grid-area: deo-4;
+
+        
       }
 
       .david-5 {
@@ -41,15 +47,35 @@
 
       .deo-7 {
         grid-area: deo-7;
+
+        @media (max-width: 1200px) {
+          display: none;
+        }
+
+        @media (max-width: 767px) {
+          display: none;
+        }
       }
 
       .deo-8 {
         grid-area: deo-8;
+        @media (max-width: 1200px) {
+          display: none;
+        }
+
+        @media (max-width: 767px) {
+          display: none;
+        }
       }
 
       .text {
         grid-area: text;
         padding-left: 40px;
+
+        @media (max-width: 1200px) {
+          margin-bottom: 40px;
+          padding-left: 0px;
+        }
 
 
         h1 {
@@ -79,10 +105,25 @@
           "text text text . deo-1 deo-2 deo-2 . "
           "text text text andrea-3 andrea-3 deo-4 david-5 david-5"
           ". milli-6 milli-6 milli-6 deo-7 deo-7 deo-8 . ";
-          
-
         column-gap: 1vw;
         row-gap: 1vw;
+
+        @media (max-width: 1200px) {
+          grid-template-columns: 5vw 35vw 35vw 5vw;
+          grid-template-rows: auto;
+          grid-template-areas: 
+          ". text text ."
+          
+          ". milli-6 andrea-3 ."
+          
+          ". david-5 david-5 ."
+          ". deo-2 deo-2 ."
+          ". deo-1 deo-4 ."
+          ". deo-7 deo-8 .";
+
+        column-gap: 2vw;
+        row-gap: 2vw;
+        }
       }
     }
   
@@ -297,8 +338,18 @@
         flex-direction: row;
         gap: 30px;
 
+        @media (max-width: 767px) {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 20px 0;
+        }
+
         .blog-card {
           width: 50%;
+
+          @media (max-width: 767px) {
+          width: 100%;
+          }
 
           h3 {
               font-family: @fontPoppins;

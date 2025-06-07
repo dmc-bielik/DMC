@@ -1,0 +1,149 @@
+<section class="workforce-who">
+  <div class="workforce-who-container">
+    <h2>Who We Work With</h2>
+    <div class="top-container">
+      <div class="top-left-container">
+        <div class="info-container box-shadow">
+          <p>CEOs, COOs, CROs, CDOs, VPs of HR, CHOs, VPs of People, Chief Transformation Officers</p>
+          <a href="/contact/" class="button">Contact us</a>
+        </div>
+        <img src="assets/images/workforce/gradient-box.png">
+      </div> 
+      <div class="top-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8UjTG3Vlhno?si=gweZm8it6gVn93hK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div> 
+    </div>
+    <div class="bottom-container">
+      <div class="bottom-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8UjTG3Vlhno?si=gweZm8it6gVn93hK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <img src="assets/images/workforce/gradient-box.png"> 
+    </div>
+  </div>
+</section>
+
+<section class="workforce-form">
+  <div class="container">
+    <div data-content-field="main-content">{squarespace.main-content}</div>
+  </div>
+</section>
+
+<section class="workforce-partners">
+  <div class="container">
+    <h2>Recent/Current Partners</h2>
+    <img src="assets/images/workforce/workforce-partners.png" alt="our workforce partners">
+    <a href="/contact/" class="button">Contact us</a>
+  </div>
+</section>
+
+<section class="workforce-testimonials">
+  <div class="container">
+    <div class="card">
+        <p class="quote">"It was a pleasure working with Deo Mwano. He has a true talent for group engagement and facilitating challenging discussions in a positive manner. It is clear that he is passionate about his work, and that passion is both inspiring and contagious. Deo helped to create a firm foundation on which our organization can build."</p>
+        <p class="name">Timothy Sink</p>
+        <p class="title">CCE, President Greater Concord Chamber of Commerce</p>
+    </div>
+    <div class="card">
+        <p class="quote">“He is an inspirational, engaging, and relatable advisor who ignites diverse audiences with his work. His expertise in helping people understand what impacts their behaviors and ability to work with diverse demographic groups make him the ideal individual to fill this new and important role within our organization; the entire Peabody team welcomes Deo.”</p>
+        <p class="name">Karen Fish-Will</p>
+        <p class="title">CEO and principal of the Peabody Companies</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="workforce-blogs">
+  <div class="container">
+    <h2>Featured Blogs</h2>
+    <div class="featured-blogs-container">
+    {.section categoryFilter}{.or}
+      <div class="blog-card">
+        <squarespace:query collection="blog" category="Workforce Success" limit="1">
+          <div class="">
+            {.repeated section items}
+              <a href="{fullUrl}">
+                <img src="{assetUrl}" alt="{title}">
+                <div class="blog-info">
+                  <p>Workforce Success</p>
+                  <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
+                </div>
+                <h3>{title}</h3>
+                
+              </a>
+            {.end}
+          </div>
+        </squarespace:query>
+      </div>
+    
+      <div class="blog-card">
+        <squarespace:query collection="blog" category="Workforce Success" limit="1" skip="1">
+          
+            {.repeated section items}
+            
+              <a href="{fullUrl}">
+                <img src="{assetUrl}" alt="{title}">
+                <div class="blog-info">
+                  <p>Workforce Success</p>
+                  <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
+                </div>
+                <h3>{title}</h3>
+                
+              </a>
+             
+            {.end}
+          
+        </squarespace:query>
+      </div>
+    
+      <div class="blog-card">
+        <squarespace:query collection="blog" category="Workforce Success" limit="1" skip="2">
+          <div class="">
+            {.repeated section items}
+              <a href="{fullUrl}">
+                <img src="{assetUrl}" alt="{title}">
+                <div class="blog-info">
+                  <p>Workforce Success</p>
+                  <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
+                </div>
+                <h3>{title}</h3>
+                
+              </a>
+            {.end}
+          </div>
+        </squarespace:query>
+      </div>
+  
+    {.end}
+    </div>
+  </div>
+</section>  
+<section class="center">
+  <div class="container">
+    <a href="/blog/" class="button">Read More</a>
+  </div>
+</section>
+
+<section class="workforce-team">
+  <div class="container">
+    <div class="workforce-team__row">
+      
+      
+      
+      <div>
+        <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="Millicent Alhamis">
+        <div>
+          <h4>Millicent Alhamis</h4>
+          <p>Program/Project Manager</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="Andrea Bruneau">
+        <div>
+          <h4>Andrea Bruneau</h4>
+          <p>Learning Model and Organization Transformation Consultant</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
