@@ -1,3 +1,77 @@
+<section class="workforce-hero">
+  <div class="workforce-hero-container">
+    <div class="grid">
+      <div class="text">
+        <h1>Strengthen human connections and collaboration to improve productivity and success</h1>
+        <p>At DMC, our mission is to drive positive organizational transformation by enhancing how people experience and contribute to shared goals, thereby improving collaboration, productivity, and success.</p>
+        <a href="/contact/" class="button">Contact us</a>
+      </div>
+      
+        <img class="deo-1" src="/assets/images/workforce/workforce-deo-1.png">
+        <img class="deo-2" src="/assets/images/workforce/workforce-deo-2.png">
+        <img class="deo-3" src="/assets/images/workforce/workforce-deo-3.png">
+        <img class="deo-4" src="/assets/images/workforce/workforce-deo-4.png">
+        <img class="deo-5" src="/assets/images/workforce/workforce-deo-5.png">      
+    </div>
+  </div>
+</section>
+
+<section class="workforce-industry">
+  <div class="container">
+    <h2>A Human-Centered, Transformative Process</h2>
+    <div class="workforce-industry-outer">
+      <div class="card box-shadow">
+        <div class="workforce-industry-content">
+          <p>Create collaborative, aligned environments that maximize employee potential</p>
+          <img src="/assets/images/workforce/workforce-create.png" alt="transformative process">
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="workforce-industry-content">
+          <p>Dismantle outdated mindsets to boost market competitiveness</p>
+          <img src="/assets/images/workforce/workforce-dismantle.png" alt="transformative process" >
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="workforce-industry-content">
+          <p>Co-design solutions that drive a culture of respect and belonging, enhancing productivity and revenue</p>
+          <img src="/assets/images/workforce/workforce-design.png" alt="transformative process" >
+          
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="workforce-industry-content">
+          <p>Equip senior and mid-level managers with tools to build social capital and lead effectively</p>
+          <img src="/assets/images/workforce/workforce-equip.png" alt="transformative process" >
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="workforce-industry-content">
+          <p>Increase engagement, productivity, satisfaction, and retention across the organization</p>
+          <img src="/assets/images/workforce/workforce-increase.png" alt="transformative process" >
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="workforce-expertise">
+  <div class="container">
+    <div class="text-container">
+      <h2>Expertise You Can Trust</h2>
+      <p>With over 40 years of combined experience, our DMC team specializes in:</p>
+    </div>
+    <img id="expertise-background" src="assets/images/workforce/workforce-expertise-background.png" alt="workforce expertise DMC">
+    <img id="expertise-group" src="assets/images/workforce/workforce-expertise-group.png" alt="workforce expertise DMC">  
+    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-alignment.png" alt="workforce expertise DMC">
+    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-culture.png" alt="workforce expertise DMC">
+    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-leadership.png" alt="workforce expertise DMC">
+    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-learning.png" alt="workforce expertise DMC">
+    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-project.png" alt="workforce expertise DMC">
+  </div>
+</section>
+
 <section class="workforce-who">
   <div class="workforce-who-container">
     <h2>Who We Work With</h2>
@@ -22,11 +96,13 @@
   </div>
 </section>
 
+<!--
 <section class="workforce-form">
   <div class="container">
     <div data-content-field="main-content">{squarespace.main-content}</div>
   </div>
 </section>
+-->
 
 <section class="workforce-partners">
   <div class="container">

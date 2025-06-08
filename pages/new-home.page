@@ -5,7 +5,6 @@
         <h1>Strengthen human connections and collaboration to improve productivity and success</h1>
         <a href="/contact/" class="button">Talk to us today</a>
       </div>
-      
         <img class="deo-1" src="/assets/images/home/home-deo-1.png">
         <img class="deo-2" src="/assets/images/home/home-deo-2.png">
         <img class="andrea-3" src="/assets/images/home/home-andrea-3.png">
@@ -134,6 +133,7 @@
         <p>Facilities operations teams, hospitals, retail, hospitality, banks, tech startups, and government agencies</p>
         <a href="/workforce-success/" class="button">Learn More</a>
       </div>
+      
     </div>
     <div class="solutions-card" id="solutions-learning-card">
       <img src="/assets/images/home/home-solution-learning.png" alt="learning success">
@@ -156,11 +156,12 @@
 
 <section class="newhome-who">
   <div class="who-container">
-    <img src="/assets/images/home/home-who-we-are.png" alt="who we are">
+    
     <div class="text-container">
       <h3>Who we are</h3>
       <p>At Deo Mwano Consultancy, our dynamic team brings together experts in data analysis, leadership development, research, design, storytelling, and more. We specialize in uncovering root challenges and delivering innovative, engaging solutions. From strategy to storytelling, we align people, purpose, and progress—driving impact through creativity and collaboration.</p>
     </div>
+    <img src="/assets/images/home/home-who-we-are.png" alt="who we are">
   </div>
 </section>
 

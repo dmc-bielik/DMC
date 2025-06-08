@@ -1,5 +1,3 @@
-
-
 .newhome {
     &-hero {
       display: flex;
@@ -18,9 +16,6 @@
 
       .deo-1 {
         grid-area: deo-1;
-
-        
-       
       }
 
       .deo-2 {
@@ -34,7 +29,6 @@
       .deo-4 {
         grid-area: deo-4;
 
-        
       }
 
       .david-5 {
@@ -59,6 +53,7 @@
 
       .deo-8 {
         grid-area: deo-8;
+
         @media (max-width: 1200px) {
           display: none;
         }
@@ -154,9 +149,15 @@
     }
   
     &-solutions {
-      display: flex;
-      justify-content: center;
+      
       margin: 20px;
+
+      .solutions-container {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      }
 
       h2 {
         text-align: center;
@@ -165,15 +166,23 @@
         font-weight: 600;
         font-size: 36px;
         padding-bottom: 20px;
+
+        @media (max-width: 979px) {
+            padding-bottom: 0;
+            margin-bottom: 0;
+          }
       }
 
       .solutions-card {
         border-radius: 12px;
         position: relative;
         text-align: center;
-        margin-bottom: 50px;
-        max-height: 375px;
-        height: 100%;
+        width: 90%;
+        height: auto;
+
+        @media (max-width: 979px) {
+            width: 100%;
+          }
 
         img {
           height: 100%;
@@ -186,6 +195,12 @@
           left: 50px;
           width: 30%;
           text-align: start;
+
+          @media (max-width: 979px) {
+            position: static;
+            width: 100%;
+            margin-top: 10px;
+          }
           
           h3 {
             font-family: @fontPoppins;
@@ -193,6 +208,11 @@
             font-size: 34px;
             font-weight: 550;
             line-height: 1.1;
+
+            @media (max-width: 979px) {
+              color: @colorRed;
+            }
+
           }
 
           p {
@@ -201,30 +221,26 @@
             font-size: 14px;
             line-height: 1.4;
 
+            @media (max-width: 979px) {
+              color: @colorRed;
+            }
+
           }
 
           a {
             background-color: transparent !important;
             border-color: white;
             margin-top: 10px;
+
+            @media (max-width: 979px) {
+              color: @colorRed;
+              border-color: @colorRed;
+            }
+            
           }
 
         }
       }
-
-      #solutions-workforce-card {
-        background-color: #2DB25F;    
-      }
-
-      #solutions-learning-card {
-        background-color: #004891;
-      }
-
-      #solutions-community-card {
-        background-color: #FC2A4F;
-      }
-
-
     }
   
     
@@ -235,14 +251,9 @@
       margin-bottom: 40px;
 
       .who-container {
-        background-color: @colorRed;
+        
         position: relative;
         text-align: center;
-
-        img {
-          height: 100%;
-          width: 100%;
-        }
 
         .text-container {
           width: 30%;
@@ -251,11 +262,24 @@
           left: 50%;
           transform: translate(-50%, -50%);
 
+          @media (max-width: 979px) {
+            position: static;
+            top: 0;
+            left: 0;
+            transform: none;
+            
+          }
+
           h3 {
             color: white;
             font-family: @fontPoppins;
             font-size: 38px;
             font-weight: 575;
+
+            @media (max-width: 979px) {
+            color: black;
+            
+            }
           }
 
           p {
