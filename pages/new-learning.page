@@ -1,0 +1,21 @@
+<section class="home-team ws-team">
+    <div class="container">
+      <div class="home-team__row">
+        <div>
+          <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="Millicent Alhamis">
+          <div>
+            <h4>Millicent Alhamis</h4>
+            <p>Program/Project Manager</p>
+          </div>
+        </div>
+        
+        <div>
+          <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="Andrea Bruneau">
+          <div>
+            <h4>Andrea Bruneau</h4>
+            <p>Learning Model and Organization Transformation Consultant</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
