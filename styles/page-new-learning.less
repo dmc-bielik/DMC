@@ -1,11 +1,97 @@
-learning {
+.learning {
+    &-engagements {
+    position: relative;
+    min-height: 65vw;
+
+    @media (max-width: 480px) {
+      min-height: 300px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100%;
+
+      h2 {
+        max-width: 420px;
+        color: @colorLSBlue2;
+        margin-top: 110px;
+        .font-smoothing(@colorLSBlue2);
+        font-family: @fontPoppins;
+        font-weight: 550;
+
+        @media (max-width: 767px) {
+          margin-top: 40px;
+          font-size: 22px;
+        }
+      }
+    }
+
+    &__visuals {
+      &--1,
+      &--2,
+      &--3,
+      &--4,
+      &--6 {
+        position: absolute;
+      }
+
+      &--1,
+      &--2,
+      &--3,
+      &--4 {
+        background-color: @colorLSBlue2;
+        border-radius: 13px;
+        width: 160px;
+        height: 130px;
+
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+
+      &--1 {
+        left: calc(~"50% - 650px");
+        height: 470px;
+        width: 310px;
+        top: 160px;
+      }
+
+      &--2 {
+        top: auto;
+        bottom: 0;
+        width: 350px;
+        height: 525px;
+        left: calc(~"50% + 410px");
+      }
+
+      &--3 {
+        top: 110px;
+        left: calc(~"50% + 370px");
+      }
+
+      &--4 {
+        top: 10px;
+        left: calc(~"50% + 520px");
+      }
+
+      &--6 {
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+
     &-blogs {
       margin-top: 100px;
 
       h2 {
         text-align: center;
         font-family: @fontPoppins;
-        color: @colorRed;
+        color: #0064A7;
         font-weight: 550;
         font-size: 44px;
       }
@@ -46,4 +132,106 @@ learning {
       }
     }
 
+    &-center {
+
+      .container {
+        display: flex;
+        justify-content: center;
+
+        .button {
+          background-color: #0064A7 !important;
+        }
+      }  
+    }
+
 }
+
+&-reviews {
+    background-color: @colorLSBlue3;
+    background-image: none;
+    margin-left: -40px;
+    margin-right: -40px;
+
+    .swiper-pagination-bullet-active {
+      background-color: #fff;
+    }
+
+    &__cards {
+      align-items: baseline;
+      justify-content: initial;
+      padding-bottom: 80px !important;
+
+      & > div {
+        flex: none;
+        padding: 30px 30px 150px;
+      }
+    }
+  }
+
+  .learning-testimonials {
+    padding: 50px 0 10px 0 !important;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  &-partners {
+    .tns-outer {
+      overflow: hidden;
+    }
+
+    &__section {
+      &-1 {
+        background-image: url('/assets/images/learning-success/lebanon-middle-school.jpg');
+      }
+
+      &-2 {
+        background-image: url('/assets/images/learning-success/philips-exeter-academy.jpg');
+      }
+
+      &-3 {
+        background-image: url('/assets/images/learning-success/manchester-school-district.jpg');
+      }
+
+      &-4 {
+        background-image: url('/assets/images/learning-success/derryfield-school.jpg');
+      }
+    }
+    
+    &__content {
+      background-color: @colorLSBlue2;
+      margin-left: auto;
+
+      *,
+      h3 {
+        color: #fff !important;
+      }
+
+      h3 {
+        margin-bottom: 0;
+
+        @media (max-width: 767px) {
+          font-size: 22px;
+        }
+      }
+
+      p {
+        margin-top: 0;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .swiper-button-prev, .swiper-rtl .swiper-button-next,
+      .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        top: 50px;
+        transform: scale(0.7);
+      }
+    }
+  }
+
+  .learning-partners {
+    h2 {
+    font-family: @fontPoppins !important;
+    color: #0064A7;
+    font-weight: 500 !important;
+    }
+  }
