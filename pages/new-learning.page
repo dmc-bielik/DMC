@@ -1,3 +1,140 @@
+<section class="learning-hero">
+  <div class="learning-hero-container">
+    <div class="grid">
+      <div class="text">
+        <h1>Learning Success</h1>
+        
+        
+      </div>
+      
+        <img class="deo-1" src="/assets/images/learning-success/learning-deo-1.png">
+        <img class="deo-2" src="/assets/images/learning-success/learning-deo-2.png">
+        <img class="deo-3" src="/assets/images/learning-success/learning-deo-3.png">
+        <img class="deo-4" src="/assets/images/learning-success/learning-deo-4.png">
+        <img class="deo-5" src="/assets/images/learning-success/learning-deo-5.png">  
+        <img class="deo-6" src="/assets/images/learning-success/learning-deo-6.png">  
+        <img class="deo-7" src="/assets/images/learning-success/learning-deo-7.png">      
+    </div>
+  </div>
+</section>
+
+<section class="learning-center">
+  <div class="container">
+    <h2>universities, community colleges, K-12 schools, boarding schools, and online or hybrid learning environments</h2>
+    <a href="/contact/" class="button">Talk to us today</a>
+  </div>
+</section>
+
+<section class="learning-industry">
+  <div class="container">
+    <h2>Design strategies and implementation tools to</h2>
+    <div class="learning-industry-outer">
+      <div class="card box-shadow">
+        <div class="learning-industry-content">
+          <p>Improve school climate and culture in order to increase positive experience for all students</p>
+          <img src="/assets/images/learning-success/learning-improve.png" alt="transformative process">
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="learning-industry-content">
+          <p>Support unique student success competencies with policies and processes supported by school boards, school administrators, teachers and parents</p>
+          <img src="/assets/images/learning-success/learning-support.png" alt="transformative process" >
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="learning-industry-content">
+          <p>Strengthen relationships between schools and parents</p>
+          <img src="/assets/images/learning-success/learning-strengthen.png" alt="transformative process" >
+          
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="learning-industry-content">
+          <p>Strengthen relationships between historically marginalized communities and school officials</p>
+          <img src="/assets/images/learning-success/learning-relationships.png" alt="transformative process" >
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="learning-industry-content">
+          <p>Integrate social and emotional learning in teaching and technology</p>
+          <img src="/assets/images/learning-success/learning-integrate.png" alt="transformative process" >
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="learning-industry-content">
+          <p>Improve learning outcomes for historically marginalized students with an approach designed to reflect the learner’s experience</p>
+          <img src="/assets/images/learning-success/learning-outcomes.png" alt="transformative process" >
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</section>
+
+<section class="ls-k12 learning-k12" id="ls-k12-2">
+<div class="container ls-container" id="k-12-container">
+      <h2 class="heading-2 center uppercase">K-12</h2>
+      <div class="ls-k12__row">
+        <div class="ls-k12__row--1 ls-k12__row--move-1">
+          <p class="body-paragraph">Public School, Boarding School, Virtual Schools, Private School</p>
+        </div>
+        <div class="ls-k12__row--2 ls-k12__row--move-2">
+          <img src="/assets/images/learning-success/learning-k12-1.png" alt="Deo talking with students">
+        </div>
+      </div>
+      <div class="ls-k12__row">
+        <div class="ls-k12__row--2 ls-k12__row--move-3">
+          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=w8yNllmp1BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="ls-k12__row--1 ls-k12__row--move-4">
+          <p class="heading-4 font-blue">We bring students, parents and community partners together to co-design just, accessible and inclusive solutions that drive positive results.</p>
+        </div>
+      </div>
+      <div class="ls-k12__row">
+        <div class="ls-k12__row--1 ls-k12__row--move-5">
+          <p class="body-paragraph"><strong>Who we work with</strong></p>
+          <p class="body-paragraph">Superintendent, School Board, School Principal, Department Leaders, School Council Group, Parent Groups, DEIJ Director, ESL Director, Director of Curriculum, Dean of Student Experience</p>
+        </div>
+        <div class="ls-k12__row--2 ls-k12__row--move-6">
+          <img src="/assets/images/learning-success/learning-k12-2.png" alt="Deo talking with students">
+        </div>
+      </div>
+    </div>
+    <div class="container ls-container">
+      <h2 class="heading-2 center uppercase">Colleges and Universities</h2>
+      <div class="ls-k12__row">
+        <div class="ls-k12__row--1 ls-k12__row--move-1">
+          <p class="body-paragraph">Community Colleges, Ivy Leagues, Online Schools</p>
+        </div>
+        <div class="ls-k12__row--2 ls-k12__row--move-2">
+          <img src="/assets/images/learning-success/learning-college.png" alt="">
+        </div>
+      </div>
+      <div class="ls-k12__row">
+        <div class="ls-k12__row--2 ls-k12__row--move-3">
+          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=nJl40M-NvO8&t=7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="ls-k12__row--1 ls-k12__row--move-4">
+          <p class="heading-4 font-blue">DMC's work helps administrators better understand the root cause preventing students from maximizing their learning engagement and the negative influences impacting retention.</p>
+        </div>
+      </div>
+      <div class="ls-k12__row">
+        <div class="ls-k12__row--1 ls-k12__row--move-5">
+          <p class="body-paragraph"><strong>Who we work with</strong></p>
+          <p class="body-paragraph">Dean of Students, VP of First Year Student, Director of Student Engagement, DIrector of Student Success, VP of DEIJ, Director of Learning Success, Director of Student Support, VP of Career Services</p>
+        </div>
+        <div class="ls-k12__row--2 ls-k12__row--move-6">
+          <img src="/assets/images/learning-success/deo-colleges-2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="learning-logos">
+  <img src="assets/images/learning-success/learning-partners.png" alt="learning success partners">
+</section>
+
 <section class="ws-partners ls-partners learning-partners">
     <div class="container">
       <h2 class="heading-3 uppercase center red">Current/Recent Partners</h2>
@@ -189,7 +326,7 @@
     <a href="/blog/" class="button">Read More</a>
   </div>
 </section>
-<section class="home-team ws-team">
+<section class="home-team ws-team learning-team">
 
   <div class="container">
     <div class="home-team__row">
