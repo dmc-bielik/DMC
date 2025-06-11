@@ -1,0 +1,244 @@
+<section class="ct-community">
+  <div class="container ls-container">
+    <div class="ct-community__row ct-community__row-3">
+      <div>
+        <h2 class="uppercase heading-4 poppins">Design strategies and tools to</h2>
+        <ul class="body-paragraph">
+          <li>Train all stakeholders in communication skills to improve organizational climate and culture, increasing positive experiences for the community being served</li>
+          <li>Improve engagement and strengthen relationships between organizations and historically marginalized communities</li>
+          <li>Reevaluate the distribution of resources to maximize reach and access for historically marginalized communities</li>
+          <li>Coach board members on DEI issues and help design outcomes with actions</li>
+          <li>Customize successful DEI policies and processes supported by community stakeholders</li>
+          <li>Recruit, retain diverse stakeholders while creating a supportive environment that celebrates differences</li>
+          <li>Increase social and emotional leadership skills that inspire and unify all community members</li>
+          <li>Integrate DEI into the strategic goals of an organization with measurable outcomes</li>
+          <li>Develop a climate and culture assessment for a baseline understanding of where an organization is doing well and where they have opportunities to improve.</li>
+        </ul>
+      </div>
+      <div class="ct-community__strategies">
+        <div class="center">
+          <img src="/assets/images/community-transformation/deo-strategies-1.jpg" alt="community transformation">
+        </div>
+        <div>
+          <span class="ct-community__strategies--block-1"></span>
+          <img src="/assets/images/community-transformation/deo-strategies-2.jpg" alt="community transformation">
+        </div>
+        <div>
+          <img src="/assets/images/community-transformation/deo-strategies-3.jpg" alt="community transformation"> 
+          <span class="ct-community__strategies--block-2"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ls-k12 community-work">
+  <div class="container ls-container">
+    <div class="ls-k12__row ct-work__row">
+      <div class="ls-k12__row--1 ct-work__row--1">
+        <p class="body-paragraph"><strong>Who we work with</strong></p>
+        <p class="body-paragraph">Executive Directors, Board Chairs, Mayors, Police Chiefs, Planning Directors, Program Directors, Committee Chairs</p>
+      </div>
+      <div class="ls-k12__row--2">
+        <img src="/assets/images/community-transformation/deo-works-with.jpg" alt="deo works with">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-clients appear-on-scroll-2">
+  <div class="container">
+    <div class="home-clients__images" style="max-width: 1100px">
+      <img src="/assets/images/clients/city-of-manchester.png" alt="city of manchester" width="120px">
+      <img src="/assets/images/clients/refuge-point.png" alt="refuge point" width="170px">
+      <img src="/assets/images/clients/united-way-2.png" alt="united way" width="145px">
+      <img src="/assets/images/clients/capitol-center-for-the-arts.png" alt="capitol center for the arts" width="190px">
+      <img src="/assets/images/clients/community-loan-fund.png" alt="community loan fund" width="135px">
+      <img src="/assets/images/clients/new-futures.png" alt="new futures" width="180px">
+      <img src="/assets/images/clients/new-hampshire-housing.png" alt="new hampshire housing" width="180px">
+      <img src="/assets/images/clients/greater-concord-chamber-of-commerce.png" alt="greater concord chamber of commerce" width="130px">
+      <img src="/assets/images/clients/waypoint.png" alt="waypoint" width="100px">
+      <img src="/assets/images/clients/harbor-care.png" alt="harbor care" width="170px">
+    </div>
+  </div>
+</section>
+
+<section class="community-partners-heading center">
+  <div class="container">
+    <h2 class="uppercase heading-3">Current/Recent Partners</h2>
+  </div>
+</section>
+
+<section class="community-partners">
+  <div class="swiper move-up-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="community-partners__content-container community-partners__content-container-1">
+          <video src="/assets/images/community-transformation/manchester-at-night.mp4" autoplay muted playsinline loop></video>
+          <div class="container ls-container">
+            <div class="community-partners__content">
+              <h3 class="heading-4">City of Manchester</h3>
+              <p class="body-paragraph">DMC has supported the City of Manchester, NH to help BIPOC Small Businesses apply for and receive ARPA grants during the height of the COVID-19 pandemic. Assisted with the distribution of $1,000,000 in relief funds to BIPOC business owners by providing wrap-around services to close the barrier of access.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="community-partners__content-container community-partners__content-container-2">
+          <div class="container ls-container">
+            <div class="community-partners__content">
+              <h3 class="heading-4">Co-op Food Stores</h3>
+              <p class="body-paragraph">DMC has consulted to improve employee culture and alignment through a DEI lens in order to strengthen the community for 400 employees, serving more than 20,000 member households with sales of over $70 million annually.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="community-partners__content-container community-partners__content-container-3">
+          <div class="container ls-container">
+            <div class="community-partners__content">
+              <h3 class="heading-4">Public Health Network of NH</h3>
+              <p class="body-paragraph">DMC conducted statewide COVID-19 Substance Use Disorder Impact research to provide an understanding of the impact of COVID-19 with historically marginalized communities dealing with Substance Use Disorder.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="community-partners__content-container community-partners__content-container-4">
+          <div class="container ls-container">
+            <div class="community-partners__content">
+              <h3 class="heading-4">NAACP Manchester NH with NH Community Loan Fund</h3>
+              <p class="body-paragraph">DMC served as designer and strategist for a program to support the growth of BIPOC owned businesses with capacity builders and financial capital for mobility.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+<section class="community-engagements">
+  <div class="container">
+    <h2 class="heading-3 center uppercase">DMC's engagements are often 6 to 12 months or multi year partnerships</h2>
+  </div>
+</section>
+
+<section class="community-reviews center">
+  <div class="container">
+    <div class="ws-reviews__cards ct-reviews__cards">
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"Within the Institute, Mr. Mwano undertook major responsibilities to bridge multicultural issues and to ensure a safe, productive and respectful environment for the Delegation. In order to establish common discourse he brought a deep understanding and sensitivity to the complexities encountered by the delegates. His personal narrative and consummate professionalism also served as inspiration for educators when they returned to Pakistan to implement U.S. training amidst daily realities and challenges. That connectivity continues."</p>
+        <button type="button" class="button-unstyled ws-reviews__cards--read-more">read more</button>
+        <p class="ws-reviews__cards--meta ct-reviews__cards body-paragraph">
+          <strong>Allen Blakeman</strong>
+          <br>
+          <span>Director of Pakistani Educational Leadership Institute</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"Deo was willing to work with the Currier Museum of Art on a new program and did so thoughtfully and with an open mind. Not only did Deo bring professionalism to the event, but a unique form of engagement that encouraged others to think deeper and more holistically."</p>
+        <button type="button" class="button-unstyled ws-reviews__cards--read-more">read more</button>
+        <p class="ws-reviews__cards--meta body-paragraph">
+          <strong>Lynn Thomson</strong>
+          <br>
+          <span>Assistant Director of Art Education/Community Engagement Currier Museum</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph ws-reviews__cards--review">"Deo radiates positivity! His approachable style facilitates questions and dialogue. Our trustees and employees enjoyed consultations that inspired awareness and understanding as we explored the topics of diversity and inclusion. Informed by Deo’s insights, we have designed and launched a thoughtful plan to expand our commitment to equity, diversity, inclusion, and accessibility in our arts programming, operational policies, and bridge building to the extended community."</p>
+        <button type="button" class="button-unstyled ws-reviews__cards--read-more">read more</button>
+        <p class="ws-reviews__cards--meta body-paragraph">
+          <strong>Nicki Clarke</strong>
+          <br>
+          <span>Executive Director, Capitol Center for the Arts</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="community-blogs">
+  <div class="container">
+    <h2>Featured Blogs</h2>
+    <div class="featured-blogs-container">
+    {.section categoryFilter}{.or}
+      <div class="blog-card">
+        <squarespace:query collection="blog" category="Community Transformation" limit="1">
+          <div class="">
+            {.repeated section items}
+              <a href="{fullUrl}">
+                <img src="{assetUrl}" alt="{title}">
+                <div class="blog-info">
+                  <p>Community Transformation</p>
+                  <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
+                </div>
+                <h3>{title}</h3>
+              </a>
+            {.end}
+          </div>
+        </squarespace:query>
+      </div>
+    
+      <div class="blog-card">
+        <squarespace:query collection="blog" category="Community Transformation" limit="1" skip="1">
+            {.repeated section items}
+              <a href="{fullUrl}">
+                <img src="{assetUrl}" alt="{title}">
+                <div class="blog-info">
+                  <p>Community Transformation</p>
+                  <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
+                </div>
+                <h3>{title}</h3>
+              </a>
+            {.end}
+        </squarespace:query>
+      </div>
+      <div class="blog-card">
+        <squarespace:query collection="blog" category="Community Transformation" limit="1" skip="2">
+          <div class="">
+            {.repeated section items}
+              <a href="{fullUrl}">
+                <img src="{assetUrl}" alt="{title}">
+                <div class="blog-info">
+                  <p>Community Transformation</p>
+                  <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
+                </div>
+                <h3>{title}</h3>
+              </a>
+            {.end}
+          </div>
+        </squarespace:query>
+      </div>
+    {.end}
+    </div>
+  </div>
+</section>  
+<section class="community-button">
+  <div class="container">
+    <a href="/blog/" class="button">Read More</a>
+  </div>
+</section>
+
+<section class="community-team">
+  <div class="container">
+    <div class="community-team__row">
+      <div>
+        <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="Millicent Alhamis">
+        <div>
+          <h4>Millicent Alhamis</h4>
+          <p>Program/Project Manager</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="Andrea Bruneau">
+        <div>
+          <h4>Andrea Bruneau</h4>
+          <p>Learning Model and Organization Transformation Consultant</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>

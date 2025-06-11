@@ -1,0 +1,412 @@
+.community {
+
+    &-work {
+    margin: 50px 0 200px;
+
+    &__row {
+      &--1 {
+        background: linear-gradient(135.79deg, #FC2A4F 15.64%, #1B4371 101.44%);
+
+        &::before {
+          background-color: @colorRed !important;
+        }
+      }
+    }
+  }
+
+    &-partners-heading {
+    margin: 100px 0;
+
+    h2 {
+      color: #0189C1;
+      font-family: @fontPoppins;
+      font-weight: 550;
+      font-size: 34px;
+    }
+  }
+
+  &-partners {
+    min-height: 100vh;
+
+    .tns-outer {
+      overflow: hidden;
+    }
+
+    &__content {
+      position: relative;
+      z-index: 1;
+      background: linear-gradient(1.76deg, @colorRed 2.06%, #1B4371 92.45%);
+      border-radius: 13px 13px;
+      padding: 35px 80px 70px 40px;
+      width: calc(~"50% - 120px");
+
+      @media (max-width: 767px) {
+        width: calc(~"100% - 120px");
+      }
+
+      &-container {
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 90px 0;
+        height: calc(~"100vh - 180px");
+
+        &-1 {
+          position: relative;
+          background-image: url('/assets/images/community-transformation/manchester-city.jpg');
+
+          video {
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        &-2 {
+          background-image: url('/assets/images/community-transformation/food-store.jpg');
+        }
+
+        &-3 {
+          background-image: url('/assets/images/community-transformation/healthcare.jpg');
+        }
+
+        &-4 {
+          background-image: url('/assets/images/community-transformation/community-loan-fund.jpg');
+        }
+      }
+
+      * {
+        color: #fff;
+        .font-smoothing(@colorRed);
+      }
+    }
+
+    @media (max-width: 767px) {
+      min-height: 50vh;
+
+      .swiper-button-next, .swiper-button-prev {
+        top: 40px;
+      }
+
+      .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: calc(~"100% - 100px");
+      }
+    }
+  }
+
+  &-engagements {
+    background-image: url('/assets/images/community-transformation/dmc-engagements.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 170px 0;
+    min-height: 500px;
+    height: calc(~"100vh - 340px");
+
+    h2 {
+      max-width: 540px;
+      margin: auto;
+      color: #fff;
+      .font-smoothing(@colorRed);
+    }
+  }
+
+    &-reviews {
+    background: none;
+    padding-bottom: 0;
+
+    &__cards {
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+
+      & > div {
+        flex: 1;
+        background: linear-gradient(180deg, #1F4371 0%, @colorRed 100%);
+        // padding: 50px 25px;
+        .font-smoothing(@colorRed);
+
+        .ws-reviews__cards--review {
+          &::before {
+            content: none;
+          }
+        }
+
+        * {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+    &-blogs {
+      margin-top: 100px;
+
+      h2 {
+        text-align: center;
+        font-family: @fontPoppins;
+        color: @colorRed;
+        font-weight: 550;
+        font-size: 44px;
+      }
+
+      .featured-blogs-container {
+        margin: 60px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+        @media (max-width: 767px) {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 20px 60px 20px;
+        }
+
+        .blog-card {
+          width: 30%;
+
+        @media (max-width: 767px) {
+        width: 100%;
+        }
+
+          h3 {
+              font-family: @fontPoppins;
+              margin: 0;
+              font-weight: 550;
+            }
+            
+          .blog-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: @fontPoppins;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    &-button {
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        h2 {
+          text-transform: uppercase;
+          text-align: center;
+          font-family: @fontPoppins;
+          color: #008AC7;
+          max-width: 900px;
+          font-size: 24px;
+          font-weight: 550;
+          letter-spacing: .8px;
+          line-height: 1.5;
+          padding-bottom: 40px;
+        }
+    
+        
+    
+        .button {
+          background-color: #FC2A4F !important;
+          border-color: #FC2A4F;
+        }
+      }
+    }
+    
+    
+
+    &-team {
+      margin: 100px 0;
+    
+      @media (max-width: 767px) {
+        margin: 50px 0;
+      }
+  
+      &__row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+  
+        @media (max-width: 1200px) {
+          &--empty {
+            display: none !important;
+          }
+        }
+  
+        & > div {
+          min-width: calc(~"33.33% - 46px");
+          max-width: calc(~"33.33% - 46px");
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          margin: 23px;
+  
+          @media (max-width: 1200px) {
+            min-width: calc(~"50% - 46px");
+            max-width: calc(~"50% - 46px");
+          }
+  
+          @media (max-width: 767px) {
+            min-width: calc(~"100% - 46px");
+            max-width: calc(~"100% - 46px");
+          }
+  
+          img {
+            width: 90px;
+            height: 90px;
+            margin-right: 12px;
+            border-radius: 50%;
+          }
+  
+          h4 {
+            color: @colorRed;
+            margin: 0;
+            font-size: 18px;
+            font-family: @fontPoppins;
+            font-weight: 550;
+          }
+  
+          p {
+            margin: 0;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+}
+
+.ct {
+  &-community {
+    &__heading {
+      margin-bottom: 100px;
+
+      @media (max-width: 767px) {
+        margin-bottom: 0;
+      }
+    }
+
+    &__row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 75px -25px;
+
+      .poppins {
+        font-family: @fontPoppins;
+        font-weight: 550;
+      }
+
+      & > div {
+        flex: 1;
+        margin: 0 25px;
+        overflow: hidden;
+        border-radius: 13px;
+      }
+
+      ul {
+        li {
+          font-size: 16px;
+        }
+      }
+
+      p {
+        max-width: 400px;
+      }
+
+      &:last-of-type {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        & > div {
+          &:first-child {
+            flex: 2;
+            max-width: 600px;
+            margin-right: 150px;
+          }
+        }
+      }
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+        margin: 25px -25px;
+
+        ul {
+          li {
+            font-size: 14px;
+          }
+        }
+
+        & > div {
+          &:last-child {
+            margin-top: 20px;
+          }
+        }
+
+        &:last-of-type {
+          margin-top: 100px;
+
+          & > div {
+            &:first-child {
+              max-width: auto;
+              margin-right: 25px;
+            }
+          }
+        }
+      }
+    }
+
+    &__strategies {
+      overflow: initial !important;
+
+      & > div {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        
+        &:nth-of-type(1) {
+          justify-content: center;
+
+          img {
+            width: 90%;
+          }
+        }
+
+        &:nth-of-type(2) {
+          justify-content: flex-end;
+
+          img {
+            width: 53%;
+          }
+        }
+
+        &:nth-of-type(3) {
+          justify-content: flex-start;
+
+          img {
+            width: 60%;
+            margin-right: 20px;
+          }
+        }
+
+        span {
+          display: inline-block;
+          background-color: @colorLightGrey2;
+          height: 100px;
+          min-width: 110px;
+          border-radius: 13px;
+        }
+      }
+    }
+  }
+}
