@@ -1,19 +1,22 @@
 .workforce {
     &-hero {
-      display: flex;
-      justify-content: center;
+      
       margin-bottom: 80px;
+      
 
       @media (max-width: 767px) {
        margin-bottom: 40px;
       }
 
       &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         @media (max-width: 767px) {
-       margin-top: 0;
-       padding-top: 0;
-      }
+          margin-top: 0;
+          padding-top: 0;
+         }
 
       }
 
@@ -52,9 +55,13 @@
 
         @media (max-width: 1200px) {
           margin-bottom: 40px;
-          padding-left: 0px;
+          padding-right: 20px;
         }
 
+        @media (max-width: 979px) {
+          padding-left: 0px;
+          
+        }
 
         h1 {
           color: white;
@@ -89,11 +96,13 @@
       }
 
       .grid {
+        width: 100%;
+        max-width: 1400px;
         padding-top: 40px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         display: grid;
-        grid-template-columns: 35vw 5vw 15vw 15vw 15vw 1vw;
+        grid-template-columns: 35% 5% 15% 15% 15% 1%;
         grid-template-rows: auto;
         grid-template-areas: 
         "text . deo-1 deo-2 deo-2 ."
@@ -105,7 +114,8 @@
         row-gap: 1vw;
 
         @media (max-width: 979px) {
-         grid-template-columns: 40vw 40vw;
+        padding-left: 10%;
+         grid-template-columns: 45% 45%;
          grid-template-areas: 
          "text deo-1"
          "text deo-1"
@@ -115,7 +125,7 @@
         }
 
         @media (max-width: 767px) {
-         grid-template-columns: 40vw 40vw;
+         grid-template-columns: 45% 45%;
          grid-template-areas: 
          "text text"
          "text text"
@@ -125,7 +135,7 @@
          "deo-2 deo-2";
 
          column-gap: 2vw;
-        row-gap: 2vw;
+         row-gap: 2vw;
         }
         
       }
@@ -143,6 +153,7 @@
         display: flex; 
         flex-direction: column;
         align-items: center;
+
       }
   
       @media (max-width: 767px) {

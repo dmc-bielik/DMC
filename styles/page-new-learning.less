@@ -9,6 +9,7 @@
       }
 
       &-container {
+        
 
         @media (max-width: 767px) {
        margin-top: 0;
@@ -77,11 +78,13 @@
       }
 
       .grid {
+        max-width: 1400px;
+        margin-left: 10%;
         padding-top: 40px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         display: grid;
-        grid-template-columns: 35vw 1vw 15vw 15vw 15vw 1vw;
+        grid-template-columns: 35% 1% 15% 15% 15% 1%;
         grid-template-rows: auto;
         grid-template-areas: 
         "text . deo-1 deo-2 deo-3 ."
@@ -491,9 +494,12 @@
     }
 
     &-center {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
 
         h2 {
           text-transform: uppercase;
@@ -508,11 +514,13 @@
           padding-bottom: 40px;
         }
 
+        
+
         .button {
           background-color: #0064A7 !important;
           border-color: #0064A7;
         }
-      
+      }
     }
 
 }
