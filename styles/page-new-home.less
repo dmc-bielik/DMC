@@ -1,12 +1,23 @@
 .newhome {
     &-hero {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
       background-color: @colorRed;
       padding-bottom: 40px;
       margin-bottom: 40px;
-      margin-left: -20px;
-      margin-right: -20px;
+
+      @media (max-width: 767px) {
+        margin-left: -40px;
+        margin-right: -40px;
+      }
+      
+      
+
+      &-container {
+        max-width: 1400px;
+      width: auto;
+      }
 
       img {
         border-radius: 10px;
@@ -90,11 +101,12 @@
       }
 
       .grid {
+        
         padding-top: 40px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         display: grid;
-        grid-template-columns: 15vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
+        grid-template-columns: 15% 10% 10% 10% 10% 10% 10% 10%;
         grid-template-rows: auto;
         grid-template-areas: 
           "text text text . deo-1 deo-2 deo-2 . "
@@ -157,6 +169,11 @@
       flex-direction: column;
       align-items: center;
       gap: 30px;
+
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      
       }
 
       h2 {
@@ -222,11 +239,16 @@
           width: 30%;
           text-align: start;
 
+          @media (max-width: 1300px) {
+            
+            left: 60px;
+          }
+
+          
           @media (max-width: 979px) {
             position: static;
             width: 80%;
             margin: 20px;
-            
           }
           
           h3 {
@@ -274,6 +296,7 @@
         
         position: relative;
         text-align: center;
+        max-width: 1400px;
 
         img {
 
@@ -486,7 +509,6 @@
   
     &-clients  {
       
-  
       h2 {
         text-align: center;
         font-family: @fontPoppins;
@@ -771,5 +793,13 @@
         }
       }
     }
+
+    &-readmore {
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
   }
+
+
   
