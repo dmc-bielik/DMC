@@ -1,3 +1,39 @@
+<section class="community-hero">
+  <div class="community-hero-container">
+    <div class="grid">
+      <div class="text">
+        <h1>community transformation</h1>
+      </div>
+        <img class="deo-1" src="/assets/images/community-transformation/community-deo-1.png">
+        <img class="deo-2" src="/assets/images/community-transformation/community-deo-2.png">
+        <img class="deo-3" src="/assets/images/community-transformation/community-deo-3.png">
+        <img class="deo-4" src="/assets/images/community-transformation/community-deo-4.png">
+        <img class="deo-5" src="/assets/images/community-transformation/community-deo-5.png">  
+        <img class="deo-6" src="/assets/images/community-transformation/community-deo-6.png">  
+        <img class="deo-7" src="/assets/images/community-transformation/community-deo-7.png">      
+    </div>
+  </div>
+</section>
+
+<section class="community-center">
+  <div class="container">
+    <h2>Non-profit Organizations, City & Towns, Foundations, and Cooperatives</h2>
+    <a href="/contact/" class="button">Talk to us today</a>
+  </div>
+</section>
+
+<section class="community-solutions">
+  <div class="solutions-container">
+    <div id="top-card" class="solutions-card box-shadow">
+      <img src="assets/images/community-transformation/community-solutions-1.png">
+      <p>DMC identifies issues at the heart of an organization's challenges and develops strategies to address them. The solutions help transform organizations' priorities, policies and programming.</p>
+    </div>
+    <div id="bottom-card" class="solutions-card box-shadow">
+      <p>Our work is grounded in helping organizations bring their missions to life and maximize their positive impact. DMC helps organizations build stronger relationships internally and externally, to create a more unified community that includes people with diverse backgrounds and identities.</p>
+      <img src="assets/images/community-transformation/community-solutions-2.png">
+    </div>
+  </div>
+</section>
 <section class="ct-community">
   <div class="container ls-container">
     <div class="ct-community__row ct-community__row-3">
@@ -46,7 +82,7 @@
   </div>
 </section>
 
-<section class="home-clients appear-on-scroll-2">
+<section class="home-clients appear-on-scroll-2 community-clients">
   <div class="container">
     <div class="home-clients__images" style="max-width: 1100px">
       <img src="/assets/images/clients/city-of-manchester.png" alt="city of manchester" width="120px">
