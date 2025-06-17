@@ -1,0 +1,174 @@
+<section class="data-hero">
+  <div class="data-hero-container">
+    <div class="grid">
+      <div class="text">
+        <h1>DMC Logic Model and Data Strategy</h1>
+        <p>At Deo Mwano Consultancy (DMC), we adopt a 360 degree approach to our data strategies, tailored to our clients' needs. Our focus is on building understanding before seeking to improve outcomes, ensuring authentic engagement and impactful results. </p>
+        <a href="/contact/" class="button">Talk to us today</a>
+      </div>
+      
+        <img class="deo-1" src="/assets/images/logic-data/data-hero-1.png">
+        <img class="deo-2" src="/assets/images/logic-data/data-hero-2.png">
+        <img class="deo-3" src="/assets/images/logic-data/data-hero-3.png">
+        <img class="deo-4" src="/assets/images/logic-data/data-hero-4.png">
+        <img class="deo-5" src="/assets/images/logic-data/data-hero-5.png"> 
+        <img class="deo-6" src="/assets/images/logic-data/data-hero-6.png">     
+    </div>
+  </div>
+</section>
+
+<section class="data-cards">
+  <div class="data-cards-container">
+    <div class="top-container">
+      <div class="card box-shadow">
+          <p>Acknowledge and incorporate the lived experiences of both the evaluation team and stakeholders.</p>
+          <img src="/assets/images/logic-data/data-card-1.png" alt="logic and data model conversation">
+      </div>
+      <div class="card box-shadow">
+          <p>Engage stakeholders from the outset in survey construction and evaluation planning.</p>
+          <img src="/assets/images/logic-data/data-card-2.png" alt="logic and data model conversation">
+      </div>
+    </div>
+    <div class="bottom-container">  
+      <div class="card box-shadow">
+          <p>Ensure all voices are heard through mixed-method approaches during evaluation.</p>
+          <img src="/assets/images/logic-data/data-card-3.png" alt="logic and data model conversation">
+      </div>
+      <div class="card box-shadow">
+          <p>Validate results and disseminate them widely to all participants who provided data.</p>
+          <img src="/assets/images/logic-data/data-card-4.png" alt="logic and data model conversation">
+      </div>
+    </div>  
+  </div>
+</section>
+
+<section class="data-approach">
+  <div class="data-approach-top_container">
+    <img src="/assets/images/logic-data/data-approach.png" alt="logic and data approach">
+    <div class="text">
+      <h1>DMC Unique Data Research Approach</h1>
+      <p>Our data research approach focuses on maximizing engagement, fostering belief in the impact of information provided, and enabling partners to make informed decisions. Our key areas of focus include: </p>
+      <a href="/contact/" class="button">Talk to us today</a>
+    </div>
+  </div>
+  <div class="data-approach-bottom_container">
+    <div class="approach-card">
+        <img src="/assets/images/logic-data/data-collection.png" alt="data collection">
+        <div class="text-container">
+            <h1>1. Data Collection</h1>
+            <div class="info-card-container">
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-collection-icon-1.png" alt="data collection icon">
+                  <p>Utilize surveys developed collaboratively with partners to ensure unbiased questions and diverse perspectives.</p>
+              </div>
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-collection-icon-2.png" alt="data collection icon">
+                  <p>Maintain continuity and connection between qualitative and quantitative data, avoiding predetermined biases.</p>
+              </div>
+            </div>  
+        </div>
+    </div>
+    <div class="approach-card">
+        <img src="/assets/images/logic-data/data-education.png" alt="data collection">
+        <div class="text-container">
+            <h1>2. Education</h1>
+            <div class="info-card-container">
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-education-icon-1.png" alt="data collection icon">
+                  <p>Educate participants on research objectives, methods, and cultural relevance to motivate participation.</p>
+              </div>
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-education-icon-2.png" alt="data collection icon">
+                  <p>Utilize various mediums and community ambassadors to encourage engagement and understanding.</p>
+              </div>
+            </div>  
+        </div>
+    </div>
+    <div class="approach-card">
+        <img class="approach-image" src="/assets/images/logic-data/data-engagement.png" alt="data collection">
+        <div class="text-container">
+            <h1>3. Engagement</h1>
+            <div class="info-card-container">
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-engagement-icon-1.png" alt="data collection icon">
+                  <p>Meet participants where they are, using resonant tools and platforms for holistic data collection.</p>
+              </div>
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-engagement-icon-2.png" alt="data collection icon">
+                  <p>Capture nuanced insights to contribute to a comprehensive understanding of community experiences.</p>
+              </div>
+            </div>  
+        </div>
+    </div>
+    <div class="approach-card">
+        <img class="approach-image" src="/assets/images/logic-data/data-assessment.png" alt="data collection">
+        <div class="text-container">
+            <h1>4. Data Assessment</h1>
+            <div class="info-card-container">
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-engagement-icon-1.png" alt="data collection icon">
+                  <p>Conduct thorough evaluations of collected data using logic models and manual reviews to identify patterns and correlations.</p>
+              </div>
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-engagement-icon-2.png" alt="data collection icon">
+                  <p>Provide comprehensive summaries and actionable recommendations in culturally responsive formats.</p>
+              </div>
+            </div>  
+        </div>
+    </div>
+    <div class="approach-card">
+        <img class="approach-image" src="/assets/images/logic-data/data-reporting.png" alt="data collection">
+        <div class="text-container">
+            <h1>4. Data Reporting</h1>
+            <div class="info-card-container">
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-reporting-icon-1.png" alt="data collection icon">
+                  <p>Conduct thorough evaluations of collected data using logic models and manual reviews to identify patterns and correlations.</p>
+              </div>
+              <div class="info-card box-shadow">
+                  <img src="/assets/images/logic-data/data-reporting-icon-2.png" alt="data collection icon">
+                  <p>Provide comprehensive summaries and actionable recommendations in culturally responsive formats.</p>
+              </div>
+            </div>  
+        </div>
+    </div>
+  </div>
+</section>
+<section class="data-action">
+  <div class="data-action-container">
+    <h1>Our Approach in Action</h1>
+    <div class="card card-right">
+      <div class="text-container">
+        <h2>Leadership Assessment</h2>
+        <p>Engage in group discussions, define survey items, and analyze results for revision.</p>
+        <a href="/contact/" class="button">Talk to us today</a>
+      </div>
+      <img src="/assets/images/logic-data/data-approach-leadership.png" alt="Leadership">
+    </div>
+    <div class="card card-left">
+      <img src="/assets/images/logic-data/data-approach-community.png" alt="Community Assessment">
+      <div class="text-container">
+        <h2>Community Assessment</h2>
+        <p>Gather input through surveys and focus groups to refine assessments.</p>
+        <a href="/contact/" class="button">Talk to us today</a>
+      </div>
+    </div>
+    <div class="card card-right">
+      <div class="text-container">
+        <h2>Orgwide Assessment</h2>
+        <p>Collect data from all community members using various methods, conduct focus groups and interviews.</p>
+        <a href="/contact/" class="button">Talk to us today</a>
+      </div>
+      <img src="/assets/images/logic-data/data-approach-orgwide.png" alt="Leadership">
+    </div>
+    <div class="card card-left">
+      <img src="/assets/images/logic-data/data-approach-reporting.png" alt="Community Assessment">
+      <div class="text-container">
+        <h2>Assessment and Reporting</h2>
+        <p>Review findings, gather community reflections, and provide final assessments to leadership and community.</p>
+        <a href="/contact/" class="button">Talk to us today</a>
+      </div>
+    </div>
+    <h1 class="bottom-text">DMC's data approach emphasizes continuous improvement, ongoing understanding, and data as a tool for support and action, tailored to each partner's unique needs.</h1>
+  </div>
+</section>
