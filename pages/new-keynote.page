@@ -1,0 +1,172 @@
+<section class="keynote-hero">
+  <div class="keynote-hero-container">
+    <img id="mobile-image"src="/assets/images/keynote-speaker/keynote-hero-mobile.png" alt="Keynote Speaker">
+    <div class="text-container">
+      <h3>Keynote Speaker</h3>
+      <p>Deo Mwano is a captivating speaker with a compelling personal story as well as expertise in business, community-building and workforce culture and climate change</p>
+    </div>
+    <img id="desktop-image" src="/assets/images/keynote-speaker/keynote-hero-new.png" alt="Keynote Speaker">
+  </div>
+</section>
+
+<section class="keynote-presentations">
+  <div class="container">
+    <div class="keynote-presentations__cards">
+      <div>
+        <div class="keynote-presentations__cards--block keynote-presentations__cards--block-1"></div>
+        <div class="keynote-presentations__cards--row-4">
+          <p class="body-paragraph">Mwano's presentations are inspiring, educational, thought-provoking and ignite action. He uses his background as a performer to keep audiences engaged and participating. His ice breakers are famous for getting everyone moving.</p>
+          <img class="keynote-presentations__cards--media-1" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-2.jpg" alt="">
+        </div>
+        <div class="keynote-presentations__cards--row-1">
+          <div class="keynote-presentations__cards--block keynote-presentations__cards--block-2"></div>
+         
+          <img class="keynote-presentations__cards--media-2" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-6.png" alt="">
+          <div>
+            <img class="keynote-presentations__cards--media-3" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-3.jpg" alt="">
+            <div class="keynote-presentations__cards--block keynote-presentations__cards--block-3"></div>
+          </div>
+        </div>
+        <iframe class="keynote-presentations__cards--media-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/zNfRzESyN10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+        <img class="keynote-presentations__cards--media-5" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-1.jpg" alt="">
+        <div class="keynote-presentations__cards--row-2">
+          <iframe class="keynote-presentations__cards--media-6" width="560" height="315" src="https://www.youtube-nocookie.com/embed/dN2FoDN5gYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="keynote-presentations__cards--block keynote-presentations__cards--block-4"></div>
+        </div>
+        <div class="keynote-presentations__cards--row-3">
+          <img class="keynote-presentations__cards--media-7" src="/assets/images/keynote-speaker/deo-keynote-speaker-presentations-4.jpg" alt="">
+          <div class="keynote-presentations__cards--block keynote-presentations__cards--block-5"></div>
+        </div>
+        <div class="keynote-presentations__cards--block keynote-presentations__cards--block-6"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="keynote-illustration appear-on-scroll-2">
+  <div class="container center">
+    <h2 class="uppercase heading-4">Mwano began sharing his story when he was just 11 years old after escaping war in Congo and moving to the USA as a refugee.</h2>
+    <a href="/story" class="button">Deo's Story</a>
+  </div>
+</section>
+
+<section class="keynote-family appear-on-scroll-3">
+  <div class="container ls-container">
+    <div class="keynote-family__content">
+      <div>
+        <p class="body-paragraph">His family history has been featured on Dancing with Stars, Tedx, The Moth, and Q Idea. Today he is a sought-after presenter for conferences, expos, conventions and fundraisers with compelling messages for a variety of industries including banking, tech, healthcare, real estate, K-12 schools, universities and community colleges.</p>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wF_Zrg3irAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="keynote-presentation">
+  <span class="keynote-presentation__circle--red"></span>
+  <span class="keynote-presentation__circle--blue center">
+    <span id="presentation-text">Mwano works closely with clients to design outstanding keynote presentations or workshops, aligning with conference, event or organizational messaging and themes.</span>
+  </span>
+  <img src="/assets/images/keynote-speaker/deo-stage-presentation.png" alt="">
+</section>
+
+<section class="keynote-partners center">
+  <div class="container ls-container">
+    <h2 class="uppercase heading-4">Recent Partners</h2>
+    <div class="keynote-partners__img">
+      <div>
+        <img src="/assets/images/clients/phillips-exeter-academy-2.png" alt="phillips exeter academy">
+      </div>
+      <div>
+        <img src="/assets/images/clients/new-hampshire-department-of-education.png" alt="new hampshire department of education">
+      </div>
+      <div>
+        <img src="/assets/images/clients/clark-university.png" alt="clark university" width="170px">
+      </div>
+      <div>
+        <img src="/assets/images/clients/pinnacle-mortgage.png" alt="pinnacle mortgage" width="190px">
+      </div>
+      <div>
+        <img src="/assets/images/clients/yasa.png" alt="yasa">
+      </div>
+      <div>
+        <img src="/assets/images/clients/new-hampshire-school-administrators-association.png" alt="new hampshire school administrators association">
+      </div>
+      <div>
+        <img src="/assets/images/clients/kw-metropolitan.png" alt="kw metropolitan">
+      </div>
+      <div>
+        <img src="/assets/images/clients/concord-hospital.png" alt="concord hospital" width="190px">
+      </div>
+      <div>
+        <img src="/assets/images/clients/penn-state-student-affairs.png" alt="penn state student affairs" width="190px">
+      </div>
+      <div>
+        <img src="/assets/images/clients/delta-dental.png" alt="delta dental">
+      </div>
+      <div>
+        <img src="/assets/images/clients/enterprise-bank.png" alt="enterprise bank">
+      </div>
+      <div>
+        <img src="/assets/images/clients/brown-advisory.png" alt="brown advisory">
+      </div>
+      <div class="ks-partners__img--empty"></div>
+      <div>
+        <img src="/assets/images/clients/tucson-unified.png" alt="tucson-unified">
+      </div>
+      <div>
+        <img src="/assets/images/clients/easfaa.png" alt="easfaa" width="160px">
+      </div>
+      <div class="keynote-partners__img--empty"></div>
+    </div>
+    <a href="/contact/" class="button">Talk to DMC today</a>
+  </div>
+</section>
+
+<section class="keynote-reviews center">
+  <div class="container ls-container">
+    <div class="keynote-reviews__cards">
+      <div>
+        <p class="body-paragraph keynote-reviews__cards--review">"When I served as president of the New England Chapter of the American Dance Therapy Association (NEADTA), we had the honor of hosting Deo Mwano as keynote speaker at our 2019 conference, "Dancing Along the Continuum: Dance/Movement Therapy and Social Action." Deo started our conference on the literal and figurative right foot with his engaging presentation, "Ignite Your Creativity and Trust the Process." Through movement and words, Deo shared his experiences with teaching dance in various communities and publicly telling his story as a refugee. Deo demonstrated the transformative power of dance as a communicative art form, and highlighted the importance of openness and trust throughout the creative process."</p>
+        <p class="keynote-reviews__cards--meta body-paragraph">
+          <strong>Leah Mauren</strong>
+          <br>
+          <span>Former President of the New England Association of Dance Therapist</span>
+        </p>
+      </div>
+      <div>
+        <p class="body-paragraph keynote-reviews__cards--review">"Deo Mwano masterfully led our Board through a tremendous amount of information, balancing the systemic and individual scales and grounding concepts in the specific kinds of work that we do and challenges we face. His training was engaging and compassionate and it continues to inspire important conversations in our organization"</p>
+        <p class="keynote-reviews__cards--meta body-paragraph">
+          <strong>Sarah Wraight</strong>
+          <br>
+          <span>Two Rivers-Ottauquechee Regional Commission, Vermont, Senior Planner</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-team keynote-team">
+  <div class="container">
+    <div class="home-team__row keynote-team__row">
+      <div>
+        <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="Millicent Alhamis">
+        <div>
+          <h4>Millicent Alhamis</h4>
+          <p>Program/Project Manager</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/team/team-deo-mwano.jpg" alt="deo mwano">
+        <div>
+          <h4>Deo Mwano</h4>
+          <p>CEO, Founder and Managing Principal</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
