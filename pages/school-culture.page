@@ -1,0 +1,120 @@
+<div class="school">
+
+<section class="school-hero">
+  <div class="school-hero-container">
+    <div class="grid">
+      <div class="text">
+        <h1>DMC School Culture & Climate Assemblies & Listening Sessions</h1>
+        <p>Empowering Students.</p>
+        <p>Transforming School Culture.</p>
+      </div>
+        <img class="school-culture-1" src="/assets/images/learning-success/school-culture-1.png">
+        <img class="school-culture-2" src="/assets/images/learning-success/school-culture-2.png">
+        <img class="school-culture-3" src="/assets/images/learning-success/school-culture-3.png">
+        <img class="school-culture-4" src="/assets/images/learning-success/school-culture-4.png">
+        <img class="school-culture-5" src="/assets/images/learning-success/school-culture-5.png">
+        <img class="school-culture-6" src="/assets/images/learning-success/school-culture-6.png">        
+    </div>
+  </div>
+</section>
+
+<section class="school-main">
+  <div class="school-main-container">
+    <h1>Inspire. Connect. Elevate.</h1>
+    <div class="top-container">
+      <div class="text-container">
+      <p><b>At Deo Mwano Consultancy (DMC)</b>, we believe that schools thrive when students feel seen, heard, 
+      and empowered. That's why we partner with school districts to deliver dynamic programming that 
+      redefines what it means to build <b>positive school culture and climate</b>.
+      </p>
+      <p>Our School Culture & Climate Assemblies and Student Listening Sessions are more than just 
+      events—they're transformative experiences. Designed with today's middle school, high school, 
+      and college students in mind, our programs spark empathy, build meaningful connections, and 
+      foster a stronger sense of community in every school we serve.</p>
+    </div>
+    <img src="/assets/images/learning-success/school-culture-collage.png" alt="school culture">
+  
+    </div>
+    <div class="middle-container">
+      <div class="card">
+        <div class="top-part">
+          <div class="text-container">
+            <h2>School Culture Assemblies</h2>
+            <h3>Inspiring Students to Lead with Empathy and Purpose</h3>
+            <p>Our assemblies are high-energy, interactive, and emotionally resonant experiences that motivate students to reflect on who they are, how they treat others, and the role they play in shaping their school community.</p>
+          </div>
+          <img src="/assets/images/learning-success/school-culture-assemblies.png" alt="school culture assemblies">
+        </div>
+        <div class="bottom-part">
+         <h3>What to Expect:</h3>
+         <ul>
+           <li>Live performances featuring music, dance, and spoken word</li>
+           <li>Powerful storytelling rooted in real-life experiences</li>
+           <li>Impactful messages like:
+              <ul>
+                <li><em>"Be a good citizen"</em></li>
+                <li><em>"Lead with empathy"</em></li>
+                <li><em>"Your voice matters"</em></li>
+              </ul>
+           </li>
+           <li>Alignment with district priorities around social-emotional learning, student wellness, and postive behavior expectations</li>
+         </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="top-part">
+          <div class="text-container">
+            <h2>Student Listening Sessions</h2>
+            <h3>Inspiring Students to Lead with Empathy and Purpose</h3>
+            <p>Our assemblies are high-energy, interactive, and emotionally resonant experiences that motivate students to reflect on who they are, how they treat others, and the role they play in shaping their school community.</p>
+          </div>
+          <img src="/assets/images/learning-success/student-listening-sessions.png" alt="student listening sessions">
+        </div>
+        <div class="bottom-part">
+         <h3>What to Expect</h3>
+         <ul>
+           <li>Live performances featuring music, dance, and spoken word</li>
+           <li>Powerful storytelling rooted in real-life experiences</li>
+           <li>Impactful messages like:
+              <ul>
+                <li><em>"Be a good citizen</em></li>
+                <li><em>"Lead with empathy</em></li>
+                <li><em>"Your voice matters"</em></li>
+              </ul>
+           </li>
+           <li>Alignment with district priorities around social-emotional learning, student wellness, and postive behavior expectations</li>
+         </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="bottom-container">
+      <div class="text-container">
+        <h2>Post-Session Insights</h2>
+        <p>We don't stop at conversation. After each session, DMC provides detailed summary reports that highlight:</p>
+      </div>
+      <div class="images-container">
+        <div class="icon-container">
+          <div class="card" id="feedback-card">
+            <img src="/assets/images/learning-success/feedback-icon.png" alt="feedback">
+            <p>Student feedback and voices</p>
+          </div>
+          <div class="card" id="themes-card">
+            <img src="/assets/images/learning-success/themes-icon.png" alt="recurring themes">
+            <p>Recurring themes</p>
+          </div>
+          <div class="card" id="recommendations-card">
+            <img src="/assets/images/learning-success/recommendations-icon.png" alt="actionable recommendations">
+            <p>Actionable recommendations for continued culture-building</p>
+          </div>
+        </div>
+        <div>
+          <p>These insights support school leaders in making informed, student-centered decisions that lead to real, lasting change.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>
