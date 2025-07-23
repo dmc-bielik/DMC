@@ -1,2 +1,154 @@
-<h1>Grantmakers</h1>
-<p>Subheading</p>
+<div class="grantmakers">
+
+<section class="grantmakers-hero">
+  <div class="grantmakers-hero-container">
+    <div class="grid">
+      <div class="text">
+        <h1>Empowering Grantmakers & Foundations to Maximize Impact</h1>
+        <p>At <b>Deo Mwano Consultancy (DMC)</b>, we help grantmakers and foundations 
+        turn their vision into measurable impact. With over a decade of experience, 
+        we've partnered with organizations of all sizes to align missions, 
+        deploy resources more effectively, and expand community reach.</p>
+        <p>We don't just offer strategy—we deliver transformation.</p>
+      </div>
+      <img class="grantmakers-1" src="/assets/images/grantmakers/grantmakers-1.png">
+      <img class="grantmakers-2" src="/assets/images/grantmakers/grantmakers-2.png">
+      <img class="grantmakers-3" src="/assets/images/grantmakers/grantmakers-3.png">
+      <img class="grantmakers-4" src="/assets/images/grantmakers/grantmakers-4.png">
+      <img class="grantmakers-5" src="/assets/images/grantmakers/grantmakers-5.png">
+      <img class="grantmakers-6" src="/assets/images/grantmakers/grantmakers-6.png">
+               
+    </div>
+  </div>
+</section>
+
+<section class="grantmakers-approach">
+    <div class="grantmakers-approach-container">
+        <h1>Our Approach</h1>
+        <div class="card-container">
+            <div class="card" id="grantmakers-strategic">
+              <div class="top">
+                <div class="text-container">
+                  <h2>Strategic Alignment & Facilitation</h2>
+                  <p class="text">We specialize in helping foundations and grantmakers:</p>
+                </div>
+                
+                <img src="/assets/images/grantmakers/grantmakers-strategic.png" alt="Deo speaking with a group of people">
+              </div>
+              <div class="bottom">
+               
+                <ul>
+                  <li>Clarify their mission and re-energize their purpose</li>
+                  <li>Align board and staff through strategic planning and recommitment</li>
+                  <li>Foster sessions that bring abstract ideas to life through tangible, tools, visuals, and interactive experiences</li>
+                </ul>
+                <p class="text">Our workshops aren't passive presentations—they are action-driven experiences that spark clarity, connection, and commitment.</p>
+              </div>
+            </div>
+            <div class="card" id="grantmakers-relationships">
+              <div class="top">
+                <div class="text-container">
+                  <h2>Stronger Relationships & Broader Reach</h2>
+                  <p class="text">Too many grantmakers are disconnected from communities they want to serve. DMC bridges that gap by:</p>
+                </div>
+                <img src="/assets/images/grantmakers/grantmakers-relationships.png" alt="Deo leading a session">
+              </div>
+              <div class="bottom">
+                
+                <ul>
+                  <li>Developing strategies to build new relationships with underrepresented or overlooked communities</li>
+                  <li>Designing frameworks that prioritize equitable resource distribution</li>
+                  <li>Bringing new voices and perspectives into conversations to elevate awareness and cultural competency</li>
+                </ul>
+                <p class="text">We help you go beyond the familiar—into new partnerships and deeper trust.</p>
+              </div>
+            </div>
+            <div class="card" id="grantmakers-purpose">
+              <div class="top">
+                <div class="text-container">
+                  <h2>Pilot Programs with Purpose</h2>
+                  <p class="text">Big ideas are only as good as their execution. We help you:</p>
+                </div>
+                
+                <img src="/assets/images/grantmakers/grantmakers-purpose.png" alt="Deo talking with someone one-on-one">
+              </div>
+              <div class="bottom">
+                
+                <ul>
+                  <li>Design and implement pilot programs with built-in feedback loops</li>
+                  <li>Connect initiatives to the right communities with precision</li>
+                  <li>Ensure that every pilot is a learning experience that informs scale and sustainability</li>
+                </ul>
+                <p class="text">You'll move from planning to practice—with purpose and accountability.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="grantmakers-experience">
+    <div class="grantmakers-experience-container">
+        <h1>What Our Grantmaker Partners Experience</h1>
+       
+        <div class="card-container">
+            <div class="card">
+                <div class="top" id="increased">
+                    <img class="icon" src="/assets/images/grantmakers/increased-icon.png" alt="collaboration">
+                </div>
+                <div class="bottom">
+                    <p>Increased collaboration across board and staff</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="clearer">
+                    <img class="icon" src="/assets/images/grantmakers/clearer-icon.png" alt="strategic direction">
+                </div>
+                <div class="bottom">
+                    <p>Clearer strategic direction and recommitment</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="better">
+                    <img class="icon" src="/assets/images/grantmakers/better-icon.png" alt="alignment with needs">
+                </div>
+                <div class="bottom">
+                    <p>Better resource alignment with community needs</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="stronger">
+                    <img class="icon" src="/assets/images/grantmakers/stronger-icon.png" alt="stronger local impact">
+                </div>
+                <div class="bottom">
+                    <p>Stronger external relationships and local impact</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="inclusive">
+                    <img class="icon" src="/assets/images/grantmakers/inclusive-icon.png" alt="inclusive and innovative programming">
+                </div>
+                <div class="bottom">
+                    <p>More inclusive and innovative programming</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="grantmakers-maximize">
+  <div class="grantmakers-maximize-container">
+        <h1>Ready to Maximize the Impact of Your Funding?</h1>
+        <div class="card">
+            <div class="text-container">
+                <p class="top-text"><b>Deo Mwano Consultancy</b> is here to help your foundation reach further, invest smarter, and serve deeper.
+                </p>
+                <p class="bottom-text"><b>Let's start a conversation that changes communities.</b></p>
+                <div class="button">Book a Strategy Call Today</div>
+            </div>
+            <img src="/assets/images/grantmakers/grantmakers-maximize.png" alt="Deo talking to a group of people">
+        </div>
+    </div>
+
+</section>
+
+<div>

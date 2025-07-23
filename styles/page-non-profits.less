@@ -1,0 +1,426 @@
+.nonprofits {
+    background-color: #F3F3F6;
+
+    &-hero {
+      margin-bottom: 80px;
+      @media (max-width: 767px) {
+       margin-bottom: 40px;
+      }
+
+      &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 767px) {
+          margin-top: 0;
+          padding-top: 0;
+         }
+      }
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+      }
+
+      .nonprofits-1 {
+        grid-area: nonprofits-1;
+        object-fit: cover;
+      }
+
+      .nonprofits-2 {
+        grid-area: nonprofits-2;
+        object-fit: cover;
+      }
+
+      .nonprofits-3 {
+        grid-area: nonprofits-3;
+        object-fit: cover;
+      }
+
+      .nonprofits-4 {
+        grid-area: nonprofits-4;
+        object-fit: cover;
+      }
+
+      
+      
+
+      
+      .text {
+        grid-area: text;
+        padding-left: 40px;
+
+        @media (max-width: 1200px) {
+          margin-bottom: 40px;
+          padding-right: 20px;
+        }
+
+        @media (max-width: 979px) {
+          padding-left: 0px;
+          
+        }
+
+        h1 {
+          
+          font-family: @fontPoppins;
+          font-weight: 600;
+          font-size: 34px;
+          letter-spacing: 0.9px;
+          line-height: 1.1;
+        }
+
+        p {
+          font-family: @fontPoppins;
+          font-size: 16px;
+          font-weight: 200;
+          color: #525252;
+              margin: 0px;
+
+              b {
+                color: black;
+              }
+        }
+
+        
+      }
+
+      .grid {
+        justify-content: center;
+        width: 100%;
+        max-width: 1400px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        display: grid;
+        grid-template-columns: 40% 3% 20% 20%;
+        grid-template-rows: 10% 20% 10% 20% 10%;
+        grid-template-areas: 
+        "text . . nonprofits-2"
+        "text . nonprofits-1 nonprofits-2"
+        "text . nonprofits-1 nonprofits-4"
+        "text nonprofits-3 nonprofits-3 nonprofits-4"
+        ". nonprofits-3 nonprofits-3 .";
+        
+          
+        column-gap: 1vw;
+        row-gap: 1vw;
+
+        @media (max-width: 979px) {
+        
+         grid-template-columns: 40% 40%;
+         grid-template-rows: auto;
+         grid-template-areas: 
+         "text text"
+         "nonprofits-1 nonprofits-2"
+         "nonprofits-3 nonprofits-4";
+
+         column-gap: 2vw;
+         row-gap: 2vw;
+        }
+
+        @media (max-width: 767px) {
+         grid-template-columns: 90%;
+         grid-template-areas: 
+         "text"
+         "nonprofits-1"
+         "nonprofits-2"
+         "nonprofits-3"
+         "nonprofits-4";
+
+         column-gap: 2vw;
+         row-gap: 2vw;
+        }
+        
+      }
+    }
+
+    &-industries {
+
+        &-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+              font-family: @fontPoppins;
+              font-weight: 600;
+              font-size: 34px;
+              letter-spacing: 0.9px;
+              line-height: 1.1;
+              margin-bottom: 0;
+            }
+
+            p {
+              font-family: @fontPoppins;
+              font-size: 20px;
+              font-weight: 500;
+              color: black;
+              margin-bottom: 40px;
+
+              b {
+                color: black;
+              }
+            }
+
+            .card-container {
+                display: flex;
+                gap: 20px;
+                height: 400px;
+
+                .card {
+
+                  width: 210px;
+                  height: 280px;
+                  
+
+                    .top {
+                        height: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 13px 13px 0 0 ;
+
+                        img {
+                          width: 70px;
+                          
+                        }
+                    }
+
+                    .bottom {
+                        height: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: white;
+                        border-radius: 0 0 13px 13px;
+                        padding: 20px;
+
+                        p {
+                          text-align: center;
+                          font-family: @fontPoppins;
+                          font-size: 18px;
+                          font-weight: 600;
+                        }
+                    }
+
+                    #education, #chambers, #refugee {
+                        background-color: #FC2A4F;
+                    }
+
+                    #professional, #performing, #healthcare {
+                        background-color: #FFCF3F;
+                    }
+
+                    #substance, #social {
+                        background-color: #2DAF70;
+                    }
+
+                    #workforce, #cooperative {
+                        background-color: #84BFE9;
+                    }
+                }
+            }
+        }
+    }
+
+    &-what {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+        &-container {
+            max-width: 1200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 90%;
+            margin-bottom: 60px;
+
+            h1 {
+              font-family: @fontPoppins;
+              font-weight: 600;
+              font-size: 28px;
+            }
+
+            .row-container {
+                display: flex;
+                gap: 20px;
+
+                @media (max-width: 767px) {
+                  flex-direction: column;
+                }
+
+                .card {
+                    border-radius: 13px;
+
+                  .top {
+                      display: flex;
+                      padding: 40px 0 0 40px;
+                      gap: 40px;
+
+                      @media (max-width: 979px) {
+                        flex-direction: column;
+                        gap: 0;
+                      }
+
+                      img {
+                        width: 65%;
+                        object-fit: cover;
+
+                        @media (max-width: 1200px) {
+                          width: 60%
+                        }
+
+                        @media (max-width: 1100px) {
+                          width: 55%
+                        }
+
+                        @media (max-width: 1000px) {
+                          width: 50%
+                        }
+
+                        @media (max-width: 979px) {
+                          width: 100%;
+                        }
+  
+                      }
+
+                      h2 {
+                        font-family: @fontPoppins;
+                        color: black;
+                        font-size: 20px;
+                        align-self: center;
+                      }
+                  }
+
+                  .bottom {
+                    padding: 20px 20px 20px 40px;
+
+                    p {
+                      font-family: @fontPoppins;
+                      font-size: 15px;
+                      color: black;
+                      margin-bottom: 0;
+                      line-height: 1.4;
+
+                    }
+
+                    ul {
+                      margin-top: 0;
+                    }
+                    
+
+                    li {
+                      font-family: @fontPoppins;
+                      color: black;
+                      margin: 0;
+                      font-size: 15px;
+                      padding: 0;
+                      line-height: 1.4;
+                    }
+                  }
+
+                }
+
+                #strategic {
+                    background-color: #FC2A4F;
+                }
+
+                #team {
+                    background-color: #FFCF3F;
+                }
+
+                #expanding {
+                    background-color: #2DAF70;
+                }
+
+                #resources {
+                    background-color: #84BFE9;
+                }
+            }
+        }
+
+
+    }
+
+    &-why {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+        &-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1340px;
+            padding-bottom: 120px;
+
+            h1 {
+              font-family: @fontPoppins;
+              font-size: 28px;
+            }
+
+            .card {
+                background-color: white;
+                border-radius: 13px;
+                width: 90%;
+                display: flex;
+                gap: 20px;
+
+                 @media (max-width: 979px) {
+                   flex-direction: column;
+                   max-width: 700px;
+                 }
+
+                .text-container {
+                  padding-left: 120px;
+                  align-self: center;
+
+                  @media (max-width: 979px) {
+                   
+                   width: 300px;
+                   padding-top: 40px;
+                   align-self: flex-start;
+                  }
+
+                  @media (max-width: 767px) {
+                   padding-top: 20px;
+                   padding-left: 20px;
+                  }
+
+                  p {
+                    font-family: @fontPoppins;
+                    font-size: 16px;
+                    color: #525252;
+                    line-height: 1.5;
+                    padding-bottom: 40px;
+                    font-weight: 300;
+                  }
+
+                  .button {
+                    height: 20px;
+                    padding-top: 0;
+                    font-size: 12px !important;
+                    
+                  }
+                }
+                
+                img {
+                  width: 60%;
+                  object-fit: cover;
+
+                  @media (max-width: 979px) {
+                   width: 100%;
+                 }
+                }
+            }
+        }
+    }
+
+}

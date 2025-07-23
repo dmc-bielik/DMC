@@ -1,0 +1,197 @@
+<div class="nonprofits">
+
+  <section class="nonprofits-hero">
+    <div class="nonprofits-hero-container">
+      <div class="grid">
+        <div class="text">
+          <h1>Transforming Non-Profits for Sustainable Impact</h1>
+          <p>With over 15 years of experience, <b>Deo Mwano Consultancy (DMC) </b>
+          has partnered with a wide variety of nonprofit organizations—large, 
+          medium, and small—to help them align their mission, improve internal 
+          collaboration, and expand their external reach. We bring proven 
+          strategies and practical innovation to the nonprofit sector, 
+          ensuring organizations are equipped for long-term success.</p>
+        </div>
+          <img class="nonprofits-1" src="/assets/images/nonprofits/nonprofits-1.png">
+          <img class="nonprofits-2" src="/assets/images/nonprofits/nonprofits-2.png">
+          <img class="nonprofits-3" src="/assets/images/nonprofits/nonprofits-3.png">
+          <img class="nonprofits-4" src="/assets/images/nonprofits/nonprofits-4.png">
+                 
+      </div>
+    </div>
+  </section>
+
+  <section class="nonprofits-industries">
+    <div class="nonprofits-industries-container">
+        <h1>Industries We Serve</h1>
+        <p>Our work spans across diverse nonprofit sectors, including</p>
+        <div class="card-container">
+            <div class="card">
+                <div class="top" id="education">
+                    <img class="icon" src="/assets/images/nonprofits/education-icon.png" alt="education">
+                </div>
+                <div class="bottom">
+                    <p>Education-Focused Nonprofits</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="professional">
+                    <img class="icon" src="/assets/images/nonprofits/professional-icon.png" alt="professional associations">
+                </div>
+                <div class="bottom">
+                    <p>Professional Associations</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="substance">
+                    <img class="icon" src="/assets/images/nonprofits/substance-icon.png" alt="substance use">
+                </div>
+                <div class="bottom">
+                    <p>Substance Use Disorder (SUD) Organizations</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="workforce">
+                    <img class="icon" src="/assets/images/nonprofits/workforce-icon.png" alt="workforce development">
+                </div>
+                <div class="bottom">
+                    <p>Workforce Development Organizations</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="chambers">
+                    <img class="icon" src="/assets/images/nonprofits/chambers-icon.png" alt="chambers of commerce">
+                </div>
+                <div class="bottom">
+                    <p>Chambers of Commerce</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="performing">
+                    <img class="icon" src="/assets/images/nonprofits/performing-icon.png" alt="performing arts">
+                </div>
+                <div class="bottom">
+                    <p>Performing Arts Venues</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="social">
+                    <img class="icon" src="/assets/images/nonprofits/social-icon.png" alt="social impact">
+                </div>
+                <div class="bottom">
+                    <p>Social Impact Enterprises</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="cooperative">
+                    <img class="icon" src="/assets/images/nonprofits/cooperative-icon.png" alt="cooperatives">
+                </div>
+                <div class="bottom">
+                    <p>Cooperative Organizations</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="refugee">
+                    <img class="icon" src="/assets/images/nonprofits/refugee-icon.png" alt="refugee resettlement">
+                </div>
+                <div class="bottom">
+                    <p>Refugee Resettlement Programs</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top" id="healthcare">
+                    <img class="icon" src="/assets/images/nonprofits/healthcare-icon.png" alt="healthcare">
+                </div>
+                <div class="bottom">
+                    <p>Healthcare Nonprofits</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="nonprofits-what">
+    <div class="nonprofits-what-container">
+        <h1>What We Do</h1>
+        <div class="row-container">
+            <div class="card" id="strategic">
+              <div class="top">
+                <h2>Strategic Planning & Organizational Alignment</h2>
+                <img src="/assets/images/nonprofits/strategic.png" alt="Deo working with a nonprofit board">
+              </div>
+              <div class="bottom">
+                <p>We work closely with nonprofit boards and leadership teams to:</p>
+                <ul>
+                  <li>Develop clear and actionable strategic plans</li>
+                  <li>Align operations and governance with long-term goals</li>
+                  <li>Facilitate effective execution and progress monitoring</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card" id="team">
+              <div class="top">
+                <h2>Team Dynamics & Culture Building</h2>
+                <img src="/assets/images/nonprofits/team.png" alt="Deo working with a nonprofit team">
+              </div>
+              <div class="bottom">
+                <p>DMC helps nonprofits strengthen internal collaboration and team performance by:</p>
+                <ul>
+                  <li>Establishing shared vision and values</li>
+                  <li>Improving communication across departments</li>
+                  <li>Aligning teams around new or evolving initiatives</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="row-container">
+            <div class="card" id="expanding">
+              <div class="top">
+                <h2>Expanding Reach & External Relationships</h2>
+                <img src="/assets/images/nonprofits/expanding.png" alt="Deo shaking hands with another person">
+              </div>
+              <div class="bottom">
+                <p>We design and implement strategies to:</p>
+                <ul>
+                  <li>Broaden community and stakeholder engagement</li>
+                  <li>Cultivate new partnerships beyond existing networks</li>
+                  <li>Increase visibility and social impact</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card" id="resources">
+              <div class="top">
+                <h2>Resource Design & Pilot initiatives</h2>
+                <img src="/assets/images/nonprofits/resources.png" alt="Deo presenting in front of a group of people">
+              </div>
+              <div class="bottom">
+                <p>To help nonprofits test and scale innovation, we:</p>
+                <ul>
+                  <li>Co-create pilot programs that demonstrate proof of concept</li>
+                  <li>Offer implementation support and feedback loops</li>
+                  <li>Provide actionable frameworks for sustainable growth</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <section class="nonprofits-why">
+    <div class="nonprofits-why-container">
+        <h1>Why Work with DMC?</h1>
+        <div class="card">
+            <div class="text-container">
+                <p>Whether you're rethinking your mission or launching a 
+                bold new initiative, Deo Mwano Consultancy is your trusted 
+                partner in navigating change, aligning teams, and driving 
+                impact.
+                </p>
+                <div class="button">Let's Talk</div>
+            </div>
+            <img src="/assets/images/nonprofits/nonprofits-why.png" alt="Deo talking to a group of people">
+        </div>
+    </div>
+  </section>
+
+</div>
