@@ -1,3 +1,15 @@
+const scroller = document.querySelector('.workforce-industry-outer');
+
+  scroller.addEventListener('wheel', function(e) {
+    // Only run if the content overflows horizontally
+    if (scroller.scrollWidth > scroller.clientWidth) {
+      e.preventDefault(); // Stop vertical scroll
+
+      // Scroll horizontally instead
+      scroller.scrollLeft += e.deltaY;
+    }
+  }, { passive: false }); // passive must be false to use preventDefault
+
 /* GSAP */
 
 window.gsap.registerPlugin(window.ScrollTrigger);
