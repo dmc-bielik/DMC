@@ -117,4 +117,18 @@
   </div>
 </section>
 
+<section class="school-ready">
+  <div class="school-ready-container">
+      <div class="card">
+          <div class="text-container">
+              <p>Ready to Reimagine Your School's Culture?
+              </p>
+              <div class="button">Book a Strategy Call Today</div>
+          </div>
+          <img src="/assets/images/learning-success/school-culture-bottom.png" alt="Deo talking to a group of people">
+      </div>
+  </div>
+</section>
+
+
 </div>

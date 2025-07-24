@@ -1,14 +1,16 @@
-const scroller = document.querySelector('.workforce-industry-outer');
+  const scroller = document.querySelector('.workforce-industry-outer');
 
   scroller.addEventListener('wheel', function(e) {
-    // Only run if the content overflows horizontally
-    if (scroller.scrollWidth > scroller.clientWidth) {
-      e.preventDefault(); // Stop vertical scroll
+    const atStart = scroller.scrollLeft === 0;
+    const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 1; // minor offset for rounding
 
-      // Scroll horizontally instead
+    // If not at the edges, prevent default and scroll horizontally
+    if (!(atStart && e.deltaY < 0) && !(atEnd && e.deltaY > 0)) {
+      e.preventDefault();
       scroller.scrollLeft += e.deltaY;
     }
-  }, { passive: false }); // passive must be false to use preventDefault
+    // Otherwise, allow vertical scroll to continue
+  }, { passive: false });
 
 /* GSAP */
 
