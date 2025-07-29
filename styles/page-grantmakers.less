@@ -2,7 +2,7 @@
     background-color: #F3F3F6;
 
     &-hero {
-      margin-bottom: 80px;
+      margin-bottom: 40px;
       @media (max-width: 767px) {
        margin-bottom: 40px;
       }
@@ -82,7 +82,7 @@
 
         @media (max-width: 979px) {
           padding-left: 0px;
-          
+          margin-bottom: 0px;
         }
 
         h1 {
@@ -141,18 +141,6 @@
          row-gap: 2vw;
         }
 
-        @media (max-width: 767px) {
-         grid-template-columns: 90%;
-         grid-template-areas: 
-         "text"
-         "grantmakers-1"
-         "grantmakers-2"
-         "grantmakers-3"
-         "grantmakers-4";
-
-         column-gap: 2vw;
-         row-gap: 2vw;
-        }
         
       }
     }
@@ -167,7 +155,7 @@
           font-weight: 600;
           font-size: 28px;
           letter-spacing: 0.9px;
-          padding-bottom: 20px;
+          
         }
 
         display: flex;
@@ -177,14 +165,36 @@
         .card-container {
           display: flex;
           gap: 20px;
+          padding-top: 2%;
+                width: 100%;
+                margin-left: 40px;
+                
+                white-space: nowrap;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                -webkit-overflow-scrolling: touch;
+        
+                /* Hide scrollbar - Webkit (Chrome, Safari) */
+                &::-webkit-scrollbar {
+                  display: none;
+                }
+              
+                /* Hide scrollbar - Firefox */
+                scrollbar-width: none;
+              
+                /* Hide scrollbar - IE/Edge (legacy) */
+                -ms-overflow-style: none;
 
           .card {
             border-radius: 13px;
             width: 550px;
+            flex-shrink: 0;
+            float: none;
+            display: inline-block;
 
             .text {
                   font-family: @fontPoppins;
-                  font-size: 15px;
+                  font-size: 12px;
                   color: black;
                   margin-bottom: 0;
                   line-height: 1.4;
@@ -195,42 +205,43 @@
               display: flex;
 
               .text-container {
-                padding: 40px 20px 0 40px;
+                width: 40%;
+                text-wrap: wrap;
+                padding: 40px 20px 0px 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
 
                 h2 {
                 font-family: @fontPoppins;
                 color: black;
-                font-size: 20px;
-                
+                font-size: 18px;
                 }
-  
                 
-
+                .text {
+                  
+                }
               }
-
-              
 
               img {
                 width: 60%;
+                object-fit: cover;
               }
-              
             }
 
             .bottom {
-              padding: 20px 20px 20px 40px;
-
-              
+              text-wrap: wrap;
+              padding: 20px 20px 40px 40px;
 
               ul {
                 margin-top: 0;
               }
-              
 
               li {
                 font-family: @fontPoppins;
                 color: black;
                 margin: 0;
-                font-size: 15px;
+                font-size: 12px;
                 padding: 0;
                 line-height: 1.4;
               }
@@ -238,7 +249,7 @@
           }
 
           #grantmakers-strategic {
-            background-color: #FC2A4F;
+            background-color: #FC2A38;
           }
 
           #grantmakers-relationships {
@@ -275,13 +286,24 @@
           font-size: 28px;
           letter-spacing: 0.9px;
           padding-bottom: 20px;
+          text-align: center;
         }
 
         .card-container {
           display: flex;
           gap: 20px;
 
+          @media (max-width: 979px) {
+            flex-direction: column;
+            gap: 60px;
+          }
+
           .card {
+
+            @media (max-width: 979px) {
+              height: 300px;
+              max-width: 300px;
+            }
 
             .top {
               height: 50%;
@@ -360,6 +382,7 @@
               font-family: @fontPoppins;
               font-size: 28px;
               font-weight: 600;
+              text-align: center;
             }
 
             .card {
