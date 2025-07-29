@@ -15,8 +15,7 @@
           <img class="nonprofits-1" src="/assets/images/nonprofits/nonprofits-1.png">
           <img class="nonprofits-2" src="/assets/images/nonprofits/nonprofits-2.png">
           <img class="nonprofits-3" src="/assets/images/nonprofits/nonprofits-3.png">
-          <img class="nonprofits-4" src="/assets/images/nonprofits/nonprofits-4.png">
-                 
+          <img class="nonprofits-4" src="/assets/images/nonprofits/nonprofits-4.png">       
       </div>
     </div>
   </section>
@@ -25,7 +24,7 @@
     <div class="nonprofits-industries-container">
         <h1>Industries We Serve</h1>
         <p>Our work spans across diverse nonprofit sectors, including</p>
-        <div class="card-container">
+        <div class="special-scroller">
             <div class="card">
                 <div class="top" id="education">
                     <img class="icon" src="/assets/images/nonprofits/education-icon.png" alt="education">

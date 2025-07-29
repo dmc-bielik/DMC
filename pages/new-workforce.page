@@ -6,7 +6,6 @@
         <p>At DMC, our mission is to drive positive organizational transformation by enhancing how people experience and contribute to shared goals, thereby improving collaboration, productivity, and success.</p>
         <a href="/contact/" class="button">Contact us</a>
       </div>
-      
         <img class="deo-1" src="/assets/images/workforce/workforce-deo-1.png">
         <img class="deo-2" src="/assets/images/workforce/workforce-deo-2.png">
         <img class="deo-3" src="/assets/images/workforce/workforce-deo-3.png">
@@ -15,11 +14,10 @@
     </div>
   </div>
 </section>
-
 <section class="workforce-industry">
   <div class="container">
     <h2>A Human-Centered, Transformative Process</h2>
-    <div class="workforce-industry-outer">
+    <div class="special-scroller">
       <div class="card box-shadow">
         <div class="workforce-industry-content">
           <p>Create collaborative, aligned environments that maximize employee potential</p>

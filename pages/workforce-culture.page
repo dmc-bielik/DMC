@@ -1,0 +1,124 @@
+<section class="workculture-hero">
+  <div class="workculture-hero-container">
+    <div class="grid">
+      <div class="text">
+        <h1>Boost Engagment & Transform Your Culture with DMC</h1>
+        <p>At Deo Mwano Consultancy, we help organizations build strong cultures, retain talent,
+        and boost employee engagement through actionable strategies and tools. Whether you're
+        facing burnout, low morale, or growth challenges - we guide you through proven solutions that work</p>
+        <a href="/contact/" class="button">Contact us</a>
+      </div>
+      
+        <img class="culture-1" src="/assets/images/workforce/culture-1.png">
+        <img class="culture-2" src="/assets/images/workforce/culture-2.png">
+        <img class="culture-3" src="/assets/images/workforce/culture-3.png">
+        <img class="culture-4" src="/assets/images/workforce/culture-4.png">
+        <img class="culture-5" src="/assets/images/workforce/culture-5.png">      
+    </div>
+  </div>
+</section>
+
+<section class="workculture-deliver">
+  <div class="workculture-deliver-container">
+  </div>
+</section>
+
+<section class="workculture-tools">
+   <div class="workculture-tools-container">
+     <h2>Tools & Tactics We use</h2>
+     <div class="row">
+        <div class="card">
+          <img class="image" src="/assets/images/workforce/purpose-icon.png">
+          <p class="text">Purpose alignment sessions</p>
+        </div>
+        <div class="card">
+          <img class="image" src="/assets/images/workforce/leadership-icon.png">
+          <p class="text">Leadership labs & coaching</p>
+        </div>
+        <div class="card">
+          <img class="image" src="/assets/images/workforce/mapping-icon.png">
+          <p class="text">Experience journey mapping</p>
+        </div>
+     </div>
+     <div class="row">
+        <div class="card">
+          <img class="image" src="/assets/images/workforce/pulse-icon.png">
+          <p class="text">Employee pulse checks</p>
+        </div>
+        <div class="card">
+          <img class="image" src="/assets/images/workforce/burnout-icon.png">
+          <p class="text">Burnout risk assessments</p>
+        </div>
+        <div class="card">
+          <img class="image" src="/assets/images/workforce/engagement-icon.png">
+          <p class="text">Engagement analytics & retention predictors</p>
+        </div>
+     </div>
+   </div> 
+</section>
+
+<section class="workculture-timelines">
+  <div class="workculture-timlines-container">
+    <h2>Our Engagment Timelines</h2>
+    <div class="card">
+      <div class="duration">
+        <h3>Duration</h3>
+        <p>1-3 Months</p>
+        <p>3-6 Months</p>
+        <p>6-12 Months</p>
+      </div>
+      <div class="focus">
+        <h3>Focus</h3>
+        <p>Discovery & Pilot</p>
+        <p>Build & Iterate</p>
+        <p>Transform & Sustain</p>
+      </div>
+      <div class="outcomes">
+        <h3>Outcomes</h3>
+        <p>Quick wins, pilot programs, and assessments</p>
+        <p>Coaching, implementation, real-time insights</p>
+        <p>Full-scale cultural transformation with lasting ROI</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="workculture-testimonial">
+  <div class="workculture-testimonial-container">
+    <h2>What Our Partners Say</h2>
+    <div class="card">
+    </div>
+  </div>
+</section>
+
+<section class="workculture-impact">
+  <div class="workculture-impact-container">
+    <h2> Organization We've Impacted</h2>
+    <div class="card-container">
+      <div class="card">
+        <div class="top">
+          <img src="/assets/images/workforce/culture-dartmouth.png" alt="Dartmouth logo">
+        </div>
+        <div class="bottom">
+          <p>Campus Services (750 employees)</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="top">
+          <img src="/assets/images/workforce/culture-coop.png" alt="Food Coop logo">
+        </div>
+        <div class="bottom">
+          <p>409 employees</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="top">
+          <img src="/assets/images/workforce/culture-peabody.png" alt="Peabody logo">
+        </div>
+        <div class="bottom">
+          <p>650 employees</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

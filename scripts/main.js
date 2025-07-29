@@ -1,4 +1,4 @@
-  const scroller = document.querySelector('.workforce-industry-outer');
+  const scroller = document.querySelector('.special-scroller');
 
   scroller.addEventListener('wheel', function(e) {
     const atStart = scroller.scrollLeft === 0;
