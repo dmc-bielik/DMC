@@ -1,4 +1,4 @@
-  const scroller = document.querySelector('.special-scroller');
+/*  const scroller = document.querySelector('.special-scroller');
 
   scroller.addEventListener('wheel', function(e) {
     const atStart = scroller.scrollLeft === 0;
@@ -11,6 +11,32 @@
     }
     // Otherwise, allow vertical scroll to continue
   }, { passive: false });
+*/
+
+const scroller = document.querySelector('.special-scroller');
+
+// Helper function to check if element is in viewport
+function isElementInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.bottom > 0 &&
+    rect.top < window.innerHeight &&
+    rect.right > 0 &&
+    rect.left < window.innerWidth
+  );
+}
+
+document.addEventListener('wheel', function(e) {
+  if (!isElementInViewport(scroller)) return; // Skip if not in view
+
+  const atStart = scroller.scrollLeft === 0;
+  const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 1;
+
+  if (!(atStart && e.deltaY < 0) && !(atEnd && e.deltaY > 0)) {
+    e.preventDefault();
+    scroller.scrollLeft += e.deltaY;
+  }
+}, { passive: false });
 
 /* GSAP */
 
