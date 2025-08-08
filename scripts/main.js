@@ -768,6 +768,7 @@ const marqueeSliderCommon = {
   navPosition: "bottom",
 };
 
+/*
 const homeTestimonialsSlider = new window.Swiper(".home-testimonials__slider", {
   loop: true,
   autoplay: {
@@ -789,6 +790,7 @@ const homeTestimonialsSlider = new window.Swiper(".home-testimonials__slider", {
     },
   },
 });
+*/
 
 const lsReviewsSlider = new window.Swiper(".ls-reviews__slider", {
   loop: true,

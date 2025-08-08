@@ -45,83 +45,43 @@
   </div>
 </section>
 
+
 <section class="newhome-testimonials">
-  <div class="swiper home-testimonials__slider">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide newhome-testimonials__card box-shadow">
-        <p class="body-paragraph">"I had the pleasure of working with Deo over the course of several years. He first sought to understand the needs of our school community by reaching out to key stakeholders including Board members, parents, students, school administrators, and staff members. Deo and his team accomplished this through individual and group in-person meetings as well as through multiple surveys that we developed together. After analysis of the information from the conversations and surveys, Deo presented the findings back to the stakeholder groups to make sure what was summarized truly represented their thoughts. Throughout the process, Deo was helpful and came from a place of providing opportunities for everyone not only to be heard but to be understood. We then partnered together with our school leadership team members to use the information gleaned to create meaningful, strategic, actionable goals for the School District's Three-Year Strategic Plan. Deo assisted me with determining the need for a District Director of Equity, Curriculum, Instruction, and Assessment position which we now have in place. I invited Deo to attend our annual school administrator leadership team Fall Momentum Meeting and he did a fabulous job of summarizing the steps we had taken and getting everyone excited about the direction we are heading to support all staff members, students, and families in the District. I am grateful for Deo's thoughtful approach while also holding everyone accountable and providing suggestions for ways we can continue improving the educational experience for all involved. Thank you, Deo!"</p>
-        <button type="button" class="button-unstyled newhome-testimonials__card--read-more">read more</button>
-        <div class="newhome-testimonials__card-meta">
-          <div class="name-title">
-            <h4>Dr. Joanne Roberts</h4>
-            <p class="body-paragraph">Superintendent of the Lebanon School District, Lebanon, New Hampshire</p>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide newhome-testimonials__card box-shadow">
-        <p class="body-paragraph">"It was a singular experience to welcome Deo Mwano and Martin ____________ to headline our school's Community Day in April of 2021. The students felt an instant connection with them, and within minutes we are all up and dancing and having fun. Deo's story is his alone, and yet it gave each of us a chance to reflect on the importance of courage and creativity as we find our own paths in the world. We were all captivated by Deo's charisma, his message, and his positive approach to life, and we are still talking about his visit many days later."</p>
-        <button type="button" class="button-unstyled newhome-testimonials__card--read-more">read more</button>
-        <div class="newhome-testimonials__card-meta">
-          <div class="name-title">
-            <h4>John Turner</h4>
-            <p class="body-paragraph">Head of School, Heronfield Academy</p>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide newhome-testimonials__card box-shadow">
-        <p class="body-paragraph">"After meeting Deo Mwano, I recognized immediately the value DMC could bring to Campus Services at Dartmouth College. We have worked with him and his team to change our culture, create a sense of belonging and to integrate Diversity, Equity and Inclusion principles into our operations. DMC has been an invaluable partner on our journey. They have been with us every step of the way as we tackled both difficult conversations and celebrated many successes. One huge success was hiring our first Director of Culture and Employee Belonging and Deo worked directly with us to find the perfect candidate. DMC has also coached and mentored our leadership team to develop DEI principles which we have all adopted and reference daily. These same principles are beginning to spread throughout our division and have become part of the conversation! Deo is always there for us; he goes above and beyond and has been an amazing resource for all 500 employees in our division. Thank you to DMC!"</p>
-        <button type="button" class="button-unstyled newhome-testimonials__card--read-more">read more</button>
-        <div class="newhome-testimonials__card-meta">
-          <div class="name-title">
-            <h4>Julie Findley</h4>
-            <p class="body-paragraph">COO Campus Services, Dartmouth College</p>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide newhome-testimonials__card box-shadow">
-        <p class="body-paragraph">Deo radiates positivity! His approachable style facilitates questions and dialogue. Our trustees and employees enjoyed consultations that inspired awareness and understanding as we explored the topics of diversity and inclusion. Informed by Deo’s insights, we have designed and launched a thoughtful plan to expand our commitment to equity, diversity, inclusion, and accessibility in our arts programming, operational policies, and bridge building to the extended community</p>
-        <button type="button" class="button-unstyled newhome-testimonials__card--read-more">read more</button>
-        <div class="newhome-testimonials__card-meta">
-          <div class="name-title">
-            <h4>Nicki Clarke</h4>
-            <p class="body-paragraph">Executive Director, Capitol Center for the Arts</p>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide newhome-testimonials__card box-shadow">
-        <p class="body-paragraph">The goals were to reflect on individual leadership as well as the school’s leadership programming. This two day conference was kicked off with an amazing speaker, Deo Mwano. He helped all the student leadership to think about equity and inclusion in leadership. He brought a key understanding to all the students about making sure all have access and who the stakeholders and decision makers are and how to partner with them. He spent time asking students to think about their leadership style and how the “show up” as leaders. The experience with Deo was overwhelmingly positive for students and set the stage on day 2 to work with the Dean of Students and Leadership, Reina Stimpson, about using their skills to build up their team within their individual student life and government groups. Students used an Affirmative Inquiry approach to speak about what was working well and what they wanted to see more of and improve.</p>
-        <button type="button" class="button-unstyled newhome-testimonials__card--read-more">read more</button>
-        <div class="newhome-testimonials__card-meta">
-          <div class="name-title">
-            <h4>Reina Stimpson</h4>
-            <p class="body-paragraph">Derryfield School</p>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide newhome-testimonials__card box-shadow">
-        <p class="body-paragraph">Deo's presentation to the student body was well received. His description of his story in relation to how to build community was directly on point. Our international summer program has a short time to build an inclusive, welcoming, and tolerant community. Deo’s was able to show these students that they can be far from home yet keep their own identity despite the surroundings. This presentation gave the students more tools to use to gel as advisee groups, dorms, classes, and a student body. Many came up to Deo afterward to thank him, share their stories, and get advice.</p>
-        <button type="button" class="button-unstyled newhome-testimonials__card--read-more">read more</button>
-        <div class="newhome-testimonials__card-meta">
-          <div class="name-title">
-            <h4>Jeffrey P. Ward.</h4>
-            <p class="body-paragraph">Phillips Exeter, Director of summer program</p>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide newhome-testimonials__card box-shadow">
-        <p class="body-paragraph">Deo Mwano masterfully led our Board through a tremendous amount of information, balancing the systemic and individual scales and grounding concepts in the specific kinds of work that we do and challenges we face. His training was engaging and compassionate and it continues to inspire important conversations in our organization</p>
-        <button type="button" class="button-unstyled newhome-testimonials__card--read-more">read more</button>
-        <div class="newhome-testimonials__card-meta">
-          <div class="name-title">
-            <h4>Sarah Wraight</h4>
-            <p class="body-paragraph">Two Rivers-Ottauquechee Regional Commission, Vermont, Senior Planner</p>
-          </div>
-        </div>
+  <div class="newhome-testimonials-container">
+    <div class="card box-shadow">
+      <p class="quote">"After meeting Deo Mwano, I recognized immediately the value DMC could bring to 
+      Campus Services at Dartmouth College. We have worked with him and his team to change our culture, 
+      create a sense of belonging and to integrate Diversity, Equity and Inclusion principles into our operations. 
+      DMC has been an invaluable partner on our journey."</p>
+      <div class="name-title">
+        <h4 class="name">Julie Findley</h4>
+        <p class="title">COO Campus Services <br> Dartmouth College</p>
       </div>
     </div>
-    <div class="swiper-pagination"></div>
+    <div class="card box-shadow">
+      <p class="quote">"Deo Mwano masterfully led our Board through a tremendous amount of information, 
+      balancing the systemic and individual scales and grounding concepts in the specific kinds of work 
+      that we do and challenges we face. His training was engaging and compassionate and it continues to 
+      inspire important conversations in our organization."</p>
+      <div class="name-title">
+        <h4 class="name">Sarah Wraight</h4>
+        <p class="title">Two Rivers-Ottauquechee Regional Commission, Vermont, Senior Planner</p>
+      </div>
+    </div>
+    <div class="card box-shadow">
+      <p class="quote">"I had the pleasure of working with Deo over the course of several years. 
+      He first sought to understand the needs of our school community by reaching out to key stakeholders 
+      including Board members, parents, students, school administrators, and staff members. Deo and his team accomplished 
+      this through individual and group in-person meetings as well as through multiple surveys that we developed together."</p>
+      <div class="name-title">
+        <h4 class="name">Dr. Joanne Roberts</h4>
+        <p class="title">Superintendent of the Lebanon School District, Lebanon, New Hampshire</p>
+      </div>
+    </div>
   </div>
 </section>
+
+
 <section class="newhome-solutions">
   <div class="solutions-container">
     <h2>Our Solution</h2>
@@ -155,7 +115,6 @@
 
 <section class="newhome-who">
   <div class="who-container">
-    
     <div class="text-container">
       <h3>Who we are</h3>
       <p>At Deo Mwano Consultancy, our dynamic team brings together experts in data analysis, leadership development, research, design, storytelling, and more. We specialize in uncovering root challenges and delivering innovative, engaging solutions. From strategy to storytelling, we align people, purpose, and progress—driving impact through creativity and collaboration.</p>

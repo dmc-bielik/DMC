@@ -27,31 +27,38 @@
 
       .deo-1 {
         grid-area: deo-1;
+        object-fit: cover;
       }
 
       .deo-2 {
         grid-area: deo-2;
+        object-fit: cover;
       }
 
       .andrea-3 {
         grid-area: andrea-3;
+        object-fit: cover;
       }
 
       .deo-4 {
         grid-area: deo-4;
+        object-fit: cover;
 
       }
 
       .david-5 {
         grid-area: david-5;
+        object-fit: cover;
       }
 
       .milli-6 {
         grid-area: milli-6;
+        object-fit: cover;
       }
 
       .deo-7 {
         grid-area: deo-7;
+        object-fit: cover;
 
         @media (max-width: 1200px) {
           display: none;
@@ -64,6 +71,7 @@
 
       .deo-8 {
         grid-area: deo-8;
+        object-fit: cover;
 
         @media (max-width: 1200px) {
           display: none;
@@ -97,7 +105,13 @@
         a {
           background-color: white !important;
           color: @colorRed;
+
         }
+        a:hover {
+            background-color: @colorRed !important;
+            color: white;
+            border-color: white;
+          }
       }
 
       .grid {
@@ -192,6 +206,11 @@
 
       #solutions-workforce-card {
 
+        a:hover {
+            background-color: white !important;
+            color: #2DB25F;
+          }
+
         @media (max-width: 979px) {
             background-color: #2DB25F;
           }
@@ -199,12 +218,22 @@
 
       #solutions-learning-card {
 
+        a:hover {
+            background-color: white !important;
+            color: #004891;
+          }
+
         @media (max-width: 979px) {
             background-color: #004891;
           }
       }
 
       #solutions-community-card {
+
+        a:hover {
+            background-color: white !important;
+            color: @colorRed;
+          }
 
         @media (max-width: 979px) {
             background-color: @colorRed;
@@ -257,29 +286,22 @@
             font-size: 34px;
             font-weight: 550;
             line-height: 1.1;
-
-            
-
           }
 
           p {
             font-family: @fontPoppins;
             color: white;
             font-size: 14px;
-            line-height: 1.4;
-
-           
-
+            line-height: 1.4;  
           }
 
           a {
             background-color: transparent !important;
             border-color: white;
             margin-top: 10px;
-
-            
-            
           }
+
+          
 
         }
       }
@@ -396,6 +418,8 @@
         .button {
           margin-top: 20px;
         }
+
+        
   
         @media (max-width: 767px) {
           padding: 30px 25px;
@@ -446,6 +470,8 @@
             font-family: @fontPoppins;
             font-size: 12px;
           }
+
+
         }
       }
     }
@@ -530,98 +556,59 @@
     }
   
     &-testimonials {
-      background-color: white;
-      padding-top: 20px;
-  
-      &__slider {
-        padding-bottom: 20px !important;
-      }
-  
-      .swiper-pagination-bullet-active {
-        background-color: #fff;
-      }
-  
-      &__card {
-        position: relative;
-        margin: 6.5px;
-        border-radius: 13px;
-        padding: 42px 23px 130px;
-        background-color: #fff;
-  
-        p {
-          font-size: 13px;
-          line-height: 1.5;
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+
+      &-container {
+        max-width: 1400px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 90%;
+
+        @media (max-width: 767px) {
+          flex-direction: column;
         }
-        
-        & > p {
-          position: relative;
-          color: @colorGrey;
-          padding-bottom: 40px;
-          margin: 0;
-          max-height: 58.5px;
-          overflow: hidden;
-  
-          &::before {
-            content: '';
-            position: absolute;
-            height: 41px;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            
-          }
-  
-          &.expanded {
-            max-height: max-content;
-            padding-bottom: 0;
-  
-            &::before {
-              content: none;
-            }
-          }
-        }
-  
-        button {
-          font-size: 13px;
-          text-decoration: underline;
-          
-        }
-  
-        &-meta {
-          position: absolute;
-          bottom: 35px;
-          left: 23px;
-          right: 23px;
+
+        .card {
+          border-radius: 15px;
+          padding: 20px;
+          width: 30%;
           display: flex;
           flex-direction: column;
-          align-items: center;
-          
+          justify-content: space-between;
 
-          .name-title {
-            text-align: center;
+          @media (max-width: 767px) {
+            width: 90%;
           }
-        
-  
-          h4 {
+          
+          .quote {
+            font-family: @fontPoppins;
+            text-align: center;
+            color: #A1A1A1;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+          }
+
+          
+          .name {
+            font-family: @fontPoppins;
+            text-align: center;
             color: black;
             font-size: 16px;
-            margin: 0 0 5px;
-            line-height: 1;
+            font-weight: 600;
+            margin-bottom: 0;
           }
-  
-          img {
-            height: 41px;
-            width: 41px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-right: 8px;
-          }
-  
-          p {
-            margin: 0;
-            color: @colorGrey2;
-            max-width: 400px;
+
+          .title {
+            font-family: @fontPoppins;
+            text-align: center;
+            font-size: 14px;
+            color: black;
+            margin-top: 0;
+            line-height: 1.5;
           }
         }
       }
