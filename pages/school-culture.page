@@ -65,24 +65,26 @@
         <div class="top-part">
           <div class="text-container">
             <h2>Student Listening Sessions</h2>
-            <h3>Inspiring Students to Lead with Empathy and Purpose</h3>
-            <p>Our assemblies are high-energy, interactive, and emotionally resonant experiences that motivate students to reflect on who they are, how they treat others, and the role they play in shaping their school community.</p>
+            <h3>Honest Dialogue. Deep Insight. Lasting Impact.</h3>
+            
           </div>
           <img src="/assets/images/learning-success/student-listening-sessions.png" alt="student listening sessions">
         </div>
         <div class="bottom-part">
-         <h3>What to Expect</h3>
+         <h3>Session Features:</h3>
          <ul>
-           <li>Live performances featuring music, dance, and spoken word</li>
-           <li>Powerful storytelling rooted in real-life experiences</li>
-           <li>Impactful messages like:
+           <li>Small-group conversations led by trained facilitators</li>
+           <li>Opportunities for students to share ideas and feedback</li>
+           <li>Exploration of themes such as:
               <ul>
-                <li><em>"Be a good citizen</em></li>
-                <li><em>"Lead with empathy</em></li>
-                <li><em>"Your voice matters"</em></li>
+                <li><em>Belonging</em></li>
+                <li><em>Mental health</em></li>
+                <li><em>Peer relationships</em></li>
+                <li><em>School environment</em></li>
               </ul>
            </li>
-           <li>Alignment with district priorities around social-emotional learning, student wellness, and postive behavior expectations</li>
+           <li>These sessions empower students to take ownership of their environment while
+           giving administrators and staff critical insight into what students need most.</li>
          </ul>
         </div>
       </div>
@@ -123,12 +125,11 @@
           <div class="text-container">
               <p>Ready to Reimagine Your School's Culture?
               </p>
-              <div class="button">Book a Strategy Call Today</div>
+              <a href="/contact" class="button">Book a Strategy Call Today</a>
           </div>
           <img src="/assets/images/learning-success/school-culture-bottom.png" alt="Deo talking to a group of people">
       </div>
   </div>
 </section>
-
 
 </div>

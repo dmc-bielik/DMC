@@ -206,7 +206,7 @@
             <div class="text-container">
                 <p class="top-text">Ready to partner with a team that delivers impact?</p>
                 <p class="bottom-text">Let’s co-design the future of your workplace—where purpose, performance, and people thrive together.</p>
-                <div class="button">Schedule a Consultation</div>
+                <a href="/contact" class="button">Schedule a Consultation</a>
             </div>
             <img src="/assets/images/workforce/work-culture-bottom.png" alt="Deo talking to a group of people">
         </div>

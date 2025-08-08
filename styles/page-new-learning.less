@@ -28,31 +28,42 @@
         grid-area: deo-1;
         object-fit: cover;
 
+        
       }
 
       .deo-2 {
         grid-area: deo-2;
+        object-fit: cover;
       }
 
       .deo-3 {
         grid-area: deo-3;
+        object-fit: cover;
       }
 
       .deo-4 {
         grid-area: deo-4;
+        object-fit: cover;
 
       }
 
       .deo-5 {
         grid-area: deo-5;
+        object-fit: cover;
       }
 
       .deo-6 {
         grid-area: deo-6;
+        object-fit: cover;
       }
 
       .deo-7 {
         grid-area: deo-7;
+        object-fit: cover;
+
+        @media (max-width: 767px) {
+          display: none;
+        }
       }
 
       
@@ -74,6 +85,10 @@
           letter-spacing: 0.9px;
           line-height: 1.2;
           max-width: 300px;
+
+          @media (max-width: 767px) {
+            font-size: 32px;
+          }
           
         }
       }
@@ -102,11 +117,10 @@
           
           grid-template-areas: 
           "text deo-1"
-          ". deo-1"
-          "deo-4 deo-5"
-          "deo-2 deo-3"
-          "deo-6 deo-3"
-          "deo-6 deo-7";
+          "deo-2 deo-1"
+          "deo-3 deo-5"
+          "deo-3 deo-6"
+          "deo-4 deo-6";
           
             
           column-gap: 1vw;
@@ -147,6 +161,10 @@
         font-size: 38px;
         letter-spacing: .8px;
           line-height: 1.3;
+          
+          @media (max-width: 767px) {
+            line-height: 1;
+          }
       }
       
       &-outer {
@@ -154,7 +172,7 @@
         width: 100%;
         height: 250px;
         white-space: nowrap;
-        overflow-x: scroll;
+        overflow-x: hidden;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
 
@@ -350,7 +368,7 @@
       justify-content: center;;
 
       img {
-        width: 90%;
+        width: 70%;
         margin: 80px 80px 120px 80px;
 
         @media (max-width: 767px) {

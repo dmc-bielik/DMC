@@ -186,7 +186,7 @@
                 partner in navigating change, aligning teams, and driving 
                 impact.
                 </p>
-                <div class="button">Let's Talk</div>
+                <a href="/contact/" class="button">Let's Talk</a>
             </div>
             <img src="/assets/images/nonprofits/nonprofits-why.png" alt="Deo talking to a group of people">
         </div>

@@ -142,7 +142,7 @@
                 <p class="top-text"><b>Deo Mwano Consultancy</b> is here to help your foundation reach further, invest smarter, and serve deeper.
                 </p>
                 <p class="bottom-text"><b>Let's start a conversation that changes communities.</b></p>
-                <div class="button">Book a Strategy Call Today</div>
+                <a href="/contact" class="button">Book a Strategy Call Today</a>
             </div>
             <img src="/assets/images/grantmakers/grantmakers-maximize.png" alt="Deo talking to a group of people">
         </div>

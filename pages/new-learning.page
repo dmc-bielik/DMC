@@ -28,7 +28,7 @@
 <section class="learning-industry">
   <div class="container">
     <h2>Design strategies and implementation tools to</h2>
-    <div class="learning-industry-outer">
+    <div class="learning-industry-outer special-scroller">
       <div class="card box-shadow">
         <div class="learning-industry-content">
           <p>Improve school climate and culture in order to increase positive experience for all students</p>
@@ -88,7 +88,7 @@
           <iframe width="560" height="315" src="https://www.youtube.com/embed/wAbpiQOTeoE?si=5qwEaX6CXp2LMv3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="ls-k12__row--1 ls-k12__row--move-4">
-          <p class="heading-4 font-blue">We bring students, parents and community partners together to co-design just, accessible and inclusive solutions that drive positive results.</p>
+          <p class="heading-4 font-blue" style="font-weight: 600;">We bring students, parents and community partners together to co-design just, accessible and inclusive solutions that drive positive results.</p>
         </div>
       </div>
       <div class="ls-k12__row">
@@ -194,7 +194,7 @@
   <span class="learning-engagements__visuals--1"></span>
   <span class="learning-engagements__visuals--2"></span>
   <span class="learning-engagements__visuals--3"></span>
-  <span class="learning-engagements__visuals--4"></span>
+  
   <img src="/assets/images/learning-success/deo-teaching.png" class="learning-engagements__visuals--6" alt="">
 </section>
 

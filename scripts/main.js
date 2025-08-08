@@ -1,18 +1,4 @@
-/*  const scroller = document.querySelector('.special-scroller');
-
-  scroller.addEventListener('wheel', function(e) {
-    const atStart = scroller.scrollLeft === 0;
-    const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 1; // minor offset for rounding
-
-    // If not at the edges, prevent default and scroll horizontally
-    if (!(atStart && e.deltaY < 0) && !(atEnd && e.deltaY > 0)) {
-      e.preventDefault();
-      scroller.scrollLeft += e.deltaY;
-    }
-    // Otherwise, allow vertical scroll to continue
-  }, { passive: false });
-*/
-
+/*
 const scroller = document.querySelector('.special-scroller');
 
 // Helper function to check if element is in viewport
@@ -28,6 +14,31 @@ function isElementInViewport(el) {
 
 document.addEventListener('wheel', function(e) {
   if (!isElementInViewport(scroller)) return; // Skip if not in view
+
+  const atStart = scroller.scrollLeft === 0;
+  const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 1;
+
+  if (!(atStart && e.deltaY < 0) && !(atEnd && e.deltaY > 0)) {
+    e.preventDefault();
+    scroller.scrollLeft += e.deltaY;
+  }
+}, { passive: false });
+
+*/
+
+const scroller = document.querySelector('.special-scroller');
+
+function isElementCenteredInViewport(el, tolerance = 200) {
+  const rect = el.getBoundingClientRect();
+  const viewportMid = window.innerHeight / 2;
+  const elementMid = rect.top + rect.height / 2;
+
+  // Check if the element's midpoint is close enough to viewport's midpoint
+  return Math.abs(elementMid - viewportMid) <= tolerance;
+}
+
+document.addEventListener('wheel', function(e) {
+  if (!isElementCenteredInViewport(scroller)) return; // Only when centered
 
   const atStart = scroller.scrollLeft === 0;
   const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 1;

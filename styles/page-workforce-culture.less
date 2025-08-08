@@ -29,6 +29,10 @@
       .culture-1 {
         grid-area: culture-1;
         object-fit: cover;
+
+        @media (max-width: 767px) {
+          display: none;
+        }
       }
 
       .culture-2 {
@@ -139,7 +143,6 @@
          grid-template-areas: 
          "text text"
          "text text"
-         "culture-1 culture-1"
          "culture-3 culture-5"
          "culture-4 culture-5"
          "culture-2 culture-2";
@@ -612,7 +615,7 @@
                   .button {
                     height: 20px;
                     padding-top: 0;
-                    font-size: 12px !important;
+                    font-size: 14px !important;
                     font-weight: 500;
                   }
                 }
