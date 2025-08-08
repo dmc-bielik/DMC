@@ -1,33 +1,6 @@
 /*
 const scroller = document.querySelector('.special-scroller');
 
-// Helper function to check if element is in viewport
-function isElementInViewport(el) {
-  const rect = el.getBoundingClientRect();
-  return (
-    rect.bottom > 0 &&
-    rect.top < window.innerHeight &&
-    rect.right > 0 &&
-    rect.left < window.innerWidth
-  );
-}
-
-document.addEventListener('wheel', function(e) {
-  if (!isElementInViewport(scroller)) return; // Skip if not in view
-
-  const atStart = scroller.scrollLeft === 0;
-  const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 1;
-
-  if (!(atStart && e.deltaY < 0) && !(atEnd && e.deltaY > 0)) {
-    e.preventDefault();
-    scroller.scrollLeft += e.deltaY;
-  }
-}, { passive: false });
-
-*/
-
-const scroller = document.querySelector('.special-scroller');
-
 function isElementCenteredInViewport(el, tolerance = 200) {
   const rect = el.getBoundingClientRect();
   const viewportMid = window.innerHeight / 2;
@@ -48,6 +21,49 @@ document.addEventListener('wheel', function(e) {
     scroller.scrollLeft += e.deltaY;
   }
 }, { passive: false });
+*/
+
+const scroller = document.querySelector('.special-scroller');
+
+function isElementCenteredInViewport(el, tolerance = 200) {
+  const rect = el.getBoundingClientRect();
+  const viewportMid = window.innerHeight / 2;
+  const elementMid = rect.top + rect.height / 2;
+  return Math.abs(elementMid - viewportMid) <= tolerance;
+}
+
+function enableCustomScroll() {
+  document.addEventListener('wheel', onWheelScroll, { passive: false });
+}
+
+function disableCustomScroll() {
+  document.removeEventListener('wheel', onWheelScroll, { passive: false });
+}
+
+function onWheelScroll(e) {
+  if (!isElementCenteredInViewport(scroller)) return;
+
+  const atStart = scroller.scrollLeft === 0;
+  const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 1;
+
+  if (!(atStart && e.deltaY < 0) && !(atEnd && e.deltaY > 0)) {
+    e.preventDefault();
+    scroller.scrollLeft += e.deltaY;
+  }
+}
+
+// Check screen size on load and resize
+function handleScrollBehavior() {
+  if (window.innerWidth >= 767) {
+    enableCustomScroll();
+  } else {
+    disableCustomScroll();
+  }
+}
+
+window.addEventListener('resize', handleScrollBehavior);
+handleScrollBehavior(); // Run on page load
+
 
 /* GSAP */
 
