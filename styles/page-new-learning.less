@@ -172,9 +172,20 @@
         width: 100%;
         height: 250px;
         white-space: nowrap;
-        
+        overflow-x: scroll;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
+
+        /* Hide scrollbar - Webkit (Chrome, Safari) */
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      
+        /* Hide scrollbar - Firefox */
+        scrollbar-width: none;
+      
+        /* Hide scrollbar - IE/Edge (legacy) */
+        -ms-overflow-style: none;
 
         
   
