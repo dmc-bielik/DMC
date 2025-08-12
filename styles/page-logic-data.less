@@ -53,6 +53,10 @@
       .deo-5 {
         grid-area: deo-5;
         object-fit: cover;
+
+        @media (max-width: 979px) {
+          object-position: left;
+        }
       }
 
       .deo-6 {
@@ -86,6 +90,8 @@
           font-size: 38px;
           letter-spacing: 0.9px;
           line-height: 1.1;
+          margin-bottom: 0;
+          padding-bottom: 20px;
           
 
           background: linear-gradient(100deg, rgba(232,126,78,1) 25%, rgba(248,186,39,1) 57%, rgba(54,193,188,1) 89%);
@@ -232,6 +238,7 @@
 
                 img {
                     border-radius: 0 0 13px 13px;
+                    height: 65%;
                     ;
                 }
             }

@@ -1,12 +1,13 @@
 <section class="contact-hero">
   <div class="container">
-    <img src="/assets/images/keynote-speaker/deo-keynote-speaker.jpg" alt="deo mwano stage">
+    <h1>WORK WITH DMC TODAY</h1>
+    <img src="/assets/images/keynote-speaker/deo-contact-new.png" alt="deo mwano stage">
   </div>
 </section>
 
 <section class="contact-form">
   <div class="container ls-container">
-    <h1 class="heading-4 uppercase center">Work with DMC Today</h1>
+    
     <div data-content-field="main-content">{squarespace.main-content}</div>
   </div>
 </section>
@@ -18,7 +19,7 @@
       <p>
         <span>Stephen Reno</span>
         <br>
-        <span>Executive Director Leadership New Hampshire, Former Chancellor of<br>University System of NH</span>
+        <span class="title">Executive Director Leadership New Hampshire, Former Chancellor of<br>University System of NH</span>
       </p>
     </div>
   </div>
@@ -27,7 +28,7 @@
 <section class="home-clients contact-clients">
   <div class="container">
     <h2 class="heading-2 uppercase">DMC has worked with</h2>
-    <div class="home-clients__images">
+    <div class="home-clients__images images">
       <img src="/assets/images/clients/gcir.png" alt="gcir" width="170px">
       <img src="/assets/images/clients/community-loan-fund.png" alt="community loan fund" width="129px">
       <img src="/assets/images/clients/pinnacle-mortgage.png" alt="pinnacle mortgage" width="134px">
