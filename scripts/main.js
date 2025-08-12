@@ -129,6 +129,20 @@ if (window.location.pathname === "/") {
   });
 }
 
+
+  const newhomeActionScrollTrigger = {
+    trigger: ".newhome-action",
+    start: "top bottom",
+    end: "bottom top",
+    scrub: true,
+  };
+
+  window.gsap.to(".newhome-action img", {
+    y: -250,
+    scrollTrigger: newhomeActionScrollTrigger,
+  });
+
+
 if (window.location.pathname.startsWith("/team")) {
   window.ScrollTrigger.create({
     trigger: ".team-expertise",
