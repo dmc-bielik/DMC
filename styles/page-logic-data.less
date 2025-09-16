@@ -115,8 +115,14 @@
           background-color: white !important;
           color: grey;
           border-color: grey;
-          font-size: 12px !important;
-          padding: 0 10px !important;
+          font-size: 14px !important;
+          padding: 10px 20px !important;
+        }
+
+        a:hover {
+          background-color: @colorRed !important;
+          color:white;
+          border-color: white;
         }
       }
 
@@ -177,21 +183,28 @@
     &-cards {
         max-width: 1400px;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
         
-        margin: 40px;
-
         @media (max-width: 979px) {
             margin: 80px 0 80px 0;
         }
 
         @media (max-width: 767px) {
-            margin: 80px 40px 80px 40px;
+            margin-top: 40px;
+        }
+
+        .outer-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
 
         &-container {
             display: flex;
-            gap: 20px;
+            gap: 30px;
+            width: 90%;
 
             @media (max-width: 979px) {
                 flex-direction: column;
@@ -202,7 +215,7 @@
 
             .top-container, .bottom-container {
                 display: flex;
-                gap: 20px;
+                gap: 30px;
                 width: 50%;
 
                 @media (max-width: 979px) {
@@ -239,7 +252,7 @@
                 img {
                     border-radius: 0 0 13px 13px;
                     height: 65%;
-                    ;
+                    object-fit: cover;
                 }
             }
             }

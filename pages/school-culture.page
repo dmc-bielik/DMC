@@ -23,10 +23,7 @@
     <h1>Inspire. Connect. Elevate.</h1>
     <div class="top-container">
       <div class="text-container">
-      <p><b>At Deo Mwano Consultancy (DMC)</b>, we believe that schools thrive when students feel seen, heard, 
-      and empowered. That's why we partner with school districts to deliver dynamic programming that 
-      redefines what it means to build <b>positive school culture and climate</b>.
-      </p>
+      
       <p>Our School Culture & Climate Assemblies and Student Listening Sessions are more than just 
       events—they're transformative experiences. Designed with today's middle school, high school, 
       and college students in mind, our programs spark empathy, build meaningful connections, and 
@@ -51,11 +48,11 @@
            <li>Live performances featuring music, dance, and spoken word</li>
            <li>Powerful storytelling rooted in real-life experiences</li>
            <li>Impactful messages like:
-              <ul>
-                <li><em>"Be a good citizen"</em></li>
-                <li><em>"Lead with empathy"</em></li>
-                <li><em>"Your voice matters"</em></li>
-              </ul>
+              
+                <li class="indent"><em>"Be a good citizen"</em></li>
+                <li class="indent"><em>"Lead with empathy"</em></li>
+                <li class="indent"><em>"Your voice matters"</em></li>
+              
            </li>
            <li>Alignment with district priorities around social-emotional learning, student wellness, and postive behavior expectations</li>
          </ul>
@@ -76,12 +73,12 @@
            <li>Small-group conversations led by trained facilitators</li>
            <li>Opportunities for students to share ideas and feedback</li>
            <li>Exploration of themes such as:
-              <ul>
-                <li><em>Belonging</em></li>
-                <li><em>Mental health</em></li>
-                <li><em>Peer relationships</em></li>
-                <li><em>School environment</em></li>
-              </ul>
+              
+                <li class="indent"><em>Belonging</em></li>
+                <li class="indent"><em>Mental health</em></li>
+                <li class="indent"><em>Peer relationships</em></li>
+                <li class="indent"><em>School environment</em></li>
+              
            </li>
            <li>These sessions empower students to take ownership of their environment while
            giving administrators and staff critical insight into what students need most.</li>
@@ -131,5 +128,4 @@
       </div>
   </div>
 </section>
-
 </div>

@@ -6,7 +6,6 @@
         <p>At Deo Mwano Consultancy (DMC), we adopt a 360 degree approach to our data strategies, tailored to our clients' needs. Our focus is on building understanding before seeking to improve outcomes, ensuring authentic engagement and impactful results. </p>
         <a href="/contact/" class="button">Talk to us today</a>
       </div>
-      
         <img class="deo-1" src="/assets/images/logic-data/data-hero-1.png">
         <img class="deo-2" src="/assets/images/logic-data/data-hero-2.png">
         <img class="deo-3" src="/assets/images/logic-data/data-hero-3.png">
@@ -18,27 +17,30 @@
 </section>
 
 <section class="data-cards">
-  <div class="data-cards-container">
-    <div class="top-container">
-      <div class="card box-shadow">
-          <p>Acknowledge and incorporate the lived experiences of both the evaluation team and stakeholders.</p>
-          <img src="/assets/images/logic-data/data-card-1.png" alt="logic and data model conversation">
+  <div class="outer-container">
+    <div class="data-cards-container">
+      
+      <div class="top-container">
+        <div class="card box-shadow">
+            <p>Acknowledge and incorporate the lived experiences of both the evaluation team and stakeholders.</p>
+            <img src="/assets/images/logic-data/data-card-1.png" alt="logic and data model conversation">
+        </div>
+        <div class="card box-shadow">
+            <p>Engage stakeholders from the outset in survey construction and evaluation planning.</p>
+            <img src="/assets/images/logic-data/data-card-2.png" alt="logic and data model conversation">
+        </div>
       </div>
-      <div class="card box-shadow">
-          <p>Engage stakeholders from the outset in survey construction and evaluation planning.</p>
-          <img src="/assets/images/logic-data/data-card-2.png" alt="logic and data model conversation">
-      </div>
+      <div class="bottom-container">  
+        <div class="card box-shadow">
+            <p>Ensure all voices are heard through mixed-method approaches during evaluation.</p>
+            <img src="/assets/images/logic-data/data-card-3.png" alt="logic and data model conversation">
+        </div>
+        <div class="card box-shadow">
+            <p>Validate results and disseminate them widely to all participants who provided data.</p>
+            <img src="/assets/images/logic-data/data-card-4.png" alt="logic and data model conversation">
+        </div>
+      </div>  
     </div>
-    <div class="bottom-container">  
-      <div class="card box-shadow">
-          <p>Ensure all voices are heard through mixed-method approaches during evaluation.</p>
-          <img src="/assets/images/logic-data/data-card-3.png" alt="logic and data model conversation">
-      </div>
-      <div class="card box-shadow">
-          <p>Validate results and disseminate them widely to all participants who provided data.</p>
-          <img src="/assets/images/logic-data/data-card-4.png" alt="logic and data model conversation">
-      </div>
-    </div>  
   </div>
 </section>
 

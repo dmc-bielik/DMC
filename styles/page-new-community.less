@@ -85,7 +85,6 @@
           padding-left: 0px;
         }
 
-
         h1 {
           
           font-family: @fontPoppins;
@@ -105,6 +104,10 @@
 
           @media (max-width: 767px) {
             font-size: 34px;
+          }
+
+          @media (min-width: 1400px) {
+            font-size: 42px;
           }
         }
       }
@@ -176,6 +179,9 @@
   }
 
     &-solutions {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
       
       .solutions-container {
         display: flex;
@@ -415,6 +421,7 @@
       .featured-blogs-container {
         margin: 60px;
         display: flex;
+        justify-content: center;
         flex-direction: row;
         gap: 30px;
 

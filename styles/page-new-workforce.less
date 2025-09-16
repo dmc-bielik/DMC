@@ -16,7 +16,6 @@
           margin-top: 0;
           padding-top: 0;
          }
-
       }
 
       img {
@@ -97,6 +96,13 @@
           background-color: white !important;
           color: grey;
           border-color: grey;
+          
+        }
+
+        a:hover {
+          background-color: @colorRed !important;
+          border-color: white;
+          color: white;
         }
       }
 
@@ -502,28 +508,34 @@
         .card {
             background-color: white;
             border-radius: 12px;
-            padding: 20px;
+            padding: 20px 40px 20px 40px;
+                
+            
+            @media (max-width: 767px) {
+              margin: 0 20px 0 20px;
+            }
             
             p {
                 text-align: center;
+                
             }
 
             .quote {
-                font-size: 12px;
+                font-size: 16px;
                 line-height: 1.4;
                 padding-bottom: 20px;
                 font-family: @fontPoppins;
             }
 
             .name {
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: 600;
                 font-family: @fontPoppins;
                 margin-bottom: 0;
             }
 
             .title {
-                font-size: 12px;
+                font-size: 14px;
                 font-family: @fontPoppins;
                 margin-top: 0;
                 line-height: 1.4;
@@ -546,6 +558,7 @@
       .featured-blogs-container {
         margin: 60px;
         display: flex;
+        justify-content: center;
         flex-direction: row;
         gap: 30px;
 

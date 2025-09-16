@@ -144,7 +144,6 @@
         <p class="area-7">3-6 Months</p>
         <p class="area-10">6-12 Months</p>
       
-      
         <h3 class="area-2">Focus</h3>
         <p class="area-5">Discovery & Pilot</p>
         <p class="area-8">Build & Iterate</p>
@@ -205,7 +204,7 @@
         <div class="card box-shadow">
             <div class="text-container">
                 <p class="top-text">Ready to partner with a team that delivers impact?</p>
-                <p class="bottom-text">Let’s co-design the future of your workplace—where purpose, performance, and people thrive together.</p>
+                <p class="bottom-text">Let's co-design the future of your workplace—where purpose, performance, and people thrive together.</p>
                 <a href="/contact" class="button">Schedule a Consultation</a>
             </div>
             <img src="/assets/images/workforce/work-culture-bottom.png" alt="Deo talking to a group of people">

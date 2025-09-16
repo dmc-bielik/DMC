@@ -217,7 +217,6 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 
-      
                 @media (max-width: 979px) {
                   position: static;
                   top: 0;
@@ -236,11 +235,9 @@
                 p {
                   color: white;
                   font-family: @fontPoppins;
-                  font-size: 14px;
+                  font-size: 18px !important;
                   line-height: 150%;
-                  font-weight: 100;
-      
-                  
+                  font-weight: 100;            
                 }
             }
             
@@ -254,68 +251,56 @@
               flex-direction: column;
             }
 
-            
-
             .card {
-              
-              
               background-color: #0064A7;
               border-radius: 13px;
 
-              h2 {
-                color: white;
-                font-size: 18px;
-                font-family: @fontPoppins;
-                font-weight: 500;
-                padding-bottom: 10px
-              }
-
-              h3 {
-                color: white;
-                font-size: 12px;
-                font-family: @fontPoppins;
-                
-              }
-
-              p {
-                color: white;
-                font-size: 10px;
-                font-family: @fontPoppins;
-                line-height: 1.5;
-                padding-top: 5px;
-              }
-
-              li {
-                color: white;
-                font-size: 12px;
-                font-family: @fontPoppins;
-                line-height: 1.5;
-                font-weight: 100;
-              }
-
               .top-part {
                 display: flex;
+                flex-direction: column;
+                align-items: center;
 
-                @media (max-width: 979px) {
-                    flex-direction: column-reverse;
-                }
+                
 
                 .text-container {
-                  padding: 30px 40px 0 40px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  padding-top: 20px;
+
+                  h2 {
+                    color: white;
+                    font-size: 20px;
+                    font-family: @fontPoppins;
+                    font-weight: 500;
+                    margin: 0;
+                  }
+    
+                  h3 {
+                    text-align: center;
+                    color: white;
+                    font-size: 14px;
+                    font-family: @fontPoppins;
+                    max-width: 220px;
+                    margin: 0;
+                    padding-top: 6px;
+                  }
                 }
 
                 img {
-                  width: 60%;
+                  width: 90%;
+                  border-radius: 15px;
                   object-fit: contain;
-                  align-self: flex-start;
+                  padding-top: 20px;
+                  padding-bottom: 20px;
 
                   @media (max-width: 1200px) {
                     width: 50%
                   }
 
                   @media (max-width: 979px) {
-                    border-radius: 13px 0 0 0;
-                    width: 100%;
+                    
+                    width: 90%;
                     align-self: center;
                   }
                 }
@@ -324,9 +309,36 @@
               .bottom-part {
                 padding: 0 40px 20px 40px;
 
+                h3 {
+                  color: white;
+                  font-size: 14px;
+                  font-family: @fontPoppins;
+                }
+
+                p {
+                  color: white;
+                  font-size: 14px;
+                  font-family: @fontPoppins;
+                  line-height: 1.5;
+                  padding-top: 5px;
+                }
+                
                 ul {
                   padding-left: 20px;
                   margin-top: 0;
+
+                  li {
+                  color: white;
+                  font-size: 14px;
+                  font-family: @fontPoppins;
+                  line-height: 1.5;
+                  font-weight: 500;
+                    
+                  }
+                }
+
+                .indent {
+                  margin-left: 60px;
                 }
               }
             }
@@ -339,17 +351,14 @@
             display: flex;
             width: 93%;
             margin-bottom: 20px;
-            
 
             @media (max-width: 979px) {
               flex-direction: column;
-              
             }
 
             @media (max-width: 767px) {
               width: 75%;
             }
-
 
             .text-container {
 
