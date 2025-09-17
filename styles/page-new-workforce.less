@@ -406,6 +406,12 @@
                   color: grey;
                   border-color: grey;
               }
+
+              a:hover {
+                background-color: @colorRed !important;
+                border-color: white;
+                color: white;
+              }
             }
 
             img {
@@ -478,6 +484,12 @@
                 background-color: white !important;
                 color: grey;
                 border-color: grey;
+            }
+
+            a:hover {
+              background-color: @colorRed !important;
+              border-color: white;
+              color: white;
             }
         }
     }
@@ -650,5 +662,20 @@
           }
         }
       }
+    }
+
+    &-center {
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+       a:hover {
+          background-color: white !important;
+          border-color: @colorRed;
+          color: @colorRed !important;
+        }
     }
 }

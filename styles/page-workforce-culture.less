@@ -108,6 +108,12 @@
           color: grey;
           border-color: grey;
         }
+
+        a:hover {
+           background-color: @colorRed !important;
+          color: white;
+          border-color: @colorRed;
+        }
       }
 
       .grid {
@@ -616,10 +622,16 @@
                   } 
 
                   .button {
-                    height: 20px;
-                    padding-top: 0;
+                    
                     font-size: 14px !important;
-                    font-weight: 500;
+                    padding: 10px 40px !important;
+                    
+                  }
+
+                  .button:hover {
+                     background-color: white !important;
+                    color:@colorRed;
+                    border-color: @colorRed;
                   }
                 }
                 
