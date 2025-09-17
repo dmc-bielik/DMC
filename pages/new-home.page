@@ -2,7 +2,7 @@
   <div class="newhome-hero-container">
     <div class="grid">
       <div class="text">
-        <h1>We transform organizations to maximize their positive impact</h1>
+        <h1>Strengthening connections and collaboration to drive success</h1>
         <a href="/contact/" class="button">Talk to us today</a>
       </div>
         <img class="deo-1" src="/assets/images/home/home-deo-1.png">
@@ -87,7 +87,7 @@
 
 <section class="newhome-solutions">
   <div class="solutions-container">
-    <h2>Our Solution</h2>
+    <h2>Our Solutions</h2>
     <div class="solutions-card" id="solutions-workforce-card">
       <img src="/assets/images/home/home-solution-workforce.png" alt="workforce solutions">
       <div class="solutions-info-container">
