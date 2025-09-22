@@ -17,7 +17,7 @@
 </section>
 
 <section class="data-cards">
-  <div class="outer-container">
+  
     <div class="data-cards-container">
       
       <div class="top-container">
@@ -41,7 +41,7 @@
         </div>
       </div>  
     </div>
-  </div>
+  
 </section>
 
 <section class="data-approach">
