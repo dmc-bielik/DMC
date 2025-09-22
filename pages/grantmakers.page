@@ -5,7 +5,7 @@
     <div class="grid">
       <div class="text">
         <h1>Empowering Grantmakers & Foundations to Maximize Impact</h1>
-        <p>At <b>Deo Mwano Consultancy (DMC)</b>, we help grantmakers and foundations 
+        <p>At Deo Mwano Consultancy (DMC), we help grantmakers and foundations 
         turn their vision into measurable impact. With over a decade of experience, 
         we've partnered with organizations of all sizes to align missions, 
         deploy resources more effectively, and expand community reach.</p>
@@ -39,7 +39,7 @@
                 <ul>
                   <li>Clarify mission and re-energize purpose</li>
                   <li>Align board and staff through strategic planning and recommitment</li>
-                  <li>Foster sessions that bring abstract ideas to life through tangible, tools, visuals, and interactive experiences</li>
+                  <li>Foster productive collaboration between governance and operations</li>
                   <li>Facilitate sessions that bring abstract ideas to life through tangible tools, visuals, and interactive experiences</li>
                 </ul>
                 <p class="text">Driven experiences that spark clarity, connection, and commitment.</p>
@@ -56,9 +56,9 @@
               <div class="bottom">
                 
                 <ul>
-                  <li>Developing strategies to build new relationships with underrepresented or overlooked communities</li>
-                  <li>Designing frameworks that prioritize equitable resource distribution</li>
-                  <li>Bringing new voices and perspectives into conversations to elevate awareness and experiences</li>
+                  <li>Develop strategies to build new relationships with underrepresented or overlooked communities</li>
+                  <li>Design frameworks that prioritize equitable resource distribution</li>
+                  <li>Bring new voices and perspectives into conversations to elevate awareness and experiences</li>
                 </ul>
                 <p class="text">We help you go beyond the familiar—into new partnerships and deeper trust.</p>
               </div>
@@ -139,9 +139,9 @@
         <h1>Ready to Maximize the Impact of Your Funding?</h1>
         <div class="card">
             <div class="text-container">
-                <p class="top-text"><b>Deo Mwano Consultancy</b> is here to help your foundation reach further, invest smarter, and serve deeper.
+                <p class="top-text">Deo Mwano Consultancy is here to help your foundation reach further, invest smarter, and serve deeper.
                 </p>
-                <p class="bottom-text"><b>Let's start a conversation that changes communities.</b></p>
+                <p class="bottom-text">Let's start a conversation that changes communities.</p>
                 <a href="/contact" class="button">Book a Strategy Call Today</a>
             </div>
             <img src="/assets/images/grantmakers/grantmakers-maximize.png" alt="Deo talking to a group of people">

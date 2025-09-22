@@ -3,7 +3,7 @@
     <img id="mobile-image"src="/assets/images/keynote-speaker/keynote-hero-mobile.png" alt="Keynote Speaker">
     <div class="text-container">
       <h3>Keynote Speaker</h3>
-      <p>Deo Mwano is a captivating speaker with a compelling personal story as well as expertise in business, community-building and workforce culture and climate change</p>
+      <p>Deo Mwano is a captivating speaker with a compelling personal story as well as expertise in business, community-building and workforce cultural change.</p>
     </div>
     <img id="desktop-image" src="/assets/images/keynote-speaker/keynote-hero-new.png" alt="Keynote Speaker">
   </div>
@@ -122,7 +122,7 @@
       </div>
       <div class="keynote-partners__img--empty"></div>
     </div>
-    <a href="/contact/" class="button">Talk to DMC today</a>
+    <a href="/contact/" class="button">Talk to us today</a>
   </div>
 </section>
 
