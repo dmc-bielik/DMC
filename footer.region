@@ -24,16 +24,16 @@
             <div>
               <ul>
                 <li>
-                  <a href="/workforce/">Workforce Success</a>
+                  <a href="/workforce">Workforce Success</a>
                 </li>
                 <li>
-                  <a href="/learning/">Learning Success</a>
+                  <a href="/learning">Learning Success</a>
                 </li>
                 <li>
-                  <a href="/community/">Community Transformation</a>
+                  <a href="/community">Community Transformation</a>
                 </li>
                 <li>
-                  <a href="/keynote-speaker/">Keynote Speaker</a>
+                  <a href="/keynote-speaker">Keynote Speaker</a>
                 </li>
                 {#  <li>
                   <a href="#!">Performer</a>
