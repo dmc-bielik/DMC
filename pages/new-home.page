@@ -93,7 +93,7 @@
       <div class="solutions-info-container">
         <h3>Workforce Success</h3>
         <p>Facilities operations teams, hospitals, retail, hospitality, banks, tech startups, and government agencies</p>
-        <a href="/workforce-success/" class="button">Learn More</a>
+        <a href="/workforce/" class="button">Learn More</a>
       </div>
       
     </div>
@@ -102,7 +102,7 @@
       <div class="solutions-info-container">
         <h3>Learning Success</h3>
         <p>Universities, community colleges, K-12 schools, boarding schools, and online or hybrid learning environments</p>
-        <a href="/learning-success/" class="button">Learn More</a>
+        <a href="/learning/" class="button">Learn More</a>
       </div>
     </div>
     <div class="solutions-card" id="solutions-community-card">
@@ -110,7 +110,7 @@
       <div class="solutions-info-container">
         <h3>Community Transformation</h3>
         <p>Non-profit Organizations, City & Towns, Foundations, and Cooperatives</p>
-        <a href="/community-transformation/" class="button">Learn More</a>
+        <a href="/community/" class="button">Learn More</a>
       </div>
     </div>
   </div>
