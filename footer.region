@@ -24,35 +24,44 @@
             <div>
               <ul>
                 <li>
-                  <a href="/workforce-success/">Workforce Success</a>
+                  <a href="/workforce/">Workforce Success</a>
                 </li>
                 <li>
-                  <a href="/learning-success/">Learning Success</a>
+                  <a href="/learning/">Learning Success</a>
                 </li>
                 <li>
-                  <a href="/community-transformation/">Community Transformation</a>
+                  <a href="/community/">Community Transformation</a>
                 </li>
                 <li>
                   <a href="/keynote-speaker/">Keynote Speaker</a>
                 </li>
                 {#  <li>
                   <a href="#!">Performer</a>
-                </li>  }
+                </li>  
                 <li>
                   <a href="/story/">Deo's Story</a>
-                </li>
+                </li>}
               </ul>
             </div>
             <div>
               <ul>
                 {#  <li>
                   <a href="#!">Testimonials</a>
-                </li>  }
+                </li>  
                 <li>
                   <a href="#!">Blueprint</a>
+                </li>}
+                <li>
+                  <a href="/workforce-culture/">Workforce Culture</a>
                 </li>
                 <li>
-                  <a href="/podcast/">Podcast</a>
+                  <a href="/school-culture/">School Culture</a>
+                </li>
+                <li>
+                  <a href="/nonprofits/">Nonprofits</a>
+                </li>
+                <li>
+                  <a href="/granmakers/">Grantmakers</a>
                 </li>
                 <li>
                   <a href="/blog/">Blog</a>
