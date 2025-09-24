@@ -17,7 +17,6 @@
           margin-top: 0;
           padding-top: 0;
          }
-
       }
 
       img {
@@ -162,6 +161,7 @@
 
     &-deliver {
       margin-bottom: 60px;
+      padding-top: 20px;
 
       @media (max-width: 767px) {
        margin-bottom: 20px;
@@ -419,7 +419,7 @@
         }
 
         .card {
-          width: 70%;
+          width: 60%;
           border-radius: 13px;
           padding: 60px 40px 60px 40px;
           display: grid;
@@ -482,10 +482,43 @@
           font-weight: 600;
         }
 
-        img {
-          border-radius: 13px;
-          width: 375px;
-          
+        .card {
+            width: 75%;
+            max-width: 500px;
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px 40px 20px 40px;
+                
+            
+            @media (max-width: 767px) {
+              margin: 0 20px 0 20px;
+            }
+            
+            p {
+                text-align: center;
+                
+            }
+
+            .quote {
+                font-size: 16px;
+                line-height: 1.4;
+                padding-bottom: 20px;
+                font-family: @fontPoppins;
+            }
+
+            .name {
+                font-size: 16px;
+                font-weight: 600;
+                font-family: @fontPoppins;
+                margin-bottom: 0;
+            }
+
+            .title {
+                font-size: 14px;
+                font-family: @fontPoppins;
+                margin-top: 0;
+                line-height: 1.4;
+            }
         }
       }
     }

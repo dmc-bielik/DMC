@@ -20,6 +20,7 @@
   <div class="container">
     <h2 class="heading-2">Trusted by</h2>
     <div class="newhome-clients__images">
+    
     <img src="/assets/images/clients/dartmouth.png" alt="dartmouth" width="99px">
     <img src="/assets/images/clients/united-way.png" alt="united way" width="115px">
     <img src="/assets/images/clients/armi.png" alt="armi" width="100px">
@@ -239,16 +240,14 @@
 
 <section class="newhome-videos">
   <div class="container">
-    <div class="home-videos__row">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZXS3Y6XsqxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SrdmPu9f1YU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dN2FoDN5gYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    
     <div class="newhome-videos__row">
     <!--Video not working
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QQJmHdeeBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     -->  
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kGWWszkJ7BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dN2FoDN5gYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     </div>
   </div>
 </section>

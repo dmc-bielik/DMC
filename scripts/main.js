@@ -1112,3 +1112,17 @@ if (podcastListRow) {
     });
   });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.querySelector('.newhome-clients__images');
+  if (!container) {
+    console.error('No container found');
+    return;
+  }
+
+  // small interval to test
+  setInterval(() => {
+    container.scrollLeft += 2;
+  }, 1); // ~60fps
+});
+

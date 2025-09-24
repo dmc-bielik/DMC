@@ -161,7 +161,11 @@
 <section class="workculture-testimonial">
   <div class="workculture-testimonial-container">
     <h2>What Our Partners Say</h2>
-    <img src="/assets/images/workforce/testimonial.png" alt="Testimonial quote">
+    <div class="card">
+        <p class="quote">"DMC has helped us change our culture, integrate organization culture principles, and create a sense of belonging across 750 employees. Deo is always there for us—he goes above and beyond."</p>
+        <p class="name">Julie Findley</p>
+        <p class="title">COO, Campus Services, Dartmouth College</p>
+    </div>
   
 </section>
 
