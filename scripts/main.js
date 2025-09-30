@@ -1125,4 +1125,3 @@ document.addEventListener('DOMContentLoaded', () => {
     container.scrollLeft += 2;
   }, 1); // ~60fps
 });
-

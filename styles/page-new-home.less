@@ -558,7 +558,7 @@
 
         display: flex;                /* line up images horizontally */
         gap: 2rem;                    /* space between images */
-        overflow-x: scroll;            
+        overflow-x: auto;            
         overflow-y: hidden;           /* prevent vertical scroll */
         scroll-behavior: smooth;      /* smooth scrolling on mousewheel/touch */
         padding: 1rem 0;              /* some breathing room */
@@ -566,7 +566,8 @@
         white-space: nowrap;  
 
          
-          scrollbar-width: none; /* hide in Firefox */
+        scrollbar-width: none; /* hide in Firefox */
+  
 
         img {
           flex: 0 0 auto;               /* prevent images from shrinking */
