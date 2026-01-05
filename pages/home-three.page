@@ -1,1 +1,424 @@
-<div id="home-version">Hello 2026!</div>
+<section class="homethree-hero">
+  <div class="homethree-hero-container">
+    <div class="grid">
+      <div class="text">
+        <h1>Strengthening connections and collaboration to drive success</h1>
+        <a href="/contact/" class="button">Talk to us today</a>
+      </div>
+        <img class="deo-1" src="/assets/images/home/home-deo-1.png">
+        <img class="deo-2" src="/assets/images/home/home-deo-2.png">
+        <img class="andrea-3" src="/assets/images/home/home-andrea-3.png">
+        <img class="deo-4" src="/assets/images/home/home-deo-4.png">
+        <img class="david-5" src="/assets/images/home/home-david-5.png">
+        <img class="milli-6" src="/assets/images/home/home-milli-6.png">
+        <img class="deo-7" src="/assets/images/home/home-deo-7.png">
+        <img class="deo-8" src="/assets/images/home/home-deo-8.png">
+    </div>
+  </div>
+</section>
+
+<section class="homethree-who">
+  <div class="who-container">
+    <div class="text-container">
+      <h3>Who we are</h3>
+      <p>At Deo Mwano Consultancy, our dynamic team brings together experts in data analysis, leadership development, research, design, storytelling, and more. We specialize in uncovering root challenges and delivering innovative, engaging solutions. From strategy to storytelling, we align people, purpose, and progress—driving impact through creativity and collaboration.</p>
+    </div>
+    <img src="/assets/images/home/home-who-we-are.png" alt="who we are">
+  </div>
+</section>
+
+<section class="homethree-clients">
+  <div class="container">
+    <h2 class="heading-2">Trusted by</h2>
+    <div class="homethree-clients__images">
+    
+    <img src="/assets/images/clients/dartmouth.png" alt="dartmouth" width="99px">
+    <img src="/assets/images/clients/united-way.png" alt="united way" width="115px">
+    <img src="/assets/images/clients/armi.png" alt="armi" width="100px">
+      <img src="/assets/images/clients/cdfa.png" alt="cdfa" width="150px">
+      <img src="/assets/images/clients/city-of-manchester.png" alt="city of manchester" width="103px">
+      <img src="/assets/images/clients/community-loan-fund.png" alt="community loan fund" width="129px">
+      <img src="/assets/images/clients/pinnacle-mortgage.png" alt="pinnacle mortgage" width="134px">
+      <img src="/assets/images/clients/greater-concord-chamber-of-commerce.png" alt="greater concord chamber of commerce" width="123px">
+      <img src="/assets/images/clients/co-op-food-stores.png" alt="co-op food stores" width="107px">
+      <img src="/assets/images/clients/kw-metropolitan.png" alt="kw metropolitan" width="153px">
+      <img src="/assets/images/clients/ballentine-partners.png" alt="ballentine partners" width="158px">
+      <img src="/assets/images/clients/refuge-point.png" alt="refuge point" width="162px">
+      <img src="/assets/images/clients/northfield-mount-hermon.png" alt="northfield mount hermon" width="86px">
+      <img src="/assets/images/clients/phillips-exeter-academy.png" alt="phillips exeter academy" width="79px">
+      <img src="/assets/images/clients/gcir.png" alt="gcir" width="170px">
+      <img src="/assets/images/clients/yale.png" alt="yale" width="130px">
+      
+      <img src="/assets/images/clients/easfaa.png" alt="easfaa" width="148px">
+      <img src="/assets/images/clients/new-hampshire-housing.png" alt="new hampshire housing" width="156px">
+      <img src="/assets/images/clients/enterprise-bank.png" alt="enterprise bank" width="189px">
+      <img src="/assets/images/clients/delta-dental.png" alt="delta dental" width="165px">
+      <img src="/assets/images/clients/harbor-care.png" alt="harbor care" width="258px">
+      
+      
+    </div>
+  </div>
+</section>
+
+
+<section class="homethree-testimonials">
+  <div class="homethree-testimonials-container">
+    <div class="card box-shadow">
+      <p class="quote">"After meeting Deo Mwano, I recognized immediately the value DMC could bring to 
+      Campus Services at Dartmouth College. We have worked with him and his team to change our culture, 
+      create a sense of belonging and to integrate Diversity, Equity and Inclusion principles into our operations. 
+      DMC has been an invaluable partner on our journey."</p>
+      <div class="name-title">
+        <h4 class="name">Julie Findley</h4>
+        <p class="title">COO Campus Services <br> Dartmouth College</p>
+      </div>
+    </div>
+    <div class="card box-shadow">
+      <p class="quote">"Deo Mwano masterfully led our Board through a tremendous amount of information, 
+      balancing the systemic and individual scales and grounding concepts in the specific kinds of work 
+      that we do and challenges we face. His training was engaging and compassionate and it continues to 
+      inspire important conversations in our organization."</p>
+      <div class="name-title">
+        <h4 class="name">Sarah Wraight</h4>
+        <p class="title">Two Rivers-Ottauquechee Regional Commission, Vermont, Senior Planner</p>
+      </div>
+    </div>
+    <div class="card box-shadow">
+      <p class="quote">"I had the pleasure of working with Deo over the course of several years. 
+      He first sought to understand the needs of our school community by reaching out to key stakeholders 
+      including Board members, parents, students, school administrators, and staff members. Deo and his team accomplished 
+      this through individual and group in-person meetings as well as through multiple surveys that we developed together."</p>
+      <div class="name-title">
+        <h4 class="name">Dr. Joanne Roberts</h4>
+        <p class="title">Superintendent of the Lebanon School District, Lebanon, New Hampshire</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="homethree-solutions">
+  <div class="solutions-container">
+    <h2>Our Solutions</h2>
+    <div class="card-container">
+      <div class="solutions-card" id="solutions-workforce-card">
+        <img src="/assets/images/home/home-three-workforce.png" alt="workforce solutions">
+        <div class="solutions-info-container">
+          <h3>Workforce Success</h3>
+          <p>Facilities operations teams, hospitals, retail, hospitality, banks, tech startups, and government agencies</p>
+          <a href="/workforce/" class="button">Learn More</a>
+        </div>
+        
+      </div>
+      <div class="solutions-card" id="solutions-learning-card">
+        <img src="/assets/images/home/home-three-learning.png" alt="learning success">
+        <div class="solutions-info-container">
+          <h3>Learning Success</h3>
+          <p>Universities, community colleges, K-12 schools, boarding schools, and online or hybrid learning environments</p>
+          <a href="/learning/" class="button">Learn More</a>
+        </div>
+      </div>
+      <div class="solutions-card" id="solutions-community-card">
+        <img src="/assets/images/home/home-three-community.png" alt="community transformation">
+        <div class="solutions-info-container">
+          <h3>Community Transformation</h3>
+          <p>Non-profit Organizations, City & Towns, Foundations, and Cooperatives</p>
+          <a href="/community/" class="button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="homethree-impact">
+    <div class="sections-container">
+        <div class="header-section">
+          <h2>Our Impact Across Sectors
+          </h2>
+          <p>For over <b>10 years, Deo Mwano Consultancy (DMC)</b> has partnered <b>across government, 
+          education, philanthropy, business, and workforce development to advance equity, 
+          leadership, and community-driven change.</b> <br> Our work blends <b>research, strategy, and 
+          leadership development</b> to create measurable results that strengthen people, organizations, 
+          and communities.
+          </p>
+        </div>
+        <div class="community-section">
+          <h3>Community & Economic Development
+          </h3>
+          <div class="card-container" id="community-impact-card-container">
+            <div class="row-container">
+              <div class="card community-impact-card">
+                  <img src="/assets/images/home/impact-community-1.png" alt="">
+                  <p><b>500+ residents engaged </b>through ARMI's transportation study, 
+                  improving workforce accessibility in Greater Manchester.
+                  </p>
+              </div>
+              <div class="card community-impact-card">
+                  <img src="/assets/images/home/impact-community-2.png" alt="">
+                  <p>Partnered with <b>New Hampshire Community Finance Authority and Granite United Way 
+                  Center City Grant Program</b>
+                  </p>
+              </div>
+            </div>
+            <div class="row-container">
+              <div class="card community-impact-card">
+                  <img src="/assets/images/home/impact-community-3.png" alt="">
+                  <p>Collaborated with the <b>City of Manchester</b> to deliver <b>$2.5M in support to 150+ 
+                  small businesses</b>, boosting local sustainability and growth.
+                  </p>
+              </div>
+              <div class="card community-impact-card">
+                  <img src="/assets/images/home/impact-community-4.png" alt="">
+                  <p>The project was a collaboration between DMC, <b>New Hampshire Community 
+                  Loan Fund and the NAACP of Manchester, NH.</b> It led to the launch of the 
+                  <b>NH Community Loan Fund's CDEE Program</b>, which successfully 
+                  <b>raised $500,000</b> to support small business owners across New Hampshire.
+                  </p>
+              </div>
+            </div>  
+          </div>
+        </div>
+        <div class="workforce-section">
+          <h3>Workforce Transformation
+          </h3>
+          <div class="card-container" id="workforce-impact-card-container">
+            
+              <div class="card workforce-impact-card">
+                  <img src="/assets/images/home/impact-workforce-1.png" alt="">
+                  <p><b>Dartmouth College partnership improved trust and satisfaction from 48% to 
+                  80% among 800+ employees.</b>
+                  </p>
+              </div>
+              <div class="card workforce-impact-card">
+                  <img src="/assets/images/home/impact-workforce-2.png" alt="">
+                  <p>Maine Department of Health & Human Services review impacted services 
+                  for 50,000+ Mainers and 3,000+ employees.
+                  </p>
+              </div>
+              <div class="card workforce-impact-card">
+                  <img src="/assets/images/home/impact-workforce-3.png" alt="">
+                  <p>The Co-op Food Stores workforce assessments strengthened employee 
+                  engagement across 350+ staff in multiple locations.
+                  </p>
+              </div>
+              
+             
+          </div>
+        </div>
+        <div class="education-section">
+          <h3>
+          </h3>
+          <div class="card-container" id="education-impact-card-container">
+            <div class="education-left-container">
+              <h3>Governance & Strategy
+              </h3>
+              <div class="card education-impact-card">
+                  <img src="/assets/images/home/impact-education-1.png" alt="">
+                  <p><b>Supported organizations like the Endowment for Health, 
+                  World Affairs Council of NH, and Capital Center for the Arts 
+                  through board retreats and strategic alignment initiatives that 
+                  enhance collaboration and community responsiveness.</b>
+                  </p>
+              </div>
+            </div>  
+            <div class="education-right-container">
+              <h3>Education & Youth Engagement
+              </h3>
+              <div class="card education-impact-card">
+                  <img src="/assets/images/home/impact-education-2.png" alt="">
+                  <p>Partnering with schools and districts to strengthen <b>leadership, culture, 
+                  and student engagement</b> through data-driven strategy and facilitation.
+                  </p>
+                  <p><b>Partners include:</b> Manchester • Lebanon • Raymond • Somersworth • 
+                  Tuscan Arizona School Districts • Boston College High School • Northfield 
+                  Mount Hermon • Phillips Exeter • Phillips Andover • New Hampton School
+                  </p>
+              </div>
+            </div> 
+              
+              
+             
+          </div>
+        </div>
+    </div>
+</section>
+
+<section class="newhome-approach">
+  <img src="/assets/images/home/deo-speaker-2.jpg" alt="deo mwano speaker" class="home-approach-background">
+  <div class="newhome-approach__content-container">
+    <div class="container">
+      <div class="newhome-approach__content">
+        <h2 class="heading-2">Our Unique Approach</h2>
+        <p class="body-paragraph">Deo Mwano Consultancy's (DMC) focus is helping businesses, schools and organizations maximize their positive impact by building authentic relationships and understanding. DMC's process brings everyone to the table to co-design solutions through shared power.</p>
+        <p class="body-paragraph">DMC's unique approach evokes vulnerability, honesty and transparency. DMC helps organizations break down old mindsets and systems and then provides solutions that help people feel accepted, respected and a new sense of belonging. This is a transformative process, improving engagement, productivity, satisfaction and retention.</p>
+        <a href="/contact/" class="button">Talk to us today</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newhome-blogs">
+  <div class="container">
+    <h2>Featured Blogs</h2>
+    <div class="featured-blogs-container">
+    {.section categoryFilter}{.or}
+      <div class="blog-card">
+        <squarespace:query collection="blog" category="Workforce Success" limit="1">
+          <div class="">
+            {.repeated section items}
+              <a href="{fullUrl}">
+                <img src="{assetUrl}" alt="{title}">
+                <div class="blog-info">
+                  <p>Workforce Success</p>
+                  <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
+                </div>
+                <h3>{title}</h3>
+                
+              </a>
+            {.end}
+          </div>
+        </squarespace:query>
+      </div>
+    
+      <div class="blog-card">
+        <squarespace:query collection="blog" category="Learning Success" limit="1">
+          
+            {.repeated section items}
+              <a href="{fullUrl}">
+                <img src="{assetUrl}" alt="{title}">
+                <div class="blog-info">
+                  <p>Learning Success</p>
+                  <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
+                </div>
+                <h3>{title}</h3>
+                
+              </a>
+            {.end}
+          
+        </squarespace:query>
+      </div>
+    
+      <div class="blog-card">
+        <squarespace:query collection="blog" category="Community Transformation" limit="1">
+          <div class="">
+            {.repeated section items}
+              <a href="{fullUrl}">
+                <img src="{assetUrl}" alt="{title}">
+                <div class="blog-info">
+                  <p>Community Transformation</p>
+                  <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
+                </div>
+                <h3>{title}</h3>
+                
+              </a>
+            {.end}
+          </div>
+        </squarespace:query>
+      </div>
+  
+    {.end}
+    </div>
+  </div>
+</section>  
+<section class="newhome-readmore">
+  <div class="container">
+    <a href="/blog/" class="button">Read More</a>
+  </div>
+</section>
+
+<section class="newhome-herovideo">
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8UjTG3Vlhno?si=gweZm8it6gVn93hK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+<section class="newhome-speaker">
+  <div class="container">
+    <div class="newhome-speaker__content">
+      <div>
+        <img src="/assets/images/home/home-keynote.png" alt="deo mwano speaker" class="zoom-image-on-scroll-3">
+      </div>
+      <div>
+        <h2 class="heading-2">Keynote Speaker</h2>
+        <p class="body-paragraph">Workforce Success, Tech-Conference, HealthCare, College Conference, Banking Enterprise, K-12 conferences</p>
+        <a href="/keynote-speaker/" class="button">Talk to us today</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newhome-action">
+  <span>DMC</span>
+  <span>In</span>
+  <span>Action</span>
+  <img src="/assets/images/home/deo-in-action.png" alt="deo mwano">
+</section>
+
+<section class="newhome-videos">
+  <div class="container">
+    
+    <div class="newhome-videos__row">
+    <!--Video not working
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QQJmHdeeBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    -->  
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kGWWszkJ7BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dN2FoDN5gYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="center">
+  <div class="container">
+    <a href="/contact/" class="button">Talk to us today</a>
+  </div>
+</section>
+
+<section class="newhome-team">
+  <div class="container">
+    <div class="newhome-team__row">
+      {#  <div class="home-team__row--empty"></div>  }
+      <div>
+        <img src="/assets/images/team/team-deo-mwano.jpg" alt="deo mwano">
+        <div>
+          <h4>Deo Mwano</h4>
+          <p>CEO, Founder and Managing Principal</p>
+        </div>
+      </div>
+      {#  <div class="home-team__row--empty"></div>  }
+      <div>
+        <img src="/assets/images/team/team-millicent-alhamis.jpg" alt="Millicent Alhamis">
+        <div>
+          <h4>Millicent Alhamis</h4>
+          <p>Program/Project Manager</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/team/team-andrea-bruneau.jpg" alt="Andrea Bruneau">
+        <div>
+          <h4>Andrea Bruneau</h4>
+          <p>Learning Model and Organization Transformation Consultant</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/team/team-rakesh-khilare.jpg" alt="Rakesh Khilare">
+        <div>
+          <h4>Rakesh Khilare</h4>
+          <p>Lead Designer</p>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/images/team/team-david-bielik.jpg" alt="David Bielik">
+        <div>
+          <h4>David Bielik</h4>
+          <p>Solution Architect</p>
+        </div>
+      </div>
+      {#  <div>
+        <img src="/assets/images/team/team-chris-ramirez.png" alt="Chris Ramirez">
+        <div>
+          <h4>Chris Ramirez</h4>
+          <p>Digital Media Manager</p>
+        </div>
+      </div>  }
+    </div>
+  </div>
+</section>
