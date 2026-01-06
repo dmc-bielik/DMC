@@ -1,1 +1,19 @@
-<p>Impact Page</p>
+<section class="impact-hero">
+  <div class="impact-hero-container">
+    <div class="grid">
+      <div class="text">
+        <h1>Transforming Non-Profits for Sustainable Impact</h1>
+        <p>With over 15 years of experience, Deo Mwano Consultancy (DMC)
+        has partnered with a wide variety of nonprofit organizations—large, 
+        medium, and small—to help them align their mission, improve internal 
+        collaboration, and expand their external reach. We bring proven 
+        strategies and practical innovation to the nonprofit sector, 
+        ensuring organizations are equipped for long-term success.</p>
+      </div>
+        <img class="nonprofits-1" src="/assets/images/nonprofits/nonprofits-1.png">
+        <img class="nonprofits-2" src="/assets/images/nonprofits/nonprofits-2.png">
+        <img class="nonprofits-3" src="/assets/images/nonprofits/nonprofits-3.png">
+        <img class="nonprofits-4" src="/assets/images/nonprofits/nonprofits-4.png">       
+    </div>
+  </div>
+</section>
