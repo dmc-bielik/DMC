@@ -107,7 +107,6 @@
           <p>Operation teams, hospitals, retail, hospitality, banks, tech startups, and government agencies</p>
           <a href="/workforce/" class="button">Learn More</a>
         </div>
-        
       </div>
       <div class="solutions-card" id="solutions-learning-card">
         <img src="/assets/images/home/home-three-learning.png" alt="learning success">
@@ -205,8 +204,7 @@
           </div>
         </div>
         <div class="education-section">
-          <h3>
-          </h3>
+  
           <div class="card-container" id="education-impact-card-container">
             <div class="education-left-container">
               <h3>Governance & Strategy
@@ -221,7 +219,7 @@
               </div>
             </div>  
             <div class="education-right-container">
-              <h3>Education & Youth Engagement
+              <h3>Youth Engagement
               </h3>
               <div class="card education-impact-card">
                   <img src="/assets/images/home/impact-education-2.png" alt="">
@@ -239,7 +237,8 @@
              
           </div>
         </div>
-    </div>
+      </div>  
+    
 </section>
 <!--
 <section class="newhome-approach">
@@ -329,9 +328,10 @@
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/8UjTG3Vlhno?si=gweZm8it6gVn93hK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </section>
-<section class="keynote-hero">
+
+<section class="keynote-hero" id="home-keynote">
   <div class="keynote-hero-container">
-    <img id="mobile-image"src="/assets/images/keynote-speaker/keynote-hero-mobile.png" alt="Keynote Speaker">
+    <img id="mobile-image" src="/assets/images/keynote-speaker/keynote-hero-mobile.png" alt="Keynote Speaker">
     <div class="text-container">
       <h3>Keynote Speaker</h3>
       <p>Deo Mwano is a captivating speaker with a compelling personal story as well as expertise in business, community-building and workforce cultural change.</p>

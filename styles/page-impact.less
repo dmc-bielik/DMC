@@ -355,9 +355,9 @@
       justify-content: space-around;
 
        @media (max-width: 979px) {
-         display: flex;
-         flex-direction: column;
          
+         flex-direction: column;
+         align-items: center;
          gap: 20px;
          width: 100%;
 
@@ -369,9 +369,7 @@
         width: 30%;
 
         @media (max-width: 979px) {
-         
          width: 100%;
-
        }
       }
 
@@ -391,12 +389,12 @@
 
       .image-container {
         width: 14%;
-        
+        display: flex;
+        justify-content: center;
 
         @media (max-width: 979px) {
-         
          width: 100%;
-
+         
        }
         
       }
@@ -437,7 +435,7 @@
     }
 
     #impact-workforce-cdfa {
-        background-color: #FFCF3F;
+        background-color: #7190FF;
     }
 
     .bottom-container {
@@ -493,14 +491,22 @@
 
     .top-container {
         display: flex;
+        
         margin-left: 10%;
         padding-top: 40px;
 
         @media (max-width: 979px) {
           flex-direction: column;
-          align-items: center;
-          margin: 0;
+          margin-left: 35%;
+          
           padding-top: 0;
+        }
+
+        @media (max-width: 767px) {
+          
+          margin-left: 25%;
+          
+          
         }
 
         .additional-partners {
@@ -518,7 +524,7 @@
             gap: 40px;
 
             @media (max-width: 979px) {
-              flex-direction: column-reverse;
+              flex-direction: column;
               padding-left: 0;
               width: 60%;
             }
