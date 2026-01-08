@@ -2,18 +2,337 @@
   <div class="impact-hero-container">
     <div class="grid">
       <div class="text">
-        <h1>Transforming Non-Profits for Sustainable Impact</h1>
-        <p>With over 15 years of experience, Deo Mwano Consultancy (DMC)
-        has partnered with a wide variety of nonprofit organizations—large, 
-        medium, and small—to help them align their mission, improve internal 
-        collaboration, and expand their external reach. We bring proven 
-        strategies and practical innovation to the nonprofit sector, 
-        ensuring organizations are equipped for long-term success.</p>
+        <h1>Our Impact Across Sectors</h1>
+        <p>For more than a decade, Deo Mwano Consultancy (DMC) has partnered with 
+        leaders across government, education, philanthropy, business, and workforce 
+        development to strengthen leadership, expand opportunity, and accelerate positive change.
+        <br>
+        <br>
+        We combine research-backed insight, strategic planning, and high-impact 
+        leadership development to help organizations build stronger teams, improve culture, 
+        and achieve measurable results that last—because when people grow, 
+        performance follows, and communities thrive.
+        </p>
       </div>
-        <img class="nonprofits-1" src="/assets/images/nonprofits/nonprofits-1.png">
-        <img class="nonprofits-2" src="/assets/images/nonprofits/nonprofits-2.png">
-        <img class="nonprofits-3" src="/assets/images/nonprofits/nonprofits-3.png">
-        <img class="nonprofits-4" src="/assets/images/nonprofits/nonprofits-4.png">       
+      <img class="nonprofits-1" src="/assets/images/impact/impact-hero-1.png">
+      <img class="nonprofits-2" src="/assets/images/impact/impact-hero-2.png">
+      <img class="nonprofits-3" src="/assets/images/impact/impact-hero-3.png">
+      <img class="nonprofits-4" src="/assets/images/impact/impact-hero-4.png">       
     </div>
   </div>
+</section>
+<section class="impact-community">
+  <h2>Community & Economic Development</h2>
+  <div class="carousel">
+    <div class="carousel-wrapper">
+      <button class="carousel-btn prev" aria-label="Previous"><img src="/assets/images/impact/previous-icon.png"></button>
+    
+      <div class="carousel-viewport">
+        <div class="carousel-track">
+          <div class="carousel-card">
+            <div class="top-container">
+              <div class="title-container">
+                <img class="logo" src="/assets/images/impact/ARMI-impact-logo.png">
+                <h3>Advanced Regenerative Manufacturing Institute (ARMI)</h3>
+              </div>
+              <img class="card-image" id="ARMI-image" src="/assets/images/impact/ARMI-impact-image.png">
+            </div>
+            <div class="bottom-container">
+              <p>Led a regional transportation study engaging <b>500+ residents</b>, 
+              informing workforce accessibility and mobility strategies in Greater Manchester.
+              </p>
+            </div>  
+          </div>
+          <div class="carousel-card">
+            <div class="top-container">
+              <div class="title-container">
+                <img class="logo" src="/assets/images/impact/united-impact-logo.png">
+                <h3>Granite United Way</h3>
+              </div>
+              <img class="card-image" src="/assets/images/impact/united-impact-image.png">
+            </div>
+            <div class="bottom-container">
+              <p>Delivered statewide studies on the health and sustainability of small 
+              nonprofits, engaging <b>250+ participants</b> and informing the <b>organization's 
+              2024 funding model redesign</b>.
+              </p>
+            </div>  
+          </div>
+          <div class="carousel-card">
+            <div class="top-container">
+              <div class="title-container">
+                <img class="logo" id="manchester-impact-logo" src="/assets/images/impact/manchester-impact-logo.png">
+                <h3 id="manchester-impact-title">Manchester Small Business Program</h3>
+              </div>
+              <img class="card-image" src="/assets/images/impact/manchester-impact-image.png">
+            </div>
+            <div class="bottom-container">
+              <p>In partnership with the <b>City of Manchester Mayor's Office</b> 
+              and the <b>Economic Development Department</b>, DMC designed and 
+              facilitated a program that supported <b>150+ small businesses with 
+              $2.5M in direct capacity-building funding</b> to strengthen sustainability 
+              and drive growth.
+              </p>
+            </div>  
+          </div>
+          <div class="carousel-card">
+            <div class="top-container">
+              <div class="title-container">
+                <img class="logo" src="/assets/images/impact/loan-impact-logo.png">
+                <h3>NH Community Loan Fund</h3>
+              </div>
+              <img class="card-image" src="/assets/images/impact/loan-impact-image.png">
+            </div>
+            <div class="bottom-container">
+              <p>Assessed economic challenges facing <b>women- and minority-owned businesses</b>, 
+              engaging <b>150+ entrepreneurs</b>. Findings helped launch a grant program that has 
+              <b>raised over $500K</b>, with <b>$250K+ already allocated</b> to support small businesses 
+              across New Hampshire.
+              </p>
+            </div>  
+          </div>
+        </div>
+      </div>
+      
+    
+      <button class="carousel-btn next" aria-label="Next"><img src="/assets/images/impact/next-icon.png"></button>
+    </div>
+    <div class="impact-community-mobile-view">
+      <div class="carousel-card">
+            <div class="top-container">
+              <div class="title-container">
+                <img class="logo" src="/assets/images/impact/ARMI-impact-logo.png">
+                <h3>Advanced Regenerative Manufacturing Institute (ARMI)</h3>
+              </div>
+              <img class="card-image" id="ARMI-image" src="/assets/images/impact/ARMI-impact-image.png">
+            </div>
+            <div class="bottom-container">
+              <p>Led a regional transportation study engaging <b>500+ residents</b>, 
+              informing workforce accessibility and mobility strategies in Greater Manchester.
+              </p>
+            </div>  
+          </div>
+          <div class="carousel-card">
+            <div class="top-container">
+              <div class="title-container">
+                <img class="logo" src="/assets/images/impact/united-impact-logo.png">
+                <h3>Granite United Way</h3>
+              </div>
+              <img class="card-image" src="/assets/images/impact/united-impact-image.png">
+            </div>
+            <div class="bottom-container">
+              <p>Delivered statewide studies on the health and sustainability of small 
+              nonprofits, engaging <b>250+ participants</b> and informing the <b>organization's 
+              2024 funding model redesign</b>.
+              </p>
+            </div>  
+          </div>
+          <div class="carousel-card">
+            <div class="top-container">
+              <div class="title-container">
+                <img class="logo" id="manchester-impact-logo" src="/assets/images/impact/manchester-impact-logo.png">
+                <h3 id="manchester-impact-title">Manchester Small Business Program</h3>
+              </div>
+              <img class="card-image" src="/assets/images/impact/manchester-impact-image.png">
+            </div>
+            <div class="bottom-container">
+              <p>In partnership with the <b>City of Manchester Mayor's Office</b> 
+              and the <b>Economic Development Department</b>, DMC designed and 
+              facilitated a program that supported <b>150+ small businesses with 
+              $2.5M in direct capacity-building funding</b> to strengthen sustainability 
+              and drive growth.
+              </p>
+            </div>  
+          </div>
+          <div class="carousel-card">
+            <div class="top-container">
+              <div class="title-container">
+                <img class="logo" src="/assets/images/impact/loan-impact-logo.png">
+                <h3>NH Community Loan Fund</h3>
+              </div>
+              <img class="card-image" src="/assets/images/impact/loan-impact-image.png">
+            </div>
+            <div class="bottom-container">
+              <p>Assessed economic challenges facing <b>women- and minority-owned businesses</b>, 
+              engaging <b>150+ entrepreneurs</b>. Findings helped launch a grant program that has 
+              <b>raised over $500K</b>, with <b>$250K+ already allocated</b> to support small businesses 
+              across New Hampshire.
+              </p>
+            </div>  
+          </div>
+    </div>
+  </div>  
+</section>  
+<section class="impact-workforce">
+  <h2>Workforce Transformation</h2>
+  <div class="carousel">
+    <div class="carousel-wrapper">
+      <button class="carousel-btn prev" aria-label="Previous"><img src="/assets/images/impact/previous-icon.png"></button>
+    
+      <div class="carousel-viewport">
+        <div class="carousel-track">
+          <div class="carousel-card" id="impact-workforce-dartmouth">
+             <h3 class="impact-workforce-org-title">Dartmouth College - Campus Services Division
+             </h3>
+             <p class="impact-workforce-description"> A four-year partnership providing 
+             workforce strategy and leadership coaching to <b>800+ employees</b>, 
+             improving trust and satisfaction levels from <b>48% to 80% </b>and significantly 
+             increasing retention.
+             </p>
+             <div class="image-container">
+               <img class="impact-workforce-logo" src="/assets/images/impact/impact-workforce-dartmouth-logo.png">
+             </div>
+          </div>
+          <div class="carousel-card" id="impact-workforce-HHS">
+             <h3 class="impact-workforce-org-title">Maine Department of Health and Human Services
+             </h3>
+             <p class="impact-workforce-description"> Evaluated a five-year strategic plan 
+             impacting <b>50,000 Mainers</b>, analyzing internal processes, service data, and 
+             program effectiveness. Delivered comprehensive recommendations to improve 
+             operations and the experiences of <b>3,000+ employees</b>.
+             </p>
+             <div class="image-container">
+               <img class="impact-workforce-logo" src="/assets/images/impact/impact-workforce-HHS-logo.png">
+            </div>
+          </div>
+          <div class="carousel-card" id="impact-workforce-co-op">
+             <h3 class="impact-workforce-org-title">The Co-op Food Stores (NH & VT)
+             </h3>
+             <p class="impact-workforce-description"> Led culture and engagement assessments, 
+             along with leadership trainings, to strengthen employee voice and organizational 
+             alignment across <b>350+ employees</b> in multiple locations.
+             </p>
+             <div class="image-container">
+               <img class="impact-workforce-logo" src="/assets/images/impact/impact-workforce-co-op-logo.png">
+            </div>
+          </div>
+          
+          <div class="carousel-card" id="impact-workforce-cdfa">
+             <h3 class="impact-workforce-org-title">NH-CDFA, Granite United way, DMC
+             </h3>
+             <p class="impact-workforce-description"> Conducted a neighborhood assessment in
+             Manchester that led to the creation of a community <b>advisory group</b>, which 
+             distributed <b>$100K in local grants</b> to strengthen community-based organizations.
+             </p>
+             <div class="image-container">
+               <img class="impact-workforce-logo" src="/assets/images/impact/impact-workforce-cdfa-logo.png">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      <button class="carousel-btn next" aria-label="Next"><img src="/assets/images/impact/next-icon.png"></button>
+    </div>
+  </div>
+  <div class="impact-workforce-mobile-view">
+    <div class="carousel-card" id="impact-workforce-dartmouth">
+       <div class="image-container">
+         <img class="impact-workforce-logo" src="/assets/images/impact/impact-workforce-dartmouth-logo.png">
+       </div>
+       <h3 class="impact-workforce-org-title">Dartmouth College - Campus Services Division
+       </h3>
+       <p class="impact-workforce-description"> A four-year partnership providing 
+       workforce strategy and leadership coaching to <b>800+ employees</b>, 
+       improving trust and satisfaction levels from <b>48% to 80% </b>and significantly 
+       increasing retention.
+       </p>
+       
+    </div>
+    <div class="carousel-card" id="impact-workforce-HHS">
+       <div class="image-container">
+         <img class="impact-workforce-logo" src="/assets/images/impact/impact-workforce-HHS-logo.png">
+      </div>
+       <h3 class="impact-workforce-org-title">Maine Department of Health and Human Services
+       </h3>
+       <p class="impact-workforce-description"> Evaluated a five-year strategic plan 
+       impacting <b>50,000 Mainers</b>, analyzing internal processes, service data, and 
+       program effectiveness. Delivered comprehensive recommendations to improve 
+       operations and the experiences of <b>3,000+ employees</b>.
+       </p>
+       
+    </div>
+    <div class="carousel-card" id="impact-workforce-co-op">
+
+    <div class="image-container">
+         <img class="impact-workforce-logo" src="/assets/images/impact/impact-workforce-co-op-logo.png">
+      </div>
+       <h3 class="impact-workforce-org-title">The Co-op Food Stores (NH & VT)
+       </h3>
+       <p class="impact-workforce-description"> Led culture and engagement assessments, 
+       along with leadership trainings, to strengthen employee voice and organizational 
+       alignment across <b>350+ employees</b> in multiple locations.
+       </p>
+       
+    </div>
+    
+    <div class="carousel-card" id="impact-workforce-cdfa">
+
+    <div class="image-container">
+         <img class="impact-workforce-logo" src="/assets/images/impact/impact-workforce-cdfa-logo.png">
+      </div>
+       <h3 class="impact-workforce-org-title">NH-CDFA, Granite United way, DMC
+       </h3>
+       <p class="impact-workforce-description"> Conducted a neighborhood assessment in
+       Manchester that led to the creation of a community <b>advisory group</b>, which 
+       distributed <b>$100K in local grants</b> to strengthen community-based organizations.
+       </p>
+       
+    </div>
+  </div>  
+  <div class="bottom-container">
+    <p class="additional-partners">Additional <br>Workforce Partners:</p>
+    <ul>
+      <li>Peabody Properties</li>
+      <li>NH Housing</li>
+      <li>New Futures</li>
+      <li>Delta Dental</li>
+    </ul>  
+  </div>  
+</section>  
+
+<section class="impact-governance">
+  <h2>Governance & Strategy</h2>
+  <div class="top-container">
+    <p class="additional-partners">Endowment <br>for Health:</p>
+    <div class="endowment-container">
+      <p class="endowment">Facilitated board retreats and strategic 
+      planning sessions to strengthen collaboration, alignment, and 
+      responsiveness to community partners.
+      </p>
+      <div class="governance-image-container">
+        <img src="/assets/images/impact/impact-governance-endowment-logo.png">
+      </div>
+    </div>  
+  </div>
+  <div class="bottom-container">
+    <p class="additional-partners">Additional <br>Governance Partners:</p>
+    <ul>
+      <li>World Affairs Council of NH</li>
+      <li>Concord Chamber of Commerce</li>
+      <li>The Co-op Board</li>
+      <li>Capital Center for the Arts Board</li>
+      <li>Tuscan Arizona School District</li>
+    </ul>  
+  </div>
+</section>
+
+<section class="impact-education">
+  <div class="top-container">
+    <h2>Education & Youth Engagement</h2>
+    <p>Partnering with schools and districts to strengthen <b>leadership, 
+    culture, and student engagement</b> through data-driven strategy, 
+    facilitation, and professional development.
+    </p>
+  </div>
+  <div class="bottom-container">
+    <p class="additional-partners">Education <br>Partners Include:</p>
+    <ul>
+      <li>Manchester</li>
+      <li>Lebanon</li>
+      <li>Raymond</li>
+      <li>Somersworth</li>
+      <li style="line-height: 1.1;">Tuscan Arizona School District</li>
+    </ul>  
+  </div>  
 </section>

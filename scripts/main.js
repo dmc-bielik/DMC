@@ -1138,3 +1138,78 @@ document.addEventListener('DOMContentLoaded', () => {
     container.scrollLeft += 2;
   }, 1); // ~60fps
 });
+
+//impact page carousel
+
+document.querySelectorAll('.carousel').forEach(carousel => {
+  const track = carousel.querySelector('.carousel-track');
+  const prevBtn = carousel.querySelector('.carousel-btn.prev');
+  const nextBtn = carousel.querySelector('.carousel-btn.next');
+  const viewport = carousel.querySelector('.carousel-viewport');
+
+  let originalCards = Array.from(track.children);
+  let index = 0;
+  let visibleCards = 1;
+  let gap = parseInt(getComputedStyle(track).gap) || 0;
+
+  function setup() {
+    // Reset track
+    track.innerHTML = '';
+    originalCards.forEach(card => track.appendChild(card));
+
+    const cardWidth = originalCards[0].offsetWidth;
+    const viewportWidth = viewport.offsetWidth;
+
+    visibleCards = Math.round(viewportWidth / cardWidth);
+    visibleCards = Math.max(1, visibleCards); // safety
+
+    // Clone edges
+    originalCards
+      .slice(-visibleCards)
+      .forEach(card => track.insertBefore(card.cloneNode(true), track.firstChild));
+
+    originalCards
+      .slice(0, visibleCards)
+      .forEach(card => track.appendChild(card.cloneNode(true)));
+
+    index = visibleCards;
+    move(false);
+  }
+
+  function move(animate = true) {
+    const cardWidth = track.children[0].offsetWidth;
+    track.style.transition = animate ? 'transform 0.4s ease' : 'none';
+    track.style.transform = `translateX(-${index * (cardWidth + gap)}px)`;
+  }
+
+  nextBtn.addEventListener('click', () => {
+    index++;
+    move();
+
+    if (index >= track.children.length - visibleCards) {
+      setTimeout(() => {
+        index = visibleCards;
+        move(false);
+      }, 400);
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    index--;
+    move();
+
+    if (index <= 0) {
+      setTimeout(() => {
+        index = track.children.length - visibleCards * 2;
+        move(false);
+      }, 400);
+    }
+  });
+
+  window.addEventListener('resize', setup);
+
+  setup();
+});
+
+
+

@@ -104,7 +104,7 @@
         <img src="/assets/images/home/home-three-workforce.png" alt="workforce solutions">
         <div class="solutions-info-container">
           <h3>Workforce Success</h3>
-          <p>Facilities operations teams, hospitals, retail, hospitality, banks, tech startups, and government agencies</p>
+          <p>Operation teams, hospitals, retail, hospitality, banks, tech startups, and government agencies</p>
           <a href="/workforce/" class="button">Learn More</a>
         </div>
         
@@ -241,7 +241,7 @@
         </div>
     </div>
 </section>
-
+<!--
 <section class="newhome-approach">
   <img src="/assets/images/home/deo-speaker-2.jpg" alt="deo mwano speaker" class="home-approach-background">
   <div class="newhome-approach__content-container">
@@ -255,7 +255,7 @@
     </div>
   </div>
 </section>
-
+-->
 <section class="newhome-blogs">
   <div class="container">
     <h2>Featured Blogs</h2>
@@ -329,7 +329,18 @@
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/8UjTG3Vlhno?si=gweZm8it6gVn93hK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </section>
+<section class="keynote-hero">
+  <div class="keynote-hero-container">
+    <img id="mobile-image"src="/assets/images/keynote-speaker/keynote-hero-mobile.png" alt="Keynote Speaker">
+    <div class="text-container">
+      <h3>Keynote Speaker</h3>
+      <p>Deo Mwano is a captivating speaker with a compelling personal story as well as expertise in business, community-building and workforce cultural change.</p>
+    </div>
+    <img id="desktop-image" src="/assets/images/keynote-speaker/keynote-hero-new.png" alt="Keynote Speaker">
+  </div>
+</section>
 
+<!--
 <section class="newhome-speaker">
   <div class="container">
     <div class="newhome-speaker__content">
@@ -351,21 +362,20 @@
   <span>Action</span>
   <img src="/assets/images/home/deo-in-action.png" alt="deo mwano">
 </section>
-
+-->
+<!--
 <section class="newhome-videos">
   <div class="container">
     
     <div class="newhome-videos__row">
-    <!--Video not working
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QQJmHdeeBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    -->  
+    
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kGWWszkJ7BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dN2FoDN5gYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
   </div>
 </section>
-
+-->
 <section class="center">
   <div class="container">
     <a href="/contact/" class="button">Talk to us today</a>
