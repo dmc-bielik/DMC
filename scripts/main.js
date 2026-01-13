@@ -56,14 +56,42 @@ function onWheelScroll(e) {
 function handleScrollBehavior() {
   if (window.innerWidth >= 767) {
     enableCustomScroll();
+    stopMobileAutoScroll();
   } else {
     disableCustomScroll();
+    startMobileAutoScroll();
   }
 }
+
+//For mobile
 
 window.addEventListener('resize', handleScrollBehavior);
 handleScrollBehavior(); // Run on page load
 
+let mobileAutoScrollInterval = null;
+
+function startMobileAutoScroll() {
+  if (mobileAutoScrollInterval) return;
+
+  mobileAutoScrollInterval = setInterval(() => {
+    if (!isElementCenteredInViewport(scroller, 150)) return;
+
+    const atEnd =
+      scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 1;
+
+    if (atEnd) {
+      stopMobileAutoScroll();
+      return;
+    }
+
+    scroller.scrollLeft += 1.2; // speed
+  }, 16); // ~60fps
+}
+
+function stopMobileAutoScroll() {
+  clearInterval(mobileAutoScrollInterval);
+  mobileAutoScrollInterval = null;
+}
 
 /* GSAP */
 
