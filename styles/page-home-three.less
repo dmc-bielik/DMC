@@ -218,6 +218,11 @@
     }
 
     &-clients  {
+
+      @media (max-width: 767px) {
+              display: none;
+            
+      }
       
       h2 {
         text-align: center;
@@ -692,4 +697,20 @@
   @media (max-width: 767px) {
                 padding-top: 40px;
                }
+}
+
+#homethree-client-logos {
+  padding-bottom: 20px;
+  display: none;
+
+  @media (max-width: 767px) {
+    display: block;
+   }
+
+   h2 {
+    font-size: 40px;
+        text-align: center;
+        font-family: @fontPoppins;
+        font-weight: 600;
+      }
 }

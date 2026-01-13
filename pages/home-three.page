@@ -27,6 +27,35 @@
   </div>
 </section>
 
+<section class="home-clients" id="homethree-client-logos">
+  <div class="container">
+    <h2 class="heading-2">Trusted by</h2>
+    <div class="home-clients__images">
+      <img src="/assets/images/clients/gcir.png" alt="gcir" width="170px">
+      <img src="/assets/images/clients/community-loan-fund.png" alt="community loan fund" width="129px">
+      <img src="/assets/images/clients/pinnacle-mortgage.png" alt="pinnacle mortgage" width="134px">
+      <img src="/assets/images/clients/greater-concord-chamber-of-commerce.png" alt="greater concord chamber of commerce" width="123px">
+      <img src="/assets/images/clients/co-op-food-stores.png" alt="co-op food stores" width="107px">
+      <img src="/assets/images/clients/kw-metropolitan.png" alt="kw metropolitan" width="153px">
+      <img src="/assets/images/clients/ballentine-partners.png" alt="ballentine partners" width="158px">
+      <img src="/assets/images/clients/refuge-point.png" alt="refuge point" width="162px">
+      <img src="/assets/images/clients/northfield-mount-hermon.png" alt="northfield mount hermon" width="86px">
+      <img src="/assets/images/clients/phillips-exeter-academy.png" alt="phillips exeter academy" width="79px">
+      <img src="/assets/images/clients/dartmouth.png" alt="dartmouth" width="99px">
+      <img src="/assets/images/clients/yale.png" alt="yale" width="130px">
+      <img src="/assets/images/clients/city-of-manchester.png" alt="city of manchester" width="103px">
+      <img src="/assets/images/clients/easfaa.png" alt="easfaa" width="148px">
+      <img src="/assets/images/clients/new-hampshire-housing.png" alt="new hampshire housing" width="156px">
+      <img src="/assets/images/clients/enterprise-bank.png" alt="enterprise bank" width="189px">
+      <img src="/assets/images/clients/delta-dental.png" alt="delta dental" width="165px">
+      <img src="/assets/images/clients/harbor-care.png" alt="harbor care" width="258px">
+      <img src="/assets/images/clients/united-way.png" alt="united way" width="115px">
+      <img src="/assets/images/clients/armi.png" alt="armi" width="100px">
+      <img src="/assets/images/clients/cdfa.png" alt="cdfa" width="150px">
+    </div>
+  </div>
+</section>
+
 <section class="homethree-clients">
   <div class="container">
     <h2 class="heading-2">Trusted by</h2>
