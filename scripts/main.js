@@ -125,42 +125,19 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function handleScrollBehavior() {
-  if (window.innerWidth >= 767) {
-    window.removeEventListener('scroll', handleMobileScrollLink);
-    enableCustomScroll();
-  } else {
-    disableCustomScroll();
-    lastScrollY = window.scrollY;
-    window.addEventListener('scroll', handleMobileScrollLink, {
-      passive: true
-    });
+    if (window.innerWidth >= 767) {
+      stopMobileAutoScroll();
+      enableCustomScroll();
+    } else {
+      disableCustomScroll();
+      startMobileAutoScroll();
+    }
   }
-}
-
-  let lastScrollY = window.scrollY;
-
-function handleMobileScrollLink() {
-  if (window.innerWidth >= 767) return;
-
-  if (!isElementCenteredInViewport(scroller, 200)) return;
-
-  const currentScrollY = window.scrollY;
-  const deltaY = currentScrollY - lastScrollY;
-
-  const atStart = scroller.scrollLeft <= 0;
-  const atEnd =
-    scroller.scrollLeft + scroller.clientWidth >=
-    scroller.scrollWidth - 1;
-
-  if (!(atStart && deltaY < 0) && !(atEnd && deltaY > 0)) {
-    scroller.scrollLeft += deltaY * 1.2; // horizontal speed multiplier
-  }
-
-  lastScrollY = currentScrollY;
-}
 
   window.addEventListener('resize', handleScrollBehavior);
   handleScrollBehavior();
+
+  
 });
 
 /* GSAP */
