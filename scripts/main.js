@@ -65,33 +65,103 @@ function handleScrollBehavior() {
 
 //For mobile
 
-window.addEventListener('resize', handleScrollBehavior);
-handleScrollBehavior(); // Run on page load
+document.addEventListener('DOMContentLoaded', () => {
+  const scroller = document.querySelector('.special-scroller');
+  if (!scroller) return; // IMPORTANT: prevents site-wide breakage
 
-let mobileAutoScrollInterval = null;
+  let mobileAutoScrollInterval = null;
 
-function startMobileAutoScroll() {
-  if (mobileAutoScrollInterval) return;
+  function isElementCenteredInViewport(el, tolerance = 200) {
+    const rect = el.getBoundingClientRect();
+    const viewportMid = window.innerHeight / 2;
+    const elementMid = rect.top + rect.height / 2;
+    return Math.abs(elementMid - viewportMid) <= tolerance;
+  }
 
-  mobileAutoScrollInterval = setInterval(() => {
-    if (!isElementCenteredInViewport(scroller, 150)) return;
+  function startMobileAutoScroll() {
+    if (mobileAutoScrollInterval) return;
 
+    mobileAutoScrollInterval = setInterval(() => {
+      if (!isElementCenteredInViewport(scroller, 150)) return;
+
+      const atEnd =
+        scroller.scrollLeft + scroller.clientWidth >=
+        scroller.scrollWidth - 1;
+
+      if (atEnd) {
+        stopMobileAutoScroll();
+        return;
+      }
+
+      scroller.scrollLeft += 1.2;
+    }, 16);
+  }
+
+  function stopMobileAutoScroll() {
+    clearInterval(mobileAutoScrollInterval);
+    mobileAutoScrollInterval = null;
+  }
+
+  function onWheelScroll(e) {
+    if (!isElementCenteredInViewport(scroller)) return;
+
+    const atStart = scroller.scrollLeft === 0;
     const atEnd =
-      scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 1;
+      scroller.scrollLeft + scroller.clientWidth >=
+      scroller.scrollWidth - 1;
 
-    if (atEnd) {
-      stopMobileAutoScroll();
-      return;
+    if (!(atStart && e.deltaY < 0) && !(atEnd && e.deltaY > 0)) {
+      e.preventDefault();
+      scroller.scrollLeft += e.deltaY;
     }
+  }
 
-    scroller.scrollLeft += 1.2; // speed
-  }, 16); // ~60fps
+  function enableCustomScroll() {
+    document.addEventListener('wheel', onWheelScroll, { passive: false });
+  }
+
+  function disableCustomScroll() {
+    document.removeEventListener('wheel', onWheelScroll);
+  }
+
+  function handleScrollBehavior() {
+  if (window.innerWidth >= 767) {
+    window.removeEventListener('scroll', handleMobileScrollLink);
+    enableCustomScroll();
+  } else {
+    disableCustomScroll();
+    lastScrollY = window.scrollY;
+    window.addEventListener('scroll', handleMobileScrollLink, {
+      passive: true
+    });
+  }
 }
 
-function stopMobileAutoScroll() {
-  clearInterval(mobileAutoScrollInterval);
-  mobileAutoScrollInterval = null;
+  let lastScrollY = window.scrollY;
+
+function handleMobileScrollLink() {
+  if (window.innerWidth >= 767) return;
+
+  if (!isElementCenteredInViewport(scroller, 200)) return;
+
+  const currentScrollY = window.scrollY;
+  const deltaY = currentScrollY - lastScrollY;
+
+  const atStart = scroller.scrollLeft <= 0;
+  const atEnd =
+    scroller.scrollLeft + scroller.clientWidth >=
+    scroller.scrollWidth - 1;
+
+  if (!(atStart && deltaY < 0) && !(atEnd && deltaY > 0)) {
+    scroller.scrollLeft += deltaY * 1.2; // horizontal speed multiplier
+  }
+
+  lastScrollY = currentScrollY;
 }
+
+  window.addEventListener('resize', handleScrollBehavior);
+  handleScrollBehavior();
+});
 
 /* GSAP */
 
