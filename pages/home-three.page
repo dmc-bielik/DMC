@@ -177,6 +177,7 @@
   </div>
 </section>
 
+<a href="/impact">
 <section class="homethree-impact">
     <div class="sections-container">
         <div class="header-section">
@@ -289,6 +290,7 @@
       </div>  
     
 </section>
+</a>
 <!--
 <section class="newhome-approach">
   <img src="/assets/images/home/deo-speaker-2.jpg" alt="deo mwano speaker" class="home-approach-background">

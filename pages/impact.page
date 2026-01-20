@@ -13,6 +13,7 @@
         and achieve measurable results that last—because when people grow, 
         performance follows, and communities thrive.
         </p>
+        <a href="/contact/" class="button" style="margin: 40px;">Contact us</a>
       </div>
       <img class="nonprofits-1" src="/assets/images/impact/impact-hero-1.png">
       <img class="nonprofits-2" src="/assets/images/impact/impact-hero-2.png">
@@ -92,6 +93,7 @@
             </div>  
           </div>
         </div>
+        
       </div>
       
     
@@ -253,7 +255,7 @@
     </div>
     <div class="carousel-card" id="impact-workforce-co-op">
 
-    <div class="image-container">
+    <div class="image-container" >
          <img class="impact-workforce-logo" src="/assets/images/impact/impact-workforce-co-op-logo.png">
       </div>
        <h3 class="impact-workforce-org-title">The Co-op Food Stores (NH & VT)
@@ -262,7 +264,6 @@
        along with leadership trainings, to strengthen employee voice and organizational 
        alignment across <b>350+ employees</b> in multiple locations.
        </p>
-       
     </div>
     
     <div class="carousel-card" id="impact-workforce-cdfa">
@@ -327,11 +328,12 @@
   <div class="bottom-container">
     <p class="additional-partners">Education <br>Partners Include:</p>
     <ul>
-      <li>Manchester</li>
-      <li>Lebanon</li>
-      <li>Raymond</li>
-      <li>Somersworth</li>
-      <li style="line-height: 1.1;">Tuscan Arizona School District</li>
+      <li>Manchester School District</li>
+      <li >Lebanon School District</li>
+      <li>Raymond School District</li>
+      <li>Somersworth School District</li>
+      <li >Tuscan Arizona School District</li>
     </ul>  
   </div>  
 </section>
+
