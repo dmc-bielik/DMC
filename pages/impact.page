@@ -208,7 +208,7 @@
                <img class="impact-workforce-logo" id="impact-workforce-co-op-logo" src="/assets/images/impact/impact-workforce-co-op-logo.png">
             </div>
           </div>
-          
+          <!--
           <div class="carousel-card" id="impact-workforce-cdfa">
              <h3 class="impact-workforce-org-title">NH-CDFA, Granite United way, DMC
              </h3>
@@ -220,7 +220,7 @@
                <img class="impact-workforce-logo" id="impact-workforce-cdfa-logo" src="/assets/images/impact/impact-workforce-cdfa-logo.png">
             </div>
           </div>
-          
+          -->
         </div>
       </div>
     
@@ -265,10 +265,10 @@
        alignment across <b>350+ employees</b> in multiple locations.
        </p>
     </div>
-    
+    <!--
     <div class="carousel-card" id="impact-workforce-cdfa">
 
-    <div class="image-container">
+      <div class="image-container">
          <img class="impact-workforce-logo"  src="/assets/images/impact/impact-workforce-cdfa-logo.png">
       </div>
        <h3 class="impact-workforce-org-title">NH-CDFA, Granite United way, DMC
@@ -279,6 +279,7 @@
        </p>
        
     </div>
+    -->
   </div>  
   <div class="bottom-container">
     <p class="additional-partners">Additional <br>Workforce Partners:</p>
@@ -308,11 +309,11 @@
   <div class="bottom-container">
     <p class="additional-partners">Additional <br>Governance Partners:</p>
     <ul>
-      <li>World Affairs Council of NH</li>
-      <li>Concord Chamber of Commerce</li>
+      <li>World Affairs Council of NH Board</li>
+      <li>Concord Chamber of Commerce Board</li>
       <li>The Co-op Board</li>
       <li>Capital Center for the Arts Board</li>
-      <li>Tuscan Arizona School District</li>
+      
     </ul>  
   </div>
 </section>
