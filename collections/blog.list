@@ -116,7 +116,7 @@
   <div class="blog-category">
     <div class="blog-category-head">
       <h2>Workforce Success</h2>
-      <a href="/blog/category/Workforce Success" class="button button-outline">Read More →</a>
+      <a href="/workforce-blogs" class="button button-outline">Read More →</a>
     </div>
     <squarespace:query collection="blog" category="Workforce Success" limit="3">
       <div class="blog-category-items">

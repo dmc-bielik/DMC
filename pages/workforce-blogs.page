@@ -1,13 +1,21 @@
-<h1>Workforce Success</h1>
+<h1 class="archive-title">Workforce Success - Blogs</h1>
 
 <squarespace:query collection="blog" category="Workforce Success" limit="100">
-  <div class="blog-list">
+  <div class="blog-archive blog-archive--workforce">
+
     {.repeated section items}
-      <a href="{fullUrl}">
-        <img src="{assetUrl}">
-        <h3>{title}</h3>
-        <p>{excerpt}</p>
+      <a class="blog-archive-card" href="{fullUrl}">
+        <div class="blog-archive-image">
+          <img src="{assetUrl}" alt="{title}">
+        </div>
+
+        <div class="blog-archive-content">
+          <h3 class="blog-archive-title">{title}</h3>
+          
+          <p class="blog-archive-date">{addedOn|datetime date:long}</p>
+        </div>
       </a>
     {.end}
+
   </div>
 </squarespace:query>
