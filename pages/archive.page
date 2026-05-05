@@ -1,9 +1,0 @@
-<section>
-  <h1>All Insights</h1>
-
-  {#each items}
-    <div>
-      <a href="{fullUrl}">{title}</a>
-    </div>
-  {/each}
-</section>

@@ -1,0 +1,13 @@
+<h1>Workforce Success</h1>
+
+<squarespace:query collection="blog" category="Workforce Success" limit="100">
+  <div class="blog-list">
+    {.repeated section items}
+      <a href="{fullUrl}">
+        <img src="{assetUrl}">
+        <h3>{title}</h3>
+        <p>{excerpt}</p>
+      </a>
+    {.end}
+  </div>
+</squarespace:query>
