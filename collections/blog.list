@@ -134,7 +134,7 @@
   <div class="blog-category">
     <div class="blog-category-head">
       <h2>Learning Success</h2>
-      <a href="/blog/category/Learning Success" class="button button-outline">Read More →</a>
+      <a href="/learning-blogs" class="button button-outline">Read More →</a>
     </div>
     <squarespace:query collection="blog" category="Learning Success" limit="3">
       <div class="blog-category-items">
@@ -152,7 +152,7 @@
   <div class="blog-category">
     <div class="blog-category-head">
       <h2>Community Transformation</h2>
-      <a href="/blog/category/Community Transformation" class="button button-outline">Read More →</a>
+      <a href="/community-blogs" class="button button-outline">Read More →</a>
     </div>
     <squarespace:query collection="blog" category="Community Transformation" limit="3">
       <div class="blog-category-items">
