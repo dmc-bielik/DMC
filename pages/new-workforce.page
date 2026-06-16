@@ -61,13 +61,13 @@
       <h2>Expertise You Can Trust</h2>
       <p>With over 40 years of combined experience, our DMC team specializes in:</p>
     </div>
-    <img id="expertise-background" src="assets/images/workforce/workforce-expertise-background.png" alt="workforce expertise DMC">
-    <img id="expertise-group" src="assets/images/workforce/workforce-expertise-group.png" alt="workforce expertise DMC">  
-    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-alignment.png" alt="workforce expertise DMC">
-    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-culture.png" alt="workforce expertise DMC">
-    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-leadership.png" alt="workforce expertise DMC">
-    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-learning.png" alt="workforce expertise DMC">
-    <img class="expertise-individual" src="assets/images/workforce/workforce-expertise-project.png" alt="workforce expertise DMC">
+    <img id="expertise-background" src="/assets/images/workforce/workforce-expertise-background.png" alt="workforce expertise DMC">
+    <img id="expertise-group" src="/assets/images/workforce/workforce-expertise-group.png" alt="workforce expertise DMC">  
+    <img class="expertise-individual" src="/assets/images/workforce/workforce-expertise-alignment.png" alt="workforce expertise DMC">
+    <img class="expertise-individual" src="/assets/images/workforce/workforce-expertise-culture.png" alt="workforce expertise DMC">
+    <img class="expertise-individual" src="/assets/images/workforce/workforce-expertise-leadership.png" alt="workforce expertise DMC">
+    <img class="expertise-individual" src="/assets/images/workforce/workforce-expertise-learning.png" alt="workforce expertise DMC">
+    <img class="expertise-individual" src="/assets/images/workforce/workforce-expertise-project.png" alt="workforce expertise DMC">
   </div>
 </section>
 
@@ -80,7 +80,7 @@
           <p>CEOs, COOs, CROs, CDOs, VPs of HR, CHOs, VPs of People, Chief Transformation Officers</p>
           <a href="/contact/" class="button">Contact us</a>
         </div>
-        <img src="assets/images/workforce/gradient-box.png">
+        <img src="/assets/images/workforce/gradient-box.png">
       </div> 
       <div class="top-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/yLiWHy-yZ6g?si=cxFJq7EWvCKgRz2u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -90,7 +90,7 @@
       <div class="bottom-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/tIs9wbTDG-Q?si=ZrxDXcsp1lxB5EDn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
-      <img src="assets/images/workforce/gradient-box.png"> 
+      <img src="/assets/images/workforce/gradient-box.png"> 
     </div>
   </div>
 </section>
@@ -100,7 +100,7 @@
 <section class="workforce-partners">
   <div class="container">
     <h2>Recent/Current Partners</h2>
-    <img src="assets/images/workforce/workforce-partners.png" alt="our workforce partners">
+    <img src="/assets/images/workforce/workforce-partners-reload.png" alt="our workforce partners">
     <a href="/contact/" class="button">Contact us</a>
   </div>
 </section>
